@@ -17,27 +17,24 @@ I am a Postdoctoral Research Fellow in Biostatistics at Harvard University, work
 
 ## Publications and Preprints
 
-- Cai, T., Huang, F., Nakada, R., Zhang, Lin., **Zhou, D.** (alphabetic order)
+<div style="font-size: 10px;">\*: contributed equally </div>
+
+<div style="font-size: 10px;">\#: alphabetic order </div>
+
+### Statistical Methodology &Theory
+
+- Cai, T., Huang, F., Nakada, R., Zhang, Lin., **Zhou, D.**
 _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.14926)]
 
 - Liang, J.\*, Liu, Y.\*, **Zhou, D.**, Zhang, S., Lu, J. _The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.12284)]
 
 - Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. _Inference of Dependency Knowledge Graph for Electronic Health Records. (2023+) [[arXiv](https://arxiv.org/abs/2312.15611)]
 
-
-
-
-
-
-
-
-### Statistical Methodology &Theory
+### Application
 
 - Wen, J., et al. _ DOME: Directional Medical Embedding Vectors from Electronic Health Records.(2024+)_
 
 - Gan, Z.\*, **Zhou, D.\***, et al. _ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis. (2023+)_
-
-### Application
 
 
 {% include_relative _includes/services.md %}
