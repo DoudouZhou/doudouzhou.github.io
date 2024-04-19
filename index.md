@@ -13,7 +13,7 @@ I am a Postdoctoral Research Fellow in Biostatistics at Harvard University, work
 
 ## News
 
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
+%- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
 
 ## Publications and Preprints
 
