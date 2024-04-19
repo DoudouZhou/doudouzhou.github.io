@@ -33,6 +33,9 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 ### Statistical Methodology &Theory
 
+- Wen, J., et al. _ DOME: Directional Medical Embedding Vectors from Electronic Health Records.(2024+)_
+
+- Gan, Z.*, ** Zhou, D.* **, et al. _ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis. (2023+)_
 
 ### Application
 
