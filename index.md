@@ -30,37 +30,17 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. _Inference of Dependency Knowledge Graph for Electronic Health Records. (2023+) [[arXiv](https://arxiv.org/abs/2312.15611)]
 
-RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data. [arXiv]
+- **Zhou, D.**, Chen, H. _RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data. (2022+)_ Under revision. [arXiv (https://arxiv.org/abs/2206.03038)]
 
-Zhou, D., Chen, H.
+- **Zhou, D.\***, Liu, M.\*, Li, M., Cai, T. _Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features. (2023+)_  Journal of the American Statistical Association: Theory and Methods, minor revision.  [arXiv (https://arxiv.org/abs/2208.05134)]
 
-Under revision, 2022.
+- **Zhou, D.\***, Zhang, Y.\*, Sonabend-W, A., Wang, Z., Lu, J., Cai, T. [_Federated Offline Reinforcement Learning._ (https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287?casa_token=ZsYamLI5gcwAAAAA:vpxrdw68t-U-SpN02Azg1aFFmZwjzfjmA9LJI4TUA8U6Ho01YwBWhbCXUcsS0G-tePqHeT8THU-3)] Journal of the American Statistical Association: Theory and Methods, 2024. [code (https://github.com/DoudouZhou/FDTR)]
 
-Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features. [arXiv]
-
-Zhou, D.*, Liu, M.*, Li, M., Cai, T. (*: contributed equally)
-
-Journal of the American Statistical Association: Theory and Methods, minor revision.
-
-Federated Offline Reinforcement Learning. [arXiv][paper] [code]
-
-Zhou, D.*, Zhang, Y.*, Sonabend-W, A., Wang, Z., Lu, J., Cai, T. (*: contributed equally)
-
-Journal of the American Statistical Association: Theory and Methods, 2024.
-
-
-Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices. [link] [code]
-
-Zhou, D., Cai, T., Lu, J. 
-
-Journal of Machine Learning Research, 2023. (2022 Best Student Paper Award from ASA Statistical Learning and Data Science.) 
-
-
-
+- **Zhou, D.**, Cai, T., Lu, J. [_Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices._ (https://jmlr.org/papers/v24/22-0642.html)] Journal of Machine Learning Research, 2023. (2022 Best Student Paper Award from ASA Statistical Learning and Data Science.)  [code (https://github.com/DoudouZhou/BONMI/blob/main/README.md)]
 
 - **Zhou, D.**, Chen, H.  [_A New ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing._ (https://arxiv.org/pdf/2112.12948.pdf)] Conference on Learning Theory (COLT), 2023. (2022 ICSA Student Poster Award.)  
 
-- Liu, M.\#, Zhang, Y.\#, **Zhou, D.\#** [_Double/Debiased Machine Learning for Logistic Partially Linear Model._(https://academic.oup.com/ectj/article/24/3/559/6296639)] The Econometrics Journal, 2021. [code (https://academic.oup.com/ectj/article/24/3/559/6296639)]
+- Liu, M.\#, Zhang, Y.\#, **Zhou, D.\#** [_Double/Debiased Machine Learning for Logistic Partially Linear Model._ (https://academic.oup.com/ectj/article/24/3/559/6296639)] The Econometrics Journal, 2021. [code (https://academic.oup.com/ectj/article/24/3/559/6296639)]
 
 ### Application
 
