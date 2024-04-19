@@ -30,16 +30,16 @@ I am a Postdoctoral Research Fellow in Biostatistics at Harvard University, work
 
 ### Statistical Methodology &Theory
 
-- Cai, T.<sup>#</sup>, Huang, F.<sup>#</sup>, Nakada, R.<sup>#</sup>, Zhang, Lin.<sup>#</sup>, **Zhou, D.<sup>#</sup>**
+- Cai, T.<sup>#</sup>, Huang, F.<sup>#</sup>, Nakada, R.<sup>#</sup>, Zhang, L.<sup>#</sup>, **Zhou, D.<sup>#</sup>**
 _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.14926)]
 
 - Liang, J.\*, Liu, Y.\*, **Zhou, D.**, Zhang, S., Lu, J. _The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.12284)]
 
-- Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. _Inference of Dependency Knowledge Graph for Electronic Health Records. (2023+) [[arXiv](https://arxiv.org/abs/2312.15611)]
+- Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. _Inference of Dependency Knowledge Graph for Electronic Health Records. (2023+)_ [[arXiv](https://arxiv.org/abs/2312.15611)]
 
 - Cai, T.<sup>#</sup>, Xia, D.<sup>#</sup>, Zhang, L.<sup>#</sup>, **Zhou, D.<sup>#</sup>** _Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model. (2023+)_ [[arXiv](https://arxiv.org/abs/2209.13762)]
 
-- **Zhou, D.**, Chen, H. _RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data. (2022+)_ Under revision. [arXiv (https://arxiv.org/abs/2206.03038)]
+- **Zhou, D.**, Chen, H. _RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data. (2022+)_ [[arXiv](https://arxiv.org/abs/2206.03038)]
 
 - **Zhou, D.\***, Liu, M.\*, Li, M., Cai, T. _Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features. (2023+)_  Journal of the American Statistical Association: Theory and Methods, minor revision.  [[arXiv](https://arxiv.org/abs/2208.05134)]
 
