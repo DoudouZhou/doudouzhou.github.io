@@ -3,7 +3,7 @@
 <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
-  <li>  AMIA Annual Symposium, 2020 <\li>
+  <li>  AMIA Annual Symposium, 2020 </li>
   <li> ACM MM, 2023</li>
   <li> NeurIPS, 2023 </li>
 </ul>
