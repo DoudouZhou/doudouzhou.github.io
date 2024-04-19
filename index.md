@@ -34,7 +34,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - **Zhou, D.\***, Liu, M.\*, Li, M., Cai, T. _Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features. (2023+)_  Journal of the American Statistical Association: Theory and Methods, minor revision.  [[arXiv](https://arxiv.org/abs/2208.05134)]
 
-- **Zhou, D.\***, Zhang, Y.\*, Sonabend-W, A., Wang, Z., Lu, J., Cai, T. [_Federated Offline Reinforcement Learning._](https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287?casa_token=ZsYamLI5gcwAAAAA:vpxrdw68t-U-SpN02Azg1aFFmZwjzfjmA9LJI4TUA8U6Ho01YwBWhbCXUcsS0G-tePqHeT8THU-3) Journal of the American Statistical Association: Theory and Methods, 2024. [code (https://github.com/DoudouZhou/FDTR)]
+- **Zhou, D.<sup>*</sup>**, Zhang, Y.\*, Sonabend-W, A., Wang, Z., Lu, J., Cai, T. [_Federated Offline Reinforcement Learning._](https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287?casa_token=ZsYamLI5gcwAAAAA:vpxrdw68t-U-SpN02Azg1aFFmZwjzfjmA9LJI4TUA8U6Ho01YwBWhbCXUcsS0G-tePqHeT8THU-3) Journal of the American Statistical Association: Theory and Methods, 2024. [code (https://github.com/DoudouZhou/FDTR)]
 
 - **Zhou, D.**, Cai, T., Lu, J. [_Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices._](https://jmlr.org/papers/v24/22-0642.html) Journal of Machine Learning Research, 2023. (2022 Best Student Paper Award from ASA Statistical Learning and Data Science.)  [ [code](https://github.com/DoudouZhou/BONMI/blob/main/README.md)]
 
