@@ -56,14 +56,14 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - Cai, B., Zeng, S., Lin, Y., Yuan, Z., **Zhou, D.**, Tian, L.  [_Hierarchical Pretraining for Biomedical Term Embeddings._ (https://arxiv.org/abs/2307.00266) ]Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB 2023). 
 
-- Wen, J., et. al. [_Multimodal Representation Learning for Predicting Molecule-Disease Relations._ (https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101?login=true)] Bioinformatics, 2023.
+- Wen, J., et. al. [_Multimodal Representation Learning for Predicting Molecule-Disease Relations._](https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101?login=true) Bioinformatics, 2023.
 
-- **Zhou, D.**, et al. [_Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization._ (https://www.sciencedirect.com/science/article/pii/S1532046422001599)] Journal of Biomedical Informatics, 2022.
+- **Zhou, D.**, et al. [_Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization._](https://www.sciencedirect.com/science/article/pii/S1532046422001599) Journal of Biomedical Informatics, 2022.
 
-- Ahuja, Y., Liang, L., **Zhou, D.**, Huang, S., Cai, T.  [_Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data_ (https://pubmed.ncbi.nlm.nih.gov/35166342/)] Biostatistics, 2022. 
+- Ahuja, Y., Liang, L., **Zhou, D.**, Huang, S., Cai, T.  [_Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data_](https://pubmed.ncbi.nlm.nih.gov/35166342/) Biostatistics, 2022. 
 
-- Hong, C., et al.  [_Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data._ (https://www.nature.com/articles/s41746-021-00519-z)] NPJ digital medicine, 2021. 
+- Hong, C., et al.  [_Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data._](https://www.nature.com/articles/s41746-021-00519-z) NPJ digital medicine, 2021. 
 
-- Ahuja, Y., **Zhou, D.**, He, Z., Sun, J., Castro, V., Gainer, V., Murphy, S., Hong, C., Cai, T. [_sureLDA: A Multidisease Automated Phenotyping Method for the Electronic Health Record._(https://academic.oup.com/jamia/article/27/8/1235/5858306?login=true)] Journal of the American Medical Informatics Association, 2020. 
+- Ahuja, Y., **Zhou, D.**, He, Z., Sun, J., Castro, V., Gainer, V., Murphy, S., Hong, C., Cai, T. [_sureLDA: A Multidisease Automated Phenotyping Method for the Electronic Health Record._](https://academic.oup.com/jamia/article/27/8/1235/5858306?login=true) Journal of the American Medical Informatics Association, 2020. 
 
 {% include_relative _includes/services.md %}
