@@ -17,11 +17,8 @@ I am a Postdoctoral Research Fellow in Biostatistics at Harvard University, work
 
 ## Publications and Preprints
 
-- Contrastive Learning on Multimodal Analysis of Electronic Health Records. [[ArXiv](https://arxiv.org/abs/2403.14926)]
-
-Cai, T., Huang, F., Nakada, R., Zhang, Lin., Zhou, D. (alphabetic order)
-
-Preprint, 2024.
+- Cai, T., Huang, F., Nakada, R., Zhang, Lin., **Zhou, D.** (alphabetic order)
+_Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024+)_ [[ArXiv](https://arxiv.org/abs/2403.14926)]
 
 - 
 
