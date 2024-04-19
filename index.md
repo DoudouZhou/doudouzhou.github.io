@@ -43,11 +43,11 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - **Zhou, D.\***, Liu, M.\*, Li, M., Cai, T. _Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features. (2023+)_  Journal of the American Statistical Association: Theory and Methods, minor revision.  [[arXiv](https://arxiv.org/abs/2208.05134)]
 
-- **Zhou, D.\***, Zhang, Y.\*, Sonabend-W, A., Wang, Z., Lu, J., Cai, T. [_Federated Offline Reinforcement Learning._](https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287?casa_token=ZsYamLI5gcwAAAAA:vpxrdw68t-U-SpN02Azg1aFFmZwjzfjmA9LJI4TUA8U6Ho01YwBWhbCXUcsS0G-tePqHeT8THU-3) Journal of the American Statistical Association: Theory and Methods, 2024. [code (https://github.com/DoudouZhou/FDTR)]
+- **Zhou, D.\***, Zhang, Y.\*, Sonabend-W, A., Wang, Z., Lu, J., Cai, T. [_Federated Offline Reinforcement Learning._](https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287?casa_token=ZsYamLI5gcwAAAAA:vpxrdw68t-U-SpN02Azg1aFFmZwjzfjmA9LJI4TUA8U6Ho01YwBWhbCXUcsS0G-tePqHeT8THU-3) Journal of the American Statistical Association: Theory and Methods, 2024. [[code](https://github.com/DoudouZhou/FDTR)]
 
-- **Zhou, D.**, Cai, T., Lu, J. [_Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices._](https://jmlr.org/papers/v24/22-0642.html) Journal of Machine Learning Research, 2023. (2022 Best Student Paper Award from ASA Statistical Learning and Data Science.)  [ [code](https://github.com/DoudouZhou/BONMI/blob/main/README.md)]
+- **Zhou, D.**, Cai, T., Lu, J. [_Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices._](https://jmlr.org/papers/v24/22-0642.html) Journal of Machine Learning Research, 2023. [ [code](https://github.com/DoudouZhou/BONMI/blob/main/README.md)]
 
-- **Zhou, D.**, Chen, H.  [_A New ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing._](https://arxiv.org/pdf/2112.12948.pdf) Conference on Learning Theory (COLT), 2023. (2022 ICSA Student Poster Award.)  
+- **Zhou, D.**, Chen, H.  [_A New ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing._](https://arxiv.org/pdf/2112.12948.pdf) Conference on Learning Theory (COLT), 2023. 
 
 - Liu, M.<sup>#</sup>, Zhang, Y.<sup>#</sup>, **Zhou, D.<sup>#</sup>** [_Double/Debiased Machine Learning for Logistic Partially Linear Model._](https://academic.oup.com/ectj/article/24/3/559/6296639) The Econometrics Journal, 2021. [[code](https://academic.oup.com/ectj/article/24/3/559/6296639)]
 
@@ -61,9 +61,9 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - Xiong, X., et al. _Knowledge-Driven Online Multimodal Automated Phenotyping System. (2023+)_ [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1)] [[KOMAP](https://shiny.parse-health.org/KOMAP/)] [[ONCE](https://shiny.parse-health.org/ONCE/)]
 
-- Lou, Y., Chen, Y., Huang, Y., **Zhou, D.**, Cao, Y., Wang, H.  [ _Two-stream Feature Extraction for Self-supervised Image Quality Assessment._(https://ieeexplore.ieee.org/document/10415683)] IEEE International Conference on Data Mining (ICDM), 2023. 
+- Lou, Y., Chen, Y., Huang, Y., **Zhou, D.**, Cao, Y., Wang, H.  [_Two-stream Feature Extraction for Self-supervised Image Quality Assessment._](https://ieeexplore.ieee.org/document/10415683) IEEE International Conference on Data Mining (ICDM), 2023. 
 
-- Cai, B., Zeng, S., Lin, Y., Yuan, Z., **Zhou, D.**, Tian, L.  [_Hierarchical Pretraining for Biomedical Term Embeddings._ (https://arxiv.org/abs/2307.00266) ]Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB 2023). 
+- Cai, B., Zeng, S., Lin, Y., Yuan, Z., **Zhou, D.**, Tian, L. [_Hierarchical Pretraining for Biomedical Term Embeddings._] (https://arxiv.org/abs/2307.00266)Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB 2023). 
 
 - Wen, J., et. al. [_Multimodal Representation Learning for Predicting Molecule-Disease Relations._](https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101?login=true) Bioinformatics, 2023.
 
