@@ -17,9 +17,9 @@ I am a Postdoctoral Research Fellow in Biostatistics at Harvard University, work
 
 ## Publications and Preprints
 
-<div style="font-size: 10px;">\*: contributed equally </div>
+<div style="font-size: 10px;">*: contributed equally </div>
 
-<div style="font-size: 10px;">\#: alphabetic order </div>
+<div style="font-size: 10px;">#: alphabetic order </div>
 
 ### Statistical Methodology &Theory
 
