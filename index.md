@@ -61,7 +61,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - Lou, Y., Chen, Y., Huang, Y., **Zhou, D.**, Cao, Y., Wang, H.  [_Two-stream Feature Extraction for Self-supervised Image Quality Assessment._](https://ieeexplore.ieee.org/document/10415683) IEEE International Conference on Data Mining (ICDM), 2023. 
 
-- Cai, B., Zeng, S., Lin, Y., Yuan, Z., **Zhou, D.**, Tian, L. [_Hierarchical Pretraining for Biomedical Term Embeddings._] (https://arxiv.org/abs/2307.00266)Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB 2023). 
+- Cai, B., Zeng, S., Lin, Y., Yuan, Z., **Zhou, D.**, Tian, L. [_Hierarchical Pretraining for Biomedical Term Embeddings._](https://arxiv.org/abs/2307.00266)Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB 2023). 
 
 - Wen, J., et. al. [_Multimodal Representation Learning for Predicting Molecule-Disease Relations._](https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101?login=true) Bioinformatics, 2023.
 
