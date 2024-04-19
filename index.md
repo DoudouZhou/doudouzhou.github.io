@@ -8,19 +8,17 @@ I am a Postdoctoral Research Fellow in Biostatistics at Harvard University, work
 
 ## Research Interests
 
-- **Methodology and theory for electronic health records (EHR) data:** federated learning, reinforcement learning, network analysis, representation learning, large language models, graph nerual networks
-- **High-dimensional Statistics:** graph/rank-based methods for hypothesis testing, transfer learning
+I am interested in developing statistical methodology and theory for electronic health records (EHR) data analysis. I'm also developing practical tools for analyzing high-dimensional and non-Euclidean data. I mainly work on representation learning, federated learning, transfer learning, reinforcement learning, network analysis, graph neural networks, large language models, and high-dimensional statistics. Recently, I am interested in:
+
+- Multimodal and multi-institutional representation learning for data harmonization and knowledge graph integration.
+- Federated reinforcement learning for precision medicine.
+- Transfer learning of heterogeneous domains.
+- Graph-based and rank-based methods for high-dimensional hypothesis testing.
 
 ## Selected Awards 
 - <ins> 2023 Program in Quantitative Genomics Student/Postdoc Travel Award, Harvard
 - <ins> 2022 ICSA Student Poster Award 
 - <ins> 2022 Student Paper Award, Statistical Learning and Data Science Section, ASA
-
-
-
-## News
-
-- **[Jul. 2024]**
 
 ## Publications and Preprints
 
