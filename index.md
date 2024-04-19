@@ -69,7 +69,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - Ahuja, Y., Liang, L., **Zhou, D.**, Huang, S., Cai, T.  [_Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data_](https://pubmed.ncbi.nlm.nih.gov/35166342/) Biostatistics, 2022. 
 
-- Hong, C., et al.  [_Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data._](https://www.nature.com/articles/s41746-021-00519-z) NPJ digital medicine, 2021. 
+- Hong, C., et al.  [_Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data._](https://www.nature.com/articles/s41746-021-00519-z) npj Digital Medicine, 2021. 
 
 - Ahuja, Y., **Zhou, D.**, He, Z., Sun, J., Castro, V., Gainer, V., Murphy, S., Hong, C., Cai, T. [_sureLDA: A Multidisease Automated Phenotyping Method for the Electronic Health Record._](https://academic.oup.com/jamia/article/27/8/1235/5858306?login=true) Journal of the American Medical Informatics Association, 2020. 
 
