@@ -30,6 +30,38 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. _Inference of Dependency Knowledge Graph for Electronic Health Records. (2023+) [[arXiv](https://arxiv.org/abs/2312.15611)]
 
+RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data. [arXiv]
+
+Zhou, D., Chen, H.
+
+Under revision, 2022.
+
+Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features. [arXiv]
+
+Zhou, D.*, Liu, M.*, Li, M., Cai, T. (*: contributed equally)
+
+Journal of the American Statistical Association: Theory and Methods, minor revision.
+
+Federated Offline Reinforcement Learning. [arXiv][paper] [code]
+
+Zhou, D.*, Zhang, Y.*, Sonabend-W, A., Wang, Z., Lu, J., Cai, T. (*: contributed equally)
+
+Journal of the American Statistical Association: Theory and Methods, 2024.
+
+
+Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices. [link] [code]
+
+Zhou, D., Cai, T., Lu, J. 
+
+Journal of Machine Learning Research, 2023. (2022 Best Student Paper Award from ASA Statistical Learning and Data Science.) 
+
+
+
+
+- **Zhou, D.**, Chen, H.  [_A New ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing._ (https://arxiv.org/pdf/2112.12948.pdf)] Conference on Learning Theory (COLT), 2023. (2022 ICSA Student Poster Award.)  
+
+- Liu, M.\#, Zhang, Y.\#, **Zhou, D.\#** [_Double/Debiased Machine Learning for Logistic Partially Linear Model._(https://academic.oup.com/ectj/article/24/3/559/6296639)] The Econometrics Journal, 2021. [code (https://academic.oup.com/ectj/article/24/3/559/6296639)]
+
 ### Application
 
 - Wen, J., et al. _DOME: Directional Medical Embedding Vectors from Electronic Health Records.(2024+)_
