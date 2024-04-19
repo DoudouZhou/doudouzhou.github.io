@@ -23,7 +23,7 @@ I am a Postdoctoral Research Fellow in Biostatistics at Harvard University, work
 
 ### Statistical Methodology &Theory
 
-- Cai, T., Huang, F., Nakada, R., Zhang, Lin., **Zhou, D.**
+- Cai, T.\#, Huang, F.\#, Nakada, R.\#, Zhang, Lin.\#, **Zhou, D.\#**
 _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.14926)]
 
 - Liang, J.\*, Liu, Y.\*, **Zhou, D.**, Zhang, S., Lu, J. _The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.12284)]
