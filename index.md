@@ -26,7 +26,7 @@ I am interested in developing statistical methodology and theory for electronic 
 
 <div style="font-size: 10px;">#: alphabetic order </div>
 
-### Statistical Methodology &Theory
+### Statistical Methodology and Theory
 
 - Cai, T.<sup>#</sup>, Huang, F.<sup>#</sup>, Nakada, R.<sup>#</sup>, Zhang, L.<sup>#</sup>, **Zhou, D.<sup>#</sup>**
 _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.14926)]
