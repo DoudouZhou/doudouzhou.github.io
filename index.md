@@ -39,7 +39,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - **Zhou, D.**, Chen, H. _RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data. (2022+)_ [[arXiv](https://arxiv.org/abs/2206.03038)]
 
-- **Zhou, D.\***, Liu, M.\*, Li, M., Cai, T. _Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features. (2023+)_  Journal of the American Statistical Association: Theory and Methods, minor revision.  [[arXiv](https://arxiv.org/abs/2208.05134)]
+- **Zhou, D.\***, Liu, M.\*, Li, M., Cai, T. _Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features. (2023+)_  Journal of the American Statistical Association: Theory and Methods, 2024 (in press).  [[arXiv](https://arxiv.org/abs/2208.05134)]
 
 - **Zhou, D.\***, Zhang, Y.\*, Sonabend-W, A., Wang, Z., Lu, J., Cai, T. [_Federated Offline Reinforcement Learning._](https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287?casa_token=ZsYamLI5gcwAAAAA:vpxrdw68t-U-SpN02Azg1aFFmZwjzfjmA9LJI4TUA8U6Ho01YwBWhbCXUcsS0G-tePqHeT8THU-3) Journal of the American Statistical Association: Theory and Methods, 2024. [[code](https://github.com/DoudouZhou/FDTR)]
 
