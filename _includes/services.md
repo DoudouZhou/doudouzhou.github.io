@@ -16,4 +16,5 @@
   <li>  Annals of Statistics </li>
   <li> Journal of Computational and Graphical Statistics </li>
   <li> Journal of Biomedical Informatics </li>
+  <li> Knowledge and Information Systems </li>
 </ul>
