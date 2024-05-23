@@ -65,7 +65,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 - Wen, J., et. al. [_Multimodal Representation Learning for Predicting Molecule-Disease Relations._](https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101?login=true) Bioinformatics, 2023.
 
-- **Zhou, D.**, et al. [_Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization._](https://www.sciencedirect.com/science/article/pii/S1532046422001599) Journal of Biomedical Informatics, 2022.
+- **Zhou, D.**, et al. [_Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization._](https://www.sciencedirect.com/science/article/pii/S1532046422001599) Journal of Biomedical Informatics, 2022. [[MIKGI APP](https://shiny.parse-health.org/MIKGI/)]
 
 - Ahuja, Y., Liang, L., **Zhou, D.**, Huang, S., Cai, T.  [_Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data_](https://pubmed.ncbi.nlm.nih.gov/35166342/) Biostatistics, 2022. 
 
