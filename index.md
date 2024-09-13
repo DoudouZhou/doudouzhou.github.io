@@ -33,10 +33,10 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
-- Liu, M.\*, **Zhou, D.\***, Chen, H. 
+2. Liu, M.\*, **Zhou, D.\***, Chen, H. 
 _Generalized Independence Test for Modern Data. (2024+)_ [[arXiv](https://arxiv.org/abs/2409.07745))]
 
-- Cai, T.<sup>#</sup>, Huang, F.<sup>#</sup>, Nakada, R.<sup>#</sup>, Zhang, L.<sup>#</sup>, **Zhou, D.<sup>#</sup>**
+1. Cai, T.<sup>#</sup>, Huang, F.<sup>#</sup>, Nakada, R.<sup>#</sup>, Zhang, L.<sup>#</sup>, **Zhou, D.<sup>#</sup>**
 _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.14926)]
 
 - Liang, J.\*, Liu, Y.\*, **Zhou, D.**, Zhang, S., Lu, J. _The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.12284)]
