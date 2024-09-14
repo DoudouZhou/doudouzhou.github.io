@@ -69,13 +69,13 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Lou, Y., Chen, Y., Huang, Y., **Zhou, D.**, Cao, Y., Wang, H.  [_Two-stream Feature Extraction for Self-supervised Image Quality Assessment._](https://ieeexplore.ieee.org/document/10415683) IEEE International Conference on Data Mining (ICDM), 2023. 
 
-1. Cai, B., Zeng, S., Lin, Y., Yuan, Z., **Zhou, D.**, Tian, L. [_Hierarchical Pretraining for Biomedical Term Embeddings._](https://arxiv.org/abs/2307.00266)Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB 2023). 
+1. Cai, B., Zeng, S., Lin, Y., Yuan, Z., **Zhou, D.**, Tian, L. [_Hierarchical Pretraining for Biomedical Term Embeddings._](https://arxiv.org/abs/2307.00266) Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB 2023). 
 
 1. Wen, J., et. al. [_Multimodal Representation Learning for Predicting Molecule-Disease Relations._](https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101?login=true) Bioinformatics, 2023.
 
 1. **Zhou, D.**, et al. [_Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization._](https://www.sciencedirect.com/science/article/pii/S1532046422001599) Journal of Biomedical Informatics, 2022. [[MIKGI APP](https://shiny.parse-health.org/MIKGI/)]
 
-1. Ahuja, Y., Liang, L., **Zhou, D.**, Huang, S., Cai, T.  [_Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data_](https://pubmed.ncbi.nlm.nih.gov/35166342/) Biostatistics, 2022. [[code](https://github.com/celehs/SCORNET)]
+1. Ahuja, Y., Liang, L., **Zhou, D.**, Huang, S., Cai, T.  [_Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data._](https://pubmed.ncbi.nlm.nih.gov/35166342/) Biostatistics, 2022. [[code](https://github.com/celehs/SCORNET)]
 
 1. Hong, C., et al.  [_Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data._](https://www.nature.com/articles/s41746-021-00519-z) npj Digital Medicine, 2021. [[KESER Network](https://shiny.parse-health.org/kesernetwork-linkage/)]
 
