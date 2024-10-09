@@ -34,7 +34,7 @@ I am interested in developing statistical methodology and theory for electronic 
 ### Statistical Methodology and Theory
 
 1. **Zhou, D.\***, Li, M.\*, Cai, T., Liu, M.
-_Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population. (2024+)
+_Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population. (2024+)_
 
 1. Liu, M.\*, **Zhou, D.\***, Chen, H. 
 _Generalized Independence Test for Modern Data. (2024+)_ [[arXiv](https://arxiv.org/abs/2409.07745)]
