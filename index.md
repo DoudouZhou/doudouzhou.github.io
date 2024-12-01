@@ -67,13 +67,13 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 ### Application
 
-1.  Yang, D., **Zhou, D.**, Cai, S., Gan, Z., Pencina, M., Avillach, P., Cai, T., Hong, C. _SONAR: Enabling Robust Automated Harmonization of Heterogeneous Data through Ensemble Machine Learning. (Under revision, 2023+)_ [[preprint](https://preprints.jmir.org/preprint/54133)] 
-
 1. Xiong, X., et al. _Knowledge-Driven Online Multimodal Automated Phenotyping System. (2023+)_ [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1)] [[KOMAP](https://shiny.parse-health.org/KOMAP/)] [[ONCE](https://shiny.parse-health.org/ONCE/)]
 
 1. Gan, Z.\*, **Zhou, D.\***, et al. _ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis. (2023+)_ [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.05.14.23289955v1)] [[code](https://github.com/yuming14/ARCH)] [[ARCH APP](https://shiny.parse-health.org/ARCH/)] under minor revision at Journal of Biomedical Informatics. 
 
-1. Wen, J., et al. _DOME: Directional Medical Embedding Vectors from Electronic Health Records.(2024+)_ [[code](https://github.com/celehs/Directional-EHR-embedding)] Journal of Biomedical Informatics (just accepted). 
+1.  Yang, D., **Zhou, D.**, Cai, S., Gan, Z., Pencina, M., Avillach, P., Cai, T., Hong, C. _SONAR: Enabling Robust Automated Harmonization of Heterogeneous Data through Ensemble Machine Learning._ [[preprint](https://preprints.jmir.org/preprint/54133)] JMIR Medical Informatics (2024+,just accepted).
+   
+1. Wen, J., et al. _DOME: Directional Medical Embedding Vectors from Electronic Health Records._ [[code](https://github.com/celehs/Directional-EHR-embedding)] Journal of Biomedical Informatics (2024+,just accepted). 
 
 1. Lou, Y., Chen, Y., Huang, Y., **Zhou, D.**, Cao, Y., Wang, H.  [_Two-stream Feature Extraction for Self-supervised Image Quality Assessment._](https://ieeexplore.ieee.org/document/10415683) IEEE International Conference on Data Mining (ICDM), 2023. 
 
