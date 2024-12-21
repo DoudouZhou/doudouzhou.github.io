@@ -39,7 +39,7 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
-1. Cai, Z.\*, Fei W.\*, **$\underline{\text{Zhou, D.}}$ \*** _MATES: Multi-view Aggregated Two-Sample Test. (2024+)_
+1. Cai, Z.\*, Fei W.\*, $\underline{\textbf{Zhou, D.}}^*$ _MATES: Multi-view Aggregated Two-Sample Test. (2024+)_
 1. **Zhou, D.\***, Li, M.\*, Cai, T., Liu, M.
 _Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population. (2024+)_ [[arXiv](https://arxiv.org/abs/2410.06484)]
 
