@@ -32,14 +32,13 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ## Publications and Preprints
 
-<div style="font-size: 10px;">*: contributed equally </div>
+<div style="font-size: 10px;">*: contributed equally or alphabetic order</div>
 
-<div style="font-size: 10px;">#: alphabetic order </div>
-<div style="font-size: 10px;"> _: corresponding author </div>
+<div style="font-size: 10px;">#: corresponding author </div>
 
 ### Statistical Methodology and Theory
 
-1. Cai, Z.\*, Fei W.\*, $\underline{\textbf{Zhou, D.}}^*$ _MATES: Multi-view Aggregated Two-Sample Test. (2024+)_
+1. Cai, Z.\*, Fei W.\*, **Zhou, D.<sup>#</sup>** _MATES: Multi-view Aggregated Two-Sample Test. (2024+)_
 1. **Zhou, D.\***, Li, M.\*, Cai, T., Liu, M.
 _Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population. (2024+)_ [[arXiv](https://arxiv.org/abs/2410.06484)]
 
