@@ -35,7 +35,7 @@ I am interested in developing statistical methodology and theory for electronic 
 <div style="font-size: 10px;">*: contributed equally </div>
 
 <div style="font-size: 10px;">#: alphabetic order </div>
-<div style="font-size: 10px;"> <u> <u>: corresponding author </div>
+<div style="font-size: 10px;"> _: corresponding author </div>
 
 ### Statistical Methodology and Theory
 
