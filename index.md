@@ -70,8 +70,10 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 ### Application
 
+1. Zhou, D., et al. _Representation Learning to Advance Multi-institutional Studies with Electronic Health Record Data. (2025+)_
+
 1. Bonzel, C., et al. _Assessing and Improving Electronic Health Records Data Quality for Large-Scale Translational Research. (2024+)_
-   
+      
 1. Xiong, X., et al. _Knowledge-Driven Online Multimodal Automated Phenotyping System. (2023+)_ [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1)] [[KOMAP](https://shiny.parse-health.org/KOMAP/)] [[ONCE](https://shiny.parse-health.org/ONCE/)]
 
 1. Gan, Z.\*, **Zhou, D.\***, et al. [_ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis._](https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795?via%3Dihub) [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.05.14.23289955v1)] [[code](https://github.com/yuming14/ARCH)] [[ARCH APP](https://shiny.parse-health.org/ARCH/)] Journal of Biomedical Informatics, 2025.  
