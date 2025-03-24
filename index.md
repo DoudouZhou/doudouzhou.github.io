@@ -71,6 +71,8 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 ### Application
 
 1. Hong C., et al. _FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care. (2025+)_
+
+1. Li S., et al. _FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction. (2025+)_
    
 1. Zhou, D., et al. _Representation Learning to Advance Multi-institutional Studies with Electronic Health Record Data. (2025+)_ [[arXiv](https://arxiv.org/abs/2502.08547)]
 
