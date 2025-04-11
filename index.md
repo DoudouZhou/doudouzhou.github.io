@@ -25,10 +25,15 @@ I am interested in developing statistical methodology and theory for electronic 
 - <ins> 2022 ICSA Student Poster Award 
 - <ins> 2022 Student Paper Award, Statistical Learning and Data Science Section, ASA
 
-
 ## Teaching 
 
-- ST5230: Applied Natural Language Processing. Semester 2, AY2024/2025.  
+- ST5230: Applied Natural Language Processing. Semester 2, AY2024/2025.
+
+## Group Members
+
+### Phd Students
+
+### Undergraduate/Master Research Interns
 
 ## Publications and Preprints
 
