@@ -33,7 +33,17 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Phd Students
 
+Mingyuan Xu
+
 ### Undergraduate/Master Research Interns
+
+Junhan Yu (MSc in Data Science and Machine Learning)
+Kejian Zhang (MSc in Statistics)
+Qihua Zhu (MSc in Statistics)
+Zhunyi Feng (MSc in CS)
+Yiran Zhang (MSc in Statistics)
+
+Kaicheng Zhang (Zhejiang University => UNC Biostat PhD)
 
 ## Publications and Preprints
 
