@@ -51,6 +51,8 @@ Minh Duc Vu (BS in Data Science and Analytics)
 
 Xinzi Tan (BS in Data Science and Analytics) 
 
+Zicheng Xie (BS in Data Science, Southern University of Science and Technology)
+
 Kaicheng Zhang (BS in Mathematics, 2024/9-2025/2, Zhejiang University => UNC Biostat PhD)
 
 ## Publications and Preprints
