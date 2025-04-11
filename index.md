@@ -33,7 +33,7 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Phd Students
 
-Mingyuan Xu
+Mingyuan Xu (2024 - )
 
 ### Undergraduate/Master Research Interns
 
