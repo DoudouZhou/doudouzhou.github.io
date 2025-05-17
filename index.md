@@ -61,7 +61,7 @@ Kaicheng Zhang (BS in Mathematics, 2024/9-2025/2, Zhejiang University => UNC Bio
 
 ### Statistical Methodology and Theory
 
-1. Fan, W., Li S., **Zhou, D.**, Okada, Y., Hong C., Liu M., Liu N._SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation. (2025)_[[arXiv](https://arxiv.org/pdf/2505.08198)]
+1. Fan, W., Li S., **Zhou, D.**, Okada, Y., Hong, C., Liu, M., Liu, N._SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation. (2025)_[[arXiv](https://arxiv.org/pdf/2505.08198)]
    
 1. Cai, Z.\*, Fei W.\*, **Zhou, D.<sup>#</sup>** _MATES: Multi-view Aggregated Two-Sample Test. (2024+)_
 [[arXiv](https://arxiv.org/abs/2412.16684)]
