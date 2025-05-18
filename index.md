@@ -95,6 +95,8 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 ### Application
 
+1. Wu Q., Li S., Zhou D., Liu N. _Toward Fair Federated Learning under Demographic Disparities and Data Imbalance. (2025+)_ [[arXiv](https://arxiv.org/abs/2505.09295)]
+
 1. Hong C., et al. _FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care. (2025+)_ [[preprint](https://preprints.jmir.org/preprint/74202)]
 
 1. Li S., et al. _FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction. (2025+)_
