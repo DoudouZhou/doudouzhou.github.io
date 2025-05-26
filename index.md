@@ -35,11 +35,9 @@ I am interested in developing statistical methodology and theory for electronic 
 
 <div style="font-size: 10px;">#: Corresponding author </div>
 
-<div style="font-size: 10px;">†: Student under my supervision </div>
-
 ### Statistical Methodology and Theory
 
-1. Zhang, K.†, Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025)_[[arXiv](https://arxiv.org/abs/2505.17404)]
+1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025)_[[arXiv](https://arxiv.org/abs/2505.17404)]
 
 1. Huang, Y., Dong Y., Yan M., Tian Z., Hong, C., **Zhou, D.<sup>#</sup>**, Liu, M.<sup>#</sup> _Model-X Change-Point Detection of Conditional Distribution. (2025)_[[arXiv](https://arxiv.org/pdf/2505.12023)]
 
