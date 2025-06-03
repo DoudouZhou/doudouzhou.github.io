@@ -37,6 +37,8 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
+1. Zhang, S., Zhang K., Xu Z., Cai, T.<sup>#</sup>, **Zhou, D.<sup>#</sup>**. _Generalized Linear Markov Decision Process. (2025)_[[arXiv](https://arxiv.org/abs/2506.00818)]
+
 1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025)_[[arXiv](https://arxiv.org/abs/2505.17404)]
 
 1. Huang, Y., Dong Y., Yan M., Tian Z., Hong, C., **Zhou, D.<sup>#</sup>**, Liu, M.<sup>#</sup> _Model-X Change-Point Detection of Conditional Distribution. (2025)_[[arXiv](https://arxiv.org/pdf/2505.12023)]
