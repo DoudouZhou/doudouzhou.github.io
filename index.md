@@ -21,7 +21,7 @@ I am interested in developing statistical methodology and theory for electronic 
 - Graph-based and rank-based methods for high-dimensional hypothesis testing.
 
 ## Selected Awards 
-- <ins> [2023 Harvard Data Science Initiative Postdoctoral Fellow Research Fund (https://datascience.harvard.edu/programs/postdoctoral-fellow-research-fund/)]
+- <ins> 2023 Harvard Data Science Initiative Postdoctoral Fellow Research Fund
 - <ins> 2023 Program in Quantitative Genomics Student/Postdoc Travel Award, Harvard
 - <ins> 2022 ICSA Student Poster Award 
 - <ins> 2022 Student Paper Award, Statistical Learning and Data Science Section, ASA
