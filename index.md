@@ -21,6 +21,7 @@ I am interested in developing statistical methodology and theory for electronic 
 - Graph-based and rank-based methods for high-dimensional hypothesis testing.
 
 ## Selected Awards 
+- <ins> [2023 Harvard Data Science Initiative Postdoctoral Fellow Research Fund (https://datascience.harvard.edu/programs/postdoctoral-fellow-research-fund/)]
 - <ins> 2023 Program in Quantitative Genomics Student/Postdoc Travel Award, Harvard
 - <ins> 2022 ICSA Student Poster Award 
 - <ins> 2022 Student Paper Award, Statistical Learning and Data Science Section, ASA
@@ -37,7 +38,7 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
-1. Zhang, S., Zhang K., Xu Z., Cai, T.<sup>#</sup>, **Zhou, D.<sup>#</sup>**. _Generalized Linear Markov Decision Process. (2025)_[[arXiv](https://arxiv.org/abs/2506.00818)]
+1. Zhang, S., Zhang K., Xu Z., Cai, T.<sup>#</sup>, **Zhou, D.<sup>#</sup>** _Generalized Linear Markov Decision Process. (2025)_[[arXiv](https://arxiv.org/abs/2506.00818)]
 
 1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025)_[[arXiv](https://arxiv.org/abs/2505.17404)]
 
