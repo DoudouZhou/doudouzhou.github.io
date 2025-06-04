@@ -64,7 +64,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Cai, T.\*, Xia, D.\*, Zhang, L.\*, **Zhou, D.\*** _Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model. (2023+)_ [[arXiv](https://arxiv.org/abs/2209.13762)]
 
-1. **Zhou, D.**, Chen, H. _RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data._ IEEE Transactions on Information Theory, 2025. [[arXiv](https://arxiv.org/abs/2206.03038)]
+1. **Zhou, D.**, Chen, H. [_RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data._](https://ieeexplore.ieee.org/document/11021493) IEEE Transactions on Information Theory, 2025. [[arXiv](https://arxiv.org/abs/2206.03038)]
 
 1. **Zhou, D.\***, Liu, M.\*, Li, M., Cai, T. [_Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features._](https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291)  Journal of the American Statistical Association: Theory and Methods, 2024.  [[arXiv](https://arxiv.org/abs/2208.05134)]
 
