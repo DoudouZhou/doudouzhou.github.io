@@ -39,6 +39,9 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
+1. Kang, Y., Liu M., Yi B., Lyu, J., Zhang, Z., **Zhou, D.**, Li, Y. _Single Index Bandits: Generalized Linear Contextual
+Bandits with Unknown Reward Functions. (2025)_[[arXiv](https://arxiv.org/pdf/2506.12751)]
+   
 1. Zhang, S., Zhang K., Xu Z., Cai, T.<sup>#</sup>, **Zhou, D.<sup>#</sup>** _Generalized Linear Markov Decision Process. (2025)_[[arXiv](https://arxiv.org/abs/2506.00818)]
 
 1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025)_[[arXiv](https://arxiv.org/abs/2505.17404)]
