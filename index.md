@@ -40,15 +40,15 @@ I am interested in developing statistical methodology and theory for electronic 
 ### Statistical Methodology and Theory
 
 1. Kang, Y., Liu M., Yi B., Lyu, J., Zhang, Z., **Zhou, D.**, Li, Y. _Single Index Bandits: Generalized Linear Contextual
-Bandits with Unknown Reward Functions. (2025)_[[arXiv](https://arxiv.org/pdf/2506.12751)]
+Bandits with Unknown Reward Functions. (2025+)_[[arXiv](https://arxiv.org/pdf/2506.12751)]
    
-1. Zhang, S., Zhang K., Xu Z., Cai, T.<sup>#</sup>, **Zhou, D.<sup>#</sup>** _Generalized Linear Markov Decision Process. (2025)_[[arXiv](https://arxiv.org/abs/2506.00818)]
+1. Zhang, S., Zhang K., Xu Z., Cai, T.<sup>#</sup>, **Zhou, D.<sup>#</sup>** _Generalized Linear Markov Decision Process. (2025+)_[[arXiv](https://arxiv.org/abs/2506.00818)]
 
-1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025)_[[arXiv](https://arxiv.org/abs/2505.17404)]
+1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025+)_[[arXiv](https://arxiv.org/abs/2505.17404)]
 
-1. Huang, Y., Dong Y., Yan M., Tian Z., Hong, C., **Zhou, D.<sup>#</sup>**, Liu, M.<sup>#</sup> _Model-X Change-Point Detection of Conditional Distribution. (2025)_[[arXiv](https://arxiv.org/pdf/2505.12023)]
+1. Huang, Y., Dong Y., Yan M., Tian Z., Hong, C., **Zhou, D.<sup>#</sup>**, Liu, M.<sup>#</sup> _Model-X Change-Point Detection of Conditional Distribution. (2025+)_[[arXiv](https://arxiv.org/pdf/2505.12023)]
 
-1. Fan, W., Li S., **Zhou, D.**, Okada, Y., Hong, C., Liu, M., Liu, N._SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation. (2025)_[[arXiv](https://arxiv.org/pdf/2505.08198)]
+1. Fan, W., Li S., **Zhou, D.**, Okada, Y., Hong, C., Liu, M., Liu, N._SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation. (2025+)_[[arXiv](https://arxiv.org/pdf/2505.08198)]
    
 1. Cai, Z.\*, Fei W.\*, **Zhou, D.<sup>#</sup>** _MATES: Multi-view Aggregated Two-Sample Test. (2024+)_
 [[arXiv](https://arxiv.org/abs/2412.16684)]
