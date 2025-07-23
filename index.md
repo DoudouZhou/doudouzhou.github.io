@@ -83,6 +83,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 ### Application
 
 1. Yu J., Feng Z., Lu J., Cai T., **Zhou, D.<sup>#</sup>** _Time-Aware Attention for Enhanced Electronic Health Records Modeling. (2025+)_ [[arXiv](https://arxiv.org/abs/2507.14847)]
+   
 1. Wu Q., Li S., **Zhou D.**, Liu N. _Toward Fair Federated Learning under Demographic Disparities and Data Imbalance. (2025+)_ [[arXiv](https://arxiv.org/abs/2505.09295)]
 
 1. Hong C., et al. _FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care. (2025+)_ [[preprint](https://preprints.jmir.org/preprint/74202)]
