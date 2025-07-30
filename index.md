@@ -90,7 +90,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Li S., et al. _FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction. (2025+)_
    
-1. **Zhou, D.**, et al. _Representation Learning to Advance Multi-institutional Studies with Electronic Health Record Data. (2025+)_ [[arXiv](https://arxiv.org/abs/2502.08547)]
+1. **Zhou, D.**, et al. _Representation Learning to Advance Multi-institutional Studies with Electronic Health Record Data. (2025+)_ [[arXiv](https://arxiv.org/abs/2502.08547)] [[code](https://github.com/celehs/GAME)] [[Knowledge Graph Visulization](https://shiny.parse-health.org/GAME/)]
 
 1. Bonzel, C., et al. _Assessing and Improving Electronic Health Records Data Quality for Large-Scale Translational Research. (2024+)_
       
