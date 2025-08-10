@@ -10,7 +10,7 @@ I am an Assistant Professor of Statistics & Data Science at [the National Univer
 I am seeking self-motivated students to join my research group or collaborate with me. If you are interested in collaborating, please email me your CV along with a brief introduction about yourself.
 
 ### Research Fellow: 
-We are inviting applications for a Postdoctoral Research Fellow position in the Department of Statistics and Data Science. For full details, please refer to the job posting [here](https://careers.nus.edu.sg/job/Research-Fellow-%28Statistics-and-Data-Science%29/29206-en_GB/). Interested candidates are encouraged to submit the following materials: (1) CV or Resume (2) A short research statement outlining your previous and current work, as well as your proposed research directions and interests (3) Names and contact information for three references. 
+We are inviting applications for a Postdoctoral Research Fellow position with a focus on theoretical development. For full details, please refer to the job posting [here](https://careers.nus.edu.sg/job/Research-Fellow-%28Statistics-and-Data-Science%29/29206-en_GB/). Interested candidates are encouraged to submit the following materials: (1) CV or Resume (2) A short research statement outlining your previous and current work, as well as your proposed research directions and interests (3) Names and contact information for three references. 
 
 ## Research Interests
 
