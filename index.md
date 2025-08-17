@@ -88,14 +88,14 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Hong C., et al. _FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care. (2025+)_ [[preprint](https://preprints.jmir.org/preprint/74202)]
 
-1. Li S., et al. _FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction. (2025+)_
-   
 1. **Zhou, D.**, et al. _Representation Learning to Advance Multi-institutional Studies with Electronic Health Record Data. (2025+)_ [[arXiv](https://arxiv.org/abs/2502.08547)] [[code](https://github.com/celehs/GAME)] [[Knowledge Graph Visulization](https://shiny.parse-health.org/GAME/)]
 
 1. Bonzel, C., et al. _Assessing and Improving Electronic Health Records Data Quality for Large-Scale Translational Research. (2024+)_
       
 1. Xiong, X., et al. _Knowledge-Driven Online Multimodal Automated Phenotyping System. (2023+)_ [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1)] [[KOMAP](https://shiny.parse-health.org/KOMAP/)] [[ONCE](https://shiny.parse-health.org/ONCE/)]
 
+1. Li S., et al. [_FairFML: Fair Federated Machine Learning with A Case Study On Reducing Gender Disparities in Cardiac Rrrest Outcome Prediction._](https://www.nature.com/articles/s44401-025-00035-2) npj Health Systems, 2025.
+   
 1. Gan, Z.\*, **Zhou, D.\***, et al. [_ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis._](https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795?via%3Dihub) [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.05.14.23289955v1)] [[code](https://github.com/yuming14/ARCH)] [[ARCH APP](https://shiny.parse-health.org/ARCH/)] Journal of Biomedical Informatics, 2025.  
 
 1.  Yang, D., **Zhou, D.**, Cai, S., Gan, Z., Pencina, M., Avillach, P., Cai, T., Hong, C. [_SONAR: Enabling Robust Automated Harmonization of Heterogeneous Data through Ensemble Machine Learning._](https://medinform.jmir.org/2025/1/e54133) [[preprint](https://preprints.jmir.org/preprint/54133)] JMIR Medical Informatics, 2025.
