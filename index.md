@@ -94,7 +94,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
       
 1. Xiong, X., et al. _Knowledge-Driven Online Multimodal Automated Phenotyping System. (2023+)_ [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1)] [[KOMAP](https://shiny.parse-health.org/KOMAP/)] [[ONCE](https://shiny.parse-health.org/ONCE/)]
 
-1. Li S., et al. [_FairFML: Fair Federated Machine Learning with A Case Study On Reducing Gender Disparities in Cardiac Rrrest Outcome Prediction._](https://www.nature.com/articles/s44401-025-00035-2) npj Health Systems, 2025.
+1. Li S., et al. [_FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction._](https://www.nature.com/articles/s44401-025-00035-2) npj Health Systems, 2025.
    
 1. Gan, Z.\*, **Zhou, D.\***, et al. [_ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis._](https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795?via%3Dihub) [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.05.14.23289955v1)] [[code](https://github.com/yuming14/ARCH)] [[ARCH APP](https://shiny.parse-health.org/ARCH/)] Journal of Biomedical Informatics, 2025.  
 
