@@ -39,7 +39,7 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
-1. Zhang, K., Liang M., Maile R.,  **Zhou, D.<sup>#</sup>** _Two-Sample Testing with Block-wise Missingness in Multi-Source Data. (2025+)_[[arXiv](https://arxiv.org/abs/2508.17411)]
+1. Zhang, K., Liang M., Maile R.,  **Zhou, D.<sup>#</sup>** _Two-Sample Testing with Block-wise Missingness in Multi-source Data. (2025+)_[[arXiv](https://arxiv.org/abs/2508.17411)]
 
 1. Kang, Y., Liu M., Yi B., Lyu, J., Zhang, Z., **Zhou, D.**, Li, Y. _Single Index Bandits: Generalized Linear Contextual
 Bandits with Unknown Reward Functions. (2025+)_[[arXiv](https://arxiv.org/pdf/2506.12751)]
