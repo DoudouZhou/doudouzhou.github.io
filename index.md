@@ -14,12 +14,7 @@ We are inviting applications for a Postdoctoral Research Fellow position with a 
 
 ## Research Interests
 
-I am interested in developing statistical methodology and theory for electronic health records (EHR) data analysis. I'm also developing practical tools for analyzing high-dimensional and non-Euclidean data. I mainly work on representation learning, federated learning, transfer learning, reinforcement learning, network analysis, graph neural networks, large language models, and high-dimensional statistics. Recently, I am interested in:
-
-- Multimodal and multi-institutional representation learning for data harmonization and knowledge graph integration.
-- Federated reinforcement learning for precision medicine.
-- Transfer learning of heterogeneous domains.
-- Graph-based and rank-based methods for high-dimensional hypothesis testing.
+I am interested in developing statistical methodology and theory for electronic health records (EHR) data analysis. I'm also developing practical tools for analyzing high-dimensional and non-Euclidean data. I mainly work on multi-modal/source data analysis, representation learning, federated learning, transfer learning, reinforcement learning, network analysis, graph neural networks, large language models, and high-dimensional statistics. 
 
 ## Selected Awards 
 - <ins> 2023 Harvard Data Science Initiative Postdoctoral Fellow Research Fund
