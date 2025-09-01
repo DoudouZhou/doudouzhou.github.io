@@ -24,6 +24,7 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ## Teaching 
 
+- DSA4213: Natural Language Processing for Data Science. Semester 1, AY2025/2026.
 - ST5230: Applied Natural Language Processing. Semester 2, AY2024/2025.
 
 ## Publications and Preprints
