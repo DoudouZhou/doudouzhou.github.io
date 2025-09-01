@@ -39,6 +39,9 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
+1. Knight, P., **Zhou, D.**, Xia Z., Cai, T., Lu, J. _Latent Factor Point Processes for Patient
+Representation in Electronic Health Records. (2025+)_[[arXiv](https://arxiv.org/abs/2508.20327)]
+   
 1. Zhang, K., Liang M., Maile R.,  **Zhou, D.<sup>#</sup>** _Two-sample Testing with Block-wise Missingness in Multi-source Data. (2025+)_[[arXiv](https://arxiv.org/abs/2508.17411)]
 
 1. Kang, Y., Liu M., Yi B., Lyu, J., Zhang, Z., **Zhou, D.**, Li, Y. _Single Index Bandits: Generalized Linear Contextual
