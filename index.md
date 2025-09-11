@@ -85,6 +85,8 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 ### Application
 
+1. Gronsbell J., et al.  _PEHRT: A Common Pipeline for Harmonizing Electronic Health Record data for Translational Research. (2025+)_ [[arXiv](https://arxiv.org/abs/2509.08553)]
+   
 1. Wang, Y.\*, **Zhou, D.\***, Liu, Y., Lu, J., Cai, T. _Automated Hierarchical Graph Construction for Multi-source Electronic Health Records. (2025+)_ [[arXiv](https://arxiv.org/abs/2509.06576)]
 
 1. Yu J., Feng Z., Lu J., Cai T., **Zhou, D.<sup>#</sup>** _Time-Aware Attention for Enhanced Electronic Health Records Modeling. (2025+)_ [[arXiv](https://arxiv.org/abs/2507.14847)]
