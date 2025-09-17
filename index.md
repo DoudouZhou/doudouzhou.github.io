@@ -117,10 +117,10 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. **Zhou, D.**, et al. [_Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization._](https://www.sciencedirect.com/science/article/pii/S1532046422001599) Journal of Biomedical Informatics, 2022. [[MIKGI APP](https://shiny.parse-health.org/MIKGI/)]
 
-1. Ahuja, Y., Liang, L., **Zhou, D.**, Huang, S., Cai, T.  [_Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data._](https://pubmed.ncbi.nlm.nih.gov/35166342/) Biostatistics, 2022. [[code](https://github.com/celehs/SCORNET)]
+1. Ahuja, Y., Liang, L., **Zhou, D.**, Huang, S., Cai, T.  [_Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data._](https://pubmed.ncbi.nlm.nih.gov/35166342/) Biostatistics, 2022. [[Website](https://github.com/celehs/SCORNET)][[R package](https://cran.r-project.org/web/packages/SCORNET/index.html)]
 
 1. Hong, C., et al.  [_Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data._](https://www.nature.com/articles/s41746-021-00519-z) npj Digital Medicine, 2021. [[KESER Network](https://shiny.parse-health.org/kesernetwork-linkage/)]
 
-1. Ahuja, Y., **Zhou, D.**, He, Z., Sun, J., Castro, V., Gainer, V., Murphy, S., Hong, C., Cai, T. [_sureLDA: A Multidisease Automated Phenotyping Method for the Electronic Health Record._](https://academic.oup.com/jamia/article/27/8/1235/5858306?login=true) Journal of the American Medical Informatics Association, 2020. [[code](https://celehs.github.io/sureLDA/)]
+1. Ahuja, Y., **Zhou, D.**, He, Z., Sun, J., Castro, V., Gainer, V., Murphy, S., Hong, C., Cai, T. [_sureLDA: A Multidisease Automated Phenotyping Method for the Electronic Health Record._](https://academic.oup.com/jamia/article/27/8/1235/5858306?login=true) Journal of the American Medical Informatics Association, 2020. [[Website](https://celehs.github.io/sureLDA/)] [[R package](https://cran.r-project.org/web/packages/sureLDA/index.html)]
 
 {% include_relative _includes/services.md %}
