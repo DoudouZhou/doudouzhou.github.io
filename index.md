@@ -103,17 +103,17 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Li S., et al. [_FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction._](https://www.nature.com/articles/s44401-025-00035-2) npj Health Systems, 2025.
    
-1. Gan, Z.\*, **Zhou, D.\***, et al. [_ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis._](https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795?via%3Dihub) [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.05.14.23289955v1)] [[code](https://github.com/yuming14/ARCH)] [[ARCH APP](https://shiny.parse-health.org/ARCH/)] Journal of Biomedical Informatics, 2025.  
+1. Gan, Z.\*, **Zhou, D.\***, et al. [_ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis._](https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795?via%3Dihub) Journal of Biomedical Informatics, 2025.[[medRxiv](https://www.medrxiv.org/content/10.1101/2023.05.14.23289955v1)] [[code](https://github.com/yuming14/ARCH)] [[ARCH APP](https://shiny.parse-health.org/ARCH/)]   
 
-1.  Yang, D., **Zhou, D.**, Cai, S., Gan, Z., Pencina, M., Avillach, P., Cai, T., Hong, C. [_SONAR: Enabling Robust Automated Harmonization of Heterogeneous Data through Ensemble Machine Learning._](https://medinform.jmir.org/2025/1/e54133) [[preprint](https://preprints.jmir.org/preprint/54133)] JMIR Medical Informatics, 2025.
+1.  Yang, D., **Zhou, D.**, Cai, S., Gan, Z., Pencina, M., Avillach, P., Cai, T., Hong, C. [_SONAR: Enabling Robust Automated Harmonization of Heterogeneous Data through Ensemble Machine Learning._](https://medinform.jmir.org/2025/1/e54133)  JMIR Medical Informatics, 2025. [[preprint](https://preprints.jmir.org/preprint/54133)]
    
-1. Wen, J., et al. [_DOME: Directional Medical Embedding Vectors from Electronic Health Records._](https://www.sciencedirect.com/science/article/abs/pii/S1532046424001862) [[code](https://github.com/celehs/Directional-EHR-embedding)] Journal of Biomedical Informatics, 2025. 
+1. Wen, J., et al. [_DOME: Directional Medical Embedding Vectors from Electronic Health Records._](https://www.sciencedirect.com/science/article/abs/pii/S1532046424001862) Journal of Biomedical Informatics, 2025. [[code](https://github.com/celehs/Directional-EHR-embedding)] 
 
 1. Lou, Y., Chen, Y., Huang, Y., **Zhou, D.**, Cao, Y., Wang, H.  [_Two-stream Feature Extraction for Self-supervised Image Quality Assessment._](https://ieeexplore.ieee.org/document/10415683) IEEE International Conference on Data Mining (ICDM), 2023. 
 
 1. Cai, B., Zeng, S., Lin, Y., Yuan, Z., **Zhou, D.**, Tian, L. [_Hierarchical Pretraining for Biomedical Term Embeddings._](https://arxiv.org/abs/2307.00266) Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB), 2023. 
 
-1. Wen, J., et. al. [_Multimodal Representation Learning for Predicting Molecule-Disease Relations._](https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101?login=true) Bioinformatics, 2023.
+1. Wen, J., et. al. [_Multimodal Representation Learning for Predicting Molecule-Disease Relations._](https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101?login=true) Bioinformatics, 2023. [[Website](https://github.com/celehs/M2REMAP)]
 
 1. **Zhou, D.**, et al. [_Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization._](https://www.sciencedirect.com/science/article/pii/S1532046422001599) Journal of Biomedical Informatics, 2022. [[MIKGI APP](https://shiny.parse-health.org/MIKGI/)]
 
