@@ -79,7 +79,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. **Zhou, D.**, Cai, T., Lu, J. [_Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices._](https://jmlr.org/papers/v24/22-0642.html) Journal of Machine Learning Research, 2023. [ [code](https://github.com/DoudouZhou/BONMI/blob/main/README.md)] [ [package](https://celehs.github.io/bonmi/)]
 
-1. **Zhou, D.**, Chen, H.  [_A New ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing._](https://arxiv.org/pdf/2112.12948.pdf) Conference on Learning Theory (COLT), 2023. 
+1. **Zhou, D.**, Chen, H.  [_A New ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing._](https://proceedings.mlr.press/v195/zhou23a/zhou23a.pdf) Conference on Learning Theory (COLT), 2023. 
 
 1. Liu, M.\*, Zhang, Y.\*, **Zhou, D.\*** [_Double/Debiased Machine Learning for Logistic Partially Linear Model._](https://academic.oup.com/ectj/article/24/3/559/6296639) The Econometrics Journal, 2021. [[code](https://academic.oup.com/ectj/article/24/3/559/6296639)]
 
