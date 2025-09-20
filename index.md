@@ -47,8 +47,6 @@ Bandits with Unknown Reward Functions. (2025+)_[[arXiv](https://arxiv.org/pdf/25
    
 1. Zhang, S., Zhang K., Xu Z., Cai, T.<sup>#</sup>, **Zhou, D.<sup>#</sup>** _Generalized Linear Markov Decision Process. (2025+)_[[arXiv](https://arxiv.org/abs/2506.00818)]
 
-1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025+)_[[arXiv](https://arxiv.org/abs/2505.17404)]
-
 1. Huang, Y., Dong Y., Yan M., Tian Z., Hong, C., **Zhou, D.<sup>#</sup>**, Liu, M.<sup>#</sup> _Model-X Change-Point Detection of Conditional Distribution. (2025+)_[[arXiv](https://arxiv.org/pdf/2505.12023)]
 
 1. Fan, W., Li S., **Zhou, D.**, Okada, Y., Hong, C., Liu, M., Liu, N._SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation. (2025+)_[[arXiv](https://arxiv.org/pdf/2505.08198)]
@@ -71,6 +69,8 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Cai, T.\*, Xia, D.\*, Zhang, L.\*, **Zhou, D.\*** _Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model. (2023+)_ [[arXiv](https://arxiv.org/abs/2209.13762)]
 
+1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025+)_[[arXiv](https://arxiv.org/abs/2505.17404)] Advances in Neural Information Processing Systems, 2025 (in press).
+   
 1. **Zhou, D.**, Chen, H. [_RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data._](https://ieeexplore.ieee.org/document/11021493) IEEE Transactions on Information Theory, 2025. [[arXiv](https://arxiv.org/abs/2206.03038)]
 
 1. **Zhou, D.\***, Liu, M.\*, Li, M., Cai, T. [_Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features._](https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291)  Journal of the American Statistical Association: Theory and Methods, 2024.  [[arXiv](https://arxiv.org/abs/2208.05134)] [[code](https://www.tandfonline.com/doi/suppl/10.1080/01621459.2024.2356291?scroll=top)]
