@@ -65,9 +65,9 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Liang, J.\*, Liu, Y.\*, **Zhou, D.**, Zhang, S., Lu, J. _The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.12284)]
 
-1. Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. _Inference of Dependency Knowledge Graph for Electronic Health Records. (2023+)_ [[arXiv](https://arxiv.org/abs/2312.15611)]
-
 1. Cai, T.\*, Xia, D.\*, Zhang, L.\*, **Zhou, D.\*** _Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model. (2023+)_ [[arXiv](https://arxiv.org/abs/2209.13762)]
+
+1. Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. [_Inference of Dependency Knowledge Graph for Electronic Health Records._](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144?redirectedFrom=fulltext) Journal of the Royal Statistical Society Series B (Statistical Methodology), 2025 (in press). [[arXiv](https://arxiv.org/abs/2312.15611)]
 
 1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025+)_[[arXiv](https://arxiv.org/abs/2505.17404)] Advances in Neural Information Processing Systems, 2025 (in press).
    
