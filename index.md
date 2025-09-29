@@ -69,7 +69,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> _Wasserstein Transfer Learning. (2025+)_ Advances in Neural Information Processing Systems, 2025 (in press). [[arXiv](https://arxiv.org/abs/2505.17404)]
 
-1. Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. [_Inference of Dependency Knowledge Graph for Electronic Health Records._](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144?redirectedFrom=fulltext) Journal of the Royal Statistical Society Series B (Statistical Methodology), 2025 (in press). [[arXiv](https://arxiv.org/abs/2312.15611)]
+1. Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. [_Inference of Dependency Knowledge Graph for Electronic Health Records._](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144?redirectedFrom=fulltext) Journal of the Royal Statistical Society Series B (Statistical Methodology), 2025 (in press). [[arXiv](https://arxiv.org/abs/2312.15611)] [[code](https://github.com/junwei-lu/WordVec_Inference)]
    
 1. **Zhou, D.**, Chen, H. [_RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data._](https://ieeexplore.ieee.org/document/11021493) IEEE Transactions on Information Theory, 2025. [[arXiv](https://arxiv.org/abs/2206.03038)]
 
