@@ -39,7 +39,7 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
-1. Zhu, Q., Liu M., Han Y., **Zhou, D.<sup>#</sup>** _WISE: A Weighted Similarity Aggregation Test for Serial Independence. (2025+)_[[arXiv](https://arxiv.org/pdf/2509.05678)]
+1. Zhu, Q., Liu M., Han Y., **Zhou, D.<sup>#</sup>** _WISE: A Weighted Similarity Aggregation Test for Serial Independence. (2025+)_[[arXiv](https://arxiv.org/pdf/2509.05678)] [[R package](https://CRAN.R-project.org/package=SimIndep)]
 
 1. Knight, P., **Zhou, D.**, Xia Z., Cai, T., Lu, J. _Latent Factor Point Processes for Patient
 Representation in Electronic Health Records. (2025+)_[[arXiv](https://arxiv.org/abs/2508.20327)]
