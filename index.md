@@ -13,7 +13,7 @@ For prospective PhD students, please apply directly through our [PhD program](ht
 
 
 
-### Research Fellow:r
+### Research Fellow:
 We are inviting applications for multiple Postdoctoral Research Fellow positions. Interested candidates are encouraged to reach out to me with your CV. 
 
 ## Research Interests
