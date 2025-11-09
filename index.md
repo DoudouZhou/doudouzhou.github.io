@@ -75,7 +75,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Xu, Z., Gan, Z., **Zhou, D.**, Shen, S., Lu, J., Cai, T. [_Inference of Dependency Knowledge Graph for Electronic Health Records._](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144?redirectedFrom=fulltext) Journal of the Royal Statistical Society Series B (Statistical Methodology), 2025. [[arXiv](https://arxiv.org/abs/2312.15611)] [[code](https://github.com/junwei-lu/WordVec_Inference)]
    
-1. **Zhou, D.**, Chen, H. [_RING-CPD: Asymptotic Distribution-free Change-point Detection for Multivariate and Non-Euclidean Data._](https://ieeexplore.ieee.org/document/11021493) IEEE Transactions on Information Theory, 2025. [[arXiv](https://arxiv.org/abs/2206.03038)]
+1. **Zhou, D.**, Chen, H. [_Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme._](https://ieeexplore.ieee.org/document/11021493) IEEE Transactions on Information Theory, 2025. [[arXiv](https://arxiv.org/abs/2206.03038)]
 
 1. **Zhou, D.\***, Liu, M.\*, Li, M., Cai, T. [_Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features._](https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291)  Journal of the American Statistical Association: Theory and Methods, 2024.  [[arXiv](https://arxiv.org/abs/2208.05134)] [[code](https://www.tandfonline.com/doi/suppl/10.1080/01621459.2024.2356291?scroll=top)]
 
