@@ -89,6 +89,8 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 ### Application
 
+1. Vu, M., Liu, M., **Zhou, D.<sup>#</sup>** _A Trainable Centrality Framework for Modern Data. (2025+)_[[arXiv](https://arxiv.org/abs/2511.22959)]
+   
 1. Yang, Y., Polla, K., Chakraborty, B., Liu M.\*, **Zhou, D.\***, Hong, C.\* _RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records. (2025+)_[[arXiv](https://arxiv.org/abs/2511.07473)]
    
 1. Gronsbell J., et al.  _PEHRT: A Common Pipeline for Harmonizing Electronic Health Record data for Translational Research. (2025+)_ [[arXiv](https://arxiv.org/abs/2509.08553)][[Website](https://celehs.github.io/PEHRT/)] [[nlpembeds (R package): Natural Language Processing Embeddings](https://cran.r-project.org/web/packages/nlpembeds/index.html)]
