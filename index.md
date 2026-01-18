@@ -87,7 +87,7 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 1. Liu, M.\*, Zhang, Y.\*, **Zhou, D.\*** [_Double/Debiased Machine Learning for Logistic Partially Linear Model._](https://academic.oup.com/ectj/article/24/3/559/6296639) The Econometrics Journal, 2021. [[code](https://academic.oup.com/ectj/article/24/3/559/6296639)]
 
-### Application
+### Algorithms and Applications
 
 1. Tan, X., Zhang, K., Yu, J., **Zhou, D.<sup>#</sup>** _From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences. (2026+)_[[arXiv](https://arxiv.org/pdf/2601.09220)]
    
