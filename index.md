@@ -89,6 +89,8 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 
 ### Application
 
+1. Tan, X., Zhang, K., Yu, J., **Zhou, D.<sup>#</sup>** _From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences. (2026+)_[[arXiv](https://arxiv.org/pdf/2601.09220)]
+   
 1. Vu, M., Liu, M., **Zhou, D.<sup>#</sup>** _A Trainable Centrality Framework for Modern Data. (2025+)_[[arXiv](https://arxiv.org/abs/2511.22959)]
    
 1. Yang, Y., Polla, K., Chakraborty, B., Liu M.\*, **Zhou, D.\***, Hong, C.\* _RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records. (2025+)_[[arXiv](https://arxiv.org/abs/2511.07473)]
