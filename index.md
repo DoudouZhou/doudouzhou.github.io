@@ -88,8 +88,6 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 1. Liu, M.\*, Zhang, Y.\*, **Zhou, D.\*** [_Double/Debiased Machine Learning for Logistic Partially Linear Model._](https://academic.oup.com/ectj/article/24/3/559/6296639) The Econometrics Journal, 2021. [[code](https://academic.oup.com/ectj/article/24/3/559/6296639)]
 
 ### Algorithms and Applications
-
-1. Tan, X., Zhang, K., Yu, J., **Zhou, D.<sup>#</sup>** _From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences. (2026+)_[[arXiv](https://arxiv.org/pdf/2601.09220)]
    
 1. Vu, M., Liu, M., **Zhou, D.<sup>#</sup>** _A Trainable Centrality Framework for Modern Data. (2025+)_[[arXiv](https://arxiv.org/abs/2511.22959)]
    
@@ -111,6 +109,8 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
       
 1. Xiong, X., et al. _Knowledge-Driven Online Multimodal Automated Phenotyping System. (2023+)_ [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1)] [[KOMAP](https://shiny.parse-health.org/KOMAP/)] [[ONCE](https://shiny.parse-health.org/ONCE/)]
 
+1. Tan, X., Zhang, K., Yu, J., **Zhou, D.<sup>#</sup>** _From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences._ AISTATS 2026. [[arXiv](https://arxiv.org/pdf/2601.09220)] 
+   
 1. Li S., et al. [_FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction._](https://www.nature.com/articles/s44401-025-00035-2) npj Health Systems, 2025.
    
 1. Gan, Z.\*, **Zhou, D.\***, et al. [_ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis._](https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795?via%3Dihub) Journal of Biomedical Informatics, 2025.[[medRxiv](https://www.medrxiv.org/content/10.1101/2023.05.14.23289955v1)] [[code](https://github.com/yuming14/ARCH)] [[ARCH APP](https://shiny.parse-health.org/ARCH/)]   
