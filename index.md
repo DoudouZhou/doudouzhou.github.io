@@ -56,7 +56,7 @@ Bandits with Unknown Reward Functions. (2025+)_[[arXiv](https://arxiv.org/pdf/25
 1. Fan, W., Li S., **Zhou, D.**, Okada, Y., Hong, C., Liu, M., Liu, N._SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation. (2025+)_[[arXiv](https://arxiv.org/pdf/2505.08198)]
    
 1. Cai, Z.\*, Fei W.\*, **Zhou, D.<sup>#</sup>** _MATES: Multi-view Aggregated Two-Sample Test. (2024+)_
-[[arXiv](https://arxiv.org/abs/2412.16684)]
+[[arXiv](https://arxiv.org/abs/2412.16684)] [[R package](https://cran.r-project.org/web/packages/MATES/index.html)]
 
 1. **Zhou, D.\***, Li, M.\*, Cai, T., Liu, M.
 _Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population. (2024+)_ [[arXiv](https://arxiv.org/abs/2410.06484)]
