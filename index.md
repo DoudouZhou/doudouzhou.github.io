@@ -48,9 +48,6 @@ General Metric Spaces. (2026+)_[[arXiv](https://arxiv.org/pdf/2601.18412)]
 Representation in Electronic Health Records. (2025+)_[[arXiv](https://arxiv.org/abs/2508.20327)]
    
 1. Zhang, K., Liang M., Maile R.,  **Zhou, D.<sup>#</sup>** _Two-sample Testing with Block-wise Missingness in Multi-source Data. (2025+)_[[arXiv](https://arxiv.org/abs/2508.17411)]  [[R package](https://cran.r-project.org/web/packages/BlockwiseRankTest/index.html)]
-
-1. Kang, Y., Liu M., Yi B., Lyu, J., Zhang, Z., **Zhou, D.**, Li, Y. _Single Index Bandits: Generalized Linear Contextual
-Bandits with Unknown Reward Functions. (2025+)_[[arXiv](https://arxiv.org/pdf/2506.12751)]
    
 1. Zhang, S., Zhang K., Xu Z., Cai, T.<sup>#</sup>, **Zhou, D.<sup>#</sup>** _Generalized Linear Markov Decision Process. (2025+)_[[arXiv](https://arxiv.org/abs/2506.00818)]
 
@@ -73,6 +70,10 @@ _Contrastive Learning on Multimodal Analysis of Electronic Health Records. (2024
 1. Liang, J.\*, Liu, Y.\*, **Zhou, D.**, Zhang, S., Lu, J. _The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control. (2024+)_ [[arXiv](https://arxiv.org/abs/2403.12284)]
 
 1. Cai, T.\*, Xia, D.\*, Zhang, L.\*, **Zhou, D.\*** _Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model. (2023+)_ [[arXiv](https://arxiv.org/abs/2209.13762)]
+
+1. Kang, Y., Liu M., Yi B., Lyu, J., Zhang, Z., **Zhou, D.**, Li, Y. _Single Index Bandits: Generalized Linear Contextual
+Bandits with Unknown Reward Functions._[[arXiv](https://arxiv.org/pdf/2506.12751)] The Fourteenth
+International Conference on Learning Representations, 2026.
 
 1. Zhang, K., Zhang S., **Zhou, D.<sup>#</sup>**, Zhou, Y.<sup>#</sup> [_Wasserstein Transfer Learning._](https://openreview.net/pdf/8e201e7ad25d23cf971e958d1e69539d4ab8c6de.pdf) Advances in Neural Information Processing Systems, 2025. [[arXiv](https://arxiv.org/abs/2505.17404)][[code](https://github.com/h7nian/WaTL)]
 
