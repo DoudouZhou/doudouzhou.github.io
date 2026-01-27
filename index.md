@@ -39,7 +39,7 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
-1. Lv, L., **Zhou, D.<sup>#</sup>** _Preference-based Centrality and Ranking in
+1. Lyu, L., **Zhou, D.<sup>#</sup>** _Preference-based Centrality and Ranking in
 General Metric Spaces. (2026+)_[[arXiv](https://arxiv.org/pdf/2601.18412)]
    
 1. Zhu, Q., Liu M., Han Y., **Zhou, D.<sup>#</sup>** _WISE: A Weighted Similarity Aggregation Test for Serial Independence. (2025+)_[[arXiv](https://arxiv.org/pdf/2509.05678)] [[R package](https://CRAN.R-project.org/package=SimIndep)]
