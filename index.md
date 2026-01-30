@@ -39,6 +39,9 @@ I am interested in developing statistical methodology and theory for electronic 
 
 ### Statistical Methodology and Theory
 
+1. Xu, M., Tan, X., Wu, J., **Zhou, D.<sup>#</sup>** _A Judge-Aware Ranking Framework
+for Evaluating Large Language Models without Ground Truth. (2026+)_[[arXiv](https://arxiv.org/pdf/2601.21817)]
+
 1. Lyu, L., **Zhou, D.<sup>#</sup>** _Preference-based Centrality and Ranking in
 General Metric Spaces. (2026+)_[[arXiv](https://arxiv.org/pdf/2601.18412)]
    
