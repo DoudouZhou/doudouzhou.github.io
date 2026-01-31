@@ -108,15 +108,15 @@ International Conference on Learning Representations, 2026.
    
 1. Wu Q., Li S., **Zhou D.**, Liu N. _Toward Fair Federated Learning under Demographic Disparities and Data Imbalance. (2025+)_ [[arXiv](https://arxiv.org/abs/2505.09295)]
 
-1. Hong C., et al. _FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care. (2025+)_ [[preprint](https://preprints.jmir.org/preprint/74202)]
-
 1. **Zhou, D.**, et al. _Representation Learning to Advance Multi-institutional Studies with Electronic Health Record Data. (2025+)_ [[arXiv](https://arxiv.org/abs/2502.08547)] [[code](https://github.com/celehs/GAME)] [[Knowledge Graph Visulization](https://shiny.parse-health.org/GAME/)]
 
 1. Bonzel, C., et al. _Assessing and Improving Electronic Health Records Data Quality for Large-Scale Translational Research. (2024+)_
       
 1. Xiong, X., et al. _Knowledge-Driven Online Multimodal Automated Phenotyping System. (2023+)_ [[medRxiv](https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1)] [[KOMAP](https://shiny.parse-health.org/KOMAP/)] [[ONCE](https://shiny.parse-health.org/ONCE/)]
 
-1. Tan, X., Zhang, K., Yu, J., **Zhou, D.<sup>#</sup>** _From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences._ AISTATS 2026. [[arXiv](https://arxiv.org/pdf/2601.09220)] 
+1. Tan, X., Zhang, K., Yu, J., **Zhou, D.<sup>#</sup>** _From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences._ AISTATS 2026. [[arXiv](https://arxiv.org/pdf/2601.09220)]
+   
+1. Hong C., et al. [_FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care. (2025+)_](https://preprints.jmir.org/preprint/74202/accepted) JMIR Research Protocols, 2026.
    
 1. Li S., et al. [_FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction._](https://www.nature.com/articles/s44401-025-00035-2) npj Health Systems, 2025.
    
