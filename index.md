@@ -116,7 +116,7 @@ International Conference on Learning Representations, 2026.
 
 1. Tan, X., Zhang, K., Yu, J., **Zhou, D.<sup>#</sup>** _From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences._ AISTATS 2026. [[arXiv](https://arxiv.org/pdf/2601.09220)]
    
-1. Hong C., et al. [_FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care. (2025+)_](https://preprints.jmir.org/preprint/74202/accepted) JMIR Research Protocols, 2026.
+1. Hong C., et al. [_FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care._](https://preprints.jmir.org/preprint/74202/accepted) JMIR Research Protocols, 2026.
    
 1. Li S., et al. [_FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction._](https://www.nature.com/articles/s44401-025-00035-2) npj Health Systems, 2025.
    
