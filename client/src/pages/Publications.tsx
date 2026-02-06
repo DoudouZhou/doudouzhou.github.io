@@ -78,7 +78,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Yiwen Huang, Yan Dong, Mengying Yan, Zitao Tian, Chuan Hong, Doudou Zhou (corresponding), Mingshuo Liu (corresponding)",
+      authors: "Yiwen Huang, Yan Dong, Mengying Yan, Zitao Tian, Chuan Hong, Doudou Zhou (corresponding), Molei Liu (corresponding)",
       title: "Model-X Change-Point Detection of Conditional Distribution",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
@@ -86,8 +86,8 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Wangxuan Fan, Siqi Li, Doudou Zhou, Yukinori Okada, Chuan Hong, Mingshuo Liu, Nan Liu",
-      title: "SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation",
+      authors: "Wangxuan Fan, Siqi Li, Doudou Zhou, Yohei Okada, Chuan Hong, Molei Liu, Nan Liu",
+      title: "SIT-KSHAP: Stable and Computationally Efficient Shapley Value Approximation",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
     },
