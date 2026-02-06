@@ -87,7 +87,8 @@ export default function People() {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
           authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou",
           venue: "AISTATS",
-          year: "2026"
+          year: "2026",
+          url: "https://arxiv.org/abs/2601.09220"
         }
       ]
     },
@@ -118,13 +119,15 @@ export default function People() {
           title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
           authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou",
           venue: "Preprint",
-          year: "2025+"
+          year: "2025+",
+          url: "https://arxiv.org/abs/2509.06576"
         },
         {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
           authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou",
           venue: "AISTATS",
-          year: "2026"
+          year: "2026",
+          url: "https://arxiv.org/abs/2601.09220"
         }
       ]
     },
@@ -137,7 +140,8 @@ export default function People() {
           title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
           authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou",
           venue: "Preprint",
-          year: "2025+"
+          year: "2025+",
+          url: "https://arxiv.org/abs/2509.05678"
         }
       ]
     }
@@ -161,7 +165,8 @@ export default function People() {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
           authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou",
           venue: "AISTATS",
-          year: "2026"
+          year: "2026",
+          url: "https://arxiv.org/abs/2601.09220"
         }
       ]
     },
@@ -174,7 +179,8 @@ export default function People() {
           title: "A Trainable Centrality Framework for Modern Data",
           authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou",
           venue: "Preprint",
-          year: "2025+"
+          year: "2025+",
+          url: "https://arxiv.org/abs/2511.22959"
         }
       ]
     }
@@ -192,13 +198,15 @@ export default function People() {
           title: "Wasserstein Transfer Learning",
           authors: "Kaicheng Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yidong Zhou (corresponding)",
           venue: "NeurIPS",
-          year: "2025"
+          year: "2025",
+          url: "https://arxiv.org/abs/2505.17404"
         },
         {
           title: "Generalized Linear Markov Decision Process",
           authors: "Sinian Zhang, Kaicheng Zhang, Ziping Xu, Tianxi Cai (corresponding), Doudou Zhou (corresponding)",
           venue: "Preprint",
-          year: "2025+"
+          year: "2025+",
+          url: "https://arxiv.org/abs/2506.00818"
         }
       ]
     },
