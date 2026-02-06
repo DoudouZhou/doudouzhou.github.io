@@ -17,7 +17,7 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-bold text-lg gradient-text">STAR Lab</div>
-                <div className="text-xs text-muted-foreground">Statistical Theory Statistical AI & Learning AI Research</div>
+                <div className="text-xs text-muted-foreground">Statistical Theory and AI Research Laboratory</div>
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
