@@ -14,7 +14,7 @@ export default function Research() {
       <section
         className="relative py-20 mb-20"
         style={{
-          backgroundImage: `url('https://private-us-east-1.manuscdn.com/sessionFile/8TRWcaPOUSPlHg8pczerr4/sandbox/6Kzhl1k3gH3gX1lKiEABEj-img-2_1770379143000_na1fn_cmVzZWFyY2gtYmFja2dyb3VuZA.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvOFRSV2NhUE9VU1BsSGc4cGN6ZXJyNC9zYW5kYm94LzZLemhsMWszZ0gzZ1gxbEtpRUFCRWotaW1nLTJfMTc3MDM3OTE0MzAwMF9uYTFmbl9jbVZ6WldGeVkyZ3RZbUZqYTJkeWIzVnVaQS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=LxdCj~1cgeEr8UpET-7y-zWYr8gKkRU4tgliI2puwrMD9ujAFJNvcFRHyf0Wrgx7a062VwSNIIU6HucIt7Ig09baEdLXT7~0oIxsWyNdorxJ-Xn8i0EctnVZDS-vfn8-EQUJWCKkEjW4A~k5gqcTTUuqljtZqkTAKrzX-H1K4ONnDOvvadxjRAahyI1oSJFALnw4PgfODN0tW736BHtuZRViTbYXO5VHSdV89lbt0clvtA1TDm80G8O31Y0HfEli48oEDQH77~ldYqPx4HP~dhmjxwgCj547I7E9Ym8i1cbofbvOhUVNRNTkAbAi8TYC3ZZQf0KQIONx4mInwQczXA__')`,
+          backgroundImage: `url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/AJAzIrZOPciSbRGB.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

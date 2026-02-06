@@ -1,12 +1,12 @@
 /*
  * Home page for STAR Lab
- * Modern, vibrant blue theme with clean layout
+ * Design: Modern scientific aesthetic with vibrant blue theme and star motifs
  */
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Sparkles, Users, Code, BookOpen, Award } from "lucide-react";
+import { ArrowRight, Award, Users, BookOpen, Sparkles } from "lucide-react";
 import { Link } from "wouter";
 
 export default function Home() {
@@ -14,282 +14,208 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section
-        className="relative min-h-[80vh] flex items-center justify-center overflow-hidden"
+        className="relative min-h-[600px] flex items-center justify-center"
         style={{
-          backgroundImage: `url('https://private-us-east-1.manuscdn.com/sessionFile/8TRWcaPOUSPlHg8pczerr4/sandbox/6Kzhl1k3gH3gX1lKiEABEj-img-1_1770379142000_na1fn_c2FpbC1sYWItaGVybw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvOFRSV2NhUE9VU1BsSGc4cGN6ZXJyNC9zYW5kYm94LzZLemhsMWszZ0gzZ1gxbEtpRUFCRWotaW1nLTFfMTc3MDM3OTE0MjAwMF9uYTFmbl9jMkZwYkMxc1lXSXRhR1Z5YncucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=hoNDvvg52m2Im3gSsYVxGkGugIJxyJKiX94rb1HLW7wzuDOikoAlXn-k2v8gJKOQxSI3kVr~~TiEcyQ8IDedI76VJfqR5JDCbeBCuYVx8WqtTt4zw3naSxc3CfaTBWpqtwPJ3bA~0SsYXgy2BNfB6ceRFDIuOoTcDvsumyXgIWmQOhmBUkCOZeAHsB-iHYBlFW00TgDtvGYL0PL~rKjtZENnn9gNAoUfF83g7ucH8ctSbiHfuESCaS2kqE4IqhzZzo3hH8AuBqTJksdQl893Nqp3nJgd5~BJUGSHirTUwwsVgeHjX5F-jqMETrAsR~Hx8XHuf0wWxhIbv~AJrPfqOw__')`,
+          backgroundImage: `url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/kfAMzhUguRWrXKPD.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/80 to-background" />
-        <div className="container relative z-10 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-6 animate-fade-in-up">
-            <Sparkles className="h-4 w-4 text-primary" />
-            <span className="text-sm font-medium text-primary">Statistical Theory and AI Research Laboratory</span>
-          </div>
-          
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up animation-delay-100">
+        <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background" />
+        <div className="container relative z-10 text-center py-20">
+          <Badge className="mb-6 text-sm px-4 py-2">
+            <Sparkles className="w-4 h-4 mr-2" />
+            Statistical Theory and AI Research Laboratory
+          </Badge>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="gradient-text">STAR Lab</span>
           </h1>
-          
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
             Advancing statistical methodology and artificial intelligence for healthcare and beyond
           </p>
-          
-          <div className="flex flex-wrap items-center justify-center gap-4 animate-fade-in-up animation-delay-300">
-            <Link href="/research">
-              <Button size="lg" className="gap-2">
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Button size="lg" asChild>
+              <Link href="/research">
                 Explore Our Research
-                <ArrowRight className="h-5 w-5" />
-              </Button>
-            </Link>
-            <Link href="/join">
-              <Button size="lg" variant="outline">
-                Join Our Team
-              </Button>
-            </Link>
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
+            <Button size="lg" variant="outline" asChild>
+              <Link href="/join">Join Our Team</Link>
+            </Button>
           </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-secondary/30">
         <div className="container">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
               About <span className="gradient-text">STAR Lab</span>
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-center">
-              STAR Lab is led by <strong>Prof. Doudou Zhou</strong>, Assistant Professor of Statistics & Data Science 
-              at the National University of Singapore. We focus on developing innovative statistical methods and AI 
-              techniques for analyzing complex healthcare data, with applications in electronic health records, 
-              multi-modal learning, and federated learning.
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              STAR Lab, led by Prof. Doudou Zhou at the National University of Singapore, focuses on developing 
+              rigorous statistical methodology and practical AI techniques for analyzing complex healthcare data. 
+              We bridge theory and application, creating tools that advance both statistical science and real-world 
+              medical research.
             </p>
-            
-            {/* Director Profile Card */}
-            <Card className="p-8 hover-lift border-2">
-              <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
-                <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white text-4xl font-bold flex-shrink-0">
-                  DZ
-                </div>
-                <div className="flex-1 text-center md:text-left">
-                  <h3 className="text-2xl font-bold mb-2">Prof. Doudou Zhou</h3>
-                  <p className="text-muted-foreground mb-4">
-                    Assistant Professor of Statistics & Data Science<br />
-                    National University of Singapore
-                  </p>
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                    Previously Postdoctoral Research Fellow at Harvard University (2022-2024), working with Prof. Tianxi Cai. 
-                    Ph.D. in Statistics from UC Davis (2022), advised by Prof. Hao Chen. Dual B.S. in Statistics and B.E. 
-                    in Computer Science from USTC (2019).
-                  </p>
-                  <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                    <Button variant="outline" size="sm" asChild>
-                      <a href="mailto:ddzhou@nus.edu.sg">Email</a>
-                    </Button>
-                    <Button variant="outline" size="sm" asChild>
-                      <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener noreferrer">
-                        Google Scholar
-                      </a>
-                    </Button>
-                    <Button variant="outline" size="sm" asChild>
-                      <a href="https://github.com/doudouzhou" target="_blank" rel="noopener noreferrer">
-                        GitHub
-                      </a>
-                    </Button>
-                    <Button variant="outline" size="sm" asChild>
-                      <a href="https://www.linkedin.com/in/doudou-zhou" target="_blank" rel="noopener noreferrer">
-                        LinkedIn
-                      </a>
-                    </Button>
-                  </div>
-                </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="p-8 text-center hover-lift">
+              <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <BookOpen className="h-8 w-8 text-primary" />
               </div>
+              <h3 className="text-xl font-bold mb-3">Research Excellence</h3>
+              <p className="text-muted-foreground">
+                Publishing in top-tier venues including JASA, JMLR, NeurIPS, and IEEE TIT
+              </p>
+            </Card>
+
+            <Card className="p-8 text-center hover-lift">
+              <div className="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <Users className="h-8 w-8 text-accent" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Collaborative Team</h3>
+              <p className="text-muted-foreground">
+                Working with leading researchers from Harvard, MIT, Stanford, and beyond
+              </p>
+            </Card>
+
+            <Card className="p-8 text-center hover-lift">
+              <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <Award className="h-8 w-8 text-primary" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Impact & Recognition</h3>
+              <p className="text-muted-foreground">
+                Award-winning research with practical applications in healthcare analytics
+              </p>
             </Card>
           </div>
         </div>
       </section>
 
       {/* Research Highlights */}
-      <section className="py-20 bg-secondary">
+      <section className="py-20">
         <div className="container">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Research <span className="gradient-text">Highlights</span>
           </h2>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="p-6 hover-lift">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <Sparkles className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Statistical Methodology</h3>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <Card className="p-8 hover-lift">
+              <h3 className="text-2xl font-bold mb-4">Statistical Methodology</h3>
               <p className="text-muted-foreground mb-4">
-                Developing novel statistical methods for change-point detection, transfer learning, 
-                and high-dimensional data analysis.
+                Developing novel statistical methods for transfer learning, change-point detection, 
+                and high-dimensional inference with theoretical guarantees.
               </p>
-              <Link href="/research">
-                <Button variant="ghost" size="sm" className="gap-2">
-                  Learn More
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="secondary">Transfer Learning</Badge>
+                <Badge variant="secondary">Change-Point Detection</Badge>
+                <Badge variant="secondary">High-dimensional Statistics</Badge>
+              </div>
             </Card>
 
-            <Card className="p-6 hover-lift">
-              <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                <Users className="h-6 w-6 text-accent" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Healthcare AI</h3>
+            <Card className="p-8 hover-lift">
+              <h3 className="text-2xl font-bold mb-4">Healthcare AI</h3>
               <p className="text-muted-foreground mb-4">
-                Building AI systems for electronic health records analysis, clinical knowledge extraction, 
-                and federated learning in healthcare.
+                Building practical AI systems for electronic health records analysis, federated learning, 
+                and multi-institutional data integration.
               </p>
-              <Link href="/research">
-                <Button variant="ghost" size="sm" className="gap-2">
-                  Learn More
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
-            </Card>
-
-            <Card className="p-6 hover-lift">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <Code className="h-6 w-6 text-primary" />
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="secondary">EHR Analysis</Badge>
+                <Badge variant="secondary">Federated Learning</Badge>
+                <Badge variant="secondary">Knowledge Graphs</Badge>
               </div>
-              <h3 className="text-xl font-bold mb-3">Open Source Tools</h3>
-              <p className="text-muted-foreground mb-4">
-                Creating accessible R packages and software tools for the research community 
-                to advance data science applications.
-              </p>
-              <Link href="/software">
-                <Button variant="ghost" size="sm" className="gap-2">
-                  Explore Tools
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
             </Card>
           </div>
-        </div>
-      </section>
 
-      {/* Research Areas */}
-      <section className="py-20 bg-background">
-        <div className="container">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-            Research <span className="gradient-text">Areas</span>
-          </h2>
-          <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
-            Our research spans multiple domains in statistics, machine learning, and healthcare analytics
-          </p>
-          
-          <div className="flex flex-wrap justify-center gap-3 max-w-5xl mx-auto">
-            {[
-              "Multi-modal Data Analysis",
-              "Representation Learning",
-              "Federated Learning",
-              "Transfer Learning",
-              "Reinforcement Learning",
-              "Network Analysis",
-              "Graph Neural Networks",
-              "Large Language Models",
-              "High-dimensional Statistics",
-              "Electronic Health Records",
-              "Change-Point Detection",
-              "Knowledge Graph Construction"
-            ].map((area) => (
-              <Badge key={area} variant="secondary" className="px-4 py-2 text-sm hover:bg-primary hover:text-primary-foreground transition-colors cursor-default">
-                {area}
-              </Badge>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Quick Links */}
-      <section className="py-20 bg-secondary">
-        <div className="container">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link href="/publications">
-              <Card className="p-6 hover-lift cursor-pointer">
-                <BookOpen className="h-8 w-8 text-primary mb-4" />
-                <h3 className="font-bold mb-2">Publications</h3>
-                <p className="text-sm text-muted-foreground">
-                  Explore our latest research papers and preprints
-                </p>
-              </Card>
-            </Link>
-
-            <Link href="/people">
-              <Card className="p-6 hover-lift cursor-pointer">
-                <Users className="h-8 w-8 text-accent mb-4" />
-                <h3 className="font-bold mb-2">Our Team</h3>
-                <p className="text-sm text-muted-foreground">
-                  Meet the talented researchers in our lab
-                </p>
-              </Card>
-            </Link>
-
-            <Link href="/software">
-              <Card className="p-6 hover-lift cursor-pointer">
-                <Code className="h-8 w-8 text-primary mb-4" />
-                <h3 className="font-bold mb-2">Software</h3>
-                <p className="text-sm text-muted-foreground">
-                  Access our open-source tools and packages
-                </p>
-              </Card>
-            </Link>
-
-            <Link href="/join">
-              <Card className="p-6 hover-lift cursor-pointer">
-                <Award className="h-8 w-8 text-accent mb-4" />
-                <h3 className="font-bold mb-2">Join Us</h3>
-                <p className="text-sm text-muted-foreground">
-                  Opportunities for students and postdocs
-                </p>
-              </Card>
-            </Link>
+          <div className="text-center mt-12">
+            <Button size="lg" variant="outline" asChild>
+              <Link href="/research">
+                View All Research
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
           </div>
         </div>
       </section>
 
       {/* News Section */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-secondary/30">
         <div className="container">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Latest <span className="gradient-text">News</span>
           </h2>
-          
-          <div className="max-w-3xl mx-auto space-y-6">
-            {[
-              {
-                date: "Jan 2026",
-                title: "New paper accepted at NeurIPS 2026",
-                description: "Our work on Wasserstein Transfer Learning has been accepted for publication."
-              },
-              {
-                date: "Dec 2025",
-                title: "Lab website launched",
-                description: "Welcome to the new STAR Lab website! Explore our research and team."
-              },
-              {
-                date: "Nov 2025",
-                title: "Seeking PhD students and postdocs",
-                description: "We have multiple openings for motivated researchers. See Join Us page for details."
-              }
-            ].map((news, index) => (
-              <Card key={index} className="p-6 hover-lift">
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <Badge variant="secondary">{news.date}</Badge>
-                  </div>
-                  <div>
-                    <h3 className="font-bold mb-2">{news.title}</h3>
-                    <p className="text-sm text-muted-foreground">{news.description}</p>
-                  </div>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            <Card className="p-6 hover-lift">
+              <div className="flex items-start gap-4">
+                <Badge className="mt-1">2026</Badge>
+                <div>
+                  <h3 className="font-semibold mb-2">
+                    Paper accepted at ICLR 2026
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    "Single Index Bandits: Generalized Linear Contextual Bandits with Unknown Reward Functions" 
+                    accepted at the International Conference on Learning Representations.
+                  </p>
                 </div>
-              </Card>
-            ))}
+              </div>
+            </Card>
+
+            <Card className="p-6 hover-lift">
+              <div className="flex items-start gap-4">
+                <Badge className="mt-1">2025</Badge>
+                <div>
+                  <h3 className="font-semibold mb-2">
+                    Paper accepted at NeurIPS 2025
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    "Wasserstein Transfer Learning" accepted at Advances in Neural Information Processing Systems.
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 hover-lift">
+              <div className="flex items-start gap-4">
+                <Badge className="mt-1">2025</Badge>
+                <div>
+                  <h3 className="font-semibold mb-2">
+                    New PhD students joining STAR Lab
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    Welcoming Kejian Zhang, Jiawei Wu, and Rundong Huang to our research team.
+                  </p>
+                </div>
+              </div>
+            </Card>
           </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20">
+        <div className="container">
+          <Card className="p-12 text-center bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Join <span className="gradient-text">STAR Lab</span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+              We're always looking for talented and motivated individuals to join our team. 
+              Explore opportunities for postdocs, PhD students, and research collaborations.
+            </p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Button size="lg" asChild>
+                <Link href="/join">View Open Positions</Link>
+              </Button>
+              <Button size="lg" variant="outline" asChild>
+                <Link href="/people">Meet Our Team</Link>
+              </Button>
+            </div>
+          </Card>
         </div>
       </section>
     </div>

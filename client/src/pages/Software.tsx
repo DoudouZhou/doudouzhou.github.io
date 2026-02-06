@@ -69,7 +69,7 @@ export default function Software() {
       <section
         className="relative py-20 mb-20"
         style={{
-          backgroundImage: `url('https://private-us-east-1.manuscdn.com/sessionFile/8TRWcaPOUSPlHg8pczerr4/sandbox/6Kzhl1k3gH3gX1lKiEABEj-img-4_1770379138000_na1fn_c29mdHdhcmUtdG9vbHM.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvOFRSV2NhUE9VU1BsSGc4cGN6ZXJyNC9zYW5kYm94LzZLemhsMWszZ0gzZ1gxbEtpRUFCRWotaW1nLTRfMTc3MDM3OTEzODAwMF9uYTFmbl9jMjltZEhkaGNtVXRkRzl2YkhNLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=cXemSF7V09URp6b4c8CTt3fnWWMk0n5pqj2oTwdx~z3RLL3jBHg6mgQceauQHH0KI76vyfwffDGsCzK5v5PRWIRH2BauQ8vknIylcnKgt3aLZMyULH9WUl8eKEZbHPDaKfyC2GmwIVes7NSxPtgedRJ9uNWuflVp0V22Sa7ePHe2uDXSj4nYBFyF0X1tu1O~fEmj5s8BuPCPKh~pPq87r34xUwbhMPTs6qhw4aPVKTTdh8Z253cx1DVXrqVeNJVq8lvL7Yx5bWh1vuLhvpASmWoZTC9gJutJ9f0Pxb3fNfLjm6ln2hyVYMUBxWYUNjgI88dGc4pwGNjIm8JEkxH60Q__')`,
+          backgroundImage: `url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/cDajxlTPCIDQPjqx.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

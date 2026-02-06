@@ -82,7 +82,7 @@ export default function Footer() {
                 LinkedIn
               </a>
               <a
-                href="https://scholar.google.com/citations?user=YOUR_ID"
+                href="https://scholar.google.com/citations?user=gXfTi00AAAAJ&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
