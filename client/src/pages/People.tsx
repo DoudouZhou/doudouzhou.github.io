@@ -17,22 +17,32 @@ export default function People() {
 
   const masterStudents = [
     { name: "Junhan Yu", period: "2024--", institution: "NUS" },
-    { name: "Qihua Zhu", period: "2024--", institution: "NUS" },
-    { name: "Yiran Zhang", period: "2024--2025", institution: "NUS" }
+    { name: "Qihua Zhu", period: "2024--", institution: "NUS" }
   ];
 
   const undergraduateStudents = [
     { name: "Haozhan Chu", period: "2025--", institution: "Nanjing University" },
     { name: "Xinzi Tan", period: "2024--", institution: "NUS" },
     { name: "Minh Duc Vu", period: "2024--", institution: "NUS" },
+    { name: "Xihua Zhu", period: "2024--2025", institution: "NUS" },
+    { name: "Mario Francisco Montana", period: "2024--2025", institution: "NUS" }
+  ];
+
+  const alumni = [
     { 
       name: "Kaicheng Zhang", 
       period: "2024--2025", 
+      type: "Undergraduate",
       institution: "Zhejiang University",
       placement: "PhD student, UNC Biostatistics"
     },
-    { name: "Xihua Zhu", period: "2024--2025", institution: "NUS" },
-    { name: "Mario Francisco Montana", period: "2024--2025", institution: "NUS" }
+    { 
+      name: "Yiran Zhang", 
+      period: "2024--2025", 
+      type: "Master's",
+      institution: "NUS",
+      placement: "TBD"
+    }
   ];
 
   const visitingStudents = [
@@ -215,11 +225,6 @@ export default function People() {
                     <h3 className="text-lg font-semibold mb-1">{student.name}</h3>
                     <p className="text-sm text-muted-foreground mb-2">{student.institution}</p>
                     <Badge variant="outline" className="mb-2">{student.period}</Badge>
-                    {student.placement && (
-                      <p className="text-sm text-primary font-medium">
-                        → {student.placement}
-                      </p>
-                    )}
                   </div>
                 </div>
               </Card>
@@ -250,6 +255,41 @@ export default function People() {
                       <Badge variant="outline">{student.period}</Badge>
                       <Badge variant="secondary">{student.type}</Badge>
                     </div>
+                  </div>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </section>
+
+        {/* Alumni */}
+        <section className="mb-16">
+          <div className="flex items-center gap-3 mb-8">
+            <GraduationCap className="h-8 w-8 text-muted-foreground" />
+            <h2 className="text-3xl font-bold">
+              <span className="gradient-text">Alumni</span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {alumni.map((person, index) => (
+              <Card key={index} className="p-6 hover-lift">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-muted/50 rounded-lg flex items-center justify-center flex-shrink-0 text-lg font-bold text-muted-foreground">
+                    {person.name.split(' ').map(n => n[0]).join('')}
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold mb-1">{person.name}</h3>
+                    <p className="text-sm text-muted-foreground mb-2">{person.institution}</p>
+                    <div className="flex flex-wrap gap-2 mb-2">
+                      <Badge variant="outline">{person.period}</Badge>
+                      <Badge variant="secondary">{person.type}</Badge>
+                    </div>
+                    {person.placement && person.placement !== "TBD" && (
+                      <p className="text-sm text-primary font-medium">
+                        → {person.placement}
+                      </p>
+                    )}
                   </div>
                 </div>
               </Card>
