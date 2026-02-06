@@ -16,7 +16,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Xu, M., Xia, Z., Cai, T., Zhou, D.#, Si, N#",
+      authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou (corresponding), Nian Si (corresponding)",
       title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
       venue: "Preprint, 2026+",
       links: [{ label: "arXiv", url: "#" }]
@@ -24,7 +24,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Xu, M., Tan, X., Wu, J., Zhou, D.#",
+      authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
       title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
       venue: "Preprint, 2026+",
       links: [{ label: "arXiv", url: "#" }]
@@ -32,7 +32,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Lyu, L., Zhou, D.#",
+      authors: "Lingfeng Lv, Doudou Zhou (corresponding)",
       title: "Preference-based Centrality and Ranking in General Metric Spaces",
       venue: "Preprint, 2026+",
       links: [{ label: "arXiv", url: "#" }]
@@ -40,7 +40,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Zhu, Q., Liu M., Han Y., Zhou, D.#",
+      authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou (corresponding)",
       title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
       venue: "Preprint, 2025+",
       links: [
@@ -51,7 +51,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Knight, P., Zhou, D., Xia Z., Cai, T., Lu, J.",
+      authors: "Patrick Knight, Doudou Zhou, Zongqi Xia, Tianxi Cai, Junwei Lu",
       title: "Latent Factor Point Processes for Patient Representation in Electronic Health Records",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
@@ -59,7 +59,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Zhang, K., Liang M., Maile R., Zhou, D.#",
+      authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou (corresponding)",
       title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
       venue: "Preprint, 2025+",
       links: [
@@ -70,7 +70,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Zhang, S., Zhang K., Xu Z., Cai, T.#, Zhou, D.#",
+      authors: "Sinian Zhang, Kejian Zhang, Ziping Xu, Tianxi Cai (corresponding), Doudou Zhou (corresponding)",
       title: "Generalized Linear Markov Decision Process",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
@@ -78,7 +78,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Huang, Y., Dong Y., Yan M., Tian Z., Hong, C., Zhou, D.#, Liu, M.#",
+      authors: "Yiwen Huang, Yan Dong, Mengying Yan, Zitao Tian, Chuan Hong, Doudou Zhou (corresponding), Mingshuo Liu (corresponding)",
       title: "Model-X Change-Point Detection of Conditional Distribution",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
@@ -86,7 +86,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Fan, W., Li S., Zhou, D., Okada, Y., Hong, C., Liu, M., Liu, N.",
+      authors: "Wangxuan Fan, Siqi Li, Doudou Zhou, Yukinori Okada, Chuan Hong, Mingshuo Liu, Nan Liu",
       title: "SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
@@ -94,7 +94,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Cai, Z.*, Fei W.*, Zhou, D.#",
+      authors: "Ziang Cai, Wanrong Fei, Doudou Zhou (corresponding)",
       title: "MATES: Multi-view Aggregated Two-Sample Test",
       venue: "Preprint, 2024+",
       links: [
@@ -105,7 +105,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Zhou, D.*, Li, M.*, Cai, T., Liu, M.",
+      authors: "Doudou Zhou, Mingyang Li*, Tianxi Cai, Mingshuo Liu",
       title: "Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population",
       venue: "Preprint, 2024+",
       links: [{ label: "arXiv", url: "#" }]
@@ -113,7 +113,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Liu, M.*, Zhou, D.*, Chen, H.",
+      authors: "Mingshuo Liu, Doudou Zhou, Hao Chen",
       title: "Generalized Independence Test for Modern Data",
       venue: "Preprint, 2024+",
       links: [{ label: "arXiv", url: "#" }]
@@ -121,7 +121,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Cai, T.*, Huang, F.*, Nakada, R.*, Zhang, L.*, Zhou, D.*",
+      authors: "Tianxi Cai, Fei Huang, Ryumei Nakada, Linjun Zhang*, Doudou Zhou",
       title: "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
       venue: "Preprint, 2024+",
       links: [{ label: "arXiv", url: "#" }]
@@ -129,7 +129,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Liang, J.*, Liu, Y.*, Zhou, D., Zhang, S., Lu, J.",
+      authors: "Jiajun Liang, Yue Liu*, Doudou Zhou, Sinian Zhang, Junwei Lu",
       title: "The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control",
       venue: "Preprint, 2024+",
       links: [{ label: "arXiv", url: "#" }]
@@ -137,7 +137,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Cai, T.*, Xia, D.*, Zhang, L.*, Zhou, D.*",
+      authors: "Tianxi Cai, Dong Xia, Linjun Zhang*, Doudou Zhou",
       title: "Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model",
       venue: "Preprint, 2023+",
       links: [{ label: "arXiv", url: "#" }]
@@ -146,7 +146,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Kang, Y., Liu M., Yi B., Lyu, J., Zhang, Z., Zhou, D., Li, Y.",
+      authors: "Yilin Kang, Mingshuo Liu, Bin Yi, Jiaqi Lyu, Zhiwei Zhang, Doudou Zhou, Yingying Li",
       title: "Single Index Bandits: Generalized Linear Contextual Bandits with Unknown Reward Functions",
       venue: "International Conference on Learning Representations (ICLR), 2026",
       links: [{ label: "arXiv", url: "#" }]
@@ -154,7 +154,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Zhang, K., Zhang S., Zhou, D.#, Zhou, Y.#",
+      authors: "Kejian Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yao Zhou (corresponding)",
       title: "Wasserstein Transfer Learning",
       venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025",
       links: [
@@ -165,7 +165,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Xu, Z., Gan, Z., Zhou, D., Shen, S., Lu, J., Cai, T.",
+      authors: "Ziping Xu, Zihao Gan, Doudou Zhou, Shanghong Shen, Junwei Lu, Tianxi Cai",
       title: "Inference of Dependency Knowledge Graph for Electronic Health Records",
       venue: "Journal of the Royal Statistical Society Series B (Statistical Methodology), 2025",
       links: [
@@ -176,7 +176,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Zhou, D., Chen, H.",
+      authors: "Doudou Zhou, Hao Chen",
       title: "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
       venue: "IEEE Transactions on Information Theory, 2025",
       links: [{ label: "arXiv", url: "#" }]
@@ -184,7 +184,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Zhou, D.*, Liu, M.*, Li, M., Cai, T.",
+      authors: "Doudou Zhou, Mingshuo Liu, Mingyang Li, Tianxi Cai",
       title: "Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
@@ -195,7 +195,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Zhou, D.*, Zhang, Y.*, Sonabend-W, A., Wang, Z., Lu, J., Cai, T.",
+      authors: "Doudou Zhou, Yilin Zhang*, Aldo Sonabend-W, Zhengling Wang, Junwei Lu, Tianxi Cai",
       title: "Federated Offline Reinforcement Learning",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
@@ -206,7 +206,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Zhou, D., Cai, T., Lu, J.",
+      authors: "Doudou Zhou, Tianxi Cai, Junwei Lu",
       title: "Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices",
       venue: "Journal of Machine Learning Research, 2023",
       links: [
@@ -217,7 +217,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Zhou, D., Chen, H.",
+      authors: "Doudou Zhou, Hao Chen",
       title: "A New Ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing",
       venue: "Conference on Learning Theory (COLT), 2023",
       links: [{ label: "R package", url: "#" }]
@@ -225,7 +225,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Liu, M.*, Zhang, Y.*, Zhou, D.*",
+      authors: "Mingshuo Liu, Yilin Zhang*, Doudou Zhou",
       title: "Double/Debiased Machine Learning for Logistic Partially Linear Model",
       venue: "The Econometrics Journal, 2021",
       links: [{ label: "code", url: "#" }]
@@ -234,7 +234,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Vu, M., Liu, M., Zhou, D.#",
+      authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou (corresponding)",
       title: "A Trainable Centrality Framework for Modern Data",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
@@ -242,7 +242,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Yang, Y., Polla, K., Chakraborty, B., Liu M.*, Zhou, D.*, Hong, C.*",
+      authors: "Yang, Y., Polla, K., Chakraborty, B., Mingshuo Liu*, Doudou Zhou, Chuan Hong*",
       title: "RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
@@ -261,7 +261,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Wang, Y.*, Zhou, D.*, Liu, Y., Lu, J., Cai, T.",
+      authors: "Wang, Y.*, Doudou Zhou, Yue Liu, Junwei Lu, Tianxi Cai",
       title: "Automated Hierarchical Graph Construction for Multi-source Electronic Health Records",
       venue: "Preprint, 2025+",
       links: [
@@ -272,7 +272,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Yu J., Feng Z., Lu J., Cai T., Zhou, D.#",
+      authors: "Yu J., Zhunyi Feng, Junwei Lu, Cai T., Doudou Zhou (corresponding)",
       title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
@@ -280,7 +280,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Wu Q., Li S., Zhou D., Liu N.",
+      authors: "Wu Q., Siqi Li, Zhou D., Nan Liu",
       title: "Toward Fair Federated Learning under Demographic Disparities and Data Imbalance",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "#" }]
@@ -288,7 +288,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Zhou, D., et al.",
+      authors: "Doudou Zhou, et al.",
       title: "Representation Learning to Advance Multi-institutional Studies with Electronic Health Record Data",
       venue: "Preprint, 2025+",
       links: [
@@ -311,7 +311,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Tan, X., Zhang, K., Yu, J., Zhou, D.#",
+      authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou (corresponding)",
       title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
       venue: "AISTATS, 2026",
       links: [{ label: "arXiv", url: "#" }]
@@ -319,7 +319,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Hong C., et al.",
+      authors: "Chuan Hong, et al.",
       title: "FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care",
       venue: "JMIR Research Protocols, 2026",
       links: []
@@ -327,7 +327,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Li S., et al.",
+      authors: "Siqi Li, et al.",
       title: "FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction",
       venue: "npj Health Systems, 2025",
       links: []
@@ -335,7 +335,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Gan, Z.*, Zhou, D.*, et al.",
+      authors: "Zihao Gan*, Doudou Zhou, et al.",
       title: "ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis",
       venue: "Journal of Biomedical Informatics, 2025",
       links: [
@@ -347,7 +347,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Yang, D., Zhou, D., Cai, S., Gan, Z., Pencina, M., Avillach, P., Cai, T., Hong, C.",
+      authors: "Yang, D., Doudou Zhou, Cai, S., Zihao Gan, Pencina, M., Avillach, P., Tianxi Cai, Chuan Hong",
       title: "SONAR: Enabling Robust Automated Harmonization of Heterogeneous Data through Ensemble Machine Learning",
       venue: "JMIR Medical Informatics, 2025",
       links: [{ label: "preprint", url: "#" }]
@@ -363,7 +363,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Lou, Y., Chen, Y., Huang, Y., Zhou, D., Cao, Y., Wang, H.",
+      authors: "Lou, Y., Chen, Y., Yiwen Huang, Doudou Zhou, Cao, Y., Wang, H.",
       title: "Two-stream Feature Extraction for Self-supervised Image Quality Assessment",
       venue: "IEEE International Conference on Data Mining (ICDM), 2023",
       links: []
@@ -371,7 +371,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Cai, B., Zeng, S., Lin, Y., Yuan, Z., Zhou, D., Tian, L.",
+      authors: "Cai, B., Zeng, S., Lin, Y., Yuan, Z., Doudou Zhou, Tian, L.",
       title: "Hierarchical Pretraining for Biomedical Term Embeddings",
       venue: "Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB), 2023",
       links: []
@@ -387,7 +387,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Zhou, D., et al.",
+      authors: "Doudou Zhou, et al.",
       title: "Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization",
       venue: "Journal of Biomedical Informatics, 2022",
       links: [{ label: "MIKGI APP", url: "#" }]
@@ -395,7 +395,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Ahuja, Y., Liang, L., Zhou, D., Huang, S., Cai, T.",
+      authors: "Ahuja, Y., Liang, L., Doudou Zhou, Huang, S., Tianxi Cai",
       title: "Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data",
       venue: "Biostatistics, 2022",
       links: [
@@ -406,7 +406,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Hong, C., et al.",
+      authors: "Chuan Hong, et al.",
       title: "Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data",
       venue: "npj Digital Medicine, 2021",
       links: [{ label: "KESER Network", url: "#" }]
@@ -414,7 +414,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Ahuja, Y., Zhou, D., He, Z., Sun, J., Castro, V., Gainer, V., Murphy, S., Hong, C., Cai, T.",
+      authors: "Ahuja, Y., Doudou Zhou, He, Z., Sun, J., Castro, V., Gainer, V., Murphy, S., Chuan Hong, Tianxi Cai",
       title: "sureLDA: A Multidisease Automated Phenotyping Method for the Electronic Health Record",
       venue: "Journal of the American Medical Informatics Association, 2020",
       links: [

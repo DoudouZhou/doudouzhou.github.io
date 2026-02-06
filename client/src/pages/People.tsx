@@ -53,7 +53,7 @@ export default function People() {
       publications: [
         {
           title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
-          authors: "Mingyuan Xu, Zhihua Xia, Tianxi Cai, Doudou Zhou (corresponding), Nian Si (corresponding)",
+          authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou (corresponding), Nian Si (corresponding)",
           venue: "Preprint",
           year: "2026+"
         },
@@ -72,13 +72,13 @@ export default function People() {
       publications: [
         {
           title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
-          authors: "Kejian Zhang, Mufang Liang, Ryan Maile, Doudou Zhou (corresponding)",
+          authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         },
         {
           title: "Wasserstein Transfer Learning",
-          authors: "Kejian Zhang, Shen Zhang, Doudou Zhou (corresponding), Yao Zhou (corresponding)",
+          authors: "Kaicheng Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yao Zhou (corresponding)",
           venue: "NeurIPS",
           year: "2025"
         }
@@ -108,7 +108,7 @@ export default function People() {
       publications: [
         {
           title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
-          authors: "Junhan Yu, Zihan Feng, Junwei Lu, Tianxi Cai, Doudou Zhou (corresponding)",
+          authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         }
@@ -121,7 +121,7 @@ export default function People() {
       publications: [
         {
           title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
-          authors: "Qihua Zhu, Mufang Liu, Yilun Han, Doudou Zhou (corresponding)",
+          authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         }
@@ -157,7 +157,7 @@ export default function People() {
       publications: [
         {
           title: "A Trainable Centrality Framework for Modern Data",
-          authors: "Minh Duc Vu, Mufang Liu, Doudou Zhou (corresponding)",
+          authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         }
@@ -175,13 +175,13 @@ export default function People() {
       publications: [
         {
           title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
-          authors: "Kejian Zhang, Mufang Liang, Ryan Maile, Doudou Zhou (corresponding)",
+          authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         },
         {
           title: "Wasserstein Transfer Learning",
-          authors: "Kejian Zhang, Shen Zhang, Doudou Zhou (corresponding), Yao Zhou (corresponding)",
+          authors: "Kaicheng Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yao Zhou (corresponding)",
           venue: "NeurIPS",
           year: "2025"
         },
