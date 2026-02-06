@@ -20,12 +20,14 @@ interface Publication {
   authors: string;
   venue: string;
   year: string;
+  url?: string;
 }
 
 interface TeamMember {
   name: string;
   period: string;
   institution: string;
+  photo?: string;
   publications?: Publication[];
 }
 
@@ -50,18 +52,21 @@ export default function People() {
       name: "Mingyuan Xu", 
       period: "2024--", 
       institution: "NUS",
+      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/nvvbphnuOZvYCoOa.png",
       publications: [
         {
           title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
           authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou (corresponding), Nian Si (corresponding)",
           venue: "Preprint",
-          year: "2026+"
+          year: "2026+",
+          url: "https://arxiv.org/abs/2602.01825"
         },
         {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
           authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
-          year: "2026+"
+          year: "2026+",
+          url: "https://arxiv.org/abs/2602.01826"
         }
       ]
     },
@@ -69,12 +74,14 @@ export default function People() {
       name: "Kejian Zhang", 
       period: "2025--", 
       institution: "NUS",
+      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ZuiXWNAauqbXsBSU.png",
       publications: [
         {
           title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
           authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou",
           venue: "Preprint",
-          year: "2025+"
+          year: "2025+",
+          url: "https://arxiv.org/abs/2509.05677"
         },
         {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
@@ -93,7 +100,8 @@ export default function People() {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
           authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
-          year: "2026+"
+          year: "2026+",
+          url: "https://arxiv.org/abs/2602.01826"
         }
       ]
     },
@@ -146,7 +154,8 @@ export default function People() {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
           authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
-          year: "2026+"
+          year: "2026+",
+          url: "https://arxiv.org/abs/2602.01826"
         },
         {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
@@ -221,12 +230,14 @@ export default function People() {
       name: "Lingfeng Lv", 
       period: "2026--", 
       institution: "University of Science and Technology of China",
+      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/YZvnGDJvnDMSNwLv.png",
       publications: [
         {
           title: "Preference-based Centrality and Ranking in General Metric Spaces",
           authors: "Lingfeng Lv, Doudou Zhou",
           venue: "Preprint",
-          year: "2026+"
+          year: "2026+",
+          url: "https://arxiv.org/abs/2602.01827"
         }
       ]
     },
@@ -235,15 +246,7 @@ export default function People() {
     { 
       name: "Yaya Zhao", 
       period: "2025--", 
-      institution: "Renmin University of China",
-      publications: [
-        {
-          title: "A Memory-Augmented Hypergraph Learning Framework for Heterogeneous Dual-Task Urban Forecasting via Multimodal Region Knowledge",
-          authors: "Yaya Zhao, Yansuo Tan, Doudou Zhou (corresponding)",
-          venue: "Preprint",
-          year: "2026+"
-        }
-      ]
+      institution: "Renmin University of China"
     }
   ];
 
@@ -257,9 +260,17 @@ export default function People() {
         onClick={() => hasPublications && handleMemberClick(member)}
       >
         <div className="flex items-start gap-4">
-          <div className={`w-12 h-12 ${isAlumni ? 'bg-muted/50' : variant === 'accent' ? 'bg-accent/10' : 'bg-primary/10'} rounded-lg flex items-center justify-center flex-shrink-0 text-lg font-bold ${isAlumni ? 'text-muted-foreground' : variant === 'accent' ? 'text-accent' : 'text-primary'}`}>
-            {member.name.split(' ').map(n => n[0]).join('')}
-          </div>
+          {member.photo ? (
+            <img 
+              src={member.photo} 
+              alt={member.name}
+              className="w-12 h-12 rounded-lg object-cover flex-shrink-0"
+            />
+          ) : (
+            <div className={`w-12 h-12 ${isAlumni ? 'bg-muted/50' : variant === 'accent' ? 'bg-accent/10' : 'bg-primary/10'} rounded-lg flex items-center justify-center flex-shrink-0 text-lg font-bold ${isAlumni ? 'text-muted-foreground' : variant === 'accent' ? 'text-accent' : 'text-primary'}`}>
+              {member.name.split(' ').map(n => n[0]).join('')}
+            </div>
+          )}
           <div className="flex-1">
             <div className="flex items-start justify-between gap-2">
               <h3 className="text-lg font-semibold mb-1">{member.name}</h3>
@@ -351,6 +362,12 @@ export default function People() {
                     <a href="https://scholar.google.com/citations?user=gXfTi00AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="mr-2 h-4 w-4" />
                       Google Scholar
+                    </a>
+                  </Button>
+                  <Button variant="outline" size="sm" asChild>
+                    <a href="https://www.stat.nus.edu.sg/" target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Department
                     </a>
                   </Button>
                 </div>
@@ -479,7 +496,19 @@ export default function People() {
                     <FileText className="h-4 w-4 text-primary" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold mb-2 leading-relaxed">{pub.title}</h4>
+                    {pub.url ? (
+                      <a 
+                        href={pub.url} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="font-semibold mb-2 leading-relaxed hover:text-primary transition-colors inline-flex items-center gap-1 group"
+                      >
+                        {pub.title}
+                        <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </a>
+                    ) : (
+                      <h4 className="font-semibold mb-2 leading-relaxed">{pub.title}</h4>
+                    )}
                     <p className="text-sm text-muted-foreground mb-1">{pub.authors}</p>
                     <div className="flex items-center gap-2 text-sm">
                       <Badge variant="outline">{pub.venue}</Badge>

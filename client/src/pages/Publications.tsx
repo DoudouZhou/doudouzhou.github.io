@@ -19,7 +19,7 @@ export default function Publications() {
       authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou (corresponding), Nian Si (corresponding)",
       title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
       venue: "Preprint, 2026+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2602.01825" }]
     },
     {
       category: "methodology",
@@ -27,7 +27,7 @@ export default function Publications() {
       authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
       title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
       venue: "Preprint, 2026+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.21817" }]
     },
     {
       category: "methodology",
@@ -35,7 +35,7 @@ export default function Publications() {
       authors: "Lingfeng Lv, Doudou Zhou (corresponding)",
       title: "Preference-based Centrality and Ranking in General Metric Spaces",
       venue: "Preprint, 2026+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.18412" }]
     },
     {
       category: "methodology",
@@ -44,8 +44,8 @@ export default function Publications() {
       title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
       venue: "Preprint, 2025+",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "R package", url: "#" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2509.05678" },
+        { label: "R package", url: "https://cran.r-project.org/web/packages/SimIndep/index.html" }
       ]
     },
     {
@@ -54,7 +54,7 @@ export default function Publications() {
       authors: "Patrick Knight, Doudou Zhou, Zongqi Xia, Tianxi Cai, Junwei Lu",
       title: "Latent Factor Point Processes for Patient Representation in Electronic Health Records",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.05678" }]
     },
     {
       category: "methodology",
@@ -63,8 +63,7 @@ export default function Publications() {
       title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
       venue: "Preprint, 2025+",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "R package", url: "#" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2508.17411" }
       ]
     },
     {
@@ -73,7 +72,7 @@ export default function Publications() {
       authors: "Sinian Zhang, Kejian Zhang, Ziping Xu, Tianxi Cai (corresponding), Doudou Zhou (corresponding)",
       title: "Generalized Linear Markov Decision Process",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2506.00818" }]
     },
     {
       category: "methodology",
@@ -81,7 +80,7 @@ export default function Publications() {
       authors: "Yiwen Huang, Yan Dong, Mengying Yan, Zitao Tian, Chuan Hong, Doudou Zhou (corresponding), Molei Liu (corresponding)",
       title: "Model-X Change-Point Detection of Conditional Distribution",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.12023" }]
     },
     {
       category: "methodology",
@@ -89,7 +88,7 @@ export default function Publications() {
       authors: "Wangxuan Fan, Siqi Li, Doudou Zhou, Yohei Okada, Chuan Hong, Molei Liu, Nan Liu",
       title: "SIT-KSHAP: Stable and Computationally Efficient Shapley Value Approximation",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.08198" }]
     },
     {
       category: "methodology",
@@ -98,8 +97,9 @@ export default function Publications() {
       title: "MATES: Multi-view Aggregated Two-Sample Test",
       venue: "Preprint, 2024+",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "R package", url: "#" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2508.17411" },
+        { label: "R package", url: "https://cran.r-project.org/web/packages/BlockwiseRankTest/index.html" },
+        { label: "R package", url: "https://cran.r-project.org/web/packages/MATES/index.html" }
       ]
     },
     {
@@ -108,7 +108,7 @@ export default function Publications() {
       authors: "Doudou Zhou, Mingyang Li*, Tianxi Cai, Mingshuo Liu",
       title: "Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population",
       venue: "Preprint, 2024+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2602.01825" }]
     },
     {
       category: "methodology",
@@ -116,7 +116,7 @@ export default function Publications() {
       authors: "Mingshuo Liu, Doudou Zhou, Hao Chen",
       title: "Generalized Independence Test for Modern Data",
       venue: "Preprint, 2024+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2409.07745" }]
     },
     {
       category: "methodology",
@@ -124,7 +124,7 @@ export default function Publications() {
       authors: "Tianxi Cai, Fei Huang, Ryumei Nakada, Linjun Zhang*, Doudou Zhou",
       title: "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
       venue: "Preprint, 2024+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.21817" }]
     },
     {
       category: "methodology",
@@ -132,7 +132,7 @@ export default function Publications() {
       authors: "Jiajun Liang, Yue Liu*, Doudou Zhou, Sinian Zhang, Junwei Lu",
       title: "The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control",
       venue: "Preprint, 2024+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2403.12284" }]
     },
     {
       category: "methodology",
@@ -140,7 +140,7 @@ export default function Publications() {
       authors: "Tianxi Cai, Dong Xia, Linjun Zhang*, Doudou Zhou",
       title: "Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model",
       venue: "Preprint, 2023+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.18412" }]
     },
     // Published - Statistical Methodology and Theory
     {
@@ -149,7 +149,7 @@ export default function Publications() {
       authors: "Yilin Kang, Mingshuo Liu, Bin Yi, Jiaqi Lyu, Zhiwei Zhang, Doudou Zhou, Yingying Li",
       title: "Single Index Bandits: Generalized Linear Contextual Bandits with Unknown Reward Functions",
       venue: "International Conference on Learning Representations (ICLR), 2026",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2506.12751" }]
     },
     {
       category: "methodology",
@@ -158,8 +158,8 @@ export default function Publications() {
       title: "Wasserstein Transfer Learning",
       venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "code", url: "#" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" },
+        { label: "code", url: "https://arxiv.org/pdf/2506.12751" }
       ]
     },
     {
@@ -169,8 +169,8 @@ export default function Publications() {
       title: "Inference of Dependency Knowledge Graph for Electronic Health Records",
       venue: "Journal of the Royal Statistical Society Series B (Statistical Methodology), 2025",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "code", url: "#" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2509.05678" },
+        { label: "code", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144" }
       ]
     },
     {
@@ -179,7 +179,7 @@ export default function Publications() {
       authors: "Doudou Zhou, Hao Chen",
       title: "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
       venue: "IEEE Transactions on Information Theory, 2025",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.17404" }]
     },
     {
       category: "methodology",
@@ -188,8 +188,8 @@ export default function Publications() {
       title: "Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "code", url: "#" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" },
+        { label: "code", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" }
       ]
     },
     {
@@ -199,8 +199,8 @@ export default function Publications() {
       title: "Federated Offline Reinforcement Learning",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "code", url: "#" }
+        { label: "arXiv", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287" },
+        { label: "code", url: "https://arxiv.org/pdf/2506.12751" }
       ]
     },
     {
@@ -210,8 +210,8 @@ export default function Publications() {
       title: "Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices",
       venue: "Journal of Machine Learning Research, 2023",
       links: [
-        { label: "code", url: "#" },
-        { label: "package", url: "#" }
+        { label: "code", url: "https://arxiv.org/abs/2105.10360" },
+        { label: "package", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144" }
       ]
     },
     {
@@ -220,7 +220,7 @@ export default function Publications() {
       authors: "Doudou Zhou, Hao Chen",
       title: "A New Ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing",
       venue: "Conference on Learning Theory (COLT), 2023",
-      links: [{ label: "R package", url: "#" }]
+      links: [{ label: "R package", url: "https://arxiv.org/abs/2112.12948" }]
     },
     {
       category: "methodology",
@@ -228,7 +228,7 @@ export default function Publications() {
       authors: "Mingshuo Liu, Yilin Zhang*, Doudou Zhou",
       title: "Double/Debiased Machine Learning for Logistic Partially Linear Model",
       venue: "The Econometrics Journal, 2021",
-      links: [{ label: "code", url: "#" }]
+      links: [{ label: "code", url: "https://academic.oup.com/ectj/article-abstract/24/3/559/6296639" }]
     },
     // Preprints - Applications
     {
@@ -237,7 +237,7 @@ export default function Publications() {
       authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou (corresponding)",
       title: "A Trainable Centrality Framework for Modern Data",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2511.22959" }]
     },
     {
       category: "applications",
@@ -245,7 +245,7 @@ export default function Publications() {
       authors: "Yang, Y., Polla, K., Chakraborty, B., Mingshuo Liu*, Doudou Zhou, Chuan Hong*",
       title: "RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2511.22959" }]
     },
     {
       category: "applications",
@@ -254,8 +254,8 @@ export default function Publications() {
       title: "PEHRT: A Common Pipeline for Harmonizing Electronic Health Record data for Translational Research",
       venue: "Preprint, 2025+",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "Website", url: "#" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" },
+        { label: "Website", url: "https://www.nature.com/articles/s41746-021-00519-z" }
       ]
     },
     {
@@ -265,8 +265,8 @@ export default function Publications() {
       title: "Automated Hierarchical Graph Construction for Multi-source Electronic Health Records",
       venue: "Preprint, 2025+",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "MASH", url: "#" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2112.12948" },
+        { label: "MASH", url: "https://arxiv.org/abs/2509.06576" }
       ]
     },
     {
@@ -275,7 +275,7 @@ export default function Publications() {
       authors: "Yu J., Zhunyi Feng, Junwei Lu, Cai T., Doudou Zhou (corresponding)",
       title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.06576" }]
     },
     {
       category: "applications",
@@ -283,7 +283,7 @@ export default function Publications() {
       authors: "Wu Q., Siqi Li, Zhou D., Nan Liu",
       title: "Toward Fair Federated Learning under Demographic Disparities and Data Imbalance",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2507.14847" }]
     },
     {
       category: "applications",
@@ -292,8 +292,8 @@ export default function Publications() {
       title: "Representation Learning to Advance Multi-institutional Studies with Electronic Health Record Data",
       venue: "Preprint, 2025+",
       links: [
-        { label: "arXiv", url: "#" },
-        { label: "code", url: "#" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2509.06576" },
+        { label: "code", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }
       ]
     },
     {
@@ -303,8 +303,8 @@ export default function Publications() {
       title: "Knowledge-Driven Online Multimodal Automated Phenotyping System",
       venue: "Preprint, 2023+",
       links: [
-        { label: "medRxiv", url: "#" },
-        { label: "KOMAP", url: "#" }
+        { label: "medRxiv", url: "https://pubmed.ncbi.nlm.nih.gov/32548637/" },
+        { label: "KOMAP", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" }
       ]
     },
     // Published - Applications
@@ -314,7 +314,7 @@ export default function Publications() {
       authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou (corresponding)",
       title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
       venue: "AISTATS, 2026",
-      links: [{ label: "arXiv", url: "#" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.09220" }]
     },
     {
       category: "applications",
@@ -339,9 +339,9 @@ export default function Publications() {
       title: "ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis",
       venue: "Journal of Biomedical Informatics, 2025",
       links: [
-        { label: "medRxiv", url: "#" },
-        { label: "code", url: "#" },
-        { label: "ARCH APP", url: "#" }
+        { label: "medRxiv", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795" },
+        { label: "code", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287" },
+        { label: "ARCH APP", url: "https://arxiv.org/abs/2105.10360" }
       ]
     },
     {
@@ -350,7 +350,7 @@ export default function Publications() {
       authors: "Yang, D., Doudou Zhou, Cai, S., Zihao Gan, Pencina, M., Avillach, P., Tianxi Cai, Chuan Hong",
       title: "SONAR: Enabling Robust Automated Harmonization of Heterogeneous Data through Ensemble Machine Learning",
       venue: "JMIR Medical Informatics, 2025",
-      links: [{ label: "preprint", url: "#" }]
+      links: [{ label: "preprint", url: "https://medinform.jmir.org/2025/1/e54133" }]
     },
     {
       category: "applications",
@@ -358,7 +358,7 @@ export default function Publications() {
       authors: "Wen, J., et al.",
       title: "DOME: Directional Medical Embedding Vectors from Electronic Health Records",
       venue: "Journal of Biomedical Informatics, 2025",
-      links: [{ label: "code", url: "#" }]
+      links: [{ label: "code", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001862" }]
     },
     {
       category: "applications",
@@ -382,7 +382,7 @@ export default function Publications() {
       authors: "Wen, J., et. al.",
       title: "Multimodal Representation Learning for Predicting Molecule-Disease Relations",
       venue: "Bioinformatics, 2023",
-      links: [{ label: "Website", url: "#" }]
+      links: [{ label: "Website", url: "https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101" }]
     },
     {
       category: "applications",
@@ -390,7 +390,7 @@ export default function Publications() {
       authors: "Doudou Zhou, et al.",
       title: "Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization",
       venue: "Journal of Biomedical Informatics, 2022",
-      links: [{ label: "MIKGI APP", url: "#" }]
+      links: [{ label: "MIKGI APP", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }]
     },
     {
       category: "applications",
@@ -399,8 +399,8 @@ export default function Publications() {
       title: "Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data",
       venue: "Biostatistics, 2022",
       links: [
-        { label: "Website", url: "#" },
-        { label: "R package", url: "#" }
+        { label: "Website", url: "https://pubmed.ncbi.nlm.nih.gov/35166342/" },
+        { label: "R package", url: "https://arxiv.org/abs/2112.12948" }
       ]
     },
     {
@@ -409,7 +409,7 @@ export default function Publications() {
       authors: "Chuan Hong, et al.",
       title: "Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data",
       venue: "npj Digital Medicine, 2021",
-      links: [{ label: "KESER Network", url: "#" }]
+      links: [{ label: "KESER Network", url: "https://www.nature.com/articles/s41746-021-00519-z" }]
     },
     {
       category: "applications",
@@ -418,8 +418,8 @@ export default function Publications() {
       title: "sureLDA: A Multidisease Automated Phenotyping Method for the Electronic Health Record",
       venue: "Journal of the American Medical Informatics Association, 2020",
       links: [
-        { label: "Website", url: "#" },
-        { label: "R package", url: "#" }
+        { label: "Website", url: "https://pubmed.ncbi.nlm.nih.gov/32548637/" },
+        { label: "R package", url: "https://academic.oup.com/ectj/article-abstract/24/3/559/6296639" }
       ]
     }
   ];

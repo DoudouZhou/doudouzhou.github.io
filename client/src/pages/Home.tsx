@@ -55,7 +55,7 @@ export default function Home() {
               About <span className="gradient-text">STAR Lab</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              STAR Lab, led by Prof. Doudou Zhou at the National University of Singapore, focuses on developing 
+              STAR Lab, led by Dr. Doudou Zhou at the National University of Singapore, focuses on developing 
               rigorous statistical methodology and practical AI techniques for analyzing complex healthcare data. 
               We bridge theory and application, creating tools that advance both statistical science and real-world 
               medical research.

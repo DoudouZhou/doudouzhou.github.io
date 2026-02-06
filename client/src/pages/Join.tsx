@@ -114,7 +114,7 @@ export default function Join() {
                     <h4 className="font-semibold mb-2">How to Apply:</h4>
                     <ul className="text-sm text-muted-foreground space-y-1">
                       <li>• Apply through the NUS Graduate Program</li>
-                      <li>• Mention Prof. Doudou Zhou as your potential advisor in your application</li>
+                      <li>• Mention Dr. Doudou Zhou as your potential advisor in your application</li>
                       <li>• Strong background in mathematics, statistics, or computer science</li>
                       <li>• Prior research experience is a plus</li>
                     </ul>

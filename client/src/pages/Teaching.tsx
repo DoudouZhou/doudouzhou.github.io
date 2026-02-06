@@ -18,7 +18,7 @@ export default function Teaching() {
     {
       code: "ST5230",
       title: "Applied Natural Language Processing",
-      semester: "Semester 2, AY2024/2025",
+      semester: "Semester 2, AY2024/2025, AY2025/2026",
       description: "Advanced topics in NLP including modern transformer models, fine-tuning strategies, and real-world applications in healthcare and social sciences.",
       topics: ["BERT", "GPT", "Fine-tuning", "Healthcare NLP", "Evaluation"]
     }
@@ -31,7 +31,7 @@ export default function Teaching() {
           <span className="gradient-text">Teaching</span>
         </h1>
         <p className="text-xl text-muted-foreground text-center max-w-3xl mx-auto mb-16">
-          Courses taught by Prof. Doudou Zhou at the National University of Singapore
+          Courses taught by Dr. Doudou Zhou at the National University of Singapore
         </p>
 
         <div className="max-w-4xl mx-auto space-y-8">

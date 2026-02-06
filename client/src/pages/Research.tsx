@@ -163,34 +163,7 @@ export default function Research() {
           </div>
         </section>
 
-        {/* Collaborations */}
-        <section>
-          <h2 className="text-3xl font-bold mb-8">Collaborations</h2>
-          <Card className="p-8">
-            <p className="text-muted-foreground mb-6">
-              We actively collaborate with leading researchers and institutions worldwide:
-            </p>
-            <div className="grid md:grid-cols-2 gap-4">
-              <div>
-                <h4 className="font-semibold mb-2">Academic Partners</h4>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Harvard University</li>
-                  <li>• UC Davis</li>
-                  <li>• Stanford University</li>
-                  <li>• MIT</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">Healthcare Institutions</h4>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Mass General Brigham</li>
-                  <li>• Partners HealthCare</li>
-                  <li>• National University Hospital</li>
-                </ul>
-              </div>
-            </div>
-          </Card>
-        </section>
+
       </div>
     </div>
   );
