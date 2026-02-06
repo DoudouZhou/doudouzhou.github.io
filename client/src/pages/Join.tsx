@@ -1,5 +1,5 @@
 /*
- * Join Us page for SAIL Lab
+ * Join Us page for STAR Lab
  */
 
 import { Card } from "@/components/ui/card";
@@ -12,7 +12,7 @@ export default function Join() {
     <div className="min-h-screen py-20">
       <div className="container">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">
-          Join <span className="gradient-text">SAIL Lab</span>
+          Join <span className="gradient-text">STAR Lab</span>
         </h1>
         <p className="text-xl text-muted-foreground text-center max-w-3xl mx-auto mb-16">
           We're always looking for talented and motivated individuals to join our team
@@ -20,7 +20,7 @@ export default function Join() {
 
         {/* Why Join Us */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold mb-8 text-center">Why Join SAIL Lab?</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Why Join STAR Lab?</h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <Card className="p-6 text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">

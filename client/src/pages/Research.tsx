@@ -1,5 +1,5 @@
 /*
- * Research page for SAIL Lab
+ * Research page for STAR Lab
  */
 
 import { Card } from "@/components/ui/card";

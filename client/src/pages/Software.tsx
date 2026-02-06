@@ -1,5 +1,5 @@
 /*
- * Software page for SAIL Lab
+ * Software page for STAR Lab
  */
 
 import { Card } from "@/components/ui/card";
@@ -80,7 +80,7 @@ export default function Software() {
             Open Source <span className="gradient-text">Software</span>
           </h1>
           <p className="text-xl text-muted-foreground text-center max-w-3xl mx-auto">
-            Tools and packages developed by SAIL Lab to advance data science research
+            Tools and packages developed by STAR Lab to advance data science research
           </p>
         </div>
       </section>
@@ -148,7 +148,7 @@ export default function Software() {
             <Button size="lg" asChild>
               <a href="https://github.com/doudouzhou" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-5 w-5" />
-                SAIL Lab on GitHub
+                STAR Lab on GitHub
               </a>
             </Button>
           </Card>

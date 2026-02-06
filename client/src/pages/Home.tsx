@@ -1,5 +1,5 @@
 /*
- * Home page for SAIL Lab
+ * Home page for STAR Lab
  * Modern, vibrant blue theme with clean layout
  */
 
@@ -25,11 +25,11 @@ export default function Home() {
         <div className="container relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-6 animate-fade-in-up">
             <Sparkles className="h-4 w-4 text-primary" />
-            <span className="text-sm font-medium text-primary">Statistical AI and Learning Laboratory</span>
+            <span className="text-sm font-medium text-primary">Statistical Theory and AI Research Laboratory</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up animation-delay-100">
-            <span className="gradient-text">SAIL Lab</span>
+            <span className="gradient-text">STAR Lab</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
@@ -57,10 +57,10 @@ export default function Home() {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-              About <span className="gradient-text">SAIL Lab</span>
+              About <span className="gradient-text">STAR Lab</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-center">
-              SAIL Lab is led by <strong>Prof. Doudou Zhou</strong>, Assistant Professor of Statistics & Data Science 
+              STAR Lab is led by <strong>Prof. Doudou Zhou</strong>, Assistant Professor of Statistics & Data Science 
               at the National University of Singapore. We focus on developing innovative statistical methods and AI 
               techniques for analyzing complex healthcare data, with applications in electronic health records, 
               multi-modal learning, and federated learning.
@@ -269,7 +269,7 @@ export default function Home() {
               {
                 date: "Dec 2025",
                 title: "Lab website launched",
-                description: "Welcome to the new SAIL Lab website! Explore our research and team."
+                description: "Welcome to the new STAR Lab website! Explore our research and team."
               },
               {
                 date: "Nov 2025",

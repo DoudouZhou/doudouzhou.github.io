@@ -1,5 +1,5 @@
 /*
- * People page for SAIL Lab
+ * People page for STAR Lab
  */
 
 import { Card } from "@/components/ui/card";
@@ -45,7 +45,7 @@ export default function People() {
                   Assistant Professor of Statistics & Data Science
                 </p>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Prof. Zhou leads SAIL Lab with a focus on developing statistical methodology and AI techniques 
+                  Prof. Zhou leads STAR Lab with a focus on developing statistical methodology and AI techniques 
                   for healthcare data analysis. Previously a Postdoctoral Research Fellow at Harvard University 
                   (2022-2024), working with Prof. Tianxi Cai. Ph.D. in Statistics from UC Davis (2022), advised 
                   by Prof. Hao Chen. Dual B.S. in Statistics and B.E. in Computer Science from USTC (2019).

@@ -1,5 +1,5 @@
 /*
- * Teaching page for SAIL Lab
+ * Teaching page for STAR Lab
  */
 
 import { Card } from "@/components/ui/card";

@@ -1,5 +1,5 @@
 /*
- * Navigation component for SAIL Lab website
+ * Navigation component for STAR Lab website
  * Modern, clean navigation with smooth transitions
  */
 
@@ -33,8 +33,8 @@ export default function Navigation() {
                 <span className="text-white font-bold text-xl">S</span>
               </div>
               <div className="hidden sm:block">
-                <div className="font-bold text-lg gradient-text">SAIL Lab</div>
-                <div className="text-xs text-muted-foreground">Statistical AI & Learning</div>
+                <div className="font-bold text-lg gradient-text">STAR Lab</div>
+                <div className="text-xs text-muted-foreground">Statistical Theory Statistical AI & Learning AI Research</div>
               </div>
             </a>
           </Link>

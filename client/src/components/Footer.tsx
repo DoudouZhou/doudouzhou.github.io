@@ -1,5 +1,5 @@
 /*
- * Footer component for SAIL Lab website
+ * Footer component for STAR Lab website
  */
 
 import { Mail, Github, Linkedin, GraduationCap } from "lucide-react";
@@ -16,8 +16,8 @@ export default function Footer() {
                 <span className="text-white font-bold text-xl">S</span>
               </div>
               <div>
-                <div className="font-bold text-lg gradient-text">SAIL Lab</div>
-                <div className="text-xs text-muted-foreground">Statistical AI & Learning</div>
+                <div className="font-bold text-lg gradient-text">STAR Lab</div>
+                <div className="text-xs text-muted-foreground">Statistical Theory Statistical AI & Learning AI Research</div>
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} SAIL Lab, National University of Singapore. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} STAR Lab, National University of Singapore. All rights reserved.</p>
         </div>
       </div>
     </footer>
