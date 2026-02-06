@@ -53,13 +53,13 @@ export default function People() {
       publications: [
         {
           title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
-          authors: "Xu, M., Xia, Z., Cai, T., Zhou, D.#, Si, N#",
+          authors: "Mingyuan Xu, Zhihua Xia, Tianxi Cai, Doudou Zhou (corresponding), Nian Si (corresponding)",
           venue: "Preprint",
           year: "2026+"
         },
         {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
-          authors: "Xu, M., Tan, X., Wu, J., Zhou, D.#",
+          authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2026+"
         }
@@ -72,13 +72,13 @@ export default function People() {
       publications: [
         {
           title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
-          authors: "Zhang, K., Liang M., Maile R., Zhou, D.#",
+          authors: "Kejian Zhang, Mufang Liang, Ryan Maile, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         },
         {
           title: "Wasserstein Transfer Learning",
-          authors: "Zhang, K., Zhang S., Zhou, D.#, Zhou, Y.#",
+          authors: "Kejian Zhang, Shen Zhang, Doudou Zhou (corresponding), Yao Zhou (corresponding)",
           venue: "NeurIPS",
           year: "2025"
         }
@@ -91,7 +91,7 @@ export default function People() {
       publications: [
         {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
-          authors: "Xu, M., Tan, X., Wu, J., Zhou, D.#",
+          authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2026+"
         }
@@ -108,7 +108,7 @@ export default function People() {
       publications: [
         {
           title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
-          authors: "Yu J., Feng Z., Lu J., Cai T., Zhou, D.#",
+          authors: "Junhan Yu, Zihan Feng, Junwei Lu, Tianxi Cai, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         }
@@ -121,7 +121,7 @@ export default function People() {
       publications: [
         {
           title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
-          authors: "Zhu, Q., Liu M., Han Y., Zhou, D.#",
+          authors: "Qihua Zhu, Mufang Liu, Yilun Han, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         }
@@ -138,13 +138,13 @@ export default function People() {
       publications: [
         {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
-          authors: "Xu, M., Tan, X., Wu, J., Zhou, D.#",
+          authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2026+"
         },
         {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
-          authors: "Tan, X., Zhang, K., Yu, J., Zhou, D.#",
+          authors: "Xinzi Tan, Kaicheng Zhang, Junhan Yu, Doudou Zhou (corresponding)",
           venue: "AISTATS",
           year: "2026"
         }
@@ -157,7 +157,7 @@ export default function People() {
       publications: [
         {
           title: "A Trainable Centrality Framework for Modern Data",
-          authors: "Vu, M., Liu, M., Zhou, D.#",
+          authors: "Minh Duc Vu, Mufang Liu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         }
@@ -175,19 +175,19 @@ export default function People() {
       publications: [
         {
           title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
-          authors: "Zhang, K., Liang M., Maile R., Zhou, D.#",
+          authors: "Kejian Zhang, Mufang Liang, Ryan Maile, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         },
         {
           title: "Wasserstein Transfer Learning",
-          authors: "Zhang, K., Zhang S., Zhou, D.#, Zhou, Y.#",
+          authors: "Kejian Zhang, Shen Zhang, Doudou Zhou (corresponding), Yao Zhou (corresponding)",
           venue: "NeurIPS",
           year: "2025"
         },
         {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
-          authors: "Tan, X., Zhang, K., Yu, J., Zhou, D.#",
+          authors: "Xinzi Tan, Kaicheng Zhang, Junhan Yu, Doudou Zhou (corresponding)",
           venue: "AISTATS",
           year: "2026"
         }
@@ -224,7 +224,7 @@ export default function People() {
       publications: [
         {
           title: "Preference-based Centrality and Ranking in General Metric Spaces",
-          authors: "Lyu, L., Zhou, D.#",
+          authors: "Lingfeng Lv, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2026+"
         }
