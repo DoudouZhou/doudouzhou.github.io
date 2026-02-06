@@ -154,7 +154,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Kejian Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yao Zhou (corresponding)",
+      authors: "Kejian Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yidong Zhou (corresponding)",
       title: "Wasserstein Transfer Learning",
       venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025",
       links: [

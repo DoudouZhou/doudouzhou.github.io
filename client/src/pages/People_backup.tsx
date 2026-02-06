@@ -1,5 +1,5 @@
 /*
- * People page for STAR Lab with corrected publication information
+ * People page for STAR Lab with publication dialog
  */
 
 import { Card } from "@/components/ui/card";
@@ -75,12 +75,6 @@ export default function People() {
           authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou",
           venue: "Preprint",
           year: "2025+"
-        },
-        {
-          title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
-          authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou",
-          venue: "AISTATS",
-          year: "2026"
         }
       ]
     },
@@ -92,12 +86,6 @@ export default function People() {
         {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
           authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
-          venue: "Preprint",
-          year: "2026+"
-        },
-        {
-          title: "Unlearning What Matters: Token-Level Attribution for Precise Language Model Unlearning",
-          authors: "Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2026+"
         }
@@ -114,15 +102,9 @@ export default function People() {
       publications: [
         {
           title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
-          authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou",
+          authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
-        },
-        {
-          title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
-          authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou",
-          venue: "AISTATS",
-          year: "2026"
         }
       ]
     },
@@ -133,7 +115,7 @@ export default function People() {
       publications: [
         {
           title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
-          authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou",
+          authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         }
@@ -156,7 +138,7 @@ export default function People() {
         },
         {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
-          authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou",
+          authors: "Xinzi Tan, Kaicheng Zhang, Junhan Yu, Doudou Zhou (corresponding)",
           venue: "AISTATS",
           year: "2026"
         }
@@ -169,7 +151,7 @@ export default function People() {
       publications: [
         {
           title: "A Trainable Centrality Framework for Modern Data",
-          authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou",
+          authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
         }
@@ -187,7 +169,7 @@ export default function People() {
       publications: [
         {
           title: "Wasserstein Transfer Learning",
-          authors: "Kaicheng Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yidong Zhou (corresponding)",
+          authors: "Kaicheng Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yao Zhou (corresponding)",
           venue: "NeurIPS",
           year: "2025"
         },
@@ -196,6 +178,12 @@ export default function People() {
           authors: "Sinian Zhang, Kaicheng Zhang, Ziping Xu, Tianxi Cai (corresponding), Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2025+"
+        },
+        {
+          title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
+          authors: "Xinzi Tan, Kaicheng Zhang, Junhan Yu, Doudou Zhou (corresponding)",
+          venue: "AISTATS",
+          year: "2026"
         }
       ]
     },
@@ -230,7 +218,7 @@ export default function People() {
       publications: [
         {
           title: "Preference-based Centrality and Ranking in General Metric Spaces",
-          authors: "Lingfeng Lv, Doudou Zhou",
+          authors: "Lingfeng Lv, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2026+"
         }
@@ -238,19 +226,7 @@ export default function People() {
     },
     { name: "Huichao Li", period: "2025--", institution: "University of Chinese Academy of Sciences" },
     { name: "Ruolin Ding", period: "2025--", institution: "University of Science and Technology of China" },
-    { 
-      name: "Yaya Zhao", 
-      period: "2025--", 
-      institution: "Renmin University of China",
-      publications: [
-        {
-          title: "A Memory-Augmented Hypergraph Learning Framework for Heterogeneous Dual-Task Urban Forecasting via Multimodal Region Knowledge",
-          authors: "Yaya Zhao, Yansuo Tan, Doudou Zhou (corresponding)",
-          venue: "Preprint",
-          year: "2026+"
-        }
-      ]
-    }
+    { name: "Yaya Zhao", period: "2025--", institution: "Renmin University of China" }
   ];
 
   const MemberCard = ({ member, variant = "default" }: { member: TeamMember | AlumniMember, variant?: string }) => {
