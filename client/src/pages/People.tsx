@@ -81,7 +81,7 @@ export default function People() {
           authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou",
           venue: "Preprint",
           year: "2025+",
-          url: "https://arxiv.org/abs/2509.05677"
+          url: "https://arxiv.org/abs/2508.17411"
         },
         {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
@@ -250,7 +250,7 @@ export default function People() {
       ]
     },
     { name: "Huichao Li", period: "2025--", institution: "University of Chinese Academy of Sciences" },
-    { name: "Ruolin Ding", period: "2025--", institution: "University of Science and Technology of China" },
+    { name: "Ruolin Ding", period: "2025--", institution: "University of Science and Technology of China", photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/hqYwHYjfkYebdXNF.png" },
     { 
       name: "Yaya Zhao", 
       period: "2025--", 
