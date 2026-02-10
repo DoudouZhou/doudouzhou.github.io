@@ -182,10 +182,10 @@ export default function Home() {
                 <Badge className="mt-1">2025</Badge>
                 <div>
                   <h3 className="font-semibold mb-2">
-                    New PhD students joining STAR Lab
+                    New PhD students
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    Welcoming Kejian Zhang, Jiawei Wu, and Rundong Huang to our research team.
+                    Welcoming Kejian Zhang, Jiawei Wu, and Rundong Huang to the research group.
                   </p>
                 </div>
               </div>
@@ -194,28 +194,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20">
-        <div className="container">
-          <Card className="p-12 text-center bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Join <span className="gradient-text">STAR Lab</span>
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              We're always looking for talented and motivated individuals to join our team. 
-              Explore opportunities for postdocs, PhD students, and research collaborations.
-            </p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Button size="lg" asChild>
-                <Link href="/join">View Open Positions</Link>
-              </Button>
-              <Button size="lg" variant="outline" asChild>
-                <Link href="/people">Meet Our Team</Link>
-              </Button>
-            </div>
-          </Card>
-        </div>
-      </section>
+
     </div>
   );
 }
