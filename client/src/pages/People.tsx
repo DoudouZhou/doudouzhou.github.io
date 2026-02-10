@@ -208,20 +208,6 @@ export default function People() {
           url: "https://arxiv.org/abs/2506.00818"
         }
       ]
-    },
-    { 
-      name: "Xihua Zhu", 
-      period: "2024--2025", 
-      type: "Undergraduate",
-      institution: "NUS",
-      placement: "TBD"
-    },
-    { 
-      name: "Mario Francisco Montana", 
-      period: "2024--2025", 
-      type: "Undergraduate",
-      institution: "NUS",
-      placement: "TBD"
     }
   ];
 
