@@ -1,6 +1,6 @@
 /*
- * Home page for STAR Lab
- * Design: Modern scientific aesthetic with vibrant blue theme and star motifs
+ * Home page for personal academic website
+ * Design: Clean and professional academic portfolio
  */
 
 import { Button } from "@/components/ui/button";
@@ -23,25 +23,24 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background" />
         <div className="container relative z-10 text-center py-20">
-          <Badge className="mb-6 text-sm px-4 py-2">
-            <Sparkles className="w-4 h-4 mr-2" />
-            Statistical Theory and AI Research Laboratory
-          </Badge>
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text">STAR Lab</span>
+            <span className="gradient-text">Doudou Zhou</span>
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
-            Advancing statistical methodology and artificial intelligence for healthcare and beyond
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-4">
+            Assistant Professor
+          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
+            Department of Statistics and Data Science, National University of Singapore
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button size="lg" asChild>
               <Link href="/research">
-                Explore Our Research
+                Explore My Research
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="/join">Join Our Team</Link>
+              <Link href="/publications">Publications</Link>
             </Button>
           </div>
         </div>
@@ -52,12 +51,11 @@ export default function Home() {
         <div className="container">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              About <span className="gradient-text">STAR Lab</span>
+              About <span className="gradient-text">My Research</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              STAR Lab, led by Dr. Doudou Zhou at the National University of Singapore, focuses on developing 
-              rigorous statistical methodology and practical AI techniques for analyzing complex healthcare data. 
-              We bridge theory and application, creating tools that advance both statistical science and real-world 
+              I develop rigorous statistical methodology and practical AI techniques for analyzing complex healthcare data. 
+              My research bridges theory and application, creating tools that advance both statistical science and real-world 
               medical research.
             </p>
           </div>

@@ -1,5 +1,5 @@
 /*
- * Footer component for STAR Lab website
+ * Footer component for personal academic website
  */
 
 import { Mail, Github, Linkedin, GraduationCap } from "lucide-react";
@@ -9,19 +9,19 @@ export default function Footer() {
     <footer className="bg-secondary border-t border-border mt-20">
       <div className="container py-12">
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Lab Info */}
+          {/* Personal Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">S</span>
+                <span className="text-white font-bold text-xl">DZ</span>
               </div>
               <div>
-                <div className="font-bold text-lg gradient-text">STAR Lab</div>
-                <div className="text-xs text-muted-foreground">Statistical Theory and AI Research Laboratory</div>
+                <div className="font-bold text-lg gradient-text">Doudou Zhou</div>
+                <div className="text-xs text-muted-foreground">Assistant Professor, NUS</div>
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              Advancing statistical methodology and AI for healthcare and beyond.
+              Statistical methodology and AI for healthcare applications.
             </p>
           </div>
 
@@ -45,8 +45,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/join" className="text-muted-foreground hover:text-primary transition-colors">
-                  Join Us
+                <a href="/teaching" className="text-muted-foreground hover:text-primary transition-colors">
+                  Teaching
                 </a>
               </li>
             </ul>
@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} STAR Lab, National University of Singapore. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Doudou Zhou. All rights reserved.</p>
         </div>
       </div>
     </footer>

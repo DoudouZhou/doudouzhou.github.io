@@ -322,10 +322,10 @@ export default function People() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background" />
         <div className="container relative z-10 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Our <span className="gradient-text">Team</span>
+            <span className="gradient-text">People</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Meet the talented researchers advancing statistical methodology and AI for healthcare
+            Collaborators and students I work with
           </p>
         </div>
       </section>
@@ -464,24 +464,7 @@ export default function People() {
           </div>
         </section>
 
-        {/* Join Us CTA */}
-        <section className="mt-20">
-          <Card className="p-12 text-center bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
-            <h2 className="text-3xl font-bold mb-4">
-              Join <span className="gradient-text">Our Team</span>
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              We're always looking for talented and motivated students and postdocs. 
-              Check out our open positions and learn how to apply.
-            </p>
-            <Button size="lg" asChild>
-              <a href="/join">
-                View Open Positions
-                <ExternalLink className="ml-2 h-5 w-5" />
-              </a>
-            </Button>
-          </Card>
-        </section>
+
       </div>
 
       {/* Publications Dialog */}

@@ -1,5 +1,5 @@
 /*
- * Navigation component for STAR Lab website
+ * Navigation component for personal academic website
  * Modern, clean navigation with smooth transitions
  */
 
@@ -15,7 +15,6 @@ const navItems = [
   { path: "/publications", label: "Publications" },
   { path: "/software", label: "Software" },
   { path: "/teaching", label: "Teaching" },
-  { path: "/join", label: "Join Us" },
 ];
 
 export default function Navigation() {
@@ -30,11 +29,11 @@ export default function Navigation() {
           <Link href="/">
             <a className="flex items-center gap-3 hover:opacity-80 transition-opacity">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">S</span>
+                <span className="text-white font-bold text-xl">DZ</span>
               </div>
               <div className="hidden sm:block">
-                <div className="font-bold text-lg gradient-text">STAR Lab</div>
-                <div className="text-xs text-muted-foreground">Statistical Theory and AI Research Laboratory</div>
+                <div className="font-bold text-lg gradient-text">Doudou Zhou</div>
+                <div className="text-xs text-muted-foreground">Assistant Professor, NUS</div>
               </div>
             </a>
           </Link>
