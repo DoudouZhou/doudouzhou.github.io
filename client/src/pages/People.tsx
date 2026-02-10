@@ -148,7 +148,6 @@ export default function People() {
   ];
 
   const undergraduateStudents: TeamMember[] = [
-    { name: "Haozhan Chu", period: "2025--", institution: "Nanjing University" },
     { 
       name: "Xinzi Tan", 
       period: "2024--", 
@@ -209,13 +208,6 @@ export default function People() {
           url: "https://arxiv.org/abs/2506.00818"
         }
       ]
-    },
-    { 
-      name: "Yiran Zhang", 
-      period: "2024--2025", 
-      type: "Master's",
-      institution: "NUS",
-      placement: "TBD"
     },
     { 
       name: "Xihua Zhu", 
