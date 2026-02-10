@@ -490,17 +490,20 @@ export default function Publications() {
                   {pub.links.length > 0 && (
                     <div className="flex flex-wrap gap-2">
                       {pub.links.map((link, linkIndex) => (
-                        <Button 
-                          key={linkIndex} 
-                          variant="outline" 
-                          size="sm"
-                          asChild
+                        <a 
+                          key={linkIndex}
+                          href={link.url} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
                         >
-                          <a href={link.url} target="_blank" rel="noopener noreferrer">
+                          <Button 
+                            variant="outline" 
+                            size="sm"
+                          >
                             {link.label}
                             <ExternalLink className="ml-1 h-3 w-3" />
-                          </a>
-                        </Button>
+                          </Button>
+                        </a>
                       ))}
                     </div>
                   )}
