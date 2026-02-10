@@ -96,6 +96,7 @@ export default function People() {
       name: "Jiawei Wu", 
       period: "2025--", 
       institution: "NUS",
+      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/KrOZrkXmxTnkdgrF.png",
       publications: [
         {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
@@ -106,7 +107,12 @@ export default function People() {
         }
       ]
     },
-    { name: "Rundong Huang", period: "2025--", institution: "NUS" }
+    { 
+      name: "Rundong Huang", 
+      period: "2025--", 
+      institution: "NUS",
+      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ACFcfaPqhoVBFRJN.png"
+    }
   ];
 
   const masterStudents: TeamMember[] = [
