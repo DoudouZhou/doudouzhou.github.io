@@ -247,48 +247,50 @@ export default function People() {
     const isAlumni = 'type' in member;
     
     return (
-      <Card 
-        className={`p-6 ${hasPublications ? 'hover-lift cursor-pointer' : ''} ${hasPublications ? 'border-l-4 border-l-primary' : ''}`}
+      <div 
+        className={hasPublications ? 'cursor-pointer' : ''}
         onClick={() => hasPublications && handleMemberClick(member)}
       >
-        <div className="flex items-start gap-4">
-          {member.photo ? (
-            <img 
-              src={member.photo} 
-              alt={member.name}
-              className="w-12 h-12 rounded-lg object-cover flex-shrink-0"
-            />
-          ) : (
-            <div className={`w-12 h-12 ${isAlumni ? 'bg-muted/50' : variant === 'accent' ? 'bg-accent/10' : 'bg-primary/10'} rounded-lg flex items-center justify-center flex-shrink-0 text-lg font-bold ${isAlumni ? 'text-muted-foreground' : variant === 'accent' ? 'text-accent' : 'text-primary'}`}>
-              {member.name.split(' ').map(n => n[0]).join('')}
-            </div>
-          )}
-          <div className="flex-1">
-            <div className="flex items-start justify-between gap-2">
-              <h3 className="text-lg font-semibold mb-1">{member.name}</h3>
+        <Card className={`p-6 ${hasPublications ? 'hover-lift border-l-4 border-l-primary' : ''}`}>
+          <div className="flex items-start gap-4">
+            {member.photo ? (
+              <img 
+                src={member.photo} 
+                alt={member.name}
+                className="w-12 h-12 rounded-lg object-cover flex-shrink-0"
+              />
+            ) : (
+              <div className={`w-12 h-12 ${isAlumni ? 'bg-muted/50' : variant === 'accent' ? 'bg-accent/10' : 'bg-primary/10'} rounded-lg flex items-center justify-center flex-shrink-0 text-lg font-bold ${isAlumni ? 'text-muted-foreground' : variant === 'accent' ? 'text-accent' : 'text-primary'}`}>
+                {member.name.split(' ').map(n => n[0]).join('')}
+              </div>
+            )}
+            <div className="flex-1">
+              <div className="flex items-start justify-between gap-2">
+                <h3 className="text-lg font-semibold mb-1">{member.name}</h3>
+                {hasPublications && (
+                  <FileText className="h-4 w-4 text-primary flex-shrink-0" />
+                )}
+              </div>
+              <p className="text-sm text-muted-foreground mb-2">{member.institution}</p>
+              <div className="flex flex-wrap gap-2 mb-2">
+                <Badge variant="outline">{member.period}</Badge>
+                {isAlumni && <Badge variant="secondary">{(member as AlumniMember).type}</Badge>}
+                {variant === 'accent' && <Badge variant="secondary">Visiting PhD Student</Badge>}
+              </div>
+              {isAlumni && (member as AlumniMember).placement && (member as AlumniMember).placement !== "TBD" && (
+                <p className="text-sm text-primary font-medium">
+                  → {(member as AlumniMember).placement}
+                </p>
+              )}
               {hasPublications && (
-                <FileText className="h-4 w-4 text-primary flex-shrink-0" />
+                <p className="text-xs text-muted-foreground mt-2">
+                  Click to view {member.publications!.length} publication{member.publications!.length > 1 ? 's' : ''}
+                </p>
               )}
             </div>
-            <p className="text-sm text-muted-foreground mb-2">{member.institution}</p>
-            <div className="flex flex-wrap gap-2 mb-2">
-              <Badge variant="outline">{member.period}</Badge>
-              {isAlumni && <Badge variant="secondary">{(member as AlumniMember).type}</Badge>}
-              {variant === 'accent' && <Badge variant="secondary">Visiting PhD Student</Badge>}
-            </div>
-            {isAlumni && (member as AlumniMember).placement && (member as AlumniMember).placement !== "TBD" && (
-              <p className="text-sm text-primary font-medium">
-                → {(member as AlumniMember).placement}
-              </p>
-            )}
-            {hasPublications && (
-              <p className="text-xs text-muted-foreground mt-2">
-                Click to view {member.publications!.length} publication{member.publications!.length > 1 ? 's' : ''}
-              </p>
-            )}
           </div>
-        </div>
-      </Card>
+        </Card>
+      </div>
     );
   };
 
