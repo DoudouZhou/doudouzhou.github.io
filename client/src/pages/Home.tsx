@@ -27,8 +27,8 @@ export default function Home() {
       authors: "Doudou Zhou, Mingshuo Liu, Mingyang Li, Tianxi Cai",
       journal: "Journal of the American Statistical Association: Theory and Methods",
       links: [
-        { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" },
-        { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" }
+        { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" }
       ]
     },
     {

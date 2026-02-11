@@ -39,16 +39,16 @@ export default function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
             {navItems.map((item) => (
-              <Link key={item.path} href={item.path}>
-                <a
-                  className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
-                    location === item.path
-                      ? "bg-primary text-primary-foreground"
-                      : "text-foreground hover:bg-secondary"
-                  }`}
-                >
-                  {item.label}
-                </a>
+              <Link
+                key={item.path}
+                href={item.path}
+                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                  location === item.path
+                    ? "bg-primary text-primary-foreground"
+                    : "text-foreground hover:bg-secondary"
+                }`}
+              >
+                {item.label}
               </Link>
             ))}
           </div>
