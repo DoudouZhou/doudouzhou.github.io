@@ -26,16 +26,14 @@ export default function Navigation() {
       <div className="container">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/">
-            <a className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">DZ</span>
-              </div>
-              <div className="hidden sm:block">
-                <div className="font-bold text-lg gradient-text">Doudou Zhou</div>
-                <div className="text-xs text-muted-foreground">Assistant Professor, NUS</div>
-              </div>
-            </a>
+          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-xl">DZ</span>
+            </div>
+            <div className="hidden sm:block">
+              <div className="font-bold text-lg gradient-text">Doudou Zhou</div>
+              <div className="text-xs text-muted-foreground">Assistant Professor, NUS</div>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
