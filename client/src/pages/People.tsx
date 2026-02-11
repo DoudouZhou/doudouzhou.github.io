@@ -348,24 +348,24 @@ export default function People() {
                   <Badge variant="secondary">EHR Analysis</Badge>
                 </div>
                 <div className="flex flex-wrap gap-3">
-                  <Button variant="outline" size="sm" asChild>
-                    <a href="mailto:doudou.zhou@nus.edu.sg">
+                  <a href="mailto:doudou.zhou@nus.edu.sg">
+                    <Button variant="outline" size="sm">
                       <Mail className="mr-2 h-4 w-4" />
                       Email
-                    </a>
-                  </Button>
-                  <Button variant="outline" size="sm" asChild>
-                    <a href="https://scholar.google.com/citations?user=gXfTi00AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+                    </Button>
+                  </a>
+                  <a href="https://scholar.google.com/citations?user=gXfTi00AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm">
                       <ExternalLink className="mr-2 h-4 w-4" />
                       Google Scholar
-                    </a>
-                  </Button>
-                  <Button variant="outline" size="sm" asChild>
-                    <a href="https://www.stat.nus.edu.sg/" target="_blank" rel="noopener noreferrer">
+                    </Button>
+                  </a>
+                  <a href="https://www.stat.nus.edu.sg/" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm">
                       <ExternalLink className="mr-2 h-4 w-4" />
                       Department
-                    </a>
-                  </Button>
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
