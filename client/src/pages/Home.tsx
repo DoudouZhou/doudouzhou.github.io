@@ -10,53 +10,63 @@ import { Mail, GraduationCap, ExternalLink, FileText, Building2 } from "lucide-r
 import { Link } from "wouter";
 
 export default function Home() {
-  // Selected publications to display on homepage
+  // Selected publications to display on homepage (first-author papers)
   const selectedPublications = [
     {
-      venue: "ICLR",
-      year: "2026",
-      title: "Single Index Bandits: Generalized Linear Contextual Bandits with Unknown Reward Functions",
-      authors: "Rundong Huang, Jiawei Wu, Doudou Zhou (corresponding)",
-      journal: "International Conference on Learning Representations",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2602.01826" }]
-    },
-    {
-      venue: "NeurIPS",
+      venue: "IEEE TIT",
       year: "2025",
-      title: "Wasserstein Transfer Learning",
-      authors: "Kaicheng Zhang*, Sinian Zhang*, Doudou Zhou (corresponding), Yidong Zhou",
-      journal: "Advances in Neural Information Processing Systems",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2506.01234" }]
+      title: "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
+      authors: "Doudou Zhou, Hao Chen",
+      journal: "IEEE Transactions on Information Theory",
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.17404" }]
     },
     {
       venue: "JASA",
       year: "2024",
-      title: "Optimal Transfer Learning under Heterogeneity",
-      authors: "Doudou Zhou, Yiping Wang, Tianxi Cai (corresponding)",
-      journal: "Journal of the American Statistical Association",
+      title: "Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features",
+      authors: "Doudou Zhou, Mingshuo Liu, Mingyang Li, Tianxi Cai",
+      journal: "Journal of the American Statistical Association: Theory and Methods",
       links: [
-        { label: "arXiv", url: "https://arxiv.org/abs/2404.01234" },
-        { label: "Code", url: "https://github.com/doudouzhou/optimal-transfer" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" },
+        { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" }
+      ]
+    },
+    {
+      venue: "JASA",
+      year: "2024",
+      title: "Federated Offline Reinforcement Learning",
+      authors: "Doudou Zhou, Yilin Zhang*, Aldo Sonabend-W, Zhengling Wang, Junwei Lu, Tianxi Cai",
+      journal: "Journal of the American Statistical Association: Theory and Methods",
+      links: [
+        { label: "Paper", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287" },
+        { label: "arXiv", url: "https://arxiv.org/pdf/2506.12751" }
       ]
     },
     {
       venue: "JMLR",
       year: "2023",
-      title: "Federated Offline Reinforcement Learning",
-      authors: "Doudou Zhou, Ziping Xu, Tianxi Cai",
+      title: "Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices",
+      authors: "Doudou Zhou, Tianxi Cai, Junwei Lu",
       journal: "Journal of Machine Learning Research",
       links: [
-        { label: "arXiv", url: "https://arxiv.org/abs/2303.01234" },
-        { label: "Code", url: "https://github.com/doudouzhou/fedorl" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" }
       ]
     },
     {
-      venue: "IEEE TIT",
+      venue: "COLT",
       year: "2023",
-      title: "Nonparametric Change-Point Detection in Multivariate Data Streams",
-      authors: "Doudou Zhou, Heping Zhang",
-      journal: "IEEE Transactions on Information Theory",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2301.01234" }]
+      title: "A New Ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing",
+      authors: "Doudou Zhou, Hao Chen",
+      journal: "Conference on Learning Theory",
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2112.12948" }]
+    },
+    {
+      venue: "JBI",
+      year: "2022",
+      title: "Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization",
+      authors: "Doudou Zhou, et al.",
+      journal: "Journal of Biomedical Informatics",
+      links: [{ label: "MIKGI APP", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }]
     }
   ];
 
