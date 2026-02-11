@@ -35,7 +35,7 @@ export default function Home() {
       venue: "JASA",
       year: "2024",
       title: "Federated Offline Reinforcement Learning",
-      authors: "Doudou Zhou, Yilin Zhang*, Aldo Sonabend-W, Zhengling Wang, Junwei Lu, Tianxi Cai",
+      authors: "Doudou Zhou, Yufeng Zhang, Aaron Sonabend-W, Zhaoran Wang, Junwei Lu & Tianxi Cai",
       journal: "Journal of the American Statistical Association: Theory and Methods",
       links: [
         { label: "Paper", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287" },
@@ -122,6 +122,8 @@ export default function Home() {
                 
                 <p>
                   🤝 I am always open to collaborations and enthusiastic about exploring new research directions. 
+                  I welcome prospective students (PhD, Master's, and undergraduate) to join my research group, 
+                  and I also host visiting scholars from China and around the world for academic exchanges. 
                   Feel free to reach out if you're interested in working together!
                 </p>
               </div>
@@ -131,12 +133,12 @@ export default function Home() {
             <section>
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-3xl font-bold">Selected Publications</h2>
-                <Button variant="outline" asChild>
-                  <Link href="/publications">
+                <Link href="/publications">
+                  <Button variant="outline">
                     View All
                     <ExternalLink className="ml-2 h-4 w-4" />
-                  </Link>
-                </Button>
+                  </Button>
+                </Link>
               </div>
 
               <div className="space-y-6">
@@ -238,16 +240,16 @@ export default function Home() {
                     </a>
                   </div>
 
-                  <Button className="w-full mt-4" asChild>
-                    <a
-                      href="https://www.stat.nus.edu.sg/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                  <a
+                    href="https://www.stat.nus.edu.sg/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="w-full mt-4">
                       Department
                       <ExternalLink className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
+                    </Button>
+                  </a>
                 </div>
               </Card>
             </div>

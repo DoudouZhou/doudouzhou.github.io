@@ -195,7 +195,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Doudou Zhou, Yilin Zhang*, Aldo Sonabend-W, Zhengling Wang, Junwei Lu, Tianxi Cai",
+      authors: "Doudou Zhou, Yufeng Zhang, Aaron Sonabend-W, Zhaoran Wang, Junwei Lu & Tianxi Cai",
       title: "Federated Offline Reinforcement Learning",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
