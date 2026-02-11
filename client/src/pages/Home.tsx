@@ -205,7 +205,7 @@ export default function Home() {
               <Card className="p-6 space-y-6">
                 <div className="aspect-square overflow-hidden rounded-lg">
                   <img
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/1738736033_xfi4vM_image.png"
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/bQyuYXYXDGZBOLxv.png"
                     alt="Doudou Zhou"
                     className="w-full h-full object-cover"
                   />
