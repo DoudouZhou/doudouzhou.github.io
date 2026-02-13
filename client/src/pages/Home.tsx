@@ -89,10 +89,6 @@ export default function Home() {
     {
       date: "Sep 2025",
       content: "Our paper on Wasserstein transfer learning has been accepted at NeurIPS 2025."
-    },
-    {
-      date: "Aug 2025",
-      content: "Started as Assistant Professor at National University of Singapore."
     }
   ];
 
