@@ -18,28 +18,31 @@ export default function Home() {
       title: "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
       authors: "Doudou Zhou, Hao Chen",
       journal: "IEEE Transactions on Information Theory",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.17404" }]
+      links: [{ label: "Paper", url: "https://ieeexplore.ieee.org/document/11021493/" },
+              { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" }]
     },
     {
       venue: "JASA",
       year: "2024",
       title: "Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features",
-      authors: "Doudou Zhou, Mingshuo Liu, Mingyang Li, Tianxi Cai",
+      authors: "Doudou Zhou, Molei Liu, Mengyan Li, Tianxi Cai",
       journal: "Journal of the American Statistical Association: Theory and Methods",
       links: [
         { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" },
-        { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" },
+         { label: "Code", url: "https://www.tandfonline.com/doi/suppl/10.1080/01621459.2024.2356291?scroll=top" }
       ]
     },
     {
       venue: "JASA",
       year: "2024",
       title: "Federated Offline Reinforcement Learning",
-      authors: "Doudou Zhou, Yufeng Zhang, Aaron Sonabend-W, Zhaoran Wang, Junwei Lu & Tianxi Cai",
+      authors: "Doudou Zhou, Yufeng Zhang, Aaron Sonabend-W, Zhaoran Wang, Junwei Lu, Tianxi Cai",
       journal: "Journal of the American Statistical Association: Theory and Methods",
       links: [
         { label: "Paper", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287" },
-        { label: "arXiv", url: "https://arxiv.org/pdf/2506.12751" }
+        { label: "arXiv", url: "https://arxiv.org/pdf/2506.12751" },
+         { label: "Code", url: "https://github.com/DoudouZhou/FDTR" }
       ]
     },
     {
