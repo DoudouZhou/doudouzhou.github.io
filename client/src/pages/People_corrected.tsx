@@ -94,12 +94,6 @@ export default function People() {
           authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2026+"
-        },
-        {
-          title: "Unlearning What Matters: Token-Level Attribution for Precise Language Model Unlearning",
-          authors: "Jiawei Wu, Doudou Zhou (corresponding)",
-          venue: "Preprint",
-          year: "2026+"
         }
       ]
     },
