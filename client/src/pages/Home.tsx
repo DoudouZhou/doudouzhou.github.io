@@ -52,7 +52,9 @@ export default function Home() {
       authors: "Doudou Zhou, Tianxi Cai, Junwei Lu",
       journal: "Journal of Machine Learning Research",
       links: [
-        { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" }
+        { label: "Paper", url: "https://jmlr.org/papers/v24/22-0642.html" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" },
+         { label: "Code", url: "https://github.com/DoudouZhou/BONMI/blob/main/README.md" }
       ]
     },
     {
@@ -61,8 +63,10 @@ export default function Home() {
       title: "A New Ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing",
       authors: "Doudou Zhou, Hao Chen",
       journal: "Conference on Learning Theory",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2112.12948" }]
-    },
+      links: [ { label: "Paper", url: "https://proceedings.mlr.press/v195/zhou23a/zhou23a.pdf" },
+               { label: "arXiv", url: "https://arxiv.org/abs/2112.12948" },
+               { label: "R package", url: "https://cran.r-project.org/web/packages/GraphRankTest/index.html" }]
+    }, 
     {
       venue: "JBI",
       year: "2022",
