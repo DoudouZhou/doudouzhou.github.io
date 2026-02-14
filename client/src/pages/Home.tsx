@@ -78,8 +78,10 @@ export default function Home() {
   ];
 
   const news = [
-    { date: "Feb 2026",
-Released new work on judge-aware ranking for LLM evaluation. Project page: wujw13.github.io/rank_llm},
+    {
+      date: "Feb 2026",
+      content: "Released new work on judge-aware ranking for LLM evaluation. Project page: wujw13.github.io/rank_llm"
+    },
 
     {
       date: "Feb 2026",
