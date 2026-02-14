@@ -28,7 +28,7 @@ export default function Publications() {
       title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
       venue: "Preprint, 2026+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.21817"},
-             { label: "Code", url: "https://github.com/TanXZfra/A-Judge-Aware-Ranking-Framework-for-Evaluating-Large-Language-Models-without-Ground-Truth" }，
+             { label: "Code", url: "https://github.com/TanXZfra/A-Judge-Aware-Ranking-Framework-for-Evaluating-Large-Language-Models-without-Ground-Truth" },
              { label: "Website", url: "https://wujw13.github.io/rank_llm" }]
     },
     {
