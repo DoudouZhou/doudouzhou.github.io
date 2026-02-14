@@ -411,7 +411,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Chuan Hong, et al.",
+      authors: "Chuan Hong, Everett Rush, Molei Liu, Doudou Zhou, Jiehuan Sun, Aaron Sonabend, Victor M. Castro, Petra Schubert, Vidul A. Panickan, Tianrun Cai, Lauren Costa, Zeling He, Nicholas Link, Ronald Hauser, J. Michael Gaziano, Shawn N. Murphy, George Ostrouchov, Yuk-Lam Ho, Edmon Begoli, Junwei Lu, Kelly Cho, Katherine P. Liao, Tianxi Cai, VA Million Veteran Program",
       title: "Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data",
       venue: "npj Digital Medicine, 2021",
       links: [{ label: "KESER Network", url: "https://www.nature.com/articles/s41746-021-00519-z" }]
@@ -419,12 +419,13 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Ahuja, Y., Doudou Zhou, He, Z., Sun, J., Castro, V., Gainer, V., Murphy, S., Chuan Hong, Tianxi Cai",
-      title: "sureLDA: A Multidisease Automated Phenotyping Method for the Electronic Health Record",
+      authors: "Yuri Ahuja, Doudou Zhou, Zeling He, Jiehuan Sun, Victor M. Castro, Vivian S. Gainer, Shawn N. Murphy, Chuan Hong, Tianxi Cai",
+      title: "sureLDA: A Multi-Disease Automated Phenotyping Method for the Electronic Health Record",
       venue: "Journal of the American Medical Informatics Association, 2020",
       links: [
-        { label: "Website", url: "https://pubmed.ncbi.nlm.nih.gov/32548637/" },
-        { label: "R package", url: "https://academic.oup.com/ectj/article-abstract/24/3/559/6296639" }
+        { label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/32548637/" },
+        { label: "Website", url: "https://celehs.github.io/sureLDA/" },
+        { label: "R package", url: "https://cran.r-project.org/web/packages/sureLDA/index.html" }
       ]
     }
   ];
