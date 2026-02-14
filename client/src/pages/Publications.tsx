@@ -27,7 +27,9 @@ export default function Publications() {
       authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
       title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
       venue: "Preprint, 2026+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.21817" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.21817" }，
+             { label: "Code", url: "https://github.com/TanXZfra/A-Judge-Aware-Ranking-Framework-for-Evaluating-Large-Language-Models-without-Ground-Truth" }，
+             { label: "Website", url: "https://wujw13.github.io/rank_llm" }]
     },
     {
       category: "methodology",
@@ -63,7 +65,8 @@ export default function Publications() {
       title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
       venue: "Preprint, 2025+",
       links: [
-        { label: "arXiv", url: "https://arxiv.org/abs/2508.17411" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2508.17411" },
+        { label: "R package", url: "https://cran.r-project.org/web/packages/BlockwiseRankTest/index.html" }
       ]
     },
     {
@@ -98,7 +101,6 @@ export default function Publications() {
       venue: "Preprint, 2024+",
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2508.17411" },
-        { label: "R package", url: "https://cran.r-project.org/web/packages/BlockwiseRankTest/index.html" },
         { label: "R package", url: "https://cran.r-project.org/web/packages/MATES/index.html" }
       ]
     },
@@ -129,7 +131,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Jiajun Liang, Yue Liu*, Doudou Zhou, Sinian Zhang, Junwei Lu",
+      authors: "Jiajun Liang, Yue Liu, Doudou Zhou, Sinian Zhang, Junwei Lu",
       title: "The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control",
       venue: "Preprint, 2024+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2403.12284" }]
@@ -137,7 +139,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Tianxi Cai, Dong Xia, Linjun Zhang*, Doudou Zhou",
+      authors: "Tianxi Cai, Dong Xia, Luwan Zhang, Doudou Zhou",
       title: "Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model",
       venue: "Preprint, 2023+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.18412" }]
@@ -146,7 +148,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Yilin Kang, Mingshuo Liu, Bin Yi, Jiaqi Lyu, Zhiwei Zhang, Doudou Zhou, Yingying Li",
+      authors: "Yue Kang, Mingshuo Liu, Bongsoo Yi, Jing Lyu,  Zhi Zhang, Doudou Zhou, Yao Li",
       title: "Single Index Bandits: Generalized Linear Contextual Bandits with Unknown Reward Functions",
       venue: "International Conference on Learning Representations (ICLR), 2026",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2506.12751" }]
@@ -158,17 +160,19 @@ export default function Publications() {
       title: "Wasserstein Transfer Learning",
       venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025",
       links: [
+        { label: "Paper", url: "https://openreview.net/pdf/8e201e7ad25d23cf971e958d1e69539d4ab8c6de.pdf" },
         { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" },
-        { label: "code", url: "https://arxiv.org/pdf/2506.12751" }
+        { label: "Code", url: "https://github.com/h7nian/WaTL" }
       ]
     },
     {
       category: "methodology",
       type: "published",
-      authors: "Ziping Xu, Zihao Gan, Doudou Zhou, Shanghong Shen, Junwei Lu, Tianxi Cai",
+      authors: "Zhiwei Xu, Ziming Gan, Doudou Zhou, Shuting Shen, Junwei Lu, Tianxi Cai",
       title: "Inference of Dependency Knowledge Graph for Electronic Health Records",
       venue: "Journal of the Royal Statistical Society Series B (Statistical Methodology), 2025",
       links: [
+        { label: "Paper", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144?redirectedFrom=fulltext"},
         { label: "arXiv", url: "https://arxiv.org/abs/2509.05678" },
         { label: "code", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144" }
       ]
