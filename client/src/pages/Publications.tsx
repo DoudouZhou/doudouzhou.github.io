@@ -267,7 +267,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Wu Q., Siqi Li, Zhou D., Nan Liu",
+      authors: "Qiming Wu, Siqi Li, Doudou Zhou, Nan Liu",
       title: "Toward Fair Federated Learning under Demographic Disparities and Data Imbalance",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.09295" }]
