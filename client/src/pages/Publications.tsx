@@ -16,7 +16,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou (corresponding), Nian Si (corresponding)",
+      authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou#, Nian Si#",
       title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
       venue: "Preprint, 2026+",
       links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2602.01825" }]
@@ -24,7 +24,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
+      authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou#",
       title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
       venue: "Preprint, 2026+",
       links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2601.21817"},
@@ -34,7 +34,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Lingfeng Lyu, Doudou Zhou (corresponding)",
+      authors: "Lingfeng Lyu, Doudou Zhou#",
       title: "Preference-based Centrality and Ranking in General Metric Spaces",
       venue: "Preprint, 2026+",
       links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2601.18412" }]
@@ -42,7 +42,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou (corresponding)",
+      authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou#",
       title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
       venue: "Preprint, 2025+",
       links: [
@@ -61,7 +61,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou (corresponding)",
+      authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou#",
       title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
       venue: "Preprint, 2025+",
       links: [
@@ -72,7 +72,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Sinian Zhang, Kaicheng Zhang, Ziping Xu, Tianxi Cai (corresponding), Doudou Zhou (corresponding)",
+      authors: "Sinian Zhang, Kaicheng Zhang, Ziping Xu, Tianxi Cai#, Doudou Zhou#",
       title: "Generalized Linear Markov Decision Process",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2506.00818" }]
@@ -80,7 +80,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Zhuofan Dong, Yiwen Huang, Yan Dong, Mengying Yan, Ziye Tian, Chuan Hong, Doudou Zhou (corresponding), Molei Liu (corresponding)",
+      authors: "Zhuofan Dong, Yiwen Huang, Yan Dong, Mengying Yan, Ziye Tian, Chuan Hong, Doudou Zhou#, Molei Liu#",
       title: "Model-X Change-Point Detection of Conditional Distribution",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.12023" }]
@@ -96,7 +96,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Zexi Cai, Wenbo Fei, Doudou Zhou (corresponding)",
+      authors: "Zexi Cai, Wenbo Fei, Doudou Zhou#",
       title: "MATES: Multi-view Aggregated Two-Sample Test",
       venue: "Preprint, 2024+",
       links: [
@@ -156,7 +156,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Kejian Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yidong Zhou (corresponding)",
+      authors: "Kejian Zhang, Sinian Zhang, Doudou Zhou#, Yidong Zhou#",
       title: "Wasserstein Transfer Learning",
       venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025",
       links: [
@@ -233,7 +233,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou (corresponding)",
+      authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou#",
       title: "A Trainable Centrality Framework for Modern Data",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2511.22959" }]
@@ -259,7 +259,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou (corresponding)",
+      authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou#",
       title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2507.14847" }]
@@ -306,7 +306,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou (corresponding)",
+      authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou#",
       title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
       venue: "AISTATS, 2026",
       links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2601.09220" },
