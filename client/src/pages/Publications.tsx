@@ -10,6 +10,8 @@ import { useState } from "react";
 
 export default function Publications() {
   const [filter, setFilter] = useState<string>("all");
+  const getScholarLink = (title: string) =>
+    `https://scholar.google.com/scholar?q=${encodeURIComponent(`"${title}" "Doudou Zhou"`)}&hl=en`;
 
   const publications = [
     // Preprints - Statistical Methodology and Theory
@@ -430,11 +432,16 @@ export default function Publications() {
     }
   ];
 
+  const publicationsWithScholar = publications.map((pub) => ({
+    ...pub,
+    links: [{ label: "Google Scholar", url: getScholarLink(pub.title) }]
+  }));
+
   const filteredPubs = filter === "all" 
-    ? publications 
+    ? publicationsWithScholar 
     : filter === "preprints"
-    ? publications.filter(pub => pub.type === "preprint")
-    : publications.filter(pub => pub.category === filter && pub.type === "published");
+    ? publicationsWithScholar.filter(pub => pub.type === "preprint")
+    : publicationsWithScholar.filter(pub => pub.category === filter && pub.type === "published");
 
   return (
     <div className="min-h-screen py-20">
