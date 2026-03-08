@@ -19,8 +19,21 @@ export default function Teaching() {
       code: "ST5230",
       title: "Applied Natural Language Processing",
       semester: "Semester 2, AY2024/2025, AY2025/2026",
-      description: "Advanced topics in NLP including modern transformer models, fine-tuning strategies, and real-world applications in healthcare and social sciences.",
-      topics: ["BERT", "GPT", "Fine-tuning", "Healthcare NLP", "Evaluation"]
+      description: "This course covers modern natural language processing, from classical statistical language models to contemporary large language models. Topics include word embeddings, neural language models, Transformers, pretraining, post-training and alignment, efficient adaptation, knowledge distillation, retrieval-augmented generation, reasoning, agents, and multimodal learning, with applications in healthcare and the social sciences.",
+      topics: [
+        "Language modeling",
+        "Word embeddings",
+        "RNNs and LSTMs",
+        "Transformers",
+        "Pretraining",
+        "Instruction tuning and alignment",
+        "PEFT and LoRA",
+        "Knowledge distillation",
+        "Question answering and RAG",
+        "Reasoning and agents",
+        "Multimodal learning",
+        "Healthcare NLP"
+      ]
     }
   ];
 
