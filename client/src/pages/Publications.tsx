@@ -505,19 +505,6 @@ export default function Publications() {
             </Card>
           ))}
         </div>
-
-        {/* Google Scholar Link */}
-        <div className="mt-12 text-center">
-          <p className="text-muted-foreground mb-4">
-            For the most up-to-date publication list and citation metrics, please visit:
-          </p>
-          <Button size="lg" asChild>
-            <a href="https://scholar.google.com/citations?user=gXfTi00AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-              <ExternalLink className="mr-2 h-5 w-5" />
-              Google Scholar Profile
-            </a>
-          </Button>
-        </div>
       </div>
     </div>
   );
