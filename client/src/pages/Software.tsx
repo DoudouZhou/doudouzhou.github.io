@@ -80,7 +80,7 @@ export default function Software() {
             Open Source <span className="gradient-text">Software</span>
           </h1>
           <p className="text-xl text-muted-foreground text-center max-w-3xl mx-auto">
-            Tools and packages developed by STAR Lab to advance data science research
+            Tools and packages developed to advance data science research
           </p>
         </div>
       </section>
