@@ -19,7 +19,7 @@ export default function Publications() {
       authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou (corresponding), Nian Si (corresponding)",
       title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
       venue: "Preprint, 2026+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2602.01825" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2602.01825" }]
     },
     {
       category: "methodology",
@@ -27,17 +27,17 @@ export default function Publications() {
       authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
       title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
       venue: "Preprint, 2026+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.21817"},
+      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2601.21817"},
              { label: "Code", url: "https://github.com/TanXZfra/A-Judge-Aware-Ranking-Framework-for-Evaluating-Large-Language-Models-without-Ground-Truth" },
              { label: "Website", url: "https://wujw13.github.io/rank_llm" }]
     },
     {
       category: "methodology",
       type: "preprint",
-      authors: "Lingfeng Lv, Doudou Zhou (corresponding)",
+      authors: "Lingfeng Lyu, Doudou Zhou (corresponding)",
       title: "Preference-based Centrality and Ranking in General Metric Spaces",
       venue: "Preprint, 2026+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.18412" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2601.18412" }]
     },
     {
       category: "methodology",
@@ -72,7 +72,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Sinian Zhang, Kejian Zhang, Ziping Xu, Tianxi Cai (corresponding), Doudou Zhou (corresponding)",
+      authors: "Sinian Zhang, Kaicheng Zhang, Ziping Xu, Tianxi Cai (corresponding), Doudou Zhou (corresponding)",
       title: "Generalized Linear Markov Decision Process",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2506.00818" }]
@@ -263,10 +263,7 @@ export default function Publications() {
       authors: "Wang, Y.*, Doudou Zhou, Yue Liu, Junwei Lu, Tianxi Cai",
       title: "Automated Hierarchical Graph Construction for Multi-source Electronic Health Records",
       venue: "Preprint, 2025+",
-      links: [
-        { label: "arXiv", url: "https://arxiv.org/abs/2112.12948" },
-        { label: "MASH", url: "https://arxiv.org/abs/2509.06576" }
-      ]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.06576" }]
     },
     {
       category: "applications",
@@ -274,7 +271,7 @@ export default function Publications() {
       authors: "Yu J., Zhunyi Feng, Junwei Lu, Cai T., Doudou Zhou (corresponding)",
       title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.06576" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2507.14847" }]
     },
     {
       category: "applications",
@@ -282,7 +279,7 @@ export default function Publications() {
       authors: "Wu Q., Siqi Li, Zhou D., Nan Liu",
       title: "Toward Fair Federated Learning under Demographic Disparities and Data Imbalance",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2507.14847" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.09295" }]
     },
     {
       category: "applications",
