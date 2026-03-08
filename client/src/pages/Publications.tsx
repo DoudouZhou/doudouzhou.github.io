@@ -139,7 +139,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Tianxi Cai, Dong Xia, Luwan Zhang, Doudou Zhou",
+      authors: "Tianxi Cai*, Dong Xia*, Luwan Zhang*, Doudou Zhou*",
       title: "Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model",
       venue: "Preprint, 2023+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2209.13762" }]
