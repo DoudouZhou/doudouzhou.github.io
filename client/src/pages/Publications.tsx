@@ -251,7 +251,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Wang, Y.*, Doudou Zhou, Yue Liu, Junwei Lu, Tianxi Cai",
+      authors: "Wang, Y.*, Doudou Zhou*, Yue Liu, Junwei Lu, Tianxi Cai",
       title: "Automated Hierarchical Graph Construction for Multi-source Electronic Health Records",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.06576" }]
