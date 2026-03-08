@@ -4,7 +4,7 @@
 
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { BookOpen, Calendar, Users } from "lucide-react";
+import { BookOpen, Calendar } from "lucide-react";
 
 export default function Teaching() {
   const courses = [
@@ -76,28 +76,6 @@ export default function Teaching() {
           ))}
         </div>
 
-        {/* Teaching Philosophy */}
-        <div className="mt-16 max-w-4xl mx-auto">
-          <Card className="p-8">
-            <div className="flex items-start gap-6">
-              <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Users className="h-6 w-6 text-accent" />
-              </div>
-              <div>
-                <h3 className="text-2xl font-bold mb-4">Teaching Philosophy</h3>
-                <p className="text-muted-foreground leading-relaxed mb-4">
-                  I believe in hands-on learning that bridges theory and practice. My courses emphasize:
-                </p>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>• <strong>Practical Implementation:</strong> Students work on real-world datasets and problems</li>
-                  <li>• <strong>Theoretical Foundation:</strong> Understanding the "why" behind algorithms and methods</li>
-                  <li>• <strong>Research Connections:</strong> Exposure to cutting-edge research and open problems</li>
-                  <li>• <strong>Collaborative Learning:</strong> Group projects and peer discussions</li>
-                </ul>
-              </div>
-            </div>
-          </Card>
-        </div>
       </div>
     </div>
   );
