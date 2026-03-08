@@ -281,7 +281,7 @@ export default function Publications() {
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2509.06576" },
         { label: "Code", url: "https://github.com/celehs/GAME" },
-        { label: "Website", url: "about:blank" }
+        { label: "Website", url: "https://shiny.parse-health.org/GAME/" }
       ]
     },
     {
