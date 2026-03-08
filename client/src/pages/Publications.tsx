@@ -298,7 +298,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Yang Yang, Kathryn Pollak, Bibhas Chakraborty, Molei Liu, Doudou Zhou, Chuan Hong",
+      authors: "Yang Yang, Kathryn Pollak, Bibhas Chakraborty, Molei Liu#, Doudou Zhou#, Chuan Hong#",
       title: "RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records",
       venue: "JAMIA Open, 2026",
       links: [{ label: "Paper", url: "https://academic.oup.com/jamiaopen/article/9/1/ooag019/8490431" }]
