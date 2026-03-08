@@ -53,10 +53,10 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Patrick Knight, Doudou Zhou, Zongqi Xia, Tianxi Cai, Junwei Lu",
-      title: "Latent Factor Point Processes for Patient Representation in Electronic Health Records",
+      authors: "Parker Knight, Doudou Zhou, Zongqi Xia, Tianxi Cai, Junwei Lu",
+      title: "Latent Factor Point Processes for Classification and Clustering with Electronic Health Records",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.05678" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2508.20327" }]
     },
     {
       category: "methodology",
@@ -96,21 +96,21 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Ziang Cai, Wanrong Fei, Doudou Zhou (corresponding)",
+      authors: "Zexi Cai, Wenbo Fei, Doudou Zhou (corresponding)",
       title: "MATES: Multi-view Aggregated Two-Sample Test",
       venue: "Preprint, 2024+",
       links: [
-        { label: "arXiv", url: "https://arxiv.org/abs/2508.17411" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2412.16684" },
         { label: "R package", url: "https://cran.r-project.org/web/packages/MATES/index.html" }
       ]
     },
     {
       category: "methodology",
       type: "preprint",
-      authors: "Doudou Zhou, Mingyang Li*, Tianxi Cai, Mingshuo Liu",
+      authors: "Doudou Zhou, Mengyan Li, Tianxi Cai, Molei Liu",
       title: "Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population",
       venue: "Preprint, 2024+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2602.01825" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2410.06484" }]
     },
     {
       category: "methodology",
@@ -126,7 +126,7 @@ export default function Publications() {
       authors: "Tianxi Cai, Fei Huang, Ryumei Nakada, Linjun Zhang*, Doudou Zhou",
       title: "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
       venue: "Preprint, 2024+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.21817" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2403.14926" }]
     },
     {
       category: "methodology",
@@ -142,7 +142,7 @@ export default function Publications() {
       authors: "Tianxi Cai, Dong Xia, Luwan Zhang, Doudou Zhou",
       title: "Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model",
       venue: "Preprint, 2023+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.18412" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2209.13762" }]
     },
     // Published - Statistical Methodology and Theory
     {
@@ -253,8 +253,7 @@ export default function Publications() {
       title: "PEHRT: A Common Pipeline for Harmonizing Electronic Health Record data for Translational Research",
       venue: "Preprint, 2025+",
       links: [
-        { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" },
-        { label: "Website", url: "https://www.nature.com/articles/s41746-021-00519-z" }
+        { label: "arXiv", url: "https://arxiv.org/pdf/2509.08553" }
       ]
     },
     {
@@ -295,12 +294,11 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Xiong, X., et al.",
-      title: "Knowledge-Driven Online Multimodal Automated Phenotyping System",
+      authors: "Xin Xiong, Sara Morini Sweet, Molei Liu, Chuan Hong, Clara-Lea Bonzel, Vidul Ayakulangara Panickan, Doudou Zhou, Linshanshan Wang, Lauren Costa, Yuk-Lam Ho, Alon Geva, Kenneth D. Mandl, Suchun Cheng, Zongqi Xia, Kelly Cho, J. Michael Gaziano, Katherine P. Liao, Tianxi Cai, Tianrun Cai",
+      title: "Bending the Learning Curve for EHR Research via Knowledge-Driven Online Multimodal Automated Phenotyping System",
       venue: "Preprint, 2023+",
       links: [
-        { label: "medRxiv", url: "https://pubmed.ncbi.nlm.nih.gov/32548637/" },
-        { label: "KOMAP", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" }
+        { label: "medRxiv", url: "https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1" }
       ]
     },
     // Published - Applications
