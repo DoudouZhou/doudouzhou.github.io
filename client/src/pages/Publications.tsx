@@ -80,7 +80,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Yiwen Huang, Yan Dong, Mengying Yan, Zitao Tian, Chuan Hong, Doudou Zhou (corresponding), Molei Liu (corresponding)",
+      authors: "Zhuofan Dong, Yiwen Huang, Yan Dong, Mengying Yan, Ziye Tian, Chuan Hong, Doudou Zhou (corresponding), Molei Liu (corresponding)",
       title: "Model-X Change-Point Detection of Conditional Distribution",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.12023" }]
