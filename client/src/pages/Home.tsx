@@ -73,7 +73,10 @@ export default function Home() {
       title: "Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization",
       authors: "Doudou Zhou, et al.",
       journal: "Journal of Biomedical Informatics",
-      links: [{ label: "MIKGI APP", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }]
+      links: [
+        { label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" },
+        { label: "MIKGI APP", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }
+      ]
     }
   ];
 
