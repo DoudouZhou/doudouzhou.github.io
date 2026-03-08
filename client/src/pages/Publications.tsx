@@ -123,7 +123,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Tianxi Cai, Fei Huang, Ryumei Nakada, Linjun Zhang*, Doudou Zhou",
+      authors: "Tianxi Cai*, Fei Huang*, Ryumei Nakada*, Linjun Zhang*, Doudou Zhou*",
       title: "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
       venue: "Preprint, 2024+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2403.14926" }]
