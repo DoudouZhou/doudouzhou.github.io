@@ -136,23 +136,6 @@ export default function Software() {
           ))}
         </div>
 
-        {/* GitHub Organization */}
-        <div className="mt-16 text-center">
-          <Card className="p-12 max-w-3xl mx-auto">
-            <Github className="h-16 w-16 text-primary mx-auto mb-6" />
-            <h2 className="text-2xl font-bold mb-4">Visit Our GitHub</h2>
-            <p className="text-muted-foreground mb-6">
-              Explore all our open-source projects, contribute to ongoing development, 
-              or report issues on our GitHub organization.
-            </p>
-            <Button size="lg" asChild>
-              <a href="https://github.com/doudouzhou" target="_blank" rel="noopener noreferrer">
-                <Github className="mr-2 h-5 w-5" />
-                STAR Lab on GitHub
-              </a>
-            </Button>
-          </Card>
-        </div>
       </div>
     </div>
   );
