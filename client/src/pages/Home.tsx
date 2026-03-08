@@ -79,6 +79,14 @@ export default function Home() {
 
   const news = [
     {
+      date: "Mar 2026",
+      content: "Our paper \"RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records\" (Yang Yang, Kathryn Pollak, Bibhas Chakraborty, Molei Liu#, Doudou Zhou#, Chuan Hong#) has been accepted at JAMIA Open 2026."
+    },
+    {
+      date: "Mar 2026",
+      content: "Our paper \"From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences\" (Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou#) has been accepted at AISTATS 2026."
+    },
+    {
       date: "Feb 2026",
       content: "Released new work on judge-aware ranking for LLM evaluation. Project page: wujw13.github.io/rank_llm"
     },
