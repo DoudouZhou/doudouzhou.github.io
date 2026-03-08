@@ -259,7 +259,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Yu J., Zhunyi Feng, Junwei Lu, Cai T., Doudou Zhou (corresponding)",
+      authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou (corresponding)",
       title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2507.14847" }]
