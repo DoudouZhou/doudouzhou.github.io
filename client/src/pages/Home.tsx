@@ -10,9 +10,6 @@ import { Mail, GraduationCap, ExternalLink, FileText, Building2 } from "lucide-r
 import { Link } from "wouter";
 
 export default function Home() {
-  const getScholarLink = (title: string) =>
-    `https://scholar.google.com/scholar?q=${encodeURIComponent(`"${title}" "Doudou Zhou"`)}&hl=en`;
-
   // Selected publications to display on homepage (first-author papers)
   const selectedPublications = [
     {
@@ -79,10 +76,6 @@ export default function Home() {
       links: [{ label: "MIKGI APP", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }]
     }
   ];
-  const selectedPublicationsWithScholar = selectedPublications.map((pub) => ({
-    ...pub,
-    links: [{ label: "Google Scholar", url: getScholarLink(pub.title) }]
-  }));
 
   const news = [
     {
@@ -204,7 +197,7 @@ export default function Home() {
               </div>
 
               <div className="space-y-6">
-                {selectedPublicationsWithScholar.map((pub, idx) => (
+                {selectedPublications.map((pub, idx) => (
                   <Card key={idx} className="p-6 hover-lift">
                     <div className="flex items-start gap-4">
                       <Badge className="mt-1 shrink-0">{pub.venue} {pub.year}</Badge>

@@ -10,8 +10,6 @@ import { useState } from "react";
 
 export default function Publications() {
   const [filter, setFilter] = useState<string>("all");
-  const getScholarLink = (title: string) =>
-    `https://scholar.google.com/scholar?q=${encodeURIComponent(`"${title}" "Doudou Zhou"`)}&hl=en`;
 
   const publications = [
     // Preprints - Statistical Methodology and Theory
@@ -153,7 +151,7 @@ export default function Publications() {
       authors: "Yue Kang, Mingshuo Liu, Bongsoo Yi, Jing Lyu,  Zhi Zhang, Doudou Zhou, Yao Li",
       title: "Single Index Bandits: Generalized Linear Contextual Bandits with Unknown Reward Functions",
       venue: "International Conference on Learning Representations (ICLR), 2026",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2506.12751" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2506.12751" }]
     },
     {
       category: "methodology",
@@ -174,9 +172,7 @@ export default function Publications() {
       title: "Inference of Dependency Knowledge Graph for Electronic Health Records",
       venue: "Journal of the Royal Statistical Society Series B (Statistical Methodology), 2025",
       links: [
-        { label: "Paper", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144?redirectedFrom=fulltext"},
-        { label: "arXiv", url: "https://arxiv.org/abs/2509.05678" },
-        { label: "code", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144" }
+        { label: "Paper", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144?redirectedFrom=fulltext"}
       ]
     },
     {
@@ -185,17 +181,16 @@ export default function Publications() {
       authors: "Doudou Zhou, Hao Chen",
       title: "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
       venue: "IEEE Transactions on Information Theory, 2025",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.17404" }]
+      links: [{ label: "Paper", url: "https://ieeexplore.ieee.org/document/11021493" }]
     },
     {
       category: "methodology",
       type: "published",
       authors: "Doudou Zhou, Mingshuo Liu, Mingyang Li, Tianxi Cai",
-      title: "Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features",
+      title: "Doubly Robust Evaluation of Receiver Operating Characteristic under Covariate Shift with High Dimensional Features",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
-        { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" },
-        { label: "code", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" }
+        { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" }
       ]
     },
     {
@@ -205,8 +200,7 @@ export default function Publications() {
       title: "Federated Offline Reinforcement Learning",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
-        { label: "arXiv", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287" },
-        { label: "code", url: "https://arxiv.org/pdf/2506.12751" }
+        { label: "Paper", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287?casa_token=ZsYamLI5gcwAAAAA:vpxrdw68t-U-SpN02Azg1aFFmZwjzfjmA9LJI4TUA8U6Ho01YwBWhbCXUcsS0G-tePqHeT8THU-3" }
       ]
     },
     {
@@ -216,8 +210,7 @@ export default function Publications() {
       title: "Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices",
       venue: "Journal of Machine Learning Research, 2023",
       links: [
-        { label: "code", url: "https://arxiv.org/abs/2105.10360" },
-        { label: "package", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" }
       ]
     },
     {
@@ -226,7 +219,7 @@ export default function Publications() {
       authors: "Doudou Zhou, Hao Chen",
       title: "A New Ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing",
       venue: "Conference on Learning Theory (COLT), 2023",
-      links: [{ label: "R package", url: "https://arxiv.org/abs/2112.12948" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2112.12948" }]
     },
     {
       category: "methodology",
@@ -234,7 +227,7 @@ export default function Publications() {
       authors: "Mingshuo Liu, Yilin Zhang*, Doudou Zhou",
       title: "Double/Debiased Machine Learning for Logistic Partially Linear Model",
       venue: "The Econometrics Journal, 2021",
-      links: [{ label: "code", url: "https://academic.oup.com/ectj/article-abstract/24/3/559/6296639" }]
+      links: [{ label: "Paper", url: "https://academic.oup.com/ectj/article-abstract/24/3/559/6296639" }]
     },
     // Preprints - Applications
     {
@@ -317,10 +310,18 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
+      authors: "Yang Yang, Kathryn Pollak, Bibhas Chakraborty, Molei Liu, Doudou Zhou, Chuan Hong",
+      title: "RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records",
+      venue: "JAMIA Open, 2026",
+      links: [{ label: "Paper", url: "https://academic.oup.com/jamiaopen/article/9/1/ooag019/8490431" }]
+    },
+    {
+      category: "applications",
+      type: "published",
       authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou (corresponding)",
       title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
       venue: "AISTATS, 2026",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.09220" },
+      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2601.09220" },
               { label: "Code", url: "https://github.com/TanXZfra/Time-aware-Hawkes-Attention" }]
     },
     {
@@ -329,7 +330,7 @@ export default function Publications() {
       authors: "Chuan Hong, et al.",
       title: "FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care",
       venue: "JMIR Research Protocols, 2026",
-      links: []
+      links: [{ label: "Paper", url: "https://preprints.jmir.org/preprint/74202" }]
     },
     {
       category: "applications",
@@ -337,7 +338,7 @@ export default function Publications() {
       authors: "Siqi Li, et al.",
       title: "FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction",
       venue: "npj Health Systems, 2025",
-      links: []
+      links: [{ label: "Paper", url: "https://www.nature.com/articles/s44401-025-00035-2" }]
     },
     {
       category: "applications",
@@ -346,9 +347,7 @@ export default function Publications() {
       title: "ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis",
       venue: "Journal of Biomedical Informatics, 2025",
       links: [
-        { label: "medRxiv", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795" },
-        { label: "code", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287" },
-        { label: "ARCH APP", url: "https://arxiv.org/abs/2105.10360" }
+        { label: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795" }
       ]
     },
     {
@@ -357,7 +356,7 @@ export default function Publications() {
       authors: "Yang, D., Doudou Zhou, Cai, S., Zihao Gan, Pencina, M., Avillach, P., Tianxi Cai, Chuan Hong",
       title: "SONAR: Enabling Robust Automated Harmonization of Heterogeneous Data through Ensemble Machine Learning",
       venue: "JMIR Medical Informatics, 2025",
-      links: [{ label: "preprint", url: "https://medinform.jmir.org/2025/1/e54133" }]
+      links: [{ label: "Paper", url: "https://medinform.jmir.org/2025/1/e54133" }]
     },
     {
       category: "applications",
@@ -365,7 +364,7 @@ export default function Publications() {
       authors: "Wen, J., et al.",
       title: "DOME: Directional Medical Embedding Vectors from Electronic Health Records",
       venue: "Journal of Biomedical Informatics, 2025",
-      links: [{ label: "code", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001862" }]
+      links: [{ label: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001862" }]
     },
     {
       category: "applications",
@@ -373,7 +372,7 @@ export default function Publications() {
       authors: "Lou, Y., Chen, Y., Yiwen Huang, Doudou Zhou, Cao, Y., Wang, H.",
       title: "Two-stream Feature Extraction for Self-supervised Image Quality Assessment",
       venue: "IEEE International Conference on Data Mining (ICDM), 2023",
-      links: []
+      links: [{ label: "Paper", url: "https://ieeexplore.ieee.org/document/10415683" }]
     },
     {
       category: "applications",
@@ -381,7 +380,7 @@ export default function Publications() {
       authors: "Cai, B., Zeng, S., Lin, Y., Yuan, Z., Doudou Zhou, Tian, L.",
       title: "Hierarchical Pretraining for Biomedical Term Embeddings",
       venue: "Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB), 2023",
-      links: []
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2307.00266" }]
     },
     {
       category: "applications",
@@ -397,7 +396,7 @@ export default function Publications() {
       authors: "Doudou Zhou, et al.",
       title: "Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization",
       venue: "Journal of Biomedical Informatics, 2022",
-      links: [{ label: "MIKGI APP", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }]
+      links: [{ label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }]
     },
     {
       category: "applications",
@@ -405,10 +404,7 @@ export default function Publications() {
       authors: "Ahuja, Y., Liang, L., Doudou Zhou, Huang, S., Tianxi Cai",
       title: "Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data",
       venue: "Biostatistics, 2022",
-      links: [
-        { label: "Website", url: "https://pubmed.ncbi.nlm.nih.gov/35166342/" },
-        { label: "R package", url: "https://arxiv.org/abs/2112.12948" }
-      ]
+      links: [{ label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35166342/" }]
     },
     {
       category: "applications",
@@ -416,7 +412,7 @@ export default function Publications() {
       authors: "Chuan Hong, Everett Rush, Molei Liu, Doudou Zhou, Jiehuan Sun, Aaron Sonabend, Victor M. Castro, Petra Schubert, Vidul A. Panickan, Tianrun Cai, Lauren Costa, Zeling He, Nicholas Link, Ronald Hauser, J. Michael Gaziano, Shawn N. Murphy, George Ostrouchov, Yuk-Lam Ho, Edmon Begoli, Junwei Lu, Kelly Cho, Katherine P. Liao, Tianxi Cai, VA Million Veteran Program",
       title: "Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data",
       venue: "npj Digital Medicine, 2021",
-      links: [{ label: "KESER Network", url: "https://www.nature.com/articles/s41746-021-00519-z" }]
+      links: [{ label: "Paper", url: "https://www.nature.com/articles/s41746-021-00519-z" }]
     },
     {
       category: "applications",
@@ -432,16 +428,11 @@ export default function Publications() {
     }
   ];
 
-  const publicationsWithScholar = publications.map((pub) => ({
-    ...pub,
-    links: [{ label: "Google Scholar", url: getScholarLink(pub.title) }]
-  }));
-
   const filteredPubs = filter === "all" 
-    ? publicationsWithScholar 
+    ? publications 
     : filter === "preprints"
-    ? publicationsWithScholar.filter(pub => pub.type === "preprint")
-    : publicationsWithScholar.filter(pub => pub.category === filter && pub.type === "published");
+    ? publications.filter(pub => pub.type === "preprint")
+    : publications.filter(pub => pub.category === filter && pub.type === "published");
 
   return (
     <div className="min-h-screen py-20">
