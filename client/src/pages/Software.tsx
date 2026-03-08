@@ -10,56 +10,87 @@ import { Github, ExternalLink, Package } from "lucide-react";
 export default function Software() {
   const software = [
     {
-      name: "MIKGI",
-      description: "Multiview Incomplete Knowledge Graph Integration for cross-institutional EHR data harmonization",
+      name: "GAME",
+      description: "Tools for representation learning to advance multi-institutional studies with electronic health record data.",
+      type: "Code + Web App",
+      links: [
+        { label: "GitHub", url: "https://github.com/celehs/GAME", icon: Github },
+        { label: "Web App", url: "https://shiny.parse-health.org/GAME/", icon: ExternalLink },
+        { label: "Paper", url: "https://arxiv.org/abs/2502.08547", icon: ExternalLink }
+      ],
+      tags: ["EHR", "Representation Learning", "Multi-institutional"]
+    },
+    {
+      name: "WaTL",
+      description: "Reference implementation for Wasserstein Transfer Learning.",
+      type: "Python Package",
+      links: [
+        { label: "GitHub", url: "https://github.com/h7nian/WaTL", icon: Github },
+        { label: "Paper", url: "https://arxiv.org/abs/2505.17404", icon: ExternalLink }
+      ],
+      tags: ["Transfer Learning", "Optimal Transport", "Machine Learning"]
+    },
+    {
+      name: "Time-aware Hawkes Attention",
+      description: "Codebase for time-modulated mechanisms for event sequence modeling.",
+      type: "Python Package",
+      links: [
+        { label: "GitHub", url: "https://github.com/TanXZfra/Time-aware-Hawkes-Attention", icon: Github },
+        { label: "arXiv", url: "https://arxiv.org/pdf/2601.09220", icon: ExternalLink }
+      ],
+      tags: ["Temporal Modeling", "Attention", "Event Sequences"]
+    },
+    {
+      name: "Judge-Aware LLM Ranking",
+      description: "Judge-aware ranking framework for evaluating LLMs without ground truth.",
+      type: "Python Package",
+      links: [
+        { label: "GitHub", url: "https://github.com/TanXZfra/A-Judge-Aware-Ranking-Framework-for-Evaluating-Large-Language-Models-without-Ground-Truth", icon: Github },
+        { label: "Project Website", url: "https://wujw13.github.io/rank_llm", icon: ExternalLink },
+        { label: "arXiv", url: "https://arxiv.org/pdf/2601.21817", icon: ExternalLink }
+      ],
+      tags: ["LLM Evaluation", "Ranking", "Benchmarking"]
+    },
+    {
+      name: "SimIndep",
+      description: "R package for weighted similarity aggregation testing of serial independence.",
       type: "R Package",
       links: [
-        { label: "GitHub", url: "#", icon: Github },
-        { label: "Documentation", url: "#", icon: ExternalLink },
-        { label: "Web App", url: "#", icon: ExternalLink }
+        { label: "CRAN", url: "https://cran.r-project.org/web/packages/SimIndep/index.html", icon: Package },
+        { label: "arXiv", url: "https://arxiv.org/pdf/2509.05678", icon: ExternalLink }
       ],
-      tags: ["EHR", "Knowledge Graph", "Data Integration"]
+      tags: ["Statistics", "Independence Testing", "Time Series"]
     },
     {
-      name: "ARCH",
-      description: "Large-scale knowledge graph construction via aggregated narrative codified health records analysis",
-      type: "Python Package",
-      links: [
-        { label: "GitHub", url: "#", icon: Github },
-        { label: "Demo", url: "#", icon: ExternalLink }
-      ],
-      tags: ["Knowledge Graph", "NLP", "Healthcare"]
-    },
-    {
-      name: "FedORL",
-      description: "Federated Offline Reinforcement Learning framework for privacy-preserving policy learning",
-      type: "Python Package",
-      links: [
-        { label: "GitHub", url: "#", icon: Github },
-        { label: "Documentation", url: "#", icon: ExternalLink }
-      ],
-      tags: ["Federated Learning", "Reinforcement Learning", "Privacy"]
-    },
-    {
-      name: "WTL",
-      description: "Wasserstein Transfer Learning toolkit for domain adaptation with optimal transport",
-      type: "Python Package",
-      links: [
-        { label: "GitHub", url: "#", icon: Github },
-        { label: "Examples", url: "#", icon: ExternalLink }
-      ],
-      tags: ["Transfer Learning", "Optimal Transport", "Domain Adaptation"]
-    },
-    {
-      name: "ModernRank",
-      description: "Modern ranking methods for high-dimensional data and change-point detection",
+      name: "BlockwiseRankTest",
+      description: "R package for two-sample testing with block-wise missingness in multi-source data.",
       type: "R Package",
       links: [
-        { label: "CRAN", url: "#", icon: Package },
-        { label: "GitHub", url: "#", icon: Github },
-        { label: "Vignette", url: "#", icon: ExternalLink }
+        { label: "CRAN", url: "https://cran.r-project.org/web/packages/BlockwiseRankTest/index.html", icon: Package },
+        { label: "arXiv", url: "https://arxiv.org/abs/2508.17411", icon: ExternalLink }
       ],
-      tags: ["Ranking", "Change-Point Detection", "High-dimensional"]
+      tags: ["Two-sample Test", "Missing Data", "Multi-source Data"]
+    },
+    {
+      name: "MATES",
+      description: "R package for multi-view aggregated two-sample testing.",
+      type: "R Package",
+      links: [
+        { label: "CRAN", url: "https://cran.r-project.org/web/packages/MATES/index.html", icon: Package },
+        { label: "arXiv", url: "https://arxiv.org/abs/2412.16684", icon: ExternalLink }
+      ],
+      tags: ["Two-sample Test", "Multi-view", "Statistical Inference"]
+    },
+    {
+      name: "sureLDA",
+      description: "R package and project site for multi-disease automated phenotyping from EHR data.",
+      type: "R Package + Website",
+      links: [
+        { label: "CRAN", url: "https://cran.r-project.org/web/packages/sureLDA/index.html", icon: Package },
+        { label: "Website", url: "https://celehs.github.io/sureLDA/", icon: ExternalLink },
+        { label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/32548637/", icon: ExternalLink }
+      ],
+      tags: ["EHR", "Phenotyping", "Topic Models"]
     }
   ];
 
