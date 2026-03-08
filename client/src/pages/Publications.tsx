@@ -280,7 +280,8 @@ export default function Publications() {
       venue: "Preprint, 2025+",
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2509.06576" },
-        { label: "code", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }
+        { label: "Code", url: "https://github.com/celehs/GAME" },
+        { label: "Website", url: "about:blank" }
       ]
     },
     {
