@@ -241,14 +241,6 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Yang, Y., Polla, K., Chakraborty, B., Mingshuo Liu*, Doudou Zhou, Chuan Hong*",
-      title: "RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records",
-      venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2511.22959" }]
-    },
-    {
-      category: "applications",
-      type: "preprint",
       authors: "Gronsbell J., et al.",
       title: "PEHRT: A Common Pipeline for Harmonizing Electronic Health Record data for Translational Research",
       venue: "Preprint, 2025+",
