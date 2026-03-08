@@ -89,7 +89,7 @@ export default function Publications() {
       category: "methodology",
       type: "preprint",
       authors: "Wangxuan Fan, Siqi Li, Doudou Zhou, Yohei Okada, Chuan Hong, Molei Liu, Nan Liu",
-      title: "SIT-KSHAP: Stable and Computationally Efficient Shapley Value Approximation",
+      title: "SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.08198" }]
     },
