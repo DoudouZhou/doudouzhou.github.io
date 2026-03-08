@@ -6,7 +6,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mail, GraduationCap, ExternalLink, FileText, Building2 } from "lucide-react";
+import { Mail, GraduationCap, ExternalLink, FileText, Building2, Linkedin } from "lucide-react";
 import { Link } from "wouter";
 
 export default function Home() {
@@ -303,6 +303,18 @@ export default function Home() {
                       className="hover:underline"
                     >
                       Google Scholar
+                    </a>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Linkedin className="h-4 w-4 shrink-0 text-muted-foreground" />
+                    <a
+                      href="https://www.linkedin.com/in/doudou-zhou"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      LinkedIn
                     </a>
                   </div>
 
