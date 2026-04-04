@@ -186,7 +186,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Doudou Zhou, Mingshuo Liu, Mingyang Li, Tianxi Cai",
+      authors: "Doudou Zhou*, Molei Liu*, Mengyan Li, Tianxi Cai",
       title: "Doubly Robust Evaluation of Receiver Operating Characteristic under Covariate Shift with High Dimensional Features",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
