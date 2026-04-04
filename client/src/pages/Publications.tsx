@@ -220,7 +220,10 @@ export default function Publications() {
       authors: "Doudou Zhou, Hao Chen",
       title: "A New Ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing",
       venue: "Conference on Learning Theory (COLT), 2023",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2112.12948" }]
+      links: [
+        { label: "Paper", url: "https://proceedings.mlr.press/v195/zhou23a/zhou23a.pdf" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2112.12948" }
+      ]
     },
     {
       category: "methodology",
