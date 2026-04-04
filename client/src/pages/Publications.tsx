@@ -241,7 +241,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Gronsbell J., et al.",
+      authors: "Jessica Gronsbell*, Vidul Ayakulangara Panickan*, Doudou Zhou*, Chris Lin, Thomas Charlon, Chuan Hong, Xin Xiong, Linshanshan Wang, Jianhui Gao, Shirley Zhou, Yuan Tian, Yaqi Shi, Ziming Gan, Tianxi Cai",
       title: "PEHRT: A Common Pipeline for Harmonizing Electronic Health Record data for Translational Research",
       venue: "Preprint, 2025+",
       links: [
@@ -251,7 +251,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "preprint",
-      authors: "Wang, Y.*, Doudou Zhou*, Yue Liu, Junwei Lu, Tianxi Cai",
+      authors: "Yinjie Wang*, Doudou Zhou*, Yue Liu, Junwei Lu, Tianxi Cai",
       title: "Automated Hierarchical Graph Construction for Multi-source Electronic Health Records",
       venue: "Preprint, 2025+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.06576" }]
@@ -315,7 +315,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Chuan Hong, et al.",
+      authors: "Chuan Hong, Jonathan Chong Kai Liew, Jaeyong Yu, Tomás Barry, Audrey L. Blewer, Daniel M. Buckland, Tianrun Cai, Won Chul Cha, Bibhas Chakraborty, Wei Chen, Jun Cheng, Shu-Ling Chong, Therese Djärv, Arul Earnest, Matthew Engelhard, Xiuyi Fan, Mengling Feng, Jean Feng, Huazhu Fu, Wilson Wen Bin Goh, Benjamin A. Goldstein, Jessica Gronsbell, Andrew Fu Wah Ho, Kendall Ho, Taku Iwami, Anjni Joiner, Aaron Kornblith, Siqi Li, Shir Lynn Lim, Molei Liu, Zhenghong Liu, Lei Lu, Yuan Luo, Yih Yng Ng, Yilin Ning, Yohei Okada, Ju Ok Park, Yu Rang Park, Junaid Razzak, Yuzeng Shen, Fahad Javaid Siddiqui, Peter A D Steel, Kenneth Boon Kiat Tan, Salinelat Teixayavong, Bella Vakulenko-Lagun, Joao Ricardo Nickenig Vissoci, Grzegorz Waligora, Fei Wang, Haibo Wang, Haoyuan Wang, An-Kwok Ian Wong, Feng Xie, Jie Yang, Yiye Zhang, Doudou Zhou, Li Zhou, Tingting Zhu, Robert Neumar, David Page, Michael Pencina, Roger Vaughan, Marcus Eng Hock Ong, Nan Liu",
       title: "FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care",
       venue: "JMIR Research Protocols, 2026",
       links: [{ label: "Paper", url: "https://preprints.jmir.org/preprint/74202" }]
@@ -323,7 +323,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Siqi Li, et al.",
+      authors: "Siqi Li, Qiming Wu, Doudou Zhou, Xin Li, Di Miao, Chuan Hong, Wenjun Gu, Yuqing Shang, Yohei Okada, Michael Hao Chen, Mengying Yan, Yilin Ning, Marcus Eng Hock Ong, Nan Liu",
       title: "FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction",
       venue: "npj Health Systems, 2025",
       links: [{ label: "Paper", url: "https://www.nature.com/articles/s44401-025-00035-2" }]
@@ -331,7 +331,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Zihao Gan*, Doudou Zhou, et al.",
+      authors: "Ziming Gan*, Doudou Zhou*, Everett Rush, Vidul A. Panickan, Yuk-Lam Ho, George Ostrouchov, Zhiwei Xu, Shuting Shen, Xin Xiong, Kimberly F. Greco, Chuan Hong, Clara-Lea Bonzel, Jun Wen, Lauren Costa, Tianrun Cai, Edmon Begoli, Zongqi Xia, J. Michael Gaziano, Katherine P. Liao, Kelly Cho, Tianxi Cai, Junwei Lu",
       title: "ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis",
       venue: "Journal of Biomedical Informatics, 2025",
       links: [
@@ -341,7 +341,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Yang, D., Doudou Zhou, Cai, S., Zihao Gan, Pencina, M., Avillach, P., Tianxi Cai, Chuan Hong",
+      authors: "Doris Yang, Doudou Zhou, Steven Cai, Ziming Gan, Michael Pencina, Paul Avillach, Tianxi Cai, Chuan Hong",
       title: "SONAR: Enabling Robust Automated Harmonization of Heterogeneous Data through Ensemble Machine Learning",
       venue: "JMIR Medical Informatics, 2025",
       links: [{ label: "Paper", url: "https://medinform.jmir.org/2025/1/e54133" }]
@@ -349,7 +349,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Wen, J., et al.",
+      authors: "Jun Wen, Hao Xue, Everett Rush, Vidul A. Panickan, Tianrun Cai, Doudou Zhou, Yuk-Lam Ho, Lauren Costa, Edmon Begoli, Chuan Hong, J. Michael Gaziano, Kelly Cho, Katherine P. Liao, Junwei Lu, Tianxi Cai",
       title: "DOME: Directional Medical Embedding Vectors from Electronic Health Records",
       venue: "Journal of Biomedical Informatics, 2025",
       links: [{ label: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001862" }]
@@ -357,7 +357,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Lou, Y., Chen, Y., Yiwen Huang, Doudou Zhou, Cao, Y., Wang, H.",
+      authors: "Yiwei Lou, Yanyuan Chen, Yu Huang, Doudou Zhou, Yongzhi Cao, Hanpin Wang",
       title: "Two-stream Feature Extraction for Self-supervised Image Quality Assessment",
       venue: "IEEE International Conference on Data Mining (ICDM), 2023",
       links: [{ label: "Paper", url: "https://ieeexplore.ieee.org/document/10415683" }]
@@ -365,7 +365,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Cai, B., Zeng, S., Lin, Y., Yuan, Z., Doudou Zhou, Tian, L.",
+      authors: "Bryan Cai, Sihang Zeng, Yucong Lin, Zheng Yuan, Doudou Zhou, Lu Tian",
       title: "Hierarchical Pretraining for Biomedical Term Embeddings",
       venue: "Proceedings of the 18th Conference on Computational Intelligence Methods for Bioinformatics & Biostatistics (CIBB), 2023",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2307.00266" }]
@@ -373,7 +373,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Wen, J., et. al.",
+      authors: "Jun Wen, Xiang Zhang, Everett Rush, Vidul A. Panickan, Xingyu Li, Tianrun Cai, Doudou Zhou, Yuk-Lam Ho, Lauren Costa, Edmon Begoli, Chuan Hong, J. Michael Gaziano, Kelly Cho, Junwei Lu, Katherine P. Liao, Marinka Zitnik, Tianxi Cai",
       title: "Multimodal Representation Learning for Predicting Molecule-Disease Relations",
       venue: "Bioinformatics, 2023",
       links: [{ label: "Website", url: "https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101" }]
@@ -381,7 +381,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Doudou Zhou, et al.",
+      authors: "Doudou Zhou, Ziming Gan, Xu Shi, Alina Patwari, Everett Rush, Clara-Lea Bonzel, Vidul A. Panickan, Chuan Hong, Yuk-Lam Ho, Tianrun Cai, Lauren Costa, Xiaoou Li, Victor M. Castro, Shawn N. Murphy, Gabriel Brat, Griffin Weber, Paul Avillach, J. Michael Gaziano, Kelly Cho, Katherine P. Liao, Junwei Lu, Tianxi Cai",
       title: "Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization",
       venue: "Journal of Biomedical Informatics, 2022",
       links: [{ label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }]
@@ -389,7 +389,7 @@ export default function Publications() {
     {
       category: "applications",
       type: "published",
-      authors: "Ahuja, Y., Liang, L., Doudou Zhou, Huang, S., Tianxi Cai",
+      authors: "Yuri Ahuja, Liang Liang, Doudou Zhou, Selena Huang, Tianxi Cai",
       title: "Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data",
       venue: "Biostatistics, 2022",
       links: [
