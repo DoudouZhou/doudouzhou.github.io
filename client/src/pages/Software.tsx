@@ -87,7 +87,7 @@ export default function Software() {
       type: "R Package",
       links: [
         { label: "CRAN", url: "https://cran.r-project.org/web/packages/GraphRankTest/index.html", icon: Package },
-        { label: "arXiv", url: "https://arxiv.org/abs/2112.12948", icon: ExternalLink }
+        { label: "Paper", url: "https://proceedings.mlr.press/v195/zhou23a/zhou23a.pdf", icon: ExternalLink }
       ],
       tags: ["Two-sample Test", "Similarity Graph", "Rank-based Inference"]
     },
