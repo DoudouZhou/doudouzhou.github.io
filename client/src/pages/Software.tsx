@@ -92,6 +92,16 @@ export default function Software() {
       tags: ["Two-sample Test", "Similarity Graph", "Rank-based Inference"]
     },
     {
+      name: "KESER",
+      description: "Clinical knowledge extraction via sparse embedding regression with multi-center large-scale EHR data.",
+      type: "Website + Paper",
+      links: [
+        { label: "Website", url: "https://celehs.github.io/KESER/", icon: ExternalLink },
+        { label: "Paper", url: "https://www.nature.com/articles/s41746-021-00519-z", icon: ExternalLink }
+      ],
+      tags: ["EHR", "Knowledge Extraction", "Clinical AI"]
+    },
+    {
       name: "sureLDA",
       description: "R package and project site for multi-disease automated phenotyping from EHR data.",
       type: "R Package + Website",
