@@ -82,6 +82,16 @@ export default function Software() {
       tags: ["Two-sample Test", "Multi-view", "Statistical Inference"]
     },
     {
+      name: "GraphRankTest",
+      description: "Rank in similarity graph edge-count two-sample test.",
+      type: "R Package",
+      links: [
+        { label: "CRAN", url: "https://cran.r-project.org/web/packages/GraphRankTest/index.html", icon: Package },
+        { label: "arXiv", url: "https://arxiv.org/abs/2112.12948", icon: ExternalLink }
+      ],
+      tags: ["Two-sample Test", "Similarity Graph", "Rank-based Inference"]
+    },
+    {
       name: "sureLDA",
       description: "R package and project site for multi-disease automated phenotyping from EHR data.",
       type: "R Package + Website",
