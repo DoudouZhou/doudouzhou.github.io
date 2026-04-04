@@ -224,7 +224,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "published",
-      authors: "Mingshuo Liu, Yilin Zhang*, Doudou Zhou",
+      authors: "Molei Liu*, Yi Zhang*, Doudou Zhou*",
       title: "Double/Debiased Machine Learning for Logistic Partially Linear Model",
       venue: "The Econometrics Journal, 2021",
       links: [{ label: "Paper", url: "https://academic.oup.com/ectj/article-abstract/24/3/559/6296639" }]
