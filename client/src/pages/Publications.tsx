@@ -210,6 +210,7 @@ export default function Publications() {
       title: "Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices",
       venue: "Journal of Machine Learning Research, 2023",
       links: [
+        { label: "Paper", url: "https://jmlr.org/papers/v24/22-0642.html" },
         { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" }
       ]
     },
