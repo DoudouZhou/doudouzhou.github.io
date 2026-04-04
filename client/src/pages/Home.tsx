@@ -13,6 +13,19 @@ export default function Home() {
   // Selected publications to display on homepage (first-author papers)
   const selectedPublications = [
     {
+      venue: "Nat Commun",
+      year: "2026",
+      title: "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
+      authors: "Doudou Zhou, et al.",
+      journal: "Nature Communications",
+      links: [
+        { label: "Paper", url: "https://www.nature.com/articles/s41467-026-71152-1" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2502.08547" },
+        { label: "Code", url: "https://github.com/celehs/GAME" },
+        { label: "Website", url: "https://shiny.parse-health.org/GAME/" }
+      ]
+    },
+    {
       venue: "IEEE TIT",
       year: "2025",
       title: "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
@@ -66,21 +79,14 @@ export default function Home() {
       links: [ { label: "Paper", url: "https://proceedings.mlr.press/v195/zhou23a/zhou23a.pdf" },
                { label: "arXiv", url: "https://arxiv.org/abs/2112.12948" },
                { label: "R package", url: "https://cran.r-project.org/web/packages/GraphRankTest/index.html" }]
-    }, 
-    {
-      venue: "JBI",
-      year: "2022",
-      title: "Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization",
-      authors: "Doudou Zhou, et al.",
-      journal: "Journal of Biomedical Informatics",
-      links: [
-        { label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" },
-        { label: "MIKGI APP", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }
-      ]
     }
   ];
 
   const news = [
+    {
+      date: "Apr 2026",
+      content: "Our paper \"Representation learning to advance multi-institutional studies with electronic health record data from US and France\" has been accepted by Nature Communications."
+    },
     {
       date: "Mar 2026",
       content: "Our paper \"RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records\" (Yang Yang, Kathryn Pollak, Bibhas Chakraborty, Molei Liu#, Doudou Zhou#, Chuan Hong#) has been accepted at JAMIA Open 2026."

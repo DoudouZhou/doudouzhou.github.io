@@ -278,11 +278,12 @@ export default function Publications() {
     },
     {
       category: "applications",
-      type: "preprint",
+      type: "published",
       authors: "Doudou Zhou, Han Tong, Linshanshan Wang, Suqi Liu, Xin Xiong, Ziming Gan, Romain Griffier, Boris P. Hejblum, Yun-Chung Liu, Chuan Hong, Clara-Lea Bonzel, Tianrun Cai, Kevin Pan, Yuk-Lam Ho, Lauren Costa, Vidul Ayakulangara Panickan, J. Michael Gaziano, Kenneth D. Mandl, Vianney Jouhet, Rodolphe Thiebaut, Zongqi Xia, Kelly Cho, Katherine P. Liao, Tianxi Cai",
-      title: "Representation Learning to Advance Multi-institutional Studies with Electronic Health Record Data",
-      venue: "Preprint, 2025+",
+      title: "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
+      venue: "Nature Communications, 2026",
       links: [
+        { label: "Paper", url: "https://www.nature.com/articles/s41467-026-71152-1" },
         { label: "arXiv", url: "https://arxiv.org/abs/2502.08547" },
         { label: "Code", url: "https://github.com/celehs/GAME" },
         { label: "Website", url: "https://shiny.parse-health.org/GAME/" }
