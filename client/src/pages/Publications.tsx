@@ -422,10 +422,30 @@ export default function Publications() {
     }
   ];
 
+  const getYear = (venue: string) => {
+    const match = venue.match(/\b(19|20)\d{2}\b/);
+    return match ? Number.parseInt(match[0], 10) : 0;
+  };
+
+  const sortedPreprints = publications
+    .filter((pub) => pub.type === "preprint")
+    .sort((a, b) => getYear(b.venue) - getYear(a.venue) || a.title.localeCompare(b.title));
+
+  const publishedYears = Array.from(
+    new Set(
+      publications
+        .filter((pub) => pub.type === "published")
+        .map((pub) => getYear(pub.venue))
+        .filter((year) => year > 0)
+    )
+  ).sort((a, b) => b - a);
+
   const filteredPubs = filter === "all" 
     ? publications 
     : filter === "preprints"
     ? publications.filter(pub => pub.type === "preprint")
+    : filter === "by-year"
+    ? publications
     : publications.filter(pub => pub.category === filter && pub.type === "published");
 
   return (
@@ -464,52 +484,124 @@ export default function Publications() {
           >
             Applications
           </Button>
+          <Button
+            variant={filter === "by-year" ? "default" : "outline"}
+            onClick={() => setFilter("by-year")}
+          >
+            By Year
+          </Button>
         </div>
 
         {/* Publications List */}
         <div className="space-y-6 max-w-5xl mx-auto">
-          {filteredPubs.map((pub, index) => (
-            <Card key={index} className="p-6 hover-lift border-l-4 border-l-primary">
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <FileText className="h-5 w-5 text-primary" />
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-start gap-2 mb-2">
-                    {pub.type === "preprint" && (
-                      <Badge variant="secondary">Preprint</Badge>
+          {filter === "by-year" ? (
+            <>
+              <div className="space-y-4">
+                <h2 className="text-2xl font-bold">Preprints</h2>
+                {sortedPreprints.map((pub, index) => (
+                  <Card key={`preprint-${index}`} className="p-6 hover-lift border-l-4 border-l-primary">
+                    <div className="flex items-start gap-4">
+                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <FileText className="h-5 w-5 text-primary" />
+                      </div>
+                      <div className="flex-1">
+                        <div className="flex items-start gap-2 mb-2">
+                          <Badge variant="secondary">Preprint</Badge>
+                        </div>
+                        <p className="text-sm text-muted-foreground mb-2">{pub.authors}</p>
+                        <h3 className="text-lg font-semibold mb-2 leading-relaxed">{pub.title}</h3>
+                        <p className="text-sm text-muted-foreground italic mb-3">{pub.venue}</p>
+                        {pub.links.length > 0 && (
+                          <div className="flex flex-wrap gap-2">
+                            {pub.links.map((link, linkIndex) => (
+                              <Button key={linkIndex} variant="outline" size="sm" asChild>
+                                <a href={link.url} target="_blank" rel="noopener noreferrer">
+                                  {link.label}
+                                  <ExternalLink className="ml-1 h-3 w-3" />
+                                </a>
+                              </Button>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </Card>
+                ))}
+              </div>
+
+              {publishedYears.map((year) => {
+                const pubsThisYear = publications
+                  .filter((pub) => pub.type === "published" && getYear(pub.venue) === year)
+                  .sort((a, b) => a.title.localeCompare(b.title));
+
+                return (
+                  <div key={year} className="space-y-4 pt-2">
+                    <h2 className="text-2xl font-bold">{year}</h2>
+                    {pubsThisYear.map((pub, index) => (
+                      <Card key={`${year}-${index}`} className="p-6 hover-lift border-l-4 border-l-primary">
+                        <div className="flex items-start gap-4">
+                          <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <FileText className="h-5 w-5 text-primary" />
+                          </div>
+                          <div className="flex-1">
+                            <p className="text-sm text-muted-foreground mb-2">{pub.authors}</p>
+                            <h3 className="text-lg font-semibold mb-2 leading-relaxed">{pub.title}</h3>
+                            <p className="text-sm text-muted-foreground italic mb-3">{pub.venue}</p>
+                            {pub.links.length > 0 && (
+                              <div className="flex flex-wrap gap-2">
+                                {pub.links.map((link, linkIndex) => (
+                                  <Button key={linkIndex} variant="outline" size="sm" asChild>
+                                    <a href={link.url} target="_blank" rel="noopener noreferrer">
+                                      {link.label}
+                                      <ExternalLink className="ml-1 h-3 w-3" />
+                                    </a>
+                                  </Button>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </Card>
+                    ))}
+                  </div>
+                );
+              })}
+            </>
+          ) : (
+            filteredPubs.map((pub, index) => (
+              <Card key={index} className="p-6 hover-lift border-l-4 border-l-primary">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <FileText className="h-5 w-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-start gap-2 mb-2">
+                      {pub.type === "preprint" && (
+                        <Badge variant="secondary">Preprint</Badge>
+                      )}
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-2">{pub.authors}</p>
+                    <h3 className="text-lg font-semibold mb-2 leading-relaxed">
+                      {pub.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground italic mb-3">{pub.venue}</p>
+                    {pub.links.length > 0 && (
+                      <div className="flex flex-wrap gap-2">
+                        {pub.links.map((link, linkIndex) => (
+                          <Button key={linkIndex} variant="outline" size="sm" asChild>
+                            <a href={link.url} target="_blank" rel="noopener noreferrer">
+                              {link.label}
+                              <ExternalLink className="ml-1 h-3 w-3" />
+                            </a>
+                          </Button>
+                        ))}
+                      </div>
                     )}
                   </div>
-                  <p className="text-sm text-muted-foreground mb-2">{pub.authors}</p>
-                  <h3 className="text-lg font-semibold mb-2 leading-relaxed">
-                    {pub.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground italic mb-3">{pub.venue}</p>
-                  {pub.links.length > 0 && (
-                    <div className="flex flex-wrap gap-2">
-                      {pub.links.map((link, linkIndex) => (
-                        <Button 
-                          key={linkIndex}
-                          variant="outline" 
-                          size="sm"
-                          asChild
-                        >
-                          <a
-                            href={link.url} 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                          >
-                            {link.label}
-                            <ExternalLink className="ml-1 h-3 w-3" />
-                          </a>
-                        </Button>
-                      ))}
-                    </div>
-                  )}
                 </div>
-              </div>
-            </Card>
-          ))}
+              </Card>
+            ))
+          )}
         </div>
       </div>
     </div>
