@@ -392,7 +392,10 @@ export default function Publications() {
       authors: "Ahuja, Y., Liang, L., Doudou Zhou, Huang, S., Tianxi Cai",
       title: "Semisupervised Calibration of Risk with Noisy Event Times (SCORNET) using electronic health record data",
       venue: "Biostatistics, 2022",
-      links: [{ label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35166342/" }]
+      links: [
+        { label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35166342/" },
+        { label: "Website", url: "https://github.com/celehs/SCORNET" }
+      ]
     },
     {
       category: "applications",

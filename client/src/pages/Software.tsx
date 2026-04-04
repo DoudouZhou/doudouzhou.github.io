@@ -102,6 +102,16 @@ export default function Software() {
       tags: ["EHR", "Knowledge Extraction", "Clinical AI"]
     },
     {
+      name: "SCORNET",
+      description: "Semi-supervised calibration of risk with noisy event times using electronic health record data.",
+      type: "Website + Paper",
+      links: [
+        { label: "Website", url: "https://github.com/celehs/SCORNET", icon: Github },
+        { label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35166342/", icon: ExternalLink }
+      ],
+      tags: ["EHR", "Risk Calibration", "Semi-supervised Learning"]
+    },
+    {
       name: "sureLDA",
       description: "R package and project site for multi-disease automated phenotyping from EHR data.",
       type: "R Package + Website",
