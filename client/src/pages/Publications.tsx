@@ -400,7 +400,10 @@ export default function Publications() {
       authors: "Chuan Hong, Everett Rush, Molei Liu, Doudou Zhou, Jiehuan Sun, Aaron Sonabend, Victor M. Castro, Petra Schubert, Vidul A. Panickan, Tianrun Cai, Lauren Costa, Zeling He, Nicholas Link, Ronald Hauser, J. Michael Gaziano, Shawn N. Murphy, George Ostrouchov, Yuk-Lam Ho, Edmon Begoli, Junwei Lu, Kelly Cho, Katherine P. Liao, Tianxi Cai, VA Million Veteran Program",
       title: "Clinical Knowledge Extraction via Sparse Embedding Regression (KESER) with Multi-Center Large Scale Electronic Health Record Data",
       venue: "npj Digital Medicine, 2021",
-      links: [{ label: "Paper", url: "https://www.nature.com/articles/s41746-021-00519-z" }]
+      links: [
+        { label: "Paper", url: "https://www.nature.com/articles/s41746-021-00519-z" },
+        { label: "Website", url: "https://celehs.github.io/KESER/" }
+      ]
     },
     {
       category: "applications",
