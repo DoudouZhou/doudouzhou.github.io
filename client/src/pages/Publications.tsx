@@ -376,7 +376,7 @@ export default function Publications() {
       authors: "Jun Wen, Xiang Zhang, Everett Rush, Vidul A. Panickan, Xingyu Li, Tianrun Cai, Doudou Zhou, Yuk-Lam Ho, Lauren Costa, Edmon Begoli, Chuan Hong, J. Michael Gaziano, Kelly Cho, Junwei Lu, Katherine P. Liao, Marinka Zitnik, Tianxi Cai",
       title: "Multimodal Representation Learning for Predicting Molecule-Disease Relations",
       venue: "Bioinformatics, 2023",
-      links: [{ label: "Website", url: "https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101" }]
+      links: [{ label: "Paper", url: "https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101" }]
     },
     {
       category: "applications",
