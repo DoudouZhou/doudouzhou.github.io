@@ -42,6 +42,14 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
+      authors: "Huichao Li, Junhan Yu, Doudou Zhou",
+      title: "Hierarchical Contrastive Learning for Multimodal Data",
+      venue: "Preprint, 2026+",
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2604.05462" }]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou#",
       title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
       venue: "Preprint, 2025+",

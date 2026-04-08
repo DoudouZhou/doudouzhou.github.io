@@ -122,6 +122,13 @@ export default function People() {
       institution: "NUS",
       publications: [
         {
+          title: "Hierarchical Contrastive Learning for Multimodal Data",
+          authors: "Huichao Li, Junhan Yu, Doudou Zhou",
+          venue: "Preprint",
+          year: "2026+",
+          url: "https://arxiv.org/abs/2604.05462"
+        },
+        {
           title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
           authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou",
           venue: "Preprint",
@@ -233,7 +240,20 @@ export default function People() {
         }
       ]
     },
-    { name: "Huichao Li", period: "2025--", institution: "University of Chinese Academy of Sciences" },
+    {
+      name: "Huichao Li",
+      period: "2025--",
+      institution: "University of Chinese Academy of Sciences",
+      publications: [
+        {
+          title: "Hierarchical Contrastive Learning for Multimodal Data",
+          authors: "Huichao Li, Junhan Yu, Doudou Zhou",
+          venue: "Preprint",
+          year: "2026+",
+          url: "https://arxiv.org/abs/2604.05462"
+        }
+      ]
+    },
     { name: "Ruolin Ding", period: "2025--", institution: "University of Science and Technology of China", photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/hqYwHYjfkYebdXNF.png" },
     { 
       name: "Yaya Zhao", 
