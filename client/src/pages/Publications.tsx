@@ -16,6 +16,14 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
+      authors: "Doudou Zhou, Yiran Zhang, Dian Jin, Yingye Zheng, Lu Tian, Tianxi Cai",
+      title: "Cost-optimal Sequential Testing via Doubly Robust Q-learning",
+      venue: "Preprint, 2026+",
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2604.11165" }]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou#, Nian Si#",
       title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
       venue: "Preprint, 2026+",
@@ -440,9 +448,15 @@ export default function Publications() {
     return match ? Number.parseInt(match[0], 10) : 0;
   };
 
+  const getArxivSortKey = (pub: (typeof publications)[number]) => {
+    const arxivLink = pub.links.find((link) => link.url.includes("arxiv.org"));
+    const match = arxivLink?.url.match(/(\d{4}\.\d{4,5})/);
+    return match ? Number.parseInt(match[1].replace(".", ""), 10) : getYear(pub.venue) * 100000;
+  };
+
   const sortedPreprints = publications
     .filter((pub) => pub.type === "preprint")
-    .sort((a, b) => getYear(b.venue) - getYear(a.venue) || a.title.localeCompare(b.title));
+    .sort((a, b) => getArxivSortKey(b) - getArxivSortKey(a) || a.title.localeCompare(b.title));
 
   const publishedYears = Array.from(
     new Set(
@@ -456,7 +470,7 @@ export default function Publications() {
   const filteredPubs = filter === "all" 
     ? publications 
     : filter === "preprints"
-    ? publications.filter(pub => pub.type === "preprint")
+    ? sortedPreprints
     : filter === "by-year"
     ? publications
     : publications.filter(pub => pub.category === filter && pub.type === "published");
