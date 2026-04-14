@@ -85,6 +85,10 @@ export default function Home() {
   const news = [
     {
       date: "Apr 2026",
+      content: "New preprints on arXiv: \"Cost-optimal Sequential Testing via Doubly Robust Q-learning\" and \"Hierarchical Contrastive Learning for Multimodal Data.\""
+    },
+    {
+      date: "Apr 2026",
       content: "Our paper \"Representation learning to advance multi-institutional studies with electronic health record data from US and France\" has been accepted by Nature Communications."
     },
     {
