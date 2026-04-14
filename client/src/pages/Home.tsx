@@ -105,10 +105,6 @@ export default function Home() {
       content: "Our paper on single index bandits has been accepted at ICLR 2026."
     },
     {
-      date: "Dec 2025",
-      content: "Welcoming new PhD students Kejian Zhang, Jiawei Wu, and Rundong Huang to the group."
-    },
-    {
       date: "Sep 2025",
       content: "Our paper on Wasserstein transfer learning has been accepted at NeurIPS 2025."
     }
