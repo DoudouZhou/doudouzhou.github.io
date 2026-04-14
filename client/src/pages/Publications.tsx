@@ -167,7 +167,10 @@ export default function Publications() {
       authors: "Yue Kang, Mingshuo Liu, Bongsoo Yi, Jing Lyu,  Zhi Zhang, Doudou Zhou, Yao Li",
       title: "Single Index Bandits: Generalized Linear Contextual Bandits with Unknown Reward Functions",
       venue: "International Conference on Learning Representations (ICLR), 2026",
-      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2506.12751" }]
+      links: [
+        { label: "Paper", url: "https://openreview.net/forum?id=aYDpQUcJTn" },
+        { label: "arXiv", url: "https://arxiv.org/pdf/2506.12751" }
+      ]
     },
     {
       category: "methodology",
