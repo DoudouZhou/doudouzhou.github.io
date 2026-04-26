@@ -365,8 +365,11 @@ export default function Publications() {
       authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou#",
       title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
       venue: "AISTATS, 2026",
-      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2601.09220" },
-              { label: "Code", url: "https://github.com/TanXZfra/Time-aware-Hawkes-Attention" }]
+      links: [
+        { label: "Paper", url: "https://openreview.net/attachment?id=gOOxbzB9Y5&name=pdf" },
+        { label: "arXiv", url: "https://arxiv.org/pdf/2601.09220" },
+        { label: "Code", url: "https://github.com/TanXZfra/Time-aware-Hawkes-Attention" }
+      ]
     },
     {
       category: "applications",
