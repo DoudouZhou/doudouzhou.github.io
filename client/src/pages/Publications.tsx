@@ -53,7 +53,10 @@ export default function Publications() {
       authors: "Huichao Li, Junhan Yu, Doudou Zhou",
       title: "Hierarchical Contrastive Learning for Multimodal Data",
       venue: "Preprint, 2026+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2604.05462" }]
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2604.05462" },
+        { label: "Code", url: "https://github.com/yujunhan111/HCL_public" }
+      ]
     },
     {
       category: "methodology",
