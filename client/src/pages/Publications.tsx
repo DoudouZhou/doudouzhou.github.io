@@ -277,7 +277,11 @@ export default function Publications() {
       authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou#",
       title: "A Trainable Centrality Framework for Modern Data",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2511.22959" }]
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2511.22959" },
+        { label: "Website", url: "https://vuminhducvmd.github.io/FUSE/" },
+        { label: "Code", url: "https://github.com/vuminhducvmd/FUSE" }
+      ]
     },
     {
       category: "applications",
