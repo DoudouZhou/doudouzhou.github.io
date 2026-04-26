@@ -191,7 +191,9 @@ export default function Publications() {
       title: "Inference of Dependency Knowledge Graph for Electronic Health Records",
       venue: "Journal of the Royal Statistical Society Series B (Statistical Methodology), 2025",
       links: [
-        { label: "Paper", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144?redirectedFrom=fulltext"}
+        { label: "Paper", url: "https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkaf061/8267144?redirectedFrom=fulltext"},
+        { label: "arXiv", url: "https://arxiv.org/abs/2312.15611" },
+        { label: "Code", url: "https://github.com/junwei-lu/WordVec_Inference" }
       ]
     },
     {
@@ -200,7 +202,10 @@ export default function Publications() {
       authors: "Doudou Zhou, Hao Chen",
       title: "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
       venue: "IEEE Transactions on Information Theory, 2025",
-      links: [{ label: "Paper", url: "https://ieeexplore.ieee.org/document/11021493" }]
+      links: [
+        { label: "Paper", url: "https://ieeexplore.ieee.org/document/11021493" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2206.03038" }
+      ]
     },
     {
       category: "methodology",
@@ -209,7 +214,9 @@ export default function Publications() {
       title: "Doubly Robust Evaluation of Receiver Operating Characteristic under Covariate Shift with High Dimensional Features",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
-        { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" }
+        { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2208.05134" },
+        { label: "Code", url: "https://www.tandfonline.com/doi/suppl/10.1080/01621459.2024.2356291?scroll=top" }
       ]
     },
     {
@@ -219,7 +226,9 @@ export default function Publications() {
       title: "Federated Offline Reinforcement Learning",
       venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
       links: [
-        { label: "Paper", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287?casa_token=ZsYamLI5gcwAAAAA:vpxrdw68t-U-SpN02Azg1aFFmZwjzfjmA9LJI4TUA8U6Ho01YwBWhbCXUcsS0G-tePqHeT8THU-3" }
+        { label: "Paper", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287?casa_token=ZsYamLI5gcwAAAAA:vpxrdw68t-U-SpN02Azg1aFFmZwjzfjmA9LJI4TUA8U6Ho01YwBWhbCXUcsS0G-tePqHeT8THU-3" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2206.05581" },
+        { label: "Code", url: "https://github.com/DoudouZhou/FDTR" }
       ]
     },
     {
@@ -230,7 +239,9 @@ export default function Publications() {
       venue: "Journal of Machine Learning Research, 2023",
       links: [
         { label: "Paper", url: "https://jmlr.org/papers/v24/22-0642.html" },
-        { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" },
+        { label: "Code", url: "https://github.com/DoudouZhou/BONMI/blob/main/README.md" },
+        { label: "Package", url: "https://celehs.github.io/bonmi/" }
       ]
     },
     {
@@ -241,7 +252,8 @@ export default function Publications() {
       venue: "Conference on Learning Theory (COLT), 2023",
       links: [
         { label: "Paper", url: "https://proceedings.mlr.press/v195/zhou23a/zhou23a.pdf" },
-        { label: "arXiv", url: "https://arxiv.org/abs/2112.12948" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2112.12948" },
+        { label: "R package", url: "https://cran.r-project.org/web/packages/GraphRankTest/index.html" }
       ]
     },
     {
@@ -250,7 +262,10 @@ export default function Publications() {
       authors: "Molei Liu*, Yi Zhang*, Doudou Zhou*",
       title: "Double/Debiased Machine Learning for Logistic Partially Linear Model",
       venue: "The Econometrics Journal, 2021",
-      links: [{ label: "Paper", url: "https://academic.oup.com/ectj/article-abstract/24/3/559/6296639" }]
+      links: [
+        { label: "Paper", url: "https://academic.oup.com/ectj/article-abstract/24/3/559/6296639" },
+        { label: "Code", url: "https://academic.oup.com/ectj/article/24/3/559/6296639" }
+      ]
     },
     // Preprints - Applications
     {
@@ -268,7 +283,9 @@ export default function Publications() {
       title: "PEHRT: A Common Pipeline for Harmonizing Electronic Health Record data for Translational Research",
       venue: "Preprint, 2025+",
       links: [
-        { label: "arXiv", url: "https://arxiv.org/pdf/2509.08553" }
+        { label: "arXiv", url: "https://arxiv.org/pdf/2509.08553" },
+        { label: "Website", url: "https://celehs.github.io/PEHRT/" },
+        { label: "R package", url: "https://cran.r-project.org/web/packages/nlpembeds/index.html" }
       ]
     },
     {
@@ -277,7 +294,10 @@ export default function Publications() {
       authors: "Yinjie Wang*, Doudou Zhou*, Yue Liu, Junwei Lu, Tianxi Cai",
       title: "Automated Hierarchical Graph Construction for Multi-source Electronic Health Records",
       venue: "Preprint, 2025+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.06576" }]
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2509.06576" },
+        { label: "Website", url: "https://celehs.github.io/MASH/" }
+      ]
     },
     {
       category: "applications",
@@ -315,7 +335,9 @@ export default function Publications() {
       title: "Bending the Learning Curve for EHR Research via Knowledge-Driven Online Multimodal Automated Phenotyping System",
       venue: "Preprint, 2023+",
       links: [
-        { label: "medRxiv", url: "https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1" }
+        { label: "medRxiv", url: "https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1" },
+        { label: "KOMAP", url: "https://shiny.parse-health.org/KOMAP/" },
+        { label: "ONCE", url: "https://shiny.parse-health.org/ONCE/" }
       ]
     },
     // Published - Applications
@@ -359,7 +381,9 @@ export default function Publications() {
       title: "ARCH: Large-scale Knowledge Graph via Aggregated Narrative Codified Health Records Analysis",
       venue: "Journal of Biomedical Informatics, 2025",
       links: [
-        { label: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795" }
+        { label: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001795" },
+        { label: "Code", url: "https://github.com/yuming14/ARCH" },
+        { label: "ARCH APP", url: "https://shiny.parse-health.org/ARCH/" }
       ]
     },
     {
@@ -376,7 +400,10 @@ export default function Publications() {
       authors: "Jun Wen, Hao Xue, Everett Rush, Vidul A. Panickan, Tianrun Cai, Doudou Zhou, Yuk-Lam Ho, Lauren Costa, Edmon Begoli, Chuan Hong, J. Michael Gaziano, Kelly Cho, Katherine P. Liao, Junwei Lu, Tianxi Cai",
       title: "DOME: Directional Medical Embedding Vectors from Electronic Health Records",
       venue: "Journal of Biomedical Informatics, 2025",
-      links: [{ label: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001862" }]
+      links: [
+        { label: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S1532046424001862" },
+        { label: "Code", url: "https://github.com/celehs/Directional-EHR-embedding" }
+      ]
     },
     {
       category: "applications",
@@ -400,7 +427,10 @@ export default function Publications() {
       authors: "Jun Wen, Xiang Zhang, Everett Rush, Vidul A. Panickan, Xingyu Li, Tianrun Cai, Doudou Zhou, Yuk-Lam Ho, Lauren Costa, Edmon Begoli, Chuan Hong, J. Michael Gaziano, Kelly Cho, Junwei Lu, Katherine P. Liao, Marinka Zitnik, Tianxi Cai",
       title: "Multimodal Representation Learning for Predicting Molecule-Disease Relations",
       venue: "Bioinformatics, 2023",
-      links: [{ label: "Paper", url: "https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101" }]
+      links: [
+        { label: "Paper", url: "https://academic.oup.com/bioinformatics/article/39/2/btad085/7034101" },
+        { label: "Website", url: "https://github.com/celehs/M2REMAP" }
+      ]
     },
     {
       category: "applications",
@@ -408,7 +438,10 @@ export default function Publications() {
       authors: "Doudou Zhou, Ziming Gan, Xu Shi, Alina Patwari, Everett Rush, Clara-Lea Bonzel, Vidul A. Panickan, Chuan Hong, Yuk-Lam Ho, Tianrun Cai, Lauren Costa, Xiaoou Li, Victor M. Castro, Shawn N. Murphy, Gabriel Brat, Griffin Weber, Paul Avillach, J. Michael Gaziano, Kelly Cho, Katherine P. Liao, Junwei Lu, Tianxi Cai",
       title: "Multiview Incomplete Knowledge Graph Integration with Application to Cross-institutional EHR Data Harmonization",
       venue: "Journal of Biomedical Informatics, 2022",
-      links: [{ label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" }]
+      links: [
+        { label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/" },
+        { label: "MIKGI APP", url: "https://shiny.parse-health.org/MIKGI/" }
+      ]
     },
     {
       category: "applications",
@@ -418,7 +451,8 @@ export default function Publications() {
       venue: "Biostatistics, 2022",
       links: [
         { label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35166342/" },
-        { label: "Website", url: "https://github.com/celehs/SCORNET" }
+        { label: "Website", url: "https://github.com/celehs/SCORNET" },
+        { label: "R package", url: "https://cran.r-project.org/web/packages/SCORNET/index.html" }
       ]
     },
     {
@@ -429,7 +463,8 @@ export default function Publications() {
       venue: "npj Digital Medicine, 2021",
       links: [
         { label: "Paper", url: "https://www.nature.com/articles/s41746-021-00519-z" },
-        { label: "Website", url: "https://celehs.github.io/KESER/" }
+        { label: "Website", url: "https://celehs.github.io/KESER/" },
+        { label: "KESER Network", url: "https://shiny.parse-health.org/kesernetwork-linkage/" }
       ]
     },
     {

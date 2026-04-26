@@ -67,7 +67,8 @@ export default function Home() {
       links: [
         { label: "Paper", url: "https://jmlr.org/papers/v24/22-0642.html" },
         { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" },
-         { label: "Code", url: "https://github.com/DoudouZhou/BONMI/blob/main/README.md" }
+         { label: "Code", url: "https://github.com/DoudouZhou/BONMI/blob/main/README.md" },
+         { label: "Package", url: "https://celehs.github.io/bonmi/" }
       ]
     },
     {
