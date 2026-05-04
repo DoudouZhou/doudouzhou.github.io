@@ -66,7 +66,7 @@ export default function People() {
           authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2026+",
-          url: "https://arxiv.org/abs/2602.01826"
+          url: "https://arxiv.org/abs/2601.21817"
         }
       ]
     },
@@ -156,7 +156,7 @@ export default function People() {
           authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
           venue: "Preprint",
           year: "2026+",
-          url: "https://arxiv.org/abs/2602.01826"
+          url: "https://arxiv.org/abs/2601.21817"
         },
         {
           title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
