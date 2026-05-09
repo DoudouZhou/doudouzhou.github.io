@@ -16,6 +16,14 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
+      authors: "Jiawei Wu, Doudou Zhou",
+      title: "Unlearning What Matters: Token-Level Attribution for Precise Language Model Unlearning",
+      venue: "Preprint, 2026+",
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2605.00364" }]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Doudou Zhou, Yiran Zhang, Dian Jin, Yingye Zheng, Lu Tian, Tianxi Cai",
       title: "Cost-optimal Sequential Testing via Doubly Robust Q-learning",
       venue: "Preprint, 2026+",
