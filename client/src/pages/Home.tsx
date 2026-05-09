@@ -85,6 +85,10 @@ export default function Home() {
 
   const news = [
     {
+      date: "May 2026",
+      content: "Our paper \"A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth\" has been accepted at ICML 2026."
+    },
+    {
       date: "Apr 2026",
       content: "New preprints on arXiv: \"Cost-optimal Sequential Testing via Doubly Robust Q-learning\" and \"Hierarchical Contrastive Learning for Multimodal Data.\""
     },
