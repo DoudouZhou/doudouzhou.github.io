@@ -7,7 +7,6 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Research from "./pages/Research";
 import People from "./pages/People";
 import Publications from "./pages/Publications";
 import Software from "./pages/Software";
@@ -20,7 +19,6 @@ function Router() {
       <Navigation />
       <Switch>
         <Route path="/" component={Home} />
-        <Route path="/research" component={Research} />
         <Route path="/people" component={People} />
         <Route path="/publications" component={Publications} />
         <Route path="/software" component={Software} />
