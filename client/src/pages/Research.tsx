@@ -73,6 +73,37 @@ export default function Research() {
           <div className="space-y-6">
             <Card className="p-6 hover-lift">
               <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <FileText className="h-6 w-6 text-accent" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold mb-2">Unlearning What Matters: Token-Level Attribution for Precise Language Model Unlearning</h3>
+                  <p className="text-muted-foreground mb-3">
+                    A token-level attribution framework for more precise language model unlearning, with an emphasis on removing the targeted information while preserving the rest of the model's capabilities.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    <Badge>Preprint 2026</Badge>
+                    <Badge variant="outline">LLM Unlearning</Badge>
+                    <Badge variant="outline">Attribution</Badge>
+                  </div>
+                  <div className="flex gap-2">
+                    <a
+                      href="https://arxiv.org/abs/2605.00364"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button size="sm" variant="outline">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Paper
+                      </Button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6 hover-lift">
+              <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <FileText className="h-6 w-6 text-primary" />
                 </div>
