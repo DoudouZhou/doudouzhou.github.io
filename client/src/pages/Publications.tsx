@@ -16,7 +16,7 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Yuming Zhang, Congyuan Duan, Dong Xia, Doudou Zhou, Tianxi Cai",
+      authors: "Yuming Zhang, Congyuan Duan, Dong Xia, Doudou Zhou#, Tianxi Cai#",
       title: "Spherical Mixture Integration for Latent Embedding Alignment across Multi-Source Feature Spaces",
       venue: "Preprint, 2026+",
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2605.08637" }]
