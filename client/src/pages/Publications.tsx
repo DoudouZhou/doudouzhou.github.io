@@ -14,6 +14,14 @@ export default function Publications() {
   const publications = [
     // Preprints - Statistical Methodology and Theory
     {
+      category: "applications",
+      type: "preprint",
+      authors: "Junhan Yu, Yurui Chen, Juan Delgado-SanMartin, Dennis Wang, Hong Pan, Doudou Zhou",
+      title: "Structured Transfer Learning for Survival Risk Stratification in Data-Sparse Clinical Cohorts",
+      venue: "Preprint, 2026+",
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2605.15633" }]
+    },
+    {
       category: "methodology",
       type: "preprint",
       authors: "Yuming Zhang, Congyuan Duan, Dong Xia, Doudou Zhou#, Tianxi Cai#",

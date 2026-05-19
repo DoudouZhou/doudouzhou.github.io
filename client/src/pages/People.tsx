@@ -107,6 +107,13 @@ export default function People() {
       institution: "NUS",
       publications: [
         {
+          title: "Structured Transfer Learning for Survival Risk Stratification in Data-Sparse Clinical Cohorts",
+          authors: "Junhan Yu, Yurui Chen, Juan Delgado-SanMartin, Dennis Wang, Hong Pan, Doudou Zhou",
+          venue: "Preprint",
+          year: "2026+",
+          url: "https://arxiv.org/abs/2605.15633"
+        },
+        {
           title: "Hierarchical Contrastive Learning for Multimodal Data",
           authors: "Huichao Li, Junhan Yu, Doudou Zhou",
           venue: "Preprint",
