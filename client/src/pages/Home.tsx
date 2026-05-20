@@ -320,7 +320,7 @@ export default function Home() {
                   <div className="flex items-center gap-2">
                     <Linkedin className="h-4 w-4 shrink-0 text-muted-foreground" />
                     <a
-                      href="https://www.linkedin.com/in/doudou-zhou"
+                      href="https://www.linkedin.com/in/doudou-zhou-557ba0106"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"
