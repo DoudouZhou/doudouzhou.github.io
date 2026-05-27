@@ -113,6 +113,16 @@ export default function Software() {
       tags: ["EHR", "Data Harmonization", "Translational Research"]
     },
     {
+      name: "MIKGI",
+      description: "Multiview incomplete knowledge graph integration for cross-institutional EHR data harmonization.",
+      type: "Web App + Paper",
+      links: [
+        { label: "Web App", url: "https://shiny.parse-health.org/MIKGI/", icon: ExternalLink },
+        { label: "Paper", url: "https://pubmed.ncbi.nlm.nih.gov/35872266/", icon: ExternalLink }
+      ],
+      tags: ["EHR", "Knowledge Graph", "Data Harmonization"]
+    },
+    {
       name: "SCORNET",
       description: "Semi-supervised calibration of risk with noisy event times using electronic health record data.",
       type: "Website + Paper",
