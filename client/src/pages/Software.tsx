@@ -133,6 +133,16 @@ export default function Software() {
       tags: ["EHR", "Phenotyping", "Multimodal Learning"]
     },
     {
+      name: "ONCE",
+      description: "Online system for knowledge-driven multimodal automated phenotyping in EHR research.",
+      type: "Web App + Paper",
+      links: [
+        { label: "Web App", url: "https://shiny.parse-health.org/ONCE/", icon: ExternalLink },
+        { label: "Paper", url: "https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1", icon: ExternalLink }
+      ],
+      tags: ["EHR", "Phenotyping", "Multimodal Learning"]
+    },
+    {
       name: "SCORNET",
       description: "Semi-supervised calibration of risk with noisy event times using electronic health record data.",
       type: "Website + Paper",
