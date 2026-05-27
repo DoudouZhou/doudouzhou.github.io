@@ -102,6 +102,17 @@ export default function Software() {
       tags: ["EHR", "Knowledge Extraction", "Clinical AI"]
     },
     {
+      name: "PEHRT",
+      description: "A common pipeline for harmonizing electronic health record data for translational research.",
+      type: "Website + R Package",
+      links: [
+        { label: "Website", url: "https://celehs.github.io/PEHRT/", icon: ExternalLink },
+        { label: "arXiv", url: "https://arxiv.org/abs/2509.08553", icon: ExternalLink },
+        { label: "nlpembeds", url: "https://cran.r-project.org/web/packages/nlpembeds/index.html", icon: Package }
+      ],
+      tags: ["EHR", "Data Harmonization", "Translational Research"]
+    },
+    {
       name: "SCORNET",
       description: "Semi-supervised calibration of risk with noisy event times using electronic health record data.",
       type: "Website + Paper",
