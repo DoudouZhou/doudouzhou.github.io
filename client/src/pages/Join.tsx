@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Mail, Users, GraduationCap, Award, Heart } from "lucide-react";
+import { CONTACT_EMAIL, RESEARCH_INTERESTS } from "@/siteData";
 
 export default function Join() {
   return (
@@ -28,7 +29,7 @@ export default function Join() {
               </div>
               <h3 className="font-bold mb-2">Cutting-Edge Research</h3>
               <p className="text-sm text-muted-foreground">
-                Work on impactful problems in statistical AI and healthcare analytics
+                Work on statistical foundations of AI, modern machine learning, and biomedical data science
               </p>
             </Card>
             
@@ -71,9 +72,17 @@ export default function Join() {
                   
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     We are inviting applications for multiple postdoctoral research fellow positions. 
-                    Successful candidates will work on cutting-edge research in statistical methodology, 
-                    machine learning, and healthcare AI.
+                    Successful candidates will work on cutting-edge research across statistical foundations of AI,
+                    machine learning, large language models, multimodal learning, and biomedical data science.
                   </p>
+
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {RESEARCH_INTERESTS.map((interest) => (
+                      <Badge key={interest} variant="outline">
+                        {interest}
+                      </Badge>
+                    ))}
+                  </div>
                   
                   <div className="mb-4">
                     <h4 className="font-semibold mb-2">Qualifications:</h4>
@@ -86,7 +95,7 @@ export default function Join() {
                   </div>
                   
                   <Button asChild>
-                    <a href="mailto:ddzhou@nus.edu.sg?subject=Postdoc Application">
+                    <a href={`mailto:${CONTACT_EMAIL}?subject=Postdoc Application`}>
                       <Mail className="mr-2 h-4 w-4" />
                       Apply Now
                     </a>
@@ -107,7 +116,8 @@ export default function Join() {
                   
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     We welcome motivated PhD students interested in statistical methodology, machine learning, 
-                    and healthcare analytics. NUS offers three admission cycles: fall, spring, and early admission.
+                    large language models, multimodal learning, reinforcement learning, and healthcare analytics.
+                    NUS offers three admission cycles: fall, spring, and early admission.
                   </p>
                   
                   <div className="mb-4">
@@ -127,7 +137,7 @@ export default function Join() {
                       </a>
                     </Button>
                     <Button variant="outline" asChild>
-                      <a href="mailto:ddzhou@nus.edu.sg?subject=PhD Inquiry">
+                      <a href={`mailto:${CONTACT_EMAIL}?subject=PhD Inquiry`}>
                         <Mail className="mr-2 h-4 w-4" />
                         Contact Prof. Zhou
                       </a>
@@ -149,7 +159,8 @@ export default function Join() {
                   
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     We offer research project opportunities for master's and undergraduate students at NUS. 
-                    If you're interested in gaining research experience in statistical AI and learning, 
+                    If you're interested in gaining research experience in statistical AI, LLMs, multimodal learning,
+                    biomedical data science, or sequential decision making,
                     we'd love to hear from you.
                   </p>
                   
@@ -164,7 +175,7 @@ export default function Join() {
                   </div>
                   
                   <Button variant="outline" asChild>
-                    <a href="mailto:ddzhou@nus.edu.sg?subject=Research Project Inquiry">
+                    <a href={`mailto:${CONTACT_EMAIL}?subject=Research Project Inquiry`}>
                       <Mail className="mr-2 h-4 w-4" />
                       Express Interest
                     </a>

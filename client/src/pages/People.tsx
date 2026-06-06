@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/dialog";
 import { Mail, ExternalLink, GraduationCap, Users, FileText } from "lucide-react";
 import { useState } from "react";
+import { CONTACT_EMAIL, RESEARCH_INTERESTS } from "@/siteData";
 
 interface Publication {
   title: string;
@@ -354,13 +355,14 @@ export default function People() {
                   National University of Singapore
                 </p>
                 <div className="flex flex-wrap gap-3 mb-6">
-                  <Badge variant="secondary">Transfer Learning</Badge>
-                  <Badge variant="secondary">Federated Learning</Badge>
-                  <Badge variant="secondary">Reinforcement Learning</Badge>
-                  <Badge variant="secondary">EHR Analysis</Badge>
+                  {RESEARCH_INTERESTS.map((interest) => (
+                    <Badge key={interest} variant="secondary">
+                      {interest}
+                    </Badge>
+                  ))}
                 </div>
                 <div className="flex flex-wrap gap-3">
-                  <a href="mailto:doudou.zhou@nus.edu.sg">
+                  <a href={`mailto:${CONTACT_EMAIL}`}>
                     <Button variant="outline" size="sm">
                       <Mail className="mr-2 h-4 w-4" />
                       Email

@@ -8,6 +8,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Mail, GraduationCap, ExternalLink, FileText, Building2, Linkedin } from "lucide-react";
 import { Link } from "wouter";
+import { CONTACT_EMAIL, RESEARCH_INTERESTS } from "@/siteData";
 
 export default function Home() {
   // Selected publications to display on homepage (first-author papers)
@@ -138,16 +139,15 @@ export default function Home() {
                 <p>
                   👋 Hi! I'm Doudou Zhou, an Assistant Professor in the Department of Statistics and Data Science 
                   at the National University of Singapore. I develop rigorous statistical methodology and practical 
-                  AI techniques for analyzing complex healthcare data, with a focus on transfer learning, federated 
-                  learning, reinforcement learning, and electronic health records analysis.
+                  AI techniques for analyzing complex data, with a focus on statistical foundations of AI, machine
+                  learning, large language models and agentic AI, multimodal learning, and biomedical data science.
                 </p>
                 
                 <p>
                   🔍 My research bridges theory and application, creating tools that advance both statistical science 
-                  and real-world medical research. I work on developing novel statistical methods with theoretical 
-                  guarantees for transfer learning, change-point detection, and high-dimensional inference, as well as 
-                  building practical AI systems for multi-institutional data integration and knowledge graph construction 
-                  from electronic health records.
+                  and real-world medical research. I work on statistical and computational methods for electronic health
+                  records, high-dimensional and non-Euclidean data, reinforcement learning, sequential decision making,
+                  and trustworthy AI systems for scientific and biomedical discovery.
                 </p>
                 
                 <p>
@@ -156,6 +156,14 @@ export default function Home() {
                   and I also host visiting scholars from China and around the world for academic exchanges. 
                   Feel free to reach out if you're interested in working together!
                 </p>
+              </div>
+
+              <div className="flex flex-wrap gap-2 mt-6">
+                {RESEARCH_INTERESTS.map((interest) => (
+                  <Badge key={interest} variant="secondary">
+                    {interest}
+                  </Badge>
+                ))}
               </div>
             </section>
 
@@ -300,8 +308,8 @@ export default function Home() {
                   
                   <div className="flex items-center gap-2">
                     <Mail className="h-4 w-4 shrink-0 text-muted-foreground" />
-                    <a href="mailto:doudou@nus.edu.sg" className="hover:underline">
-                      doudou@nus.edu.sg
+                    <a href={`mailto:${CONTACT_EMAIL}`} className="hover:underline">
+                      {CONTACT_EMAIL}
                     </a>
                   </div>
                   
