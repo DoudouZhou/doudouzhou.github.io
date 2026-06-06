@@ -6,9 +6,10 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mail, GraduationCap, ExternalLink, FileText, Building2, Linkedin } from "lucide-react";
+import { Mail, GraduationCap, ExternalLink, FileText, Building2, Linkedin, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
-import { CONTACT_EMAIL, RESEARCH_INTERESTS } from "@/siteData";
+import ResearchInterestGrid from "@/components/ResearchInterestGrid";
+import { CONTACT_EMAIL } from "@/siteData";
 
 export default function Home() {
   // Selected publications to display on homepage (first-author papers)
@@ -158,12 +159,24 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="flex flex-wrap gap-2 mt-6">
-                {RESEARCH_INTERESTS.map((interest) => (
-                  <Badge key={interest} variant="secondary">
-                    {interest}
-                  </Badge>
-                ))}
+              <div className="mt-8 rounded-lg border border-border bg-secondary/60 p-5">
+                <div className="mb-5 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+                  <div>
+                    <p className="mb-1 text-sm font-semibold text-primary">Research Interests</p>
+                    <h2 className="text-2xl font-bold">Statistics for modern AI and biomedical data</h2>
+                    <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+                      A connected agenda spanning statistical foundations, learning systems, complex data, and
+                      sequential decisions.
+                    </p>
+                  </div>
+                  <Link href="/research">
+                    <Button variant="outline" size="sm" className="shrink-0">
+                      View Research
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
+                </div>
+                <ResearchInterestGrid />
               </div>
             </section>
 

@@ -5,62 +5,10 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Activity, Bot, Brain, Database, ExternalLink, FileText, Layers, Network } from "lucide-react";
-import { RESEARCH_INTERESTS } from "@/siteData";
+import ResearchInterestGrid from "@/components/ResearchInterestGrid";
+import { ExternalLink, FileText } from "lucide-react";
 
 export default function Research() {
-  const interestDetails = [
-    {
-      title: RESEARCH_INTERESTS[0],
-      description:
-        "Developing statistical principles, uncertainty quantification, and inference tools for modern AI systems.",
-      icon: Brain,
-      tags: ["Inference", "Theory", "Trustworthy AI"],
-    },
-    {
-      title: RESEARCH_INTERESTS[1],
-      description:
-        "Designing learning methods that combine statistical rigor, computational efficiency, and real-world robustness.",
-      icon: Activity,
-      tags: ["Prediction", "Generalization", "Robustness"],
-    },
-    {
-      title: RESEARCH_INTERESTS[2],
-      description:
-        "Studying evaluation, ranking, adaptation, and agentic workflows for large language models and AI systems.",
-      icon: Bot,
-      tags: ["LLM Evaluation", "Agents", "Ranking"],
-    },
-    {
-      title: RESEARCH_INTERESTS[3],
-      description:
-        "Building methods for representation learning, alignment, and inference across text, images, codes, and clinical modalities.",
-      icon: Layers,
-      tags: ["Representation Learning", "Alignment", "Multimodal Data"],
-    },
-    {
-      title: RESEARCH_INTERESTS[4],
-      description:
-        "Creating statistical and AI methods for electronic health records, biomedical knowledge graphs, and clinical data harmonization.",
-      icon: Database,
-      tags: ["EHR", "Biomedical AI", "Knowledge Graphs"],
-    },
-    {
-      title: RESEARCH_INTERESTS[5],
-      description:
-        "Developing rank-based, graph-based, and geometric methods for complex data beyond standard Euclidean settings.",
-      icon: Network,
-      tags: ["Graphs", "Rank Methods", "Geometry"],
-    },
-    {
-      title: RESEARCH_INTERESTS[6],
-      description:
-        "Learning treatment policies and sequential testing strategies from observational, distributed, and resource-constrained data.",
-      icon: FileText,
-      tags: ["Policy Learning", "Sequential Testing", "Clinical Decisions"],
-    },
-  ];
-
   const featuredProjects = [
     {
       title: "Representation Learning for Multi-institutional EHR Studies",
@@ -136,28 +84,8 @@ export default function Research() {
         {/* Research Themes */}
         <section className="mb-20">
           <h2 className="text-3xl font-bold mb-8">Research Interests</h2>
-          
-          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
-            {interestDetails.map((interest) => {
-              const Icon = interest.icon;
-              return (
-                <Card key={interest.title} className="p-6 hover-lift">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-5">
-                    <Icon className="h-6 w-6 text-primary" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 gradient-text">{interest.title}</h3>
-                  <p className="text-muted-foreground mb-5 leading-relaxed">{interest.description}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {interest.tags.map((tag) => (
-                      <Badge key={tag} variant="secondary">
-                        {tag}
-                      </Badge>
-                    ))}
-                  </div>
-                </Card>
-              );
-            })}
-          </div>
+
+          <ResearchInterestGrid showTags className="gap-6" />
         </section>
 
         {/* Featured Projects */}

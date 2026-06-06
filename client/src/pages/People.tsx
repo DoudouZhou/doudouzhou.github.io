@@ -12,9 +12,10 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import ResearchInterestGrid from "@/components/ResearchInterestGrid";
 import { Mail, ExternalLink, GraduationCap, Users, FileText } from "lucide-react";
 import { useState } from "react";
-import { CONTACT_EMAIL, RESEARCH_INTERESTS } from "@/siteData";
+import { CONTACT_EMAIL } from "@/siteData";
 
 interface Publication {
   title: string;
@@ -354,12 +355,9 @@ export default function People() {
                 <p className="text-muted-foreground mb-6">
                   National University of Singapore
                 </p>
-                <div className="flex flex-wrap gap-3 mb-6">
-                  {RESEARCH_INTERESTS.map((interest) => (
-                    <Badge key={interest} variant="secondary">
-                      {interest}
-                    </Badge>
-                  ))}
+                <div className="mb-6">
+                  <p className="mb-3 text-sm font-semibold text-primary">Research Interests</p>
+                  <ResearchInterestGrid variant="compact" showDescriptions={false} />
                 </div>
                 <div className="flex flex-wrap gap-3">
                   <a href={`mailto:${CONTACT_EMAIL}`}>

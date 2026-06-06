@@ -5,8 +5,9 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import ResearchInterestGrid from "@/components/ResearchInterestGrid";
 import { Mail, Users, GraduationCap, Award, Heart } from "lucide-react";
-import { CONTACT_EMAIL, RESEARCH_INTERESTS } from "@/siteData";
+import { CONTACT_EMAIL } from "@/siteData";
 
 export default function Join() {
   return (
@@ -76,12 +77,9 @@ export default function Join() {
                     machine learning, large language models, multimodal learning, and biomedical data science.
                   </p>
 
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {RESEARCH_INTERESTS.map((interest) => (
-                      <Badge key={interest} variant="outline">
-                        {interest}
-                      </Badge>
-                    ))}
+                  <div className="mb-4">
+                    <h4 className="font-semibold mb-2">Research Areas:</h4>
+                    <ResearchInterestGrid variant="compact" showDescriptions={false} />
                   </div>
                   
                   <div className="mb-4">
