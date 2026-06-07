@@ -16,8 +16,13 @@ import ResearchInterestGrid from "@/components/ResearchInterestGrid";
 import { Mail, ExternalLink, GraduationCap, Users, FileText } from "lucide-react";
 import { useState } from "react";
 import { CONTACT_EMAIL } from "@/siteData";
+import {
+  findPublicationByTitle,
+  getPublicationShortVenue,
+  getPublicationYearLabel,
+} from "@/data/publications";
 
-interface Publication {
+interface MemberPublication {
   title: string;
   authors: string;
   venue: string;
@@ -30,7 +35,7 @@ interface TeamMember {
   period: string;
   institution: string;
   photo?: string;
-  publications?: Publication[];
+  publications?: MemberPublication[];
 }
 
 interface AlumniMember extends TeamMember {
@@ -49,6 +54,26 @@ export default function People() {
     }
   };
 
+  const memberPublication = (title: string): MemberPublication => {
+    const pub = findPublicationByTitle(title);
+    if (!pub) {
+      return {
+        title,
+        authors: "Publication details pending",
+        venue: "Publication",
+        year: "",
+      };
+    }
+
+    return {
+      title: pub.title,
+      authors: pub.authors,
+      venue: getPublicationShortVenue(pub),
+      year: getPublicationYearLabel(pub),
+      url: pub.links[0]?.url,
+    };
+  };
+
   const doctoralStudents: TeamMember[] = [
     { 
       name: "Mingyuan Xu", 
@@ -56,20 +81,8 @@ export default function People() {
       institution: "NUS",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/nvvbphnuOZvYCoOa.png",
       publications: [
-        {
-          title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
-          authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou (corresponding), Nian Si (corresponding)",
-          venue: "Preprint",
-          year: "2026+",
-          url: "https://arxiv.org/abs/2602.01825"
-        },
-        {
-          title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
-          authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
-          venue: "ICML",
-          year: "2026",
-          url: "https://arxiv.org/abs/2601.21817"
-        }
+        memberPublication("Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes"),
+        memberPublication("A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth"),
       ]
     },
     { 
@@ -78,20 +91,8 @@ export default function People() {
       institution: "NUS",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ZuiXWNAauqbXsBSU.png",
       publications: [
-        {
-          title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
-          authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou",
-          venue: "Preprint",
-          year: "2025+",
-          url: "https://arxiv.org/abs/2508.17411"
-        },
-        {
-          title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
-          authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou",
-          venue: "AISTATS",
-          year: "2026",
-          url: "https://arxiv.org/abs/2601.09220"
-        }
+        memberPublication("Two-sample Testing with Block-wise Missingness in Multi-source Data"),
+        memberPublication("From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences"),
       ]
     },
     { 
@@ -108,34 +109,10 @@ export default function People() {
       period: "2024--", 
       institution: "NUS",
       publications: [
-        {
-          title: "Structured Transfer Learning for Survival Risk Stratification in Data-Sparse Clinical Cohorts",
-          authors: "Junhan Yu, Yurui Chen, Juan Delgado-SanMartin, Dennis Wang, Hong Pan, Doudou Zhou",
-          venue: "Preprint",
-          year: "2026+",
-          url: "https://arxiv.org/abs/2605.15633"
-        },
-        {
-          title: "Hierarchical Contrastive Learning for Multimodal Data",
-          authors: "Huichao Li, Junhan Yu, Doudou Zhou",
-          venue: "Preprint",
-          year: "2026+",
-          url: "https://arxiv.org/abs/2604.05462"
-        },
-        {
-          title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
-          authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou",
-          venue: "Preprint",
-          year: "2025+",
-          url: "https://arxiv.org/abs/2509.06576"
-        },
-        {
-          title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
-          authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou",
-          venue: "AISTATS",
-          year: "2026",
-          url: "https://arxiv.org/abs/2601.09220"
-        }
+        memberPublication("Structured Transfer Learning for Survival Risk Stratification in Data-Sparse Clinical Cohorts"),
+        memberPublication("Hierarchical Contrastive Learning for Multimodal Data"),
+        memberPublication("Time-Aware Attention for Enhanced Electronic Health Records Modeling"),
+        memberPublication("From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences"),
       ]
     },
     { 
@@ -143,13 +120,7 @@ export default function People() {
       period: "2024--", 
       institution: "NUS",
       publications: [
-        {
-          title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
-          authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou",
-          venue: "Preprint",
-          year: "2025+",
-          url: "https://arxiv.org/abs/2509.05678"
-        }
+        memberPublication("WISE: A Weighted Similarity Aggregation Test for Serial Independence"),
       ]
     }
   ];
@@ -160,20 +131,8 @@ export default function People() {
       period: "2024--", 
       institution: "NUS",
       publications: [
-        {
-          title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
-          authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
-          venue: "ICML",
-          year: "2026",
-          url: "https://arxiv.org/abs/2601.21817"
-        },
-        {
-          title: "From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences",
-          authors: "Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou",
-          venue: "AISTATS",
-          year: "2026",
-          url: "https://arxiv.org/abs/2601.09220"
-        }
+        memberPublication("A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth"),
+        memberPublication("From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences"),
       ]
     },
     { 
@@ -181,13 +140,7 @@ export default function People() {
       period: "2024--", 
       institution: "NUS",
       publications: [
-        {
-          title: "A Trainable Centrality Framework for Modern Data",
-          authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou",
-          venue: "Preprint",
-          year: "2025+",
-          url: "https://arxiv.org/abs/2511.22959"
-        }
+        memberPublication("A Trainable Centrality Framework for Modern Data"),
       ]
     }
   ];
@@ -200,20 +153,8 @@ export default function People() {
       institution: "Zhejiang University",
       placement: "PhD student, UNC Biostatistics",
       publications: [
-        {
-          title: "Wasserstein Transfer Learning",
-          authors: "Kaicheng Zhang, Sinian Zhang, Doudou Zhou (corresponding), Yidong Zhou (corresponding)",
-          venue: "NeurIPS",
-          year: "2025",
-          url: "https://arxiv.org/abs/2505.17404"
-        },
-        {
-          title: "Generalized Linear Markov Decision Process",
-          authors: "Sinian Zhang, Kaicheng Zhang, Ziping Xu, Tianxi Cai (corresponding), Doudou Zhou (corresponding)",
-          venue: "Preprint",
-          year: "2025+",
-          url: "https://arxiv.org/abs/2506.00818"
-        }
+        memberPublication("Wasserstein Transfer Learning"),
+        memberPublication("Generalized Linear Markov Decision Process"),
       ]
     }
   ];
@@ -225,13 +166,7 @@ export default function People() {
       institution: "University of Science and Technology of China",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/YZvnGDJvnDMSNwLv.png",
       publications: [
-        {
-          title: "Preference-based Centrality and Ranking in General Metric Spaces",
-          authors: "Lingfeng Lv, Doudou Zhou",
-          venue: "Preprint",
-          year: "2026+",
-          url: "https://arxiv.org/abs/2602.01827"
-        }
+        memberPublication("Preference-based Centrality and Ranking in General Metric Spaces"),
       ]
     },
     {
@@ -239,13 +174,7 @@ export default function People() {
       period: "2025--",
       institution: "University of Chinese Academy of Sciences",
       publications: [
-        {
-          title: "Hierarchical Contrastive Learning for Multimodal Data",
-          authors: "Huichao Li, Junhan Yu, Doudou Zhou",
-          venue: "Preprint",
-          year: "2026+",
-          url: "https://arxiv.org/abs/2604.05462"
-        }
+        memberPublication("Hierarchical Contrastive Learning for Multimodal Data"),
       ]
     },
     { name: "Ruolin Ding", period: "2025--", institution: "University of Science and Technology of China", photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/hqYwHYjfkYebdXNF.png" },
