@@ -56,16 +56,6 @@ export default function Publications() {
     {
       category: "methodology",
       type: "preprint",
-      authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou#",
-      title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
-      venue: "Preprint, 2026+",
-      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2601.21817"},
-             { label: "Code", url: "https://github.com/TanXZfra/A-Judge-Aware-Ranking-Framework-for-Evaluating-Large-Language-Models-without-Ground-Truth" },
-             { label: "Website", url: "https://wujw13.github.io/rank_llm" }]
-    },
-    {
-      category: "methodology",
-      type: "preprint",
       authors: "Lingfeng Lyu, Doudou Zhou#",
       title: "Preference-based Centrality and Ranking in General Metric Spaces",
       venue: "Preprint, 2026+",
@@ -188,6 +178,18 @@ export default function Publications() {
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2209.13762" }]
     },
     // Published - Statistical Methodology and Theory
+    {
+      category: "methodology",
+      type: "published",
+      authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou#",
+      title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
+      venue: "International Conference on Machine Learning (ICML), 2026",
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/pdf/2601.21817" },
+        { label: "Code", url: "https://github.com/TanXZfra/A-Judge-Aware-Ranking-Framework-for-Evaluating-Large-Language-Models-without-Ground-Truth" },
+        { label: "Website", url: "https://wujw13.github.io/rank_llm" }
+      ]
+    },
     {
       category: "methodology",
       type: "published",

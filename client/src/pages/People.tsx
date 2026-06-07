@@ -66,8 +66,8 @@ export default function People() {
         {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
           authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
-          venue: "Preprint",
-          year: "2026+",
+          venue: "ICML",
+          year: "2026",
           url: "https://arxiv.org/abs/2601.21817"
         }
       ]
@@ -163,8 +163,8 @@ export default function People() {
         {
           title: "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
           authors: "Mingyuan Xu, Xinzi Tan, Jiawei Wu, Doudou Zhou (corresponding)",
-          venue: "Preprint",
-          year: "2026+",
+          venue: "ICML",
+          year: "2026",
           url: "https://arxiv.org/abs/2601.21817"
         },
         {
