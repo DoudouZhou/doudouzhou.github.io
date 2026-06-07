@@ -342,8 +342,8 @@ export default function People() {
 
           <Card className="p-8 max-w-4xl mx-auto">
             <div className="flex flex-col md:flex-row gap-8">
-              <img 
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/bQyuYXYXDGZBOLxv.png" 
+              <img
+                src="/assets/doudou-zhou.jpg"
                 alt="Doudou Zhou"
                 className="w-32 h-32 rounded-2xl object-cover flex-shrink-0 mx-auto md:mx-0"
               />

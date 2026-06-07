@@ -6,121 +6,13 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mail, GraduationCap, ExternalLink, FileText, Building2, Linkedin } from "lucide-react";
+import { Mail, GraduationCap, ExternalLink, Building2, Linkedin, Github } from "lucide-react";
 import { Link } from "wouter";
 import ResearchInterestGrid from "@/components/ResearchInterestGrid";
+import { newsItems, selectedPublications } from "@/data/homeContent";
 import { CONTACT_EMAIL } from "@/siteData";
 
 export default function Home() {
-  // Selected publications to display on homepage (first-author papers)
-  const selectedPublications = [
-    {
-      venue: "Nat Commun",
-      year: "2026",
-      title: "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
-      authors: "Doudou Zhou, et al.",
-      journal: "Nature Communications",
-      links: [
-        { label: "Paper", url: "https://www.nature.com/articles/s41467-026-71152-1" },
-        { label: "arXiv", url: "https://arxiv.org/abs/2502.08547" },
-        { label: "Code", url: "https://github.com/celehs/GAME" },
-        { label: "Website", url: "https://shiny.parse-health.org/GAME/" }
-      ]
-    },
-    {
-      venue: "IEEE TIT",
-      year: "2025",
-      title: "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
-      authors: "Doudou Zhou, Hao Chen",
-      journal: "IEEE Transactions on Information Theory",
-      links: [{ label: "Paper", url: "https://ieeexplore.ieee.org/document/11021493/" },
-              { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" }]
-    },
-    {
-      venue: "JASA",
-      year: "2024",
-      title: "Doubly Robust Augmented Model Accuracy Transfer Inference with High Dimensional Features",
-      authors: "Doudou Zhou, Molei Liu, Mengyan Li, Tianxi Cai",
-      journal: "Journal of the American Statistical Association: Theory and Methods",
-      links: [
-        { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" },
-        { label: "arXiv", url: "https://arxiv.org/abs/2505.17404" },
-         { label: "Code", url: "https://www.tandfonline.com/doi/suppl/10.1080/01621459.2024.2356291?scroll=top" }
-      ]
-    },
-    {
-      venue: "JASA",
-      year: "2024",
-      title: "Federated Offline Reinforcement Learning",
-      authors: "Doudou Zhou, Yufeng Zhang, Aaron Sonabend-W, Zhaoran Wang, Junwei Lu, Tianxi Cai",
-      journal: "Journal of the American Statistical Association: Theory and Methods",
-      links: [
-        { label: "Paper", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2310287" },
-        { label: "arXiv", url: "https://arxiv.org/pdf/2506.12751" },
-         { label: "Code", url: "https://github.com/DoudouZhou/FDTR" }
-      ]
-    },
-    {
-      venue: "JMLR",
-      year: "2023",
-      title: "Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices",
-      authors: "Doudou Zhou, Tianxi Cai, Junwei Lu",
-      journal: "Journal of Machine Learning Research",
-      links: [
-        { label: "Paper", url: "https://jmlr.org/papers/v24/22-0642.html" },
-        { label: "arXiv", url: "https://arxiv.org/abs/2105.10360" },
-         { label: "Code", url: "https://github.com/DoudouZhou/BONMI/blob/main/README.md" },
-         { label: "Package", url: "https://celehs.github.io/bonmi/" }
-      ]
-    },
-    {
-      venue: "COLT",
-      year: "2023",
-      title: "A New Ranking Scheme for Modern Data and Its Application to Two-sample Hypothesis Testing",
-      authors: "Doudou Zhou, Hao Chen",
-      journal: "Conference on Learning Theory",
-      links: [ { label: "Paper", url: "https://proceedings.mlr.press/v195/zhou23a/zhou23a.pdf" },
-               { label: "arXiv", url: "https://arxiv.org/abs/2112.12948" },
-               { label: "R package", url: "https://cran.r-project.org/web/packages/GraphRankTest/index.html" }]
-    }
-  ];
-
-  const news = [
-    {
-      date: "May 2026",
-      content: "Our paper \"A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth\" has been accepted at ICML 2026."
-    },
-    {
-      date: "Apr 2026",
-      content: "New preprints on arXiv: \"Cost-optimal Sequential Testing via Doubly Robust Q-learning\" and \"Hierarchical Contrastive Learning for Multimodal Data.\""
-    },
-    {
-      date: "Apr 2026",
-      content: "Our paper \"Representation learning to advance multi-institutional studies with electronic health record data from US and France\" has been accepted by Nature Communications."
-    },
-    {
-      date: "Mar 2026",
-      content: "Our paper \"RELEAP: Reinforcement-Enhanced Label-Efficient Active Phenotyping for Electronic Health Records\" (Yang Yang, Kathryn Pollak, Bibhas Chakraborty, Molei Liu#, Doudou Zhou#, Chuan Hong#) has been accepted at JAMIA Open 2026."
-    },
-    {
-      date: "Mar 2026",
-      content: "Our paper \"From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences\" (Xinzi Tan, Kejian Zhang, Junhan Yu, Doudou Zhou#) has been accepted at AISTATS 2026."
-    },
-    {
-      date: "Feb 2026",
-      content: "Released new work on judge-aware ranking for LLM evaluation. Project page: wujw13.github.io/rank_llm"
-    },
-
-    {
-      date: "Feb 2026",
-      content: "Our paper on single index bandits has been accepted at ICLR 2026."
-    },
-    {
-      date: "Sep 2025",
-      content: "Our paper on Wasserstein transfer learning has been accepted at NeurIPS 2025."
-    }
-  ];
-
   return (
     <div className="min-h-screen py-12">
       <div className="container max-w-7xl">
@@ -138,23 +30,23 @@ export default function Home() {
               
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
                 <p>
-                  👋 Hi! I'm Doudou Zhou, an Assistant Professor in the Department of Statistics and Data Science 
-                  at the National University of Singapore. I develop rigorous statistical methodology and practical 
+                  I am an Assistant Professor in the Department of Statistics and Data Science
+                  at the National University of Singapore. I develop rigorous statistical methodology and practical
                   AI techniques for analyzing complex data, with a focus on statistical foundations of AI, machine
                   learning, large language models and agentic AI, multimodal learning, and biomedical data science.
                 </p>
                 
                 <p>
-                  🔍 My research bridges theory and application, creating tools that advance both statistical science 
+                  My research bridges theory and application, creating tools that advance both statistical science
                   and real-world medical research. I work on statistical and computational methods for electronic health
                   records, high-dimensional and non-Euclidean data, reinforcement learning, sequential decision making,
                   and trustworthy AI systems for scientific and biomedical discovery.
                 </p>
                 
                 <p>
-                  🤝 I am always open to collaborations and enthusiastic about exploring new research directions. 
-                  I welcome prospective students (PhD, Master's, and undergraduate) to join my research group, 
-                  and I also host visiting scholars from China and around the world for academic exchanges. 
+                  I am always open to collaborations and enthusiastic about exploring new research directions.
+                  I welcome prospective students (PhD, Master's, and undergraduate) to join my research group,
+                  and I also host visiting scholars from China and around the world for academic exchanges.
                   Feel free to reach out if you're interested in working together!
                 </p>
               </div>
@@ -278,7 +170,7 @@ export default function Home() {
             <section>
               <h2 className="text-3xl font-bold mb-6">News</h2>
               <div className="space-y-4">
-                {news.map((item, idx) => (
+                {newsItems.map((item, idx) => (
                   <div key={idx} className="flex gap-4 pb-4 border-b last:border-0">
                     <span className="text-sm font-medium text-muted-foreground shrink-0 w-24">
                       {item.date}
@@ -297,7 +189,7 @@ export default function Home() {
               <Card className="p-6 space-y-6">
                 <div className="aspect-square overflow-hidden rounded-lg">
                   <img
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/bQyuYXYXDGZBOLxv.png"
+                    src="/assets/doudou-zhou.jpg"
                     alt="Doudou Zhou"
                     className="w-full h-full object-cover"
                   />
@@ -341,6 +233,18 @@ export default function Home() {
                       className="hover:underline"
                     >
                       LinkedIn
+                    </a>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Github className="h-4 w-4 shrink-0 text-muted-foreground" />
+                    <a
+                      href="https://github.com/DoudouZhou"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      GitHub
                     </a>
                   </div>
 
