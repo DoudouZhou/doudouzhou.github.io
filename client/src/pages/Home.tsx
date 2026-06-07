@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Mail, GraduationCap, ExternalLink, Building2, Linkedin, Github } from "lucide-react";
 import { Link } from "wouter";
-import ResearchInterestGrid from "@/components/ResearchInterestGrid";
+import ResearchAgenda from "@/components/ResearchAgenda";
 import { newsItems, selectedPublications } from "@/data/homeContent";
 import { CONTACT_EMAIL } from "@/siteData";
 
@@ -51,19 +51,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="mt-8 rounded-lg border border-border bg-secondary/60 p-5">
-                <div className="mb-5">
-                  <div>
-                    <p className="mb-1 text-sm font-semibold text-primary">Research Interests</p>
-                    <h2 className="text-2xl font-bold">Statistics for modern AI and biomedical data</h2>
-                    <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-                      A connected agenda spanning statistical foundations, learning systems, complex data, and
-                      sequential decisions.
-                    </p>
-                  </div>
-                </div>
-                <ResearchInterestGrid />
-              </div>
+              <ResearchAgenda />
             </section>
 
             {/* Education & Experience */}
