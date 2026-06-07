@@ -7,11 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import {
-  findPublicationByTitle,
   getPublicationShortVenue,
   getPublicationSortKey,
   getPublicationYearLabel,
-  homepagePublicationTitles,
   publicationCategoryLabels,
   publicationTypeLabels,
   publications,
@@ -42,9 +40,6 @@ function PublicationCard({ pub }: { pub: Publication }) {
             </Badge>
             <Badge variant="outline">{publicationCategoryLabels[pub.category]}</Badge>
             {yearLabel && <Badge variant="outline">{yearLabel}</Badge>}
-            {homepagePublicationTitles.includes(pub.title) && (
-              <Badge variant="secondary">Selected</Badge>
-            )}
           </div>
 
           <h3 className="mb-2 text-lg font-semibold leading-relaxed">{pub.title}</h3>
@@ -80,7 +75,6 @@ export default function Publications() {
       all: publications.length,
       published: publications.filter((pub) => pub.type === "published").length,
       preprint: publications.filter((pub) => pub.type === "preprint").length,
-      selected: homepagePublicationTitles.filter((title) => findPublicationByTitle(title)).length,
     }),
     []
   );
@@ -150,7 +144,7 @@ export default function Publications() {
           </p>
         </div>
 
-        <div className="mx-auto mb-8 grid max-w-5xl gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto mb-8 grid max-w-5xl gap-3 sm:grid-cols-3">
           <Card className="p-4">
             <p className="text-sm text-muted-foreground">Total</p>
             <p className="mt-1 text-2xl font-bold">{stats.all}</p>
@@ -162,10 +156,6 @@ export default function Publications() {
           <Card className="p-4">
             <p className="text-sm text-muted-foreground">Preprints</p>
             <p className="mt-1 text-2xl font-bold">{stats.preprint}</p>
-          </Card>
-          <Card className="p-4">
-            <p className="text-sm text-muted-foreground">Homepage Selected</p>
-            <p className="mt-1 text-2xl font-bold">{stats.selected}</p>
           </Card>
         </div>
 
