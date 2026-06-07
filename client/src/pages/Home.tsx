@@ -6,7 +6,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mail, GraduationCap, ExternalLink, FileText, Building2, Linkedin, ArrowRight } from "lucide-react";
+import { Mail, GraduationCap, ExternalLink, FileText, Building2, Linkedin } from "lucide-react";
 import { Link } from "wouter";
 import ResearchInterestGrid from "@/components/ResearchInterestGrid";
 import { CONTACT_EMAIL } from "@/siteData";
@@ -160,7 +160,7 @@ export default function Home() {
               </div>
 
               <div className="mt-8 rounded-lg border border-border bg-secondary/60 p-5">
-                <div className="mb-5 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+                <div className="mb-5">
                   <div>
                     <p className="mb-1 text-sm font-semibold text-primary">Research Interests</p>
                     <h2 className="text-2xl font-bold">Statistics for modern AI and biomedical data</h2>
@@ -169,12 +169,6 @@ export default function Home() {
                       sequential decisions.
                     </p>
                   </div>
-                  <Link href="/research">
-                    <Button variant="outline" size="sm" className="shrink-0">
-                      View Research
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                  </Link>
                 </div>
                 <ResearchInterestGrid />
               </div>
