@@ -11,10 +11,13 @@ import {
   getPublicationSortKey,
   getPublicationYearLabel,
   publicationCategoryLabels,
+  publicationTopicLabels,
+  publicationTopicOrder,
   publicationTypeLabels,
   publications,
   type Publication,
   type PublicationCategory,
+  type PublicationTopic,
   type PublicationType,
 } from "@/data/publications";
 import { CalendarDays, ExternalLink, FileText, ListFilter, Search } from "lucide-react";
@@ -22,6 +25,7 @@ import { useMemo, useState } from "react";
 
 type StatusFilter = "all" | PublicationType;
 type CategoryFilter = "all" | PublicationCategory;
+type TopicFilter = "all" | PublicationTopic;
 type ViewMode = "list" | "year";
 
 function PublicationCard({ pub }: { pub: Publication }) {
@@ -40,6 +44,11 @@ function PublicationCard({ pub }: { pub: Publication }) {
             </Badge>
             <Badge variant="outline">{publicationCategoryLabels[pub.category]}</Badge>
             {yearLabel && <Badge variant="outline">{yearLabel}</Badge>}
+            {pub.topics.map((topic) => (
+              <Badge key={`${pub.title}-${topic}`} variant="secondary">
+                {publicationTopicLabels[topic]}
+              </Badge>
+            ))}
           </div>
 
           <h3 className="mb-2 text-lg font-semibold leading-relaxed">{pub.title}</h3>
@@ -67,6 +76,7 @@ function PublicationCard({ pub }: { pub: Publication }) {
 export default function Publications() {
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
   const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>("all");
+  const [topicFilter, setTopicFilter] = useState<TopicFilter>("all");
   const [viewMode, setViewMode] = useState<ViewMode>("list");
   const [query, setQuery] = useState("");
 
@@ -79,15 +89,34 @@ export default function Publications() {
     []
   );
 
+  const topicOptions: Array<{ value: TopicFilter; label: string; count: number }> = useMemo(
+    () => [
+      { value: "all", label: "All Topics", count: publications.length },
+      ...publicationTopicOrder.map((topic) => ({
+        value: topic,
+        label: publicationTopicLabels[topic],
+        count: publications.filter((pub) => pub.topics.includes(topic)).length,
+      })),
+    ],
+    []
+  );
+
   const filteredPublications = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
 
     return [...publications]
       .filter((pub) => statusFilter === "all" || pub.type === statusFilter)
       .filter((pub) => categoryFilter === "all" || pub.category === categoryFilter)
+      .filter((pub) => topicFilter === "all" || pub.topics.includes(topicFilter))
       .filter((pub) => {
         if (!normalizedQuery) return true;
-        return [pub.title, pub.authors, pub.venue, getPublicationShortVenue(pub)]
+        return [
+          pub.title,
+          pub.authors,
+          pub.venue,
+          getPublicationShortVenue(pub),
+          ...pub.topics.map((topic) => publicationTopicLabels[topic]),
+        ]
           .join(" ")
           .toLowerCase()
           .includes(normalizedQuery);
@@ -97,7 +126,7 @@ export default function Publications() {
           getPublicationSortKey(b) - getPublicationSortKey(a) ||
           a.title.localeCompare(b.title)
       );
-  }, [categoryFilter, query, statusFilter]);
+  }, [categoryFilter, query, statusFilter, topicFilter]);
 
   const groupedPublications = useMemo(() => {
     return filteredPublications.reduce<Record<string, Publication[]>>((groups, pub) => {
@@ -128,6 +157,9 @@ export default function Publications() {
     { value: "methodology", label: "Methodology & Theory" },
     { value: "applications", label: "Applications" },
   ];
+
+  const hasActiveFilters =
+    Boolean(query) || statusFilter !== "all" || categoryFilter !== "all" || topicFilter !== "all";
 
   return (
     <div className="min-h-screen py-16">
@@ -219,6 +251,22 @@ export default function Publications() {
               </Button>
             ))}
           </div>
+
+          <div className="mt-3 flex flex-wrap gap-2">
+            {topicOptions.map((option) => (
+              <Button
+                key={option.value}
+                variant={topicFilter === option.value ? "default" : "outline"}
+                size="sm"
+                onClick={() => setTopicFilter(option.value)}
+              >
+                {option.label}
+                <span className="ml-2 rounded bg-background/40 px-1.5 text-xs">
+                  {option.count}
+                </span>
+              </Button>
+            ))}
+          </div>
         </div>
 
         <div className="mx-auto max-w-5xl">
@@ -227,7 +275,7 @@ export default function Publications() {
               Showing {filteredPublications.length} publication
               {filteredPublications.length === 1 ? "" : "s"}
             </p>
-            {(query || statusFilter !== "all" || categoryFilter !== "all") && (
+            {hasActiveFilters && (
               <Button
                 variant="ghost"
                 size="sm"
@@ -235,6 +283,7 @@ export default function Publications() {
                   setQuery("");
                   setStatusFilter("all");
                   setCategoryFilter("all");
+                  setTopicFilter("all");
                 }}
               >
                 Clear filters
