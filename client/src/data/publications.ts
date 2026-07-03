@@ -29,7 +29,7 @@ export const publications: Publication[] = [
     {
       category: "methodology",
       type: "preprint",
-      authors: "Junhan Yu, Kejian Zhang, Doudou Zhou, Guojun Zhu",
+      authors: "Junhan Yu*, Kejian Zhang*, Doudou Zhou*#, Guojun Zhu*",
       title: "Pattern-Calibrated Multimodal Prediction under Blockwise Missingness",
       venue: "Preprint, 2026+",
       topics: ["multimodal-representation", "ehr-biomedical", "federated-transfer"],
