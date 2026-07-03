@@ -91,6 +91,7 @@ export default function People() {
       institution: "NUS",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ZuiXWNAauqbXsBSU.png",
       publications: [
+        memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
         memberPublication("Two-sample Testing with Block-wise Missingness in Multi-source Data"),
         memberPublication("From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences"),
       ]
@@ -109,6 +110,7 @@ export default function People() {
       period: "2024--", 
       institution: "NUS",
       publications: [
+        memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
         memberPublication("Structured Transfer Learning for Survival Risk Stratification in Data-Sparse Clinical Cohorts"),
         memberPublication("Hierarchical Contrastive Learning for Multimodal Data"),
         memberPublication("Time-Aware Attention for Enhanced Electronic Health Records Modeling"),

@@ -27,6 +27,15 @@ export type Publication = {
 export const publications: Publication[] = [
     // Preprints - Statistical Methodology and Theory
     {
+      category: "methodology",
+      type: "preprint",
+      authors: "Junhan Yu, Kejian Zhang, Doudou Zhou, Guojun Zhu",
+      title: "Pattern-Calibrated Multimodal Prediction under Blockwise Missingness",
+      venue: "Preprint, 2026+",
+      topics: ["multimodal-representation", "ehr-biomedical", "federated-transfer"],
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2607.01821" }]
+    },
+    {
       category: "applications",
       type: "preprint",
       authors: "Junhan Yu, Yurui Chen, Juan Delgado-SanMartin, Dennis Wang, Hong Pan, Doudou Zhou",
@@ -584,6 +593,7 @@ export const publications: Publication[] = [
   ];
 
 export const homepagePublicationTitles: string[] = [
+  "Pattern-Calibrated Multimodal Prediction under Blockwise Missingness",
   "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
   "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
   "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
