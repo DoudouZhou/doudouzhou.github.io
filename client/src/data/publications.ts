@@ -193,12 +193,15 @@ export const publications: Publication[] = [
     },
     {
       category: "methodology",
-      type: "preprint",
-      authors: "Tianxi Cai*, Fei Huang*, Ryumei Nakada*, Linjun Zhang*, Doudou Zhou*",
+      type: "published",
+      authors: "Tianxi Cai*, Feiqing Huang*, Ryumei Nakada*, Linjun Zhang*, Doudou Zhou*",
       title: "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
-      venue: "Preprint, 2024+",
+      venue: "Journal of the American Statistical Association: Theory and Methods, 2026",
       topics: ["multimodal-representation", "ehr-biomedical"],
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2403.14926" }]
+      links: [
+        { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2698136" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2403.14926" }
+      ]
     },
     {
       category: "methodology",
@@ -287,7 +290,7 @@ export const publications: Publication[] = [
       type: "published",
       authors: "Doudou Zhou*, Molei Liu*, Mengyan Li, Tianxi Cai",
       title: "Doubly Robust Evaluation of Receiver Operating Characteristic under Covariate Shift with High Dimensional Features",
-      venue: "Journal of the American Statistical Association: Theory and Methods, 2024",
+      venue: "Journal of the American Statistical Association: Theory and Methods, 2025",
       topics: ["inference-testing"],
       links: [
         { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2356291" },
@@ -596,6 +599,7 @@ export const homepagePublicationTitles: string[] = [
   "Pattern-Calibrated Multimodal Prediction under Blockwise Missingness",
   "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
   "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
+  "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
   "Asymptotic Distribution-Free Change-Point Detection for Modern Data Based on a New Ranking Scheme",
   "Doubly Robust Evaluation of Receiver Operating Characteristic under Covariate Shift with High Dimensional Features",
   "Federated Offline Reinforcement Learning",

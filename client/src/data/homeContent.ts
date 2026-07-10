@@ -51,6 +51,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 export const newsItems: NewsItem[] = [
   {
     date: "Jul 2026",
+    content: "Our paper \"Contrastive Learning on Multimodal Analysis of Electronic Health Records\" was accepted by the Journal of the American Statistical Association.",
+  },
+  {
+    date: "Jul 2026",
     content: "New preprint on arXiv: \"Pattern-Calibrated Multimodal Prediction under Blockwise Missingness.\"",
   },
   {
