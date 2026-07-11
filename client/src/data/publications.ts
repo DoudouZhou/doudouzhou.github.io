@@ -282,7 +282,8 @@ export const publications: Publication[] = [
       topics: ["inference-testing", "graph-ranking"],
       links: [
         { label: "Paper", url: "https://ieeexplore.ieee.org/document/11021493" },
-        { label: "arXiv", url: "https://arxiv.org/abs/2206.03038" }
+        { label: "arXiv", url: "https://arxiv.org/abs/2206.03038" },
+        { label: "R package", url: "https://cran.r-project.org/web/packages/ringSeg/index.html" }
       ]
     },
     {

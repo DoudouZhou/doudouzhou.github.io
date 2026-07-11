@@ -58,6 +58,10 @@ export const newsItems: NewsItem[] = [
     content: "New preprint on arXiv: \"Pattern-Calibrated Multimodal Prediction under Blockwise Missingness.\"",
   },
   {
+    date: "Jun 2026",
+    content: "The R package \"ringSeg\" for RING-based change-point detection is now available on CRAN.",
+  },
+  {
     date: "May 2026",
     content: "Our paper \"A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth\" appears at ICML 2026.",
   },

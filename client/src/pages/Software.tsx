@@ -52,6 +52,17 @@ export default function Software() {
       tags: ["LLM Evaluation", "Ranking", "Benchmarking"]
     },
     {
+      name: "ringSeg",
+      description: "R package for asymptotic distribution-free change-point detection via the RING ranking scheme.",
+      type: "R Package",
+      links: [
+        { label: "CRAN", url: "https://cran.r-project.org/web/packages/ringSeg/index.html", icon: Package },
+        { label: "Paper", url: "https://ieeexplore.ieee.org/document/11021493", icon: ExternalLink },
+        { label: "arXiv", url: "https://arxiv.org/abs/2206.03038", icon: ExternalLink }
+      ],
+      tags: ["Change-point Detection", "Rank-based Inference", "Non-Euclidean Data"]
+    },
+    {
       name: "SimIndep",
       description: "R package for weighted similarity aggregation testing of serial independence.",
       type: "R Package",
