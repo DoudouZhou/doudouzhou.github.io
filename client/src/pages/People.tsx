@@ -34,6 +34,7 @@ interface TeamMember {
   name: string;
   period: string;
   institution: string;
+  role?: string;
   photo?: string;
   publications?: MemberPublication[];
 }
@@ -101,6 +102,24 @@ export default function People() {
       period: "2025--", 
       institution: "NUS",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ACFcfaPqhoVBFRJN.png"
+    }
+  ];
+
+  const researchFellows: TeamMember[] = [
+    {
+      name: "Dian Jin",
+      period: "2026--",
+      institution: "NUS",
+      role: "Research Fellow",
+      publications: [
+        memberPublication("Cost-optimal Sequential Testing via Doubly Robust Q-learning"),
+      ]
+    },
+    {
+      name: "Zhaohui Xu",
+      period: "2026--",
+      institution: "NUS",
+      role: "Research Fellow"
     }
   ];
 
@@ -219,6 +238,7 @@ export default function People() {
               <p className="text-sm text-muted-foreground mb-2">{member.institution}</p>
               <div className="flex flex-wrap gap-2 mb-2">
                 <Badge variant="outline">{member.period}</Badge>
+                {member.role && <Badge variant="secondary">{member.role}</Badge>}
                 {isAlumni && <Badge variant="secondary">{(member as AlumniMember).type}</Badge>}
                 {variant === 'accent' && <Badge variant="secondary">Visiting PhD Student</Badge>}
               </div>
@@ -313,6 +333,22 @@ export default function People() {
               </div>
             </div>
           </Card>
+        </section>
+
+        {/* Research Fellows */}
+        <section className="mb-16">
+          <div className="flex items-center gap-3 mb-8">
+            <Users className="h-8 w-8 text-primary" />
+            <h2 className="text-3xl font-bold">
+              <span className="gradient-text">Research Fellows</span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {researchFellows.map((fellow, index) => (
+              <MemberCard key={index} member={fellow} />
+            ))}
+          </div>
         </section>
 
         {/* Doctoral Students */}
