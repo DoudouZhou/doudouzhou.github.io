@@ -597,7 +597,6 @@ export const publications: Publication[] = [
   ];
 
 export const homepagePublicationTitles: string[] = [
-  "Pattern-Calibrated Multimodal Prediction under Blockwise Missingness",
   "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
   "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
   "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
