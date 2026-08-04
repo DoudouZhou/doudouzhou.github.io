@@ -50,6 +50,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 
 export const newsItems: NewsItem[] = [
   {
+    date: "Aug 2026",
+    content: "New preprint on arXiv: \"Personalizing Large Language Model Agents with Small Policy Models.\"",
+  },
+  {
     date: "Jul 2026",
     content: "Dian Jin and Zhaohui Xu joined the group as Research Fellows.",
   },

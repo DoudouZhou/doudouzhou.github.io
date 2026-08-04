@@ -29,6 +29,18 @@ export const publications: Publication[] = [
     {
       category: "methodology",
       type: "preprint",
+      authors: "Dian Jin, Zhi Zhang, Huichao Li, Yihe Pan, Rundong Huang, Doudou Zhou#",
+      title: "Personalizing Large Language Model Agents with Small Policy Models",
+      venue: "Preprint, 2026+",
+      topics: ["ai-llm", "rl-sequential"],
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2608.00215" },
+        { label: "Demo", url: "https://fable-agent.github.io/" }
+      ]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Junhan Yu*, Kejian Zhang*, Doudou Zhou*#, Guojun Zhu*",
       title: "Pattern-Calibrated Multimodal Prediction under Blockwise Missingness",
       venue: "Preprint, 2026+",

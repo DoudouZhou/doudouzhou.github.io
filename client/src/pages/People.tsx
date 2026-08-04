@@ -101,7 +101,10 @@ export default function People() {
       name: "Rundong Huang", 
       period: "2025--", 
       institution: "NUS",
-      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ACFcfaPqhoVBFRJN.png"
+      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ACFcfaPqhoVBFRJN.png",
+      publications: [
+        memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
+      ]
     }
   ];
 
@@ -112,6 +115,7 @@ export default function People() {
       institution: "NUS",
       role: "Research Fellow",
       publications: [
+        memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
         memberPublication("Cost-optimal Sequential Testing via Doubly Robust Q-learning"),
       ]
     },
@@ -195,6 +199,7 @@ export default function People() {
       period: "2025--",
       institution: "University of Chinese Academy of Sciences",
       publications: [
+        memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
         memberPublication("Hierarchical Contrastive Learning for Multimodal Data"),
       ]
     },
