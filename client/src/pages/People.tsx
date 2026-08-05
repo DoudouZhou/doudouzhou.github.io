@@ -181,6 +181,16 @@ export default function People() {
         memberPublication("Wasserstein Transfer Learning"),
         memberPublication("Generalized Linear Markov Decision Process"),
       ]
+    },
+    {
+      name: "Huichao Li",
+      period: "2025--2026",
+      type: "Visitor",
+      institution: "University of Chinese Academy of Sciences",
+      publications: [
+        memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
+        memberPublication("Hierarchical Contrastive Learning for Multimodal Data"),
+      ]
     }
   ];
 
@@ -194,16 +204,6 @@ export default function People() {
         memberPublication("Preference-based Centrality and Ranking in General Metric Spaces"),
       ]
     },
-    {
-      name: "Huichao Li",
-      period: "2025--",
-      institution: "University of Chinese Academy of Sciences",
-      publications: [
-        memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
-        memberPublication("Hierarchical Contrastive Learning for Multimodal Data"),
-      ]
-    },
-    { name: "Ruolin Ding", period: "2025--", institution: "University of Science and Technology of China", photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/hqYwHYjfkYebdXNF.png" },
     { 
       name: "Yaya Zhao", 
       period: "2025--", 
