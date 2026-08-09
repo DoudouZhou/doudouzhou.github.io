@@ -480,7 +480,7 @@ export const publications: Publication[] = [
       title: "FAIR-EC: A Global Research Network for Fair, Accountable, Interpretable, and Responsible AI in Emergency Care",
       venue: "JMIR Research Protocols, 2026",
       topics: ["ehr-biomedical", "ai-llm"],
-      links: [{ label: "Paper", url: "https://preprints.jmir.org/preprint/74202" }]
+      links: [{ label: "Paper", url: "https://www.researchprotocols.org/2026/1/e74202/" }]
     },
     {
       category: "applications",
