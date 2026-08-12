@@ -106,6 +106,13 @@ export default function People() {
       publications: [
         memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
       ]
+    },
+    {
+      name: "Yiru Wang",
+      period: "2026--",
+      institution: "NUS",
+      education: "B.S. in Mathematics and Applied Mathematics, University of Science and Technology of China, expected 2026",
+      role: "PhD Student"
     }
   ];
 
