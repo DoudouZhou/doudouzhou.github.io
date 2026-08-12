@@ -123,7 +123,8 @@ export default function People() {
       name: "Zhaohui Xu",
       period: "2026--",
       institution: "NUS",
-      role: "Research Fellow"
+      role: "Research Fellow",
+      photo: "/assets/zhaohui-xu.jpg"
     }
   ];
 
