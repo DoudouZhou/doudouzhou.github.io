@@ -143,6 +143,7 @@ export default function People() {
       name: "Junhan Yu", 
       period: "2024--", 
       institution: "Duke-NUS Medical School",
+      education: "M.S., National University of Singapore",
       role: "PhD Student",
       publications: [
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
@@ -156,6 +157,7 @@ export default function People() {
       name: "Qihua Zhu", 
       period: "2024--", 
       institution: "Duke-NUS Medical School",
+      education: "M.S., National University of Singapore",
       role: "PhD Student",
       publications: [
         memberPublication("WISE: A Weighted Similarity Aggregation Test for Serial Independence"),
