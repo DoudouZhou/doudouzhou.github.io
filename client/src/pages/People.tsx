@@ -178,6 +178,13 @@ export default function People() {
       institution: "NUS",
       education: "Dual-degree B.S. in Data Science and B.Mgt. in Marketing Management, Renmin University of China, expected 2026",
       role: "Master's Student"
+    },
+    {
+      name: "Xunheng Huang",
+      period: "2026--",
+      institution: "NUS",
+      education: "B.S., Wuhan University, 2026",
+      role: "Master's Student"
     }
   ];
 
