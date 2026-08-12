@@ -34,6 +34,7 @@ interface TeamMember {
   name: string;
   period: string;
   institution: string;
+  education?: string;
   role?: string;
   photo?: string;
   publications?: MemberPublication[];
@@ -123,6 +124,7 @@ export default function People() {
       name: "Zhaohui Xu",
       period: "2026--",
       institution: "NUS",
+      education: "B.S., University of Science and Technology of China",
       role: "Research Fellow",
       photo: "/assets/zhaohui-xu.jpg"
     }
@@ -242,6 +244,9 @@ export default function People() {
                 )}
               </div>
               <p className="text-sm text-muted-foreground mb-2">{member.institution}</p>
+              {member.education && (
+                <p className="text-xs text-muted-foreground mb-2">{member.education}</p>
+              )}
               <div className="flex flex-wrap gap-2 mb-2">
                 <Badge variant="outline">{member.period}</Badge>
                 {member.role && <Badge variant="secondary">{member.role}</Badge>}
