@@ -86,6 +86,7 @@ export default function People() {
       name: "Mingyuan Xu", 
       period: "2024--", 
       institution: "NUS",
+      education: "M.S. in Statistics, National University of Singapore, Aug 2022-Jan 2024; B.S. in Applied Mathematics, Xi'an Jiaotong-Liverpool University, Sep 2018-Jul 2022",
       role: "PhD Student",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/nvvbphnuOZvYCoOa.png",
       publications: [
@@ -110,6 +111,7 @@ export default function People() {
       name: "Rundong Huang", 
       period: "2025--", 
       institution: "NUS",
+      education: "B.S., Peking University",
       role: "PhD Student",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ACFcfaPqhoVBFRJN.png",
       publications: [
