@@ -188,7 +188,8 @@ export default function People() {
       period: "2026--",
       institution: "NUS",
       education: "B.S., Wuhan University, 2026",
-      role: "Master's Student"
+      role: "Master's Student",
+      photo: "/assets/xunheng-huang.jpg"
     }
   ];
 
