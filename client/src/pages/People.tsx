@@ -58,6 +58,9 @@ export default function People() {
     setDialogOpen(true);
   };
 
+  const getEducationLines = (education: string) =>
+    education.split(';').map((line) => line.trim()).filter(Boolean);
+
   const memberPublication = (title: string): MemberPublication => {
     const pub = findPublicationByTitle(title);
     if (!pub) {
@@ -311,7 +314,11 @@ export default function People() {
               </div>
               <p className="text-sm text-muted-foreground mb-2">{member.institution}</p>
               {member.education && (
-                <p className="text-xs text-muted-foreground mb-2">{member.education}</p>
+                <div className="text-xs text-muted-foreground mb-2 space-y-0.5">
+                  {getEducationLines(member.education).map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))}
+                </div>
               )}
               <div className="flex flex-wrap gap-2 mb-2">
                 <Badge variant="outline">{member.period}</Badge>
@@ -552,9 +559,11 @@ export default function People() {
                   </DialogHeader>
 
                   {selectedMember.education && (
-                    <p className="text-sm leading-relaxed text-muted-foreground">
-                      {selectedMember.education}
-                    </p>
+                    <div className="text-sm leading-relaxed text-muted-foreground space-y-1">
+                      {getEducationLines(selectedMember.education).map((line, index) => (
+                        <p key={index}>{line}</p>
+                      ))}
+                    </div>
                   )}
 
                   <div className="flex flex-wrap gap-2">
