@@ -162,6 +162,16 @@ export default function People() {
     }
   ];
 
+  const masterStudents: TeamMember[] = [
+    {
+      name: "Chenghao Gao",
+      period: "2026--",
+      institution: "NUS",
+      education: "Dual-degree B.S. in Data Science and B.Mgt. in Marketing Management, Renmin University of China, expected 2026",
+      role: "Master's Student"
+    }
+  ];
+
   const undergraduateStudents: TeamMember[] = [
     { 
       name: "Xinzi Tan", 
@@ -398,6 +408,22 @@ export default function People() {
 
           <div className="grid md:grid-cols-2 gap-6">
             {studentCollaborators.map((student, index) => (
+              <MemberCard key={index} member={student} />
+            ))}
+          </div>
+        </section>
+
+        {/* Master's Students */}
+        <section className="mb-16">
+          <div className="flex items-center gap-3 mb-8">
+            <Users className="h-8 w-8 text-primary" />
+            <h2 className="text-3xl font-bold">
+              <span className="gradient-text">Master's Students</span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {masterStudents.map((student, index) => (
               <MemberCard key={index} member={student} />
             ))}
           </div>
