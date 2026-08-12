@@ -46,14 +46,16 @@ interface AlumniMember extends TeamMember {
 }
 
 export default function People() {
-  const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
+  const [selectedMember, setSelectedMember] = useState<TeamMember | AlumniMember | null>(null);
   const [dialogOpen, setDialogOpen] = useState(false);
 
-  const handleMemberClick = (member: TeamMember) => {
-    if (member.publications && member.publications.length > 0) {
-      setSelectedMember(member);
-      setDialogOpen(true);
-    }
+  const getInitials = (name: string) => name.split(' ').map(n => n[0]).join('');
+
+  const isAlumniMember = (member: TeamMember | AlumniMember): member is AlumniMember => 'type' in member;
+
+  const handleMemberClick = (member: TeamMember | AlumniMember) => {
+    setSelectedMember(member);
+    setDialogOpen(true);
   };
 
   const memberPublication = (title: string): MemberPublication => {
@@ -268,15 +270,25 @@ export default function People() {
   ];
 
   const MemberCard = ({ member, variant = "default" }: { member: TeamMember | AlumniMember, variant?: string }) => {
-    const hasPublications = member.publications && member.publications.length > 0;
-    const isAlumni = 'type' in member;
+    const publicationCount = member.publications?.length ?? 0;
+    const hasPublications = publicationCount > 0;
+    const isAlumni = isAlumniMember(member);
     
     return (
       <div 
-        className={hasPublications ? 'cursor-pointer' : ''}
-        onClick={() => hasPublications && handleMemberClick(member)}
+        className="cursor-pointer rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+        role="button"
+        tabIndex={0}
+        aria-label={`Open ${member.name}'s profile`}
+        onClick={() => handleMemberClick(member)}
+        onKeyDown={(event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            handleMemberClick(member);
+          }
+        }}
       >
-        <Card className={`p-6 ${hasPublications ? 'hover-lift border-l-4 border-l-primary' : ''}`}>
+        <Card className={`p-6 hover-lift ${hasPublications ? 'border-l-4 border-l-primary' : ''}`}>
           <div className="flex items-start gap-4">
             {member.photo ? (
               <img 
@@ -286,7 +298,7 @@ export default function People() {
               />
             ) : (
               <div className={`w-12 h-12 ${isAlumni ? 'bg-muted/50' : variant === 'accent' ? 'bg-accent/10' : 'bg-primary/10'} rounded-lg flex items-center justify-center flex-shrink-0 text-lg font-bold ${isAlumni ? 'text-muted-foreground' : variant === 'accent' ? 'text-accent' : 'text-primary'}`}>
-                {member.name.split(' ').map(n => n[0]).join('')}
+                {getInitials(member.name)}
               </div>
             )}
             <div className="flex-1">
@@ -313,7 +325,7 @@ export default function People() {
               )}
               {hasPublications && (
                 <p className="text-xs text-muted-foreground mt-2">
-                  Click to view {member.publications!.length} publication{member.publications!.length > 1 ? 's' : ''}
+                  {publicationCount} publication{publicationCount > 1 ? 's' : ''}
                 </p>
               )}
             </div>
@@ -514,49 +526,94 @@ export default function People() {
 
       </div>
 
-      {/* Publications Dialog */}
+      {/* Member Profile Dialog */}
       <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
-        <DialogContent className="max-w-3xl max-h-[80vh] overflow-y-auto">
-          <DialogHeader>
-            <DialogTitle className="text-2xl">
-              Publications with {selectedMember?.name}
-            </DialogTitle>
-            <DialogDescription>
-              Collaborative research papers
-            </DialogDescription>
-          </DialogHeader>
-          
-          <div className="space-y-4 mt-4">
-            {selectedMember?.publications?.map((pub, index) => (
-              <Card key={index} className="p-4">
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <FileText className="h-4 w-4 text-primary" />
+        <DialogContent className="max-w-4xl max-h-[85vh] overflow-y-auto">
+          {selectedMember && (
+            <div className="space-y-6">
+              <div className="grid gap-6 md:grid-cols-[220px_1fr]">
+                {selectedMember.photo ? (
+                  <img
+                    src={selectedMember.photo}
+                    alt={selectedMember.name}
+                    className="h-64 w-full max-w-[220px] rounded-lg object-cover mx-auto md:mx-0"
+                  />
+                ) : (
+                  <div className="h-64 w-full max-w-[220px] rounded-lg bg-primary/10 text-primary flex items-center justify-center mx-auto md:mx-0 text-4xl font-bold">
+                    {getInitials(selectedMember.name)}
                   </div>
-                  <div className="flex-1">
-                    {pub.url ? (
-                      <a 
-                        href={pub.url} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="font-semibold mb-2 leading-relaxed hover:text-primary transition-colors inline-flex items-center gap-1 group"
-                      >
-                        {pub.title}
-                        <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                      </a>
-                    ) : (
-                      <h4 className="font-semibold mb-2 leading-relaxed">{pub.title}</h4>
-                    )}
-                    <p className="text-sm text-muted-foreground mb-1">{pub.authors}</p>
-                    <div className="flex items-center gap-2 text-sm">
-                      <Badge variant="outline">{pub.venue}</Badge>
-                      <span className="text-muted-foreground">{pub.year}</span>
-                    </div>
+                )}
+
+                <div className="min-w-0 space-y-4">
+                  <DialogHeader className="text-left">
+                    <DialogTitle className="text-2xl">{selectedMember.name}</DialogTitle>
+                    <DialogDescription>{selectedMember.institution}</DialogDescription>
+                  </DialogHeader>
+
+                  {selectedMember.education && (
+                    <p className="text-sm leading-relaxed text-muted-foreground">
+                      {selectedMember.education}
+                    </p>
+                  )}
+
+                  <div className="flex flex-wrap gap-2">
+                    <Badge variant="outline">{selectedMember.period}</Badge>
+                    {selectedMember.role && <Badge variant="secondary">{selectedMember.role}</Badge>}
+                    {isAlumniMember(selectedMember) && <Badge variant="secondary">{selectedMember.type}</Badge>}
                   </div>
+
+                  {isAlumniMember(selectedMember) && selectedMember.placement && selectedMember.placement !== "TBD" && (
+                    <p className="text-sm text-primary font-medium">
+                      → {selectedMember.placement}
+                    </p>
+                  )}
                 </div>
-              </Card>
-            ))}
-          </div>
+              </div>
+
+              <div className="space-y-4">
+                <div className="flex items-center gap-2">
+                  <FileText className="h-5 w-5 text-primary" />
+                  <h3 className="text-lg font-semibold">Publications</h3>
+                </div>
+
+                {selectedMember.publications && selectedMember.publications.length > 0 ? (
+                  <div className="space-y-4">
+                    {selectedMember.publications.map((pub, index) => (
+                      <Card key={index} className="p-4">
+                        <div className="flex items-start gap-3">
+                          <div className="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <FileText className="h-4 w-4 text-primary" />
+                          </div>
+                          <div className="flex-1">
+                            {pub.url ? (
+                              <a
+                                href={pub.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-semibold mb-2 leading-relaxed hover:text-primary transition-colors inline-flex items-center gap-1 group"
+                              >
+                                {pub.title}
+                                <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                              </a>
+                            ) : (
+                              <h4 className="font-semibold mb-2 leading-relaxed">{pub.title}</h4>
+                            )}
+                            <p className="text-sm text-muted-foreground mb-1">{pub.authors}</p>
+                            <div className="flex items-center gap-2 text-sm">
+                              <Badge variant="outline">{pub.venue}</Badge>
+                              <span className="text-muted-foreground">{pub.year}</span>
+                            </div>
+                          </div>
+                        </div>
+                      </Card>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-sm text-muted-foreground">No listed collaborative publications.</p>
+                )}
+              </div>
+            </div>
+          )}
         </DialogContent>
       </Dialog>
     </div>
