@@ -81,6 +81,7 @@ export default function People() {
       name: "Mingyuan Xu", 
       period: "2024--", 
       institution: "NUS",
+      role: "PhD Student",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/nvvbphnuOZvYCoOa.png",
       publications: [
         memberPublication("Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes"),
@@ -91,6 +92,7 @@ export default function People() {
       name: "Kejian Zhang", 
       period: "2025--", 
       institution: "NUS",
+      role: "PhD Student",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ZuiXWNAauqbXsBSU.png",
       publications: [
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
@@ -102,6 +104,7 @@ export default function People() {
       name: "Rundong Huang", 
       period: "2025--", 
       institution: "NUS",
+      role: "PhD Student",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ACFcfaPqhoVBFRJN.png",
       publications: [
         memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
@@ -111,8 +114,9 @@ export default function People() {
       name: "Yiru Wang",
       period: "2026--",
       institution: "NUS",
-      education: "B.S. in Mathematics and Applied Mathematics, University of Science and Technology of China, expected 2026",
-      role: "PhD Student"
+      education: "B.S. in Mathematics and Applied Mathematics, University of Science and Technology of China, 2026",
+      role: "PhD Student",
+      photo: "/assets/yiru-wang.jpg"
     }
   ];
 
