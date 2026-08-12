@@ -219,6 +219,12 @@ export default function People() {
       publications: [
         memberPublication("A Trainable Centrality Framework for Modern Data"),
       ]
+    },
+    {
+      name: "Xinyi Zhang",
+      period: "2026--",
+      institution: "NUS",
+      education: "Year 2 Undergraduate in Statistics"
     }
   ];
 
