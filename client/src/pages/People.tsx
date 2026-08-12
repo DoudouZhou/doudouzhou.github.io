@@ -253,6 +253,16 @@ export default function People() {
       publications: [
         memberPublication("Preference-based Centrality and Ranking in General Metric Spaces"),
       ]
+    },
+    {
+      name: "Guojun Zhu",
+      period: "2026--",
+      institution: "University of Chinese Academy of Sciences",
+      education: "Ph.D. Candidate, University of Chinese Academy of Sciences; M.S., University of Chinese Academy of Sciences; B.S., Wuhan University",
+      photo: "/assets/guojun-zhu.jpg",
+      publications: [
+        memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
+      ]
     }
   ];
 
