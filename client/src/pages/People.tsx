@@ -130,11 +130,12 @@ export default function People() {
     }
   ];
 
-  const masterStudents: TeamMember[] = [
+  const studentCollaborators: TeamMember[] = [
     { 
       name: "Junhan Yu", 
       period: "2024--", 
-      institution: "NUS",
+      institution: "Duke-NUS Medical School",
+      role: "PhD Student",
       publications: [
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
         memberPublication("Structured Transfer Learning for Survival Risk Stratification in Data-Sparse Clinical Cohorts"),
@@ -146,7 +147,8 @@ export default function People() {
     { 
       name: "Qihua Zhu", 
       period: "2024--", 
-      institution: "NUS",
+      institution: "Duke-NUS Medical School",
+      role: "PhD Student",
       publications: [
         memberPublication("WISE: A Weighted Similarity Aggregation Test for Serial Independence"),
       ]
@@ -378,17 +380,17 @@ export default function People() {
           </div>
         </section>
 
-        {/* Master's Students */}
+        {/* Student Collaborators */}
         <section className="mb-16">
           <div className="flex items-center gap-3 mb-8">
             <Users className="h-8 w-8 text-primary" />
             <h2 className="text-3xl font-bold">
-              <span className="gradient-text">Master's Students</span>
+              <span className="gradient-text">Student Collaborators</span>
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            {masterStudents.map((student, index) => (
+            {studentCollaborators.map((student, index) => (
               <MemberCard key={index} member={student} />
             ))}
           </div>
