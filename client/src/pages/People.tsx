@@ -244,7 +244,7 @@ export default function People() {
       period: "2025--2026",
       type: "Visitor",
       institution: "Renmin University of China",
-      education: "Renmin University of China"
+      education: "Ph.D. Student, Renmin University of China"
     }
   ];
 
