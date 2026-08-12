@@ -114,6 +114,7 @@ export default function People() {
       name: "Dian Jin",
       period: "2026--",
       institution: "NUS",
+      education: "Ph.D., Rutgers University, 2025; B.E., UESTC, 2019",
       role: "Research Fellow",
       publications: [
         memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
