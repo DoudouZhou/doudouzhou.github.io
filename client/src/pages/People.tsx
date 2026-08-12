@@ -152,6 +152,12 @@ export default function People() {
       publications: [
         memberPublication("WISE: A Weighted Similarity Aggregation Test for Serial Independence"),
       ]
+    },
+    {
+      name: "Chaoqi Wu",
+      period: "2026--",
+      institution: "Duke-NUS Medical School",
+      role: "PhD Student"
     }
   ];
 
