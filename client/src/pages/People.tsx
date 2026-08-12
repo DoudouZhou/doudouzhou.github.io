@@ -218,10 +218,18 @@ export default function People() {
       period: "2025--2026",
       type: "Visitor",
       institution: "University of Chinese Academy of Sciences",
+      education: "University of Chinese Academy of Sciences",
       publications: [
         memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
         memberPublication("Hierarchical Contrastive Learning for Multimodal Data"),
       ]
+    },
+    {
+      name: "Yaya Zhao",
+      period: "2025--2026",
+      type: "Visitor",
+      institution: "Renmin University of China",
+      education: "Renmin University of China"
     }
   ];
 
@@ -234,11 +242,6 @@ export default function People() {
       publications: [
         memberPublication("Preference-based Centrality and Ranking in General Metric Spaces"),
       ]
-    },
-    { 
-      name: "Yaya Zhao", 
-      period: "2025--", 
-      institution: "Renmin University of China"
     }
   ];
 
