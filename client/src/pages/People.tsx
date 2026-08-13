@@ -179,7 +179,8 @@ export default function People() {
       name: "Chaoqi Wu",
       period: "2026--",
       institution: "Duke-NUS Medical School",
-      role: "PhD Student"
+      role: "PhD Student",
+      photo: "/assets/chaoqi-wu.jpg"
     }
   ];
 
