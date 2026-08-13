@@ -135,6 +135,7 @@ export default function People() {
       institution: "NUS",
       education: "Ph.D., Rutgers University, 2025; B.E., UESTC, 2019",
       role: "Research Fellow",
+      photo: "/assets/dian-jin.jpg",
       publications: [
         memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
         memberPublication("Cost-optimal Sequential Testing via Doubly Robust Q-learning"),
