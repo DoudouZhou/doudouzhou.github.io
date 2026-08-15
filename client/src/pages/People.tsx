@@ -226,7 +226,8 @@ export default function People() {
       name: "Xinyi Zhang",
       period: "2026--",
       institution: "NUS",
-      education: "Year 2 Undergraduate in Statistics"
+      education: "Year 2 Undergraduate in Statistics",
+      photo: "/assets/xinyi-zhang.jpg"
     }
   ];
 
