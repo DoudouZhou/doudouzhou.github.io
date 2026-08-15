@@ -158,6 +158,7 @@ export default function People() {
       institution: "Duke-NUS Medical School",
       education: "M.S., National University of Singapore",
       role: "PhD Student",
+      photo: "/assets/junhan-yu.jpg",
       publications: [
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
         memberPublication("Structured Transfer Learning for Survival Risk Stratification in Data-Sparse Clinical Cohorts"),
