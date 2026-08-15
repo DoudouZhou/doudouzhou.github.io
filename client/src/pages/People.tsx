@@ -173,6 +173,7 @@ export default function People() {
       institution: "Duke-NUS Medical School",
       education: "M.S., National University of Singapore",
       role: "PhD Student",
+      photo: "/assets/qihua-zhu.jpg",
       publications: [
         memberPublication("WISE: A Weighted Similarity Aggregation Test for Serial Independence"),
       ]
