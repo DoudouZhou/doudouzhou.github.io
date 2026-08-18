@@ -189,7 +189,7 @@ export default function People() {
       name: "Longtian Shi",
       period: "2026--",
       institution: "NUS",
-      role: "Student Collaborator",
+      role: "PhD Student",
       photo: "/assets/longtian-shi.jpg",
       publications: [
         memberPublication("Inferential Evaluation of Surrogate-Derived Models under Covariate Shift"),
