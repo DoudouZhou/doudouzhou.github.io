@@ -29,6 +29,24 @@ export const publications: Publication[] = [
     {
       category: "methodology",
       type: "preprint",
+      authors: "Zhi Zhang*, Lingfeng Lyu*, Yue Kang, Doudou Zhou#",
+      title: "Conditional Evaluation of Language Models with Cheap Auxiliary Signals",
+      venue: "Preprint, 2026+",
+      topics: ["ai-llm", "inference-testing"],
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2608.16210" }]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
+      authors: "Longtian Shi, Molei Liu, Doudou Zhou",
+      title: "Inferential Evaluation of Surrogate-Derived Models under Covariate Shift",
+      venue: "Preprint, 2026+",
+      topics: ["inference-testing", "federated-transfer", "ai-llm"],
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2608.15783" }]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Dian Jin, Zhi Zhang, Huichao Li, Yihe Pan, Rundong Huang, Doudou Zhou#",
       title: "Personalizing Large Language Model Agents with Small Policy Models",
       venue: "Preprint, 2026+",

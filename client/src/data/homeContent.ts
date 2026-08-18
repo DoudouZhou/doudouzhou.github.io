@@ -51,6 +51,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 export const newsItems: NewsItem[] = [
   {
     date: "Aug 2026",
+    content: "New preprints on arXiv: \"Conditional Evaluation of Language Models with Cheap Auxiliary Signals\" and \"Inferential Evaluation of Surrogate-Derived Models under Covariate Shift.\"",
+  },
+  {
+    date: "Aug 2026",
     content: "New preprint on arXiv: \"Personalizing Large Language Model Agents with Small Policy Models.\"",
   },
   {

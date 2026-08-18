@@ -272,6 +272,7 @@ export default function People() {
       institution: "University of Science and Technology of China",
       photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/YZvnGDJvnDMSNwLv.png",
       publications: [
+        memberPublication("Conditional Evaluation of Language Models with Cheap Auxiliary Signals"),
         memberPublication("Preference-based Centrality and Ranking in General Metric Spaces"),
       ]
     },
