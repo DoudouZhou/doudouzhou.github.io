@@ -184,6 +184,16 @@ export default function People() {
       institution: "Duke-NUS Medical School",
       role: "PhD Student",
       photo: "/assets/chaoqi-wu.jpg"
+    },
+    {
+      name: "Longtian Shi",
+      period: "2026--",
+      institution: "NUS",
+      role: "Student Collaborator",
+      photo: "/assets/longtian-shi.jpg",
+      publications: [
+        memberPublication("Inferential Evaluation of Surrogate-Derived Models under Covariate Shift"),
+      ]
     }
   ];
 
