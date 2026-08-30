@@ -113,7 +113,7 @@ export default function People() {
       institution: "NUS",
       education: "B.S., Peking University",
       role: "PhD Student",
-      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ACFcfaPqhoVBFRJN.png",
+      photo: "/assets/rundong-huang.jpg",
       publications: [
         memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
       ]
