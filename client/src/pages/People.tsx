@@ -100,7 +100,7 @@ export default function People() {
       institution: "NUS",
       education: "M.S., National University of Singapore, 2025; B.S., Fudan University, 2024",
       role: "PhD Student",
-      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/ZuiXWNAauqbXsBSU.png",
+      photo: "/assets/kejian-zhang.jpg",
       publications: [
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
         memberPublication("Two-sample Testing with Block-wise Missingness in Multi-source Data"),
