@@ -88,7 +88,7 @@ export default function People() {
       institution: "NUS",
       education: "M.S. in Statistics, National University of Singapore, Aug 2022-Jan 2024; B.S. in Applied Mathematics, Xi'an Jiaotong-Liverpool University, Sep 2018-Jul 2022",
       role: "PhD Student",
-      photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/nvvbphnuOZvYCoOa.png",
+      photo: "/assets/mingyuan-xu.jpg",
       publications: [
         memberPublication("Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes"),
         memberPublication("A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth"),
