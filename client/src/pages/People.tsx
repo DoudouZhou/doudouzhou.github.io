@@ -61,6 +61,21 @@ export default function People() {
   const getEducationLines = (education: string) =>
     education.split(';').map((line) => line.trim()).filter(Boolean);
 
+  const shouldShowInstitution = (member: TeamMember | AlumniMember) => {
+    const institution = member.institution.trim().toLowerCase();
+    return institution !== "nus" && institution !== "national university of singapore";
+  };
+
+  const getDialogDescription = (member: TeamMember | AlumniMember) => {
+    const parts = [
+      member.role,
+      isAlumniMember(member) ? member.type : undefined,
+      shouldShowInstitution(member) ? member.institution : undefined,
+    ].filter(Boolean);
+
+    return parts.join(" · ");
+  };
+
   const memberPublication = (title: string): MemberPublication => {
     const pub = findPublicationByTitle(title);
     if (!pub) {
@@ -354,7 +369,9 @@ export default function People() {
                   <FileText className="h-4 w-4 text-primary flex-shrink-0" />
                 )}
               </div>
-              <p className="text-sm text-muted-foreground mb-2">{member.institution}</p>
+              {shouldShowInstitution(member) && (
+                <p className="text-sm text-muted-foreground mb-2">{member.institution}</p>
+              )}
               {member.education && (
                 <div className="text-xs text-muted-foreground mb-2 space-y-0.5">
                   {getEducationLines(member.education).map((line, index) => (
@@ -594,7 +611,9 @@ export default function People() {
                 <div className="min-w-0 space-y-4">
                   <DialogHeader className="text-left">
                     <DialogTitle className="text-2xl">{selectedMember.name}</DialogTitle>
-                    <DialogDescription>{selectedMember.institution}</DialogDescription>
+                    {getDialogDescription(selectedMember) && (
+                      <DialogDescription>{getDialogDescription(selectedMember)}</DialogDescription>
+                    )}
                   </DialogHeader>
 
                   {selectedMember.education && (
