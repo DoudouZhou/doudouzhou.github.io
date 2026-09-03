@@ -61,9 +61,22 @@ export default function People() {
   const getEducationLines = (education: string) =>
     education.split(';').map((line) => line.trim()).filter(Boolean);
 
+  const normalizeText = (text: string) =>
+    text.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+  const educationIncludesInstitution = (member: TeamMember | AlumniMember) => {
+    if (!member.education) return false;
+
+    return normalizeText(member.education).includes(normalizeText(member.institution));
+  };
+
   const shouldShowInstitution = (member: TeamMember | AlumniMember) => {
     const institution = member.institution.trim().toLowerCase();
-    return institution !== "nus" && institution !== "national university of singapore";
+    return (
+      institution !== "nus" &&
+      institution !== "national university of singapore" &&
+      !educationIncludesInstitution(member)
+    );
   };
 
   const getDialogDescription = (member: TeamMember | AlumniMember) => {
