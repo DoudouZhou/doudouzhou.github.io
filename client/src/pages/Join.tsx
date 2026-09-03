@@ -14,23 +14,24 @@ export default function Join() {
     <div className="min-h-screen py-20">
       <div className="container">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">
-          Join <span className="gradient-text">STAR Lab</span>
+          Prospective Students and Fellows
         </h1>
         <p className="text-xl text-muted-foreground text-center max-w-3xl mx-auto mb-16">
-          We're always looking for talented and motivated individuals to join our team
+          I welcome students, research fellows, visitors, and collaborators interested in statistical foundations
+          for AI, biomedical data science, and sequential decision making.
         </p>
 
-        {/* Why Join Us */}
+        {/* Research Fit */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold mb-8 text-center">Why Join STAR Lab?</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Research Fit</h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             <Card className="p-6 text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Award className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="font-bold mb-2">Cutting-Edge Research</h3>
+              <h3 className="font-bold mb-2">Statistical AI</h3>
               <p className="text-sm text-muted-foreground">
-                Work on statistical foundations of AI, modern machine learning, and biomedical data science
+                Inference, uncertainty, robustness, and evaluation for modern machine learning and AI systems.
               </p>
             </Card>
             
@@ -38,9 +39,9 @@ export default function Join() {
               <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Users className="h-6 w-6 text-accent" />
               </div>
-              <h3 className="font-bold mb-2">Collaborative Environment</h3>
+              <h3 className="font-bold mb-2">Biomedical Data</h3>
               <p className="text-sm text-muted-foreground">
-                Join a supportive team with strong academic and industry connections
+                Methods for electronic health records, multimodal clinical data, transfer learning, and phenotyping.
               </p>
             </Card>
             
@@ -48,9 +49,9 @@ export default function Join() {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Heart className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="font-bold mb-2">Mentorship & Growth</h3>
+              <h3 className="font-bold mb-2">Sequential Decisions</h3>
               <p className="text-sm text-muted-foreground">
-                Receive personalized guidance and opportunities for professional development
+                Reinforcement learning, policy evaluation, adaptive testing, and decision making under distribution shift.
               </p>
             </Card>
           </div>
@@ -58,7 +59,7 @@ export default function Join() {
 
         {/* Open Positions */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold mb-8">Open Positions</h2>
+          <h2 className="text-3xl font-bold mb-8">Research Opportunities</h2>
           
           <div className="max-w-4xl mx-auto space-y-6">
             {/* Postdoctoral Fellows */}
@@ -69,12 +70,11 @@ export default function Join() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-3">Postdoctoral Research Fellows</h3>
-                  <Badge className="mb-4">Multiple Positions Available</Badge>
+                  <Badge className="mb-4">Inquiries Welcome</Badge>
                   
                   <p className="text-muted-foreground mb-4 leading-relaxed">
-                    We are inviting applications for multiple postdoctoral research fellow positions. 
-                    Successful candidates will work on cutting-edge research across statistical foundations of AI,
-                    machine learning, large language models, multimodal learning, and biomedical data science.
+                    I am interested in working with postdoctoral fellows whose research connects statistical
+                    methodology with AI systems, large language models, multimodal learning, or biomedical data science.
                   </p>
 
                   <div className="mb-4">
@@ -95,7 +95,7 @@ export default function Join() {
                   <Button asChild>
                     <a href={`mailto:${CONTACT_EMAIL}?subject=Postdoc Application`}>
                       <Mail className="mr-2 h-4 w-4" />
-                      Apply Now
+                      Email Prof. Zhou
                     </a>
                   </Button>
                 </div>
@@ -110,7 +110,7 @@ export default function Join() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-3">PhD Students</h3>
-                  <Badge className="mb-4">Rolling Admission</Badge>
+                  <Badge className="mb-4">Prospective PhD Students</Badge>
                   
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     We welcome motivated PhD students interested in statistical methodology, machine learning, 
@@ -158,8 +158,8 @@ export default function Join() {
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     We offer research project opportunities for master's and undergraduate students at NUS. 
                     If you're interested in gaining research experience in statistical AI, LLMs, multimodal learning,
-                    biomedical data science, or sequential decision making,
-                    we'd love to hear from you.
+                    biomedical data science, or sequential decision making, please reach out with a short description
+                    of your interests and availability.
                   </p>
                   
                   <div className="mb-4">
@@ -187,7 +187,7 @@ export default function Join() {
         {/* Application Tips */}
         <section className="max-w-4xl mx-auto">
           <Card className="p-8 bg-secondary">
-            <h2 className="text-2xl font-bold mb-6">Application Tips</h2>
+            <h2 className="text-2xl font-bold mb-6">What to Include</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
                 <strong>For Postdocs:</strong> Please email your CV, research statement, and representative 

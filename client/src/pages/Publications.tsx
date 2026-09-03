@@ -30,6 +30,7 @@ type ViewMode = "list" | "year";
 
 function PublicationCard({ pub }: { pub: Publication }) {
   const yearLabel = getPublicationYearLabel(pub);
+  const topicSummary = pub.topics.map((topic) => publicationTopicLabels[topic]).join(" / ");
 
   return (
     <Card className="p-5 transition-colors hover:border-primary/40">
@@ -44,16 +45,14 @@ function PublicationCard({ pub }: { pub: Publication }) {
             </Badge>
             <Badge variant="outline">{publicationCategoryLabels[pub.category]}</Badge>
             {yearLabel && <Badge variant="outline">{yearLabel}</Badge>}
-            {pub.topics.map((topic) => (
-              <Badge key={`${pub.title}-${topic}`} variant="secondary">
-                {publicationTopicLabels[topic]}
-              </Badge>
-            ))}
           </div>
 
           <h3 className="mb-2 text-lg font-semibold leading-relaxed">{pub.title}</h3>
           <p className="mb-2 text-sm text-muted-foreground">{pub.authors}</p>
           <p className="mb-4 text-sm italic text-muted-foreground">{pub.venue}</p>
+          {topicSummary && (
+            <p className="mb-4 text-xs font-medium text-muted-foreground">{topicSummary}</p>
+          )}
 
           {pub.links.length > 0 && (
             <div className="flex flex-wrap gap-2">
@@ -172,7 +171,7 @@ export default function Publications() {
             Statistical methodology, machine learning, AI systems, and biomedical data science.
           </p>
           <p className="mt-3 text-sm text-muted-foreground">
-            *: Contributed equally or alphabetic order | #: Corresponding author
+            *: Equal contribution or alphabetic authorship | #: Corresponding author
           </p>
         </div>
 

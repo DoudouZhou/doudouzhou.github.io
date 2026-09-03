@@ -179,16 +179,8 @@ export default function Software() {
   return (
     <div className="min-h-screen py-20">
       {/* Hero Section */}
-      <section
-        className="relative py-20 mb-20"
-        style={{
-          backgroundImage: `url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/cDajxlTPCIDQPjqx.png')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="absolute inset-0 bg-background/90" />
-        <div className="container relative z-10">
+      <section className="mb-20 border-b border-border bg-secondary/40 py-16">
+        <div className="container">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">
             Open Source <span className="gradient-text">Software</span>
           </h1>

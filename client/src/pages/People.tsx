@@ -268,7 +268,7 @@ export default function People() {
       period: "2025--2026",
       type: "Visitor",
       institution: "University of Chinese Academy of Sciences",
-      education: "University of Chinese Academy of Sciences",
+      education: "Ph.D. Student, University of Chinese Academy of Sciences",
       publications: [
         memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
         memberPublication("Hierarchical Contrastive Learning for Multimodal Data"),
@@ -288,6 +288,7 @@ export default function People() {
       name: "Lingfeng Lv", 
       period: "2026--", 
       institution: "University of Science and Technology of China",
+      role: "Visitor",
       photo: "/assets/lingfeng-lv.jpg",
       publications: [
         memberPublication("Conditional Evaluation of Language Models with Cheap Auxiliary Signals"),
@@ -299,6 +300,7 @@ export default function People() {
       period: "2026--",
       institution: "University of Chinese Academy of Sciences",
       education: "Ph.D. Candidate, University of Chinese Academy of Sciences; M.S., University of Chinese Academy of Sciences; B.S., Wuhan University",
+      role: "Visiting PhD Student",
       photo: "/assets/guojun-zhu.jpg",
       publications: [
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
@@ -308,6 +310,7 @@ export default function People() {
       name: "Canhuang Xu",
       period: "2026--",
       institution: "University of Science and Technology of China",
+      role: "Visitor",
       photo: "/assets/canhuang-xu.jpg"
     }
   ];
@@ -337,10 +340,10 @@ export default function People() {
               <img 
                 src={member.photo} 
                 alt={member.name}
-                className="w-12 h-12 rounded-lg object-cover flex-shrink-0"
+                className="h-16 w-16 rounded-lg object-cover flex-shrink-0"
               />
             ) : (
-              <div className={`w-12 h-12 ${isAlumni ? 'bg-muted/50' : variant === 'accent' ? 'bg-accent/10' : 'bg-primary/10'} rounded-lg flex items-center justify-center flex-shrink-0 text-lg font-bold ${isAlumni ? 'text-muted-foreground' : variant === 'accent' ? 'text-accent' : 'text-primary'}`}>
+              <div className={`h-16 w-16 ${isAlumni ? 'bg-muted/50' : variant === 'accent' ? 'bg-accent/10' : 'bg-primary/10'} rounded-lg flex items-center justify-center flex-shrink-0 text-lg font-bold ${isAlumni ? 'text-muted-foreground' : variant === 'accent' ? 'text-accent' : 'text-primary'}`}>
                 {getInitials(member.name)}
               </div>
             )}
@@ -363,7 +366,6 @@ export default function People() {
                 <Badge variant="outline">{member.period}</Badge>
                 {member.role && <Badge variant="secondary">{member.role}</Badge>}
                 {isAlumni && <Badge variant="secondary">{(member as AlumniMember).type}</Badge>}
-                {variant === 'accent' && <Badge variant="secondary">Visiting PhD Student</Badge>}
               </div>
               {isAlumni && (member as AlumniMember).placement && (member as AlumniMember).placement !== "TBD" && (
                 <p className="text-sm text-primary font-medium">
@@ -385,16 +387,8 @@ export default function People() {
   return (
     <div className="min-h-screen py-20">
       {/* Hero Section */}
-      <section
-        className="relative py-20 mb-12"
-        style={{
-          backgroundImage: `url('https://files.manuscdn.com/user_upload_by_module/session_file/310519663300105903/eQPssOVvWcbnQusb.png')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background" />
-        <div className="container relative z-10 text-center">
+      <section className="mb-12 border-b border-border bg-secondary/40 py-16">
+        <div className="container text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">People</span>
           </h1>
@@ -578,15 +572,15 @@ export default function People() {
         <DialogContent className="max-w-4xl max-h-[85vh] overflow-y-auto">
           {selectedMember && (
             <div className="space-y-6">
-              <div className="grid gap-6 md:grid-cols-[220px_1fr]">
+              <div className="grid gap-6 md:grid-cols-[300px_1fr]">
                 {selectedMember.photo ? (
                   <img
                     src={selectedMember.photo}
                     alt={selectedMember.name}
-                    className="h-64 w-full max-w-[220px] rounded-lg object-cover mx-auto md:mx-0"
+                    className="h-80 w-full max-w-[300px] rounded-lg object-cover mx-auto md:mx-0"
                   />
                 ) : (
-                  <div className="h-64 w-full max-w-[220px] rounded-lg bg-primary/10 text-primary flex items-center justify-center mx-auto md:mx-0 text-4xl font-bold">
+                  <div className="h-80 w-full max-w-[300px] rounded-lg bg-primary/10 text-primary flex items-center justify-center mx-auto md:mx-0 text-4xl font-bold">
                     {getInitials(selectedMember.name)}
                   </div>
                 )}

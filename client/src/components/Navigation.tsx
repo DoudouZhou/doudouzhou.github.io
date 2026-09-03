@@ -14,6 +14,7 @@ const navItems = [
   { path: "/publications", label: "Publications" },
   { path: "/software", label: "Software" },
   { path: "/teaching", label: "Teaching" },
+  { path: "/join", label: "Join" },
 ];
 
 export default function Navigation() {
@@ -36,7 +37,7 @@ export default function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden lg:flex items-center gap-1">
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -56,7 +57,7 @@ export default function Navigation() {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="lg:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -65,7 +66,7 @@ export default function Navigation() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 space-y-2 border-t border-border">
+          <div className="lg:hidden py-4 space-y-2 border-t border-border">
             {navItems.map((item) => (
               <Link key={item.path} href={item.path}>
                 <a

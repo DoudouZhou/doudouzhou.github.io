@@ -31,7 +31,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Zhi Zhang*, Lingfeng Lyu*, Yue Kang, Doudou Zhou#",
       title: "Conditional Evaluation of Language Models with Cheap Auxiliary Signals",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["ai-llm", "inference-testing"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2608.16210" }]
     },
@@ -40,7 +40,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Longtian Shi, Molei Liu, Doudou Zhou",
       title: "Inferential Evaluation of Surrogate-Derived Models under Covariate Shift",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["inference-testing", "federated-transfer", "ai-llm"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2608.15783" }]
     },
@@ -49,7 +49,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Dian Jin, Zhi Zhang, Huichao Li, Yihe Pan, Rundong Huang, Doudou Zhou#",
       title: "Personalizing Large Language Model Agents with Small Policy Models",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["ai-llm", "rl-sequential"],
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2608.00215" },
@@ -61,7 +61,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Junhan Yu*, Kejian Zhang*, Doudou Zhou*#, Guojun Zhu*",
       title: "Pattern-Calibrated Multimodal Prediction under Blockwise Missingness",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["multimodal-representation", "ehr-biomedical", "federated-transfer"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2607.01821" }]
     },
@@ -70,7 +70,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Junhan Yu, Yurui Chen, Juan Delgado-SanMartin, Dennis Wang, Hong Pan, Doudou Zhou",
       title: "Structured Transfer Learning for Survival Risk Stratification in Data-Sparse Clinical Cohorts",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["ehr-biomedical", "federated-transfer"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2605.15633" }]
     },
@@ -79,7 +79,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Yuming Zhang, Congyuan Duan, Dong Xia, Doudou Zhou#, Tianxi Cai#",
       title: "Spherical Mixture Integration for Latent Embedding Alignment across Multi-Source Feature Spaces",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["multimodal-representation", "federated-transfer"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2605.08637" }]
     },
@@ -88,7 +88,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Jiawei Wu, Doudou Zhou",
       title: "Unlearning What Matters: Token-Level Attribution for Precise Language Model Unlearning",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["ai-llm"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2605.00364" }]
     },
@@ -97,7 +97,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Doudou Zhou, Yiran Zhang, Dian Jin, Yingye Zheng, Lu Tian, Tianxi Cai",
       title: "Cost-optimal Sequential Testing via Doubly Robust Q-learning",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["rl-sequential", "inference-testing"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2604.11165" }]
     },
@@ -106,25 +106,25 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Mingyuan Xu, Zongqi Xia, Tianxi Cai, Doudou Zhou#, Nian Si#",
       title: "Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["rl-sequential", "federated-transfer"],
-      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2602.01825" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2602.01825" }]
     },
     {
       category: "methodology",
       type: "preprint",
       authors: "Lingfeng Lyu, Doudou Zhou#",
       title: "Preference-based Centrality and Ranking in General Metric Spaces",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["graph-ranking"],
-      links: [{ label: "arXiv", url: "https://arxiv.org/pdf/2601.18412" }]
+      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.18412" }]
     },
     {
       category: "methodology",
       type: "preprint",
       authors: "Huichao Li, Junhan Yu, Doudou Zhou",
       title: "Hierarchical Contrastive Learning for Multimodal Data",
-      venue: "Preprint, 2026+",
+      venue: "Preprint, 2026",
       topics: ["multimodal-representation"],
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2604.05462" },
@@ -136,7 +136,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Qihua Zhu, Mingshuo Liu, Yuefeng Han, Doudou Zhou#",
       title: "WISE: A Weighted Similarity Aggregation Test for Serial Independence",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["inference-testing"],
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2509.05678" },
@@ -148,7 +148,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Parker Knight, Doudou Zhou, Zongqi Xia, Tianxi Cai, Junwei Lu",
       title: "Latent Factor Point Processes for Classification and Clustering with Electronic Health Records",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["ehr-biomedical", "multimodal-representation"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2508.20327" }]
     },
@@ -157,7 +157,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Kejian Zhang, Muxuan Liang, Robert Maile, Doudou Zhou#",
       title: "Two-sample Testing with Block-wise Missingness in Multi-source Data",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["inference-testing", "federated-transfer"],
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2508.17411" },
@@ -169,7 +169,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Sinian Zhang, Kaicheng Zhang, Ziping Xu, Tianxi Cai#, Doudou Zhou#",
       title: "Generalized Linear Markov Decision Process",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["rl-sequential"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2506.00818" }]
     },
@@ -178,7 +178,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Zhuofan Dong, Yiwen Huang, Yan Dong, Mengying Yan, Ziye Tian, Chuan Hong, Doudou Zhou#, Molei Liu#",
       title: "Model-X Change-Point Detection of Conditional Distribution",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["inference-testing"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.12023" }]
     },
@@ -187,7 +187,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Wangxuan Fan, Siqi Li, Doudou Zhou, Yohei Okada, Chuan Hong, Molei Liu, Nan Liu",
       title: "SIM-Shapley: A Stable and Computationally Efficient Approach to Shapley Value Approximation",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["inference-testing", "ai-llm"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.08198" }]
     },
@@ -196,7 +196,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Zexi Cai, Wenbo Fei, Doudou Zhou#",
       title: "MATES: Multi-view Aggregated Two-Sample Test",
-      venue: "Preprint, 2024+",
+      venue: "Preprint, 2024",
       topics: ["inference-testing", "multimodal-representation"],
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2412.16684" },
@@ -208,7 +208,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Doudou Zhou, Mengyan Li, Tianxi Cai, Molei Liu",
       title: "Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population",
-      venue: "Preprint, 2024+",
+      venue: "Preprint, 2024",
       topics: ["federated-transfer", "inference-testing"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2410.06484" }]
     },
@@ -217,7 +217,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Mingshuo Liu, Doudou Zhou, Hao Chen",
       title: "Generalized Independence Test for Modern Data",
-      venue: "Preprint, 2024+",
+      venue: "Preprint, 2024",
       topics: ["inference-testing"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2409.07745" }]
     },
@@ -238,7 +238,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Jiajun Liang, Yue Liu, Doudou Zhou, Sinian Zhang, Junwei Lu",
       title: "The Wreaths of Coherence: Uniform Graph Feature Selection with False Discovery Rate Control",
-      venue: "Preprint, 2024+",
+      venue: "Preprint, 2024",
       topics: ["graph-ranking", "inference-testing"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2403.12284" }]
     },
@@ -247,7 +247,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Tianxi Cai*, Dong Xia*, Luwan Zhang*, Doudou Zhou*",
       title: "Consensus Knowledge Graph Learning via Multi-view Sparse Low Rank Block Model",
-      venue: "Preprint, 2023+",
+      venue: "Preprint, 2023",
       topics: ["graph-ranking", "ehr-biomedical", "federated-transfer"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2209.13762" }]
     },
@@ -387,7 +387,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Minh Duc Vu, Mingshuo Liu, Doudou Zhou#",
       title: "A Trainable Centrality Framework for Modern Data",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["graph-ranking"],
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2511.22959" },
@@ -400,7 +400,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Jessica Gronsbell*, Vidul Ayakulangara Panickan*, Doudou Zhou*, Chris Lin, Thomas Charlon, Chuan Hong, Xin Xiong, Linshanshan Wang, Jianhui Gao, Shirley Zhou, Yuan Tian, Yaqi Shi, Ziming Gan, Tianxi Cai",
       title: "PEHRT: A Common Pipeline for Harmonizing Electronic Health Record data for Translational Research",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["ehr-biomedical", "multimodal-representation"],
       links: [
         { label: "arXiv", url: "https://arxiv.org/pdf/2509.08553" },
@@ -413,7 +413,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Yinjie Wang*, Doudou Zhou*, Yue Liu, Junwei Lu, Tianxi Cai",
       title: "Automated Hierarchical Graph Construction for Multi-source Electronic Health Records",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["graph-ranking", "ehr-biomedical"],
       links: [
         { label: "arXiv", url: "https://arxiv.org/abs/2509.06576" },
@@ -425,7 +425,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Junhan Yu, Zhunyi Feng, Junwei Lu, Tianxi Cai, Doudou Zhou#",
       title: "Time-Aware Attention for Enhanced Electronic Health Records Modeling",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["ehr-biomedical", "multimodal-representation"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2507.14847" }]
     },
@@ -434,7 +434,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Qiming Wu, Siqi Li, Doudou Zhou, Nan Liu",
       title: "Toward Fair Federated Learning under Demographic Disparities and Data Imbalance",
-      venue: "Preprint, 2025+",
+      venue: "Preprint, 2025",
       topics: ["federated-transfer", "ehr-biomedical"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2505.09295" }]
     },
@@ -457,7 +457,7 @@ export const publications: Publication[] = [
       type: "preprint",
       authors: "Xin Xiong, Sara Morini Sweet, Molei Liu, Chuan Hong, Clara-Lea Bonzel, Vidul Ayakulangara Panickan, Doudou Zhou, Linshanshan Wang, Lauren Costa, Yuk-Lam Ho, Alon Geva, Kenneth D. Mandl, Suchun Cheng, Zongqi Xia, Kelly Cho, J. Michael Gaziano, Katherine P. Liao, Tianxi Cai, Tianrun Cai",
       title: "Bending the Learning Curve for EHR Research via Knowledge-Driven Online Multimodal Automated Phenotyping System",
-      venue: "Preprint, 2023+",
+      venue: "Preprint, 2023",
       topics: ["ehr-biomedical", "multimodal-representation"],
       links: [
         { label: "medRxiv", url: "https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1" },

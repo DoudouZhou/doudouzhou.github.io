@@ -6,11 +6,13 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mail, GraduationCap, ExternalLink, Building2, Linkedin, Github } from "lucide-react";
+import { ArrowRight, Mail, GraduationCap, ExternalLink, Building2, Linkedin, Github, Users } from "lucide-react";
 import { Link } from "wouter";
 import ResearchAgenda from "@/components/ResearchAgenda";
 import { newsItems, selectedPublications } from "@/data/homeContent";
 import { CONTACT_EMAIL } from "@/siteData";
+
+const recentNewsItems = newsItems.slice(0, 6);
 
 export default function Home() {
   return (
@@ -21,34 +23,56 @@ export default function Home() {
           <div className="space-y-12">
             {/* Bio Section */}
             <section>
+              <Badge variant="outline" className="mb-4 rounded-md">
+                NUS Statistics and Data Science
+              </Badge>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Doudou Zhou
               </h1>
               <p className="text-xl text-muted-foreground mb-6">
-                Assistant Professor, Department of Statistics and Data Science
+                Statistical foundations for reliable AI, complex biomedical data, and sequential decision making.
               </p>
               
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
                 <p>
                   I am an Assistant Professor in the Department of Statistics and Data Science
-                  at the National University of Singapore. I develop rigorous statistical methodology and practical
-                  AI techniques for analyzing complex data, with a focus on statistical foundations of AI, machine
-                  learning, large language models and agentic AI, multimodal learning, and biomedical data science.
+                  at the National University of Singapore. My group develops statistical methodology and machine
+                  learning tools for modern AI systems, high-dimensional and non-Euclidean data, electronic health
+                  records, and sequential decision making.
                 </p>
                 
                 <p>
-                  My research bridges theory and application, creating tools that advance both statistical science
-                  and real-world medical research. I work on statistical and computational methods for electronic health
-                  records, high-dimensional and non-Euclidean data, reinforcement learning, sequential decision making,
-                  and trustworthy AI systems for scientific and biomedical discovery.
+                  A recurring goal in my work is to keep evaluation targets, uncertainty, robustness, and decision
+                  rules explicit when learning systems are deployed in scientific and biomedical settings. Current
+                  projects span large language models and agentic AI, multimodal learning, transfer and federated
+                  learning, reinforcement learning, and biomedical data science.
                 </p>
                 
                 <p>
-                  I am always open to collaborations and enthusiastic about exploring new research directions.
-                  I welcome prospective students (PhD, Master's, and undergraduate) to join my research group,
-                  and I also host visiting scholars from China and around the world for academic exchanges.
-                  Feel free to reach out if you're interested in working together!
+                  I welcome students, research fellows, visitors, and collaborators whose interests connect statistical
+                  thinking with consequential AI and data-science problems.
                 </p>
+              </div>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link href="/publications">
+                  <Button>
+                    Publications
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
+                <Link href="/people">
+                  <Button variant="outline">
+                    <Users className="mr-2 h-4 w-4" />
+                    People
+                  </Button>
+                </Link>
+                <Link href="/join">
+                  <Button variant="outline">
+                    Join
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
               </div>
 
               <ResearchAgenda />
@@ -103,10 +127,16 @@ export default function Home() {
 
             {/* Selected Publications */}
             <section>
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold">Selected Publications</h2>
+              <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <h2 className="text-3xl font-bold">Selected Publications</h2>
+                  <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+                    Representative work across statistical AI, biomedical data science, non-Euclidean data analysis,
+                    and sequential decision making.
+                  </p>
+                </div>
                 <Link href="/publications">
-                  <Button variant="outline">
+                  <Button variant="outline" className="shrink-0">
                     View All
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </Button>
@@ -156,9 +186,9 @@ export default function Home() {
 
             {/* News */}
             <section>
-              <h2 className="text-3xl font-bold mb-6">News</h2>
+              <h2 className="text-3xl font-bold mb-6">Recent Highlights</h2>
               <div className="space-y-4">
-                {newsItems.map((item, idx) => (
+                {recentNewsItems.map((item, idx) => (
                   <div key={idx} className="flex gap-4 pb-4 border-b last:border-0">
                     <span className="text-sm font-medium text-muted-foreground shrink-0 w-24">
                       {item.date}

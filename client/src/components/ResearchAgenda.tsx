@@ -3,7 +3,6 @@ import { RESEARCH_INTEREST_DETAILS } from "@/siteData";
 import {
   Bot,
   Brain,
-  Database,
   GitBranch,
   Layers,
   Network,
@@ -62,11 +61,26 @@ const agendaPillars: AgendaPillar[] = [
 ];
 
 const methodHighlights = [
-  { label: "Inference", icon: Brain },
-  { label: "Representation", icon: Layers },
-  { label: "Ranking", icon: Network },
-  { label: "Sequential decisions", icon: GitBranch },
-  { label: "Biomedical data", icon: Database },
+  {
+    label: "AI evaluation",
+    detail: "Ranking, uncertainty, and ground-truth-light evaluation for LLM and agentic systems.",
+    icon: Brain,
+  },
+  {
+    label: "Multimodal EHR",
+    detail: "Representation learning and inference with structured, textual, and partially observed clinical data.",
+    icon: Layers,
+  },
+  {
+    label: "Sequential learning",
+    detail: "Policy evaluation, robust learning, and adaptive decisions under distributional shifts.",
+    icon: GitBranch,
+  },
+  {
+    label: "Geometry and networks",
+    detail: "Rank-based and graph-aware methods for high-dimensional and non-Euclidean data.",
+    icon: Network,
+  },
 ];
 
 function findInterest(title: string) {
@@ -127,31 +141,23 @@ export default function ResearchAgenda() {
         </div>
 
         <div className="border-t border-border bg-secondary/30 p-5 lg:border-l lg:border-t-0">
-          <h3 className="text-sm font-semibold text-primary">Methodological Threads</h3>
-          <div className="mt-4 space-y-3">
+          <h3 className="text-sm font-semibold text-primary">Current Themes</h3>
+          <div className="mt-4 space-y-4">
             {methodHighlights.map((method) => {
               const Icon = method.icon;
 
               return (
-                <div key={method.label} className="flex items-center gap-3 rounded-lg bg-background px-3 py-2.5">
-                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-primary/10 text-primary">
-                    <Icon className="h-4 w-4" />
+                <div key={method.label} className="rounded-lg bg-background px-4 py-3">
+                  <div className="mb-2 flex items-center gap-3">
+                    <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-primary/10 text-primary">
+                      <Icon className="h-4 w-4" />
+                    </div>
+                    <span className="text-sm font-semibold">{method.label}</span>
                   </div>
-                  <span className="text-sm font-medium">{method.label}</span>
+                  <p className="text-sm leading-relaxed text-muted-foreground">{method.detail}</p>
                 </div>
               );
             })}
-          </div>
-
-          <div className="mt-6 border-t border-border pt-5">
-            <h3 className="text-sm font-semibold text-primary">Full Scope</h3>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {RESEARCH_INTEREST_DETAILS.map((interest) => (
-                <Badge key={interest.title} variant="outline" className="rounded-md bg-background">
-                  {interest.title}
-                </Badge>
-              ))}
-            </div>
           </div>
         </div>
       </div>
