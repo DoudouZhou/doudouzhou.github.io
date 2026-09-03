@@ -142,6 +142,14 @@ export default function People() {
       ]
     },
     {
+      name: "Jiahui Xie",
+      period: "2026--",
+      institution: "NUS",
+      education: "Ph.D., National University of Singapore",
+      role: "Research Fellow",
+      photo: "/assets/jiahui-xie.jpg"
+    },
+    {
       name: "Zhaohui Xu",
       period: "2026--",
       institution: "NUS",
