@@ -31,8 +31,8 @@ export default function Navigation() {
               <span className="text-white font-bold text-xl">DZ</span>
             </div>
             <div className="hidden sm:block">
-              <div className="font-bold text-lg gradient-text">Doudou Zhou</div>
-              <div className="text-xs text-muted-foreground">Assistant Professor, NUS</div>
+              <div className="font-bold text-lg gradient-text">Zhou Group</div>
+              <div className="text-xs text-muted-foreground">NUS Statistics & Data Science</div>
             </div>
           </Link>
 

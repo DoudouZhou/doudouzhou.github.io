@@ -34,17 +34,18 @@ export default function Home() {
                 NUS Department of Statistics and Data Science
               </p>
               <h1 className="max-w-4xl text-3xl font-bold leading-tight sm:text-4xl md:text-6xl">
-                <span className="block">Doudou Zhou</span>
-                <span className="block">Research Group</span>
+                <span className="block">Statistical AI,</span>
+                <span className="block">Biomedical Data Science,</span>
+                <span className="block">and Decisions</span>
               </h1>
               <p className="mt-4 max-w-3xl font-serif text-xl italic leading-snug text-[#f3cf7a] sm:text-2xl md:text-4xl">
-                <span className="block sm:inline">statistical methods for AI,</span>{" "}
-                <span className="block sm:inline">biomedicine, and decisions</span>
+                <span className="block sm:inline">rigorous methods for reliable AI,</span>{" "}
+                <span className="block sm:inline">complex data, and biomedical decisions</span>
               </p>
               <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/80 md:text-lg">
-                Led by Doudou Zhou at the National University of Singapore, the group develops
-                statistical methodology and machine learning tools for modern AI systems, electronic
-                health records, complex data, and sequential decision making.
+                Our group at the National University of Singapore develops statistical methodology
+                and machine learning tools for modern AI systems, electronic health records, complex
+                data, and sequential decision making.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-2">
