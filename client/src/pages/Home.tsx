@@ -10,7 +10,7 @@ import { ArrowRight, Mail, GraduationCap, ExternalLink, Linkedin, Github, Users 
 import { Link } from "wouter";
 import ResearchAgenda from "@/components/ResearchAgenda";
 import { newsItems, selectedPublications } from "@/data/homeContent";
-import { CONTACT_EMAIL } from "@/siteData";
+import { CONTACT_EMAIL, NUS_STATS_FACULTY_URL } from "@/siteData";
 
 const recentNewsItems = newsItems.slice(0, 6);
 const researchTags = [
@@ -97,9 +97,15 @@ export default function Home() {
               </div>
               <div className="text-center">
                 <h2 className="text-2xl font-bold">Doudou Zhou</h2>
-                <p className="mt-2 text-sm leading-relaxed text-white/75">
+                <a
+                  href={NUS_STATS_FACULTY_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center justify-center gap-1 text-sm leading-relaxed text-white/75 hover:text-white"
+                >
                   Assistant Professor, Department of Statistics and Data Science
-                </p>
+                  <ExternalLink className="h-3 w-3 shrink-0" />
+                </a>
                 <p className="mt-1 text-sm text-white/65">National University of Singapore</p>
               </div>
 

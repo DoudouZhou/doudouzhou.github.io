@@ -1,4 +1,5 @@
 export const CONTACT_EMAIL = "ddzhou@nus.edu.sg";
+export const NUS_STATS_FACULTY_URL = "https://www.stat.nus.edu.sg/faculty-members/";
 
 export const RESEARCH_INTEREST_DETAILS = [
   {

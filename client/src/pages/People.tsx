@@ -15,7 +15,7 @@ import {
 import ResearchInterestGrid from "@/components/ResearchInterestGrid";
 import { Mail, ExternalLink, GraduationCap, Users, FileText } from "lucide-react";
 import { useState } from "react";
-import { CONTACT_EMAIL } from "@/siteData";
+import { CONTACT_EMAIL, NUS_STATS_FACULTY_URL } from "@/siteData";
 import {
   findPublicationByTitle,
   getPublicationShortVenue,
@@ -417,9 +417,15 @@ export default function People() {
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-bold mb-2">Doudou Zhou</h3>
-                <p className="text-lg text-muted-foreground mb-4">
+                <a
+                  href={NUS_STATS_FACULTY_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mb-4 inline-flex items-center gap-1 text-lg text-muted-foreground hover:text-primary"
+                >
                   Assistant Professor, Department of Statistics and Data Science
-                </p>
+                  <ExternalLink className="h-4 w-4 shrink-0" />
+                </a>
                 <p className="text-muted-foreground mb-6">
                   National University of Singapore
                 </p>
@@ -440,10 +446,10 @@ export default function People() {
                       Google Scholar
                     </Button>
                   </a>
-                  <a href="https://www.stat.nus.edu.sg/" target="_blank" rel="noopener noreferrer">
+                  <a href={NUS_STATS_FACULTY_URL} target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="sm">
                       <ExternalLink className="mr-2 h-4 w-4" />
-                      Department
+                      Faculty Profile
                     </Button>
                   </a>
                 </div>
