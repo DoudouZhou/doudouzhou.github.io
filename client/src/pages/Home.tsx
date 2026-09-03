@@ -23,22 +23,17 @@ export default function Home() {
           <div className="space-y-12">
             {/* Bio Section */}
             <section>
-              <Badge variant="outline" className="mb-4 rounded-md">
-                NUS Statistics and Data Science
-              </Badge>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Doudou Zhou
               </h1>
               <p className="text-xl text-muted-foreground mb-6">
-                Statistical foundations for reliable AI, complex biomedical data, and sequential decision making.
+                Assistant Professor, Department of Statistics and Data Science, National University of Singapore
               </p>
               
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
                 <p>
-                  I am an Assistant Professor in the Department of Statistics and Data Science
-                  at the National University of Singapore. My group develops statistical methodology and machine
-                  learning tools for modern AI systems, high-dimensional and non-Euclidean data, electronic health
-                  records, and sequential decision making.
+                  My group develops statistical methodology and machine learning tools for modern AI systems,
+                  high-dimensional and non-Euclidean data, electronic health records, and sequential decision making.
                 </p>
                 
                 <p>
