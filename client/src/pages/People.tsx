@@ -303,6 +303,12 @@ export default function People() {
       publications: [
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
       ]
+    },
+    {
+      name: "Canhuang Xu",
+      period: "2026--",
+      institution: "University of Science and Technology of China",
+      photo: "/assets/canhuang-xu.jpg"
     }
   ];
 
