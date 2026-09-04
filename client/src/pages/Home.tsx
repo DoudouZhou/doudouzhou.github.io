@@ -30,9 +30,6 @@ export default function Home() {
         <div className="container max-w-7xl py-16 md:py-20 lg:py-24">
           <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_340px] lg:items-center">
             <div className="min-w-0">
-              <p className="mb-5 text-sm font-semibold text-[#e3bd63]">
-                NUS Department of Statistics and Data Science
-              </p>
               <h1 className="max-w-4xl text-3xl font-bold leading-tight sm:text-4xl md:text-6xl">
                 <span className="block">Statistical AI,</span>
                 <span className="block">Biomedical Data Science,</span>
