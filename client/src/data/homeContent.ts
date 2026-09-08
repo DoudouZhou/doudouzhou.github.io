@@ -50,6 +50,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 
 export const newsItems: NewsItem[] = [
   {
+    date: "Sep 2026",
+    content: "Our paper \"Domain Adaptation Targeting Heterogeneous and Imbalanced Subgroups\" is now online in the Journal of Machine Learning Research.",
+  },
+  {
     date: "Aug 2026",
     content: "New preprints on arXiv: \"Conditional Evaluation of Language Models with Cheap Auxiliary Signals\" and \"Inferential Evaluation of Surrogate-Derived Models under Covariate Shift.\"",
   },

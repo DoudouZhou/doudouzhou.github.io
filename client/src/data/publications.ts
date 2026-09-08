@@ -205,12 +205,17 @@ export const publications: Publication[] = [
     },
     {
       category: "methodology",
-      type: "preprint",
-      authors: "Doudou Zhou, Mengyan Li, Tianxi Cai, Molei Liu",
-      title: "Model-assisted and Knowledge-guided Transfer Regression for the Underrepresented Population",
-      venue: "Preprint, 2024",
+      type: "published",
+      authors: "Doudou Zhou, Mengyan Li, Yun Wang, Tianxi Cai, Molei Liu",
+      title: "Domain Adaptation Targeting Heterogeneous and Imbalanced Subgroups",
+      venue: "Journal of Machine Learning Research, 27(181):1-65, 2026",
       topics: ["federated-transfer", "inference-testing"],
-      links: [{ label: "arXiv", url: "https://arxiv.org/abs/2410.06484" }]
+      links: [
+        { label: "Paper", url: "https://www.jmlr.org/papers/v27/25-1766.html" },
+        { label: "PDF", url: "https://www.jmlr.org/papers/volume27/25-1766/25-1766.pdf" },
+        { label: "BibTeX", url: "https://www.jmlr.org/papers/v27/25-1766.bib" },
+        { label: "arXiv", url: "https://arxiv.org/abs/2410.06484" }
+      ]
     },
     {
       category: "methodology",
@@ -627,6 +632,7 @@ export const publications: Publication[] = [
   ];
 
 export const homepagePublicationTitles: string[] = [
+  "Domain Adaptation Targeting Heterogeneous and Imbalanced Subgroups",
   "Representation learning to advance multi-institutional studies with electronic health record data from US and France",
   "A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth",
   "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
