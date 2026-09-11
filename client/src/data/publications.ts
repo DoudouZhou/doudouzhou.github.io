@@ -459,12 +459,14 @@ export const publications: Publication[] = [
     },
     {
       category: "applications",
-      type: "preprint",
-      authors: "Xin Xiong, Sara Morini Sweet, Molei Liu, Chuan Hong, Clara-Lea Bonzel, Vidul Ayakulangara Panickan, Doudou Zhou, Linshanshan Wang, Lauren Costa, Yuk-Lam Ho, Alon Geva, Kenneth D. Mandl, Suchun Cheng, Zongqi Xia, Kelly Cho, J. Michael Gaziano, Katherine P. Liao, Tianxi Cai, Tianrun Cai",
+      type: "published",
+      authors: "Xin Xiong, Sara Morini Sweet, Chuan Hong, Clara-Lea Bonzel, Vidul Ayakulangara Panickan, Doudou Zhou, Linshanshan Wang, William Meyerson, Lauren Costa, Yuk-Lam Ho, Alon Geva, Kenneth D. Mandl, Suchun Cheng, Isaac Kohane, Griffin Weber, J. Michael Gaziano, Michele Morris, Zongqi Xia, Kelly Cho, Katherine P. Liao, Tianrun Cai, Molei Liu, Tianxi Cai",
       title: "Bending the Learning Curve for EHR Research via Knowledge-Driven Online Multimodal Automated Phenotyping System",
-      venue: "Preprint, 2023",
+      venue: "Journal of the American Statistical Association, 2026",
       topics: ["ehr-biomedical", "multimodal-representation"],
       links: [
+        { label: "Paper", url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2730499" },
+        { label: "PDF", url: "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2026.2730499" },
         { label: "medRxiv", url: "https://www.medrxiv.org/content/10.1101/2023.09.29.23296239v1" },
         { label: "KOMAP", url: "https://shiny.parse-health.org/KOMAP/" },
         { label: "ONCE", url: "https://shiny.parse-health.org/ONCE/" }
