@@ -51,6 +51,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 export const newsItems: NewsItem[] = [
   {
     date: "Sep 2026",
+    content: "New preprint on arXiv: \"Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts.\"",
+  },
+  {
+    date: "Sep 2026",
     content: "Our paper \"Bending the Learning Curve for EHR Research via Knowledge-Driven Online Multimodal Automated Phenotyping System\" is now online in the Journal of the American Statistical Association.",
   },
   {

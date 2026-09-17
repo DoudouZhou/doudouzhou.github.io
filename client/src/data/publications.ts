@@ -29,6 +29,18 @@ export const publications: Publication[] = [
     {
       category: "methodology",
       type: "preprint",
+      authors: "Guojun Zhu, Xunheng Huang, Peng Yin, Jiahui Xie, Sanguo Zhang, Doudou Zhou",
+      title: "Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts",
+      venue: "Preprint, 2026",
+      topics: ["ai-llm", "inference-testing"],
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2609.18366" },
+        { label: "PDF", url: "https://arxiv.org/pdf/2609.18366" }
+      ]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Zhi Zhang*, Lingfeng Lyu*, Yue Kang, Doudou Zhou#",
       title: "Conditional Evaluation of Language Models with Cheap Auxiliary Signals",
       venue: "Preprint, 2026",

@@ -175,7 +175,10 @@ export default function People() {
       institution: "NUS",
       education: "Ph.D., National University of Singapore",
       role: "Research Fellow",
-      photo: "/assets/jiahui-xie.jpg"
+      photo: "/assets/jiahui-xie.jpg",
+      publications: [
+        memberPublication("Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts"),
+      ]
     },
     {
       name: "Zhaohui Xu",
@@ -248,7 +251,10 @@ export default function People() {
       institution: "NUS",
       education: "B.S., Wuhan University, 2026",
       role: "Master's Student",
-      photo: "/assets/xunheng-huang.jpg"
+      photo: "/assets/xunheng-huang.jpg",
+      publications: [
+        memberPublication("Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts"),
+      ]
     }
   ];
 
@@ -331,6 +337,7 @@ export default function People() {
       role: "Visiting PhD Student",
       photo: "/assets/guojun-zhu.jpg",
       publications: [
+        memberPublication("Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts"),
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
       ]
     },
