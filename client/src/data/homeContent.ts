@@ -51,6 +51,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 export const newsItems: NewsItem[] = [
   {
     date: "Sep 2026",
+    content: "New preprint on arXiv: \"Human-Anchored Inference for Ranking New Models with Large Language Model Judges.\"",
+  },
+  {
+    date: "Sep 2026",
     content: "New preprint on arXiv: \"Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts.\"",
   },
   {

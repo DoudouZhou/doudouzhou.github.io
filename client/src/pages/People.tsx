@@ -118,6 +118,7 @@ export default function People() {
       role: "PhD Student",
       photo: "/assets/mingyuan-xu.jpg",
       publications: [
+        memberPublication("Human-Anchored Inference for Ranking New Models with Large Language Model Judges"),
         memberPublication("Learning Sequential Decisions from Multiple Sources via Group-Robust Markov Decision Processes"),
         memberPublication("A Judge-Aware Ranking Framework for Evaluating Large Language Models without Ground Truth"),
       ]
