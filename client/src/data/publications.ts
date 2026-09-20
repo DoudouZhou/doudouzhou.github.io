@@ -29,6 +29,18 @@ export const publications: Publication[] = [
     {
       category: "methodology",
       type: "preprint",
+      authors: "Siqi Li, Wangxuan Fan, Yiming Li, Doudou Zhou, Molei Liu",
+      title: "Shapley Value Estimation for Multi-Site Data with Blockwise-Missing Features",
+      venue: "Preprint, 2026",
+      topics: ["inference-testing", "federated-transfer", "multimodal-representation"],
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2609.14902" },
+        { label: "PDF", url: "https://arxiv.org/pdf/2609.14902" }
+      ]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Xin Zhou, Sinian Zhang, Zhanyan Yang, Mingyuan Xu, Molei Liu, Doudou Zhou",
       title: "Human-Anchored Inference for Ranking New Models with Large Language Model Judges",
       venue: "Preprint, 2026",

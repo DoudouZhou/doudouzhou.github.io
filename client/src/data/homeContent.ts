@@ -51,6 +51,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 export const newsItems: NewsItem[] = [
   {
     date: "Sep 2026",
+    content: "New preprint on arXiv: \"Shapley Value Estimation for Multi-Site Data with Blockwise-Missing Features.\"",
+  },
+  {
+    date: "Sep 2026",
     content: "New preprint on arXiv: \"Human-Anchored Inference for Ranking New Models with Large Language Model Judges.\"",
   },
   {
