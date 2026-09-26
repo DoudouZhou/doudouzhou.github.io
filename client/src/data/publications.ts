@@ -64,10 +64,10 @@ export const publications: Publication[] = [
     },
     {
       category: "methodology",
-      type: "preprint",
+      type: "published",
       authors: "Zhi Zhang*, Lingfeng Lyu*, Yue Kang, Doudou Zhou#",
       title: "Conditional Evaluation of Language Models with Cheap Auxiliary Signals",
-      venue: "Preprint, 2026",
+      venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026",
       topics: ["ai-llm", "inference-testing"],
       links: [{ label: "arXiv", url: "https://arxiv.org/abs/2608.16210" }]
     },

@@ -51,6 +51,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 export const newsItems: NewsItem[] = [
   {
     date: "Sep 2026",
+    content: "Our paper \"Conditional Evaluation of Language Models with Cheap Auxiliary Signals\" was accepted at NeurIPS 2026.",
+  },
+  {
+    date: "Sep 2026",
     content: "New preprint on arXiv: \"Shapley Value Estimation for Multi-Site Data with Blockwise-Missing Features.\"",
   },
   {
