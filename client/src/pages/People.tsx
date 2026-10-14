@@ -131,6 +131,7 @@ export default function People() {
       role: "PhD Student",
       photo: "/assets/kejian-zhang.jpg",
       publications: [
+        memberPublication("AgentCue: Statistical Summaries for Guiding Decentralized Multi-Agent Self-Organization"),
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
         memberPublication("Two-sample Testing with Block-wise Missingness in Multi-source Data"),
         memberPublication("From Hawkes Processes to Attention: Time-Modulated Mechanisms for Event Sequences"),
@@ -326,6 +327,7 @@ export default function People() {
       role: "Visitor",
       photo: "/assets/lingfeng-lv.jpg",
       publications: [
+        memberPublication("Simultaneous Inference for Centre-Outward Rankings of Random Objects"),
         memberPublication("Conditional Evaluation of Language Models with Cheap Auxiliary Signals"),
         memberPublication("Preference-based Centrality and Ranking in General Metric Spaces"),
       ]
@@ -338,6 +340,7 @@ export default function People() {
       role: "Visiting PhD Student",
       photo: "/assets/guojun-zhu.jpg",
       publications: [
+        memberPublication("AgentCue: Statistical Summaries for Guiding Decentralized Multi-Agent Self-Organization"),
         memberPublication("Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts"),
         memberPublication("Pattern-Calibrated Multimodal Prediction under Blockwise Missingness"),
       ]

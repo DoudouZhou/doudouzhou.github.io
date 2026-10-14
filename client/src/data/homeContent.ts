@@ -50,6 +50,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 
 export const newsItems: NewsItem[] = [
   {
+    date: "Oct 2026",
+    content: "New preprints on arXiv: \"Simultaneous Inference for Centre-Outward Rankings of Random Objects\" and \"AgentCue: Statistical Summaries for Guiding Decentralized Multi-Agent Self-Organization.\"",
+  },
+  {
     date: "Sep 2026",
     content: "Our paper \"Conditional Evaluation of Language Models with Cheap Auxiliary Signals\" was accepted at NeurIPS 2026.",
   },

@@ -25,6 +25,30 @@ export type Publication = {
 };
 
 export const publications: Publication[] = [
+    {
+      category: "methodology",
+      type: "preprint",
+      authors: "Lingfeng Lyu, Doudou Zhou",
+      title: "Simultaneous Inference for Centre-Outward Rankings of Random Objects",
+      venue: "Preprint, 2026",
+      topics: ["inference-testing", "graph-ranking"],
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2610.18533" },
+        { label: "PDF", url: "https://arxiv.org/pdf/2610.18533" }
+      ]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
+      authors: "Guojun Zhu, Xinyou Chen, Kejian Zhang, Sanguo Zhang, Doudou Zhou",
+      title: "AgentCue: Statistical Summaries for Guiding Decentralized Multi-Agent Self-Organization",
+      venue: "Preprint, 2026",
+      topics: ["ai-llm", "graph-ranking"],
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2610.16621" },
+        { label: "PDF", url: "https://arxiv.org/pdf/2610.16621" }
+      ]
+    },
     // Preprints - Statistical Methodology and Theory
     {
       category: "methodology",
