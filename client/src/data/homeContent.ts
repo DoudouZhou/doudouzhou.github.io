@@ -21,11 +21,6 @@ export type NewsItem = {
   content: string;
 };
 
-function cleanAuthors(pub: Publication) {
-  const authors = pub.authors.replace(/[#*]/g, "");
-  return authors.length > 140 ? "Doudou Zhou, et al." : authors;
-}
-
 function cleanVenue(pub: Publication) {
   return pub.venue
     .replace(/,\s*(19|20)\d{2}\+?$/, "")
@@ -41,7 +36,7 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
       venue: getPublicationShortVenue(pub),
       year: getPublicationYearLabel(pub),
       title: pub.title,
-      authors: cleanAuthors(pub),
+      authors: pub.authors,
       journal: cleanVenue(pub),
       links: pub.links,
     };

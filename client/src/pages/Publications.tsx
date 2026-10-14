@@ -2,6 +2,7 @@
  * Publications page for STAR Lab
  */
 
+import PublicationAuthors from "@/components/PublicationAuthors";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -48,7 +49,7 @@ function PublicationCard({ pub }: { pub: Publication }) {
           </div>
 
           <h3 className="mb-2 text-lg font-semibold leading-relaxed">{pub.title}</h3>
-          <p className="mb-2 text-sm text-muted-foreground">{pub.authors}</p>
+          <p className="mb-2 text-sm text-muted-foreground"><PublicationAuthors authors={pub.authors} /></p>
           <p className="mb-4 text-sm italic text-muted-foreground">{pub.venue}</p>
           {topicSummary && (
             <p className="mb-4 text-xs font-medium text-muted-foreground">{topicSummary}</p>

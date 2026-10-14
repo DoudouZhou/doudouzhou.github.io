@@ -3,6 +3,7 @@
  * Design: Two-column layout with bio, selected publications, and news
  */
 
+import PublicationAuthors from "@/components/PublicationAuthors";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -162,6 +163,9 @@ export default function Home() {
             <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
               <div>
                 <h2 className="text-3xl font-bold">Selected Publications</h2>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  <sup>#</sup> Corresponding author; <sup>*</sup> Equal contribution or alphabetic authorship.
+                </p>
                 <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
                   Representative work across statistical AI, biomedical data science, non-Euclidean data analysis,
                   and sequential decision making.
@@ -184,7 +188,7 @@ export default function Home() {
                     </Badge>
                     <div className="min-w-0 flex-1">
                       <h3 className="mb-2 text-lg font-semibold leading-tight">{pub.title}</h3>
-                      <p className="mb-2 text-sm text-muted-foreground">{pub.authors}</p>
+                      <p className="mb-2 text-sm text-muted-foreground"><PublicationAuthors authors={pub.authors} /></p>
                       <p className="mb-3 text-sm italic text-muted-foreground">{pub.journal}</p>
                       <div className="flex flex-wrap gap-2">
                         {pub.links.map((link, linkIdx) => (

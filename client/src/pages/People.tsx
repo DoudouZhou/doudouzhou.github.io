@@ -2,6 +2,7 @@
  * People page for STAR Lab with corrected publication information
  */
 
+import PublicationAuthors from "@/components/PublicationAuthors";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -690,7 +691,7 @@ export default function People() {
                             ) : (
                               <h4 className="font-semibold mb-2 leading-relaxed">{pub.title}</h4>
                             )}
-                            <p className="text-sm text-muted-foreground mb-1">{pub.authors}</p>
+                            <p className="text-sm text-muted-foreground mb-1"><PublicationAuthors authors={pub.authors} /></p>
                             <div className="flex items-center gap-2 text-sm">
                               <Badge variant="outline">{pub.venue}</Badge>
                               <span className="text-muted-foreground">{pub.year}</span>
