@@ -258,7 +258,17 @@ export default function Home() {
                     <span className="w-24 shrink-0 text-sm font-medium text-muted-foreground">
                       {item.date}
                     </span>
-                    <p className="text-sm leading-relaxed">{item.content}</p>
+                    <p className="text-sm leading-relaxed">
+                      {item.content}
+                      {item.link && (
+                        <>
+                          {" "}
+                          <Link href={item.link.href} className="text-primary underline underline-offset-4">
+                            {item.link.label}
+                          </Link>.
+                        </>
+                      )}
+                    </p>
                   </div>
                 ))}
               </div>

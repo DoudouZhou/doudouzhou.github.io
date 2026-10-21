@@ -19,6 +19,7 @@ export type SelectedPublication = {
 export type NewsItem = {
   date: string;
   content: string;
+  link?: { label: string; href: string };
 };
 
 function cleanVenue(pub: Publication) {
@@ -44,6 +45,11 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 );
 
 export const newsItems: NewsItem[] = [
+  {
+    date: "Oct 2026",
+    content: "I am recruiting one funded NUS GRTII-affiliated PhD student in Statistics, Machine Learning, and AI for August 2027 (latest January 2028). The scholarship includes a two-year service obligation in Huangpu, Guangzhou. Application deadline: 15 November 2026.",
+    link: { label: "Details and application information", href: "/join" },
+  },
   {
     date: "Oct 2026",
     content: "New preprints on arXiv: \"Simultaneous Inference for Centre-Outward Rankings of Random Objects\" and \"AgentCue: Statistical Summaries for Guiding Decentralized Multi-Agent Self-Organization.\"",

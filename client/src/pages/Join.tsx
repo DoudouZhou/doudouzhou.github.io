@@ -5,7 +5,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import ResearchInterestGrid from "@/components/ResearchInterestGrid";
 import { Mail, Users, GraduationCap, Award, Heart } from "lucide-react";
 import { CONTACT_EMAIL } from "@/siteData";
 
@@ -14,11 +13,10 @@ export default function Join() {
     <div className="min-h-screen py-20">
       <div className="container">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">
-          Prospective Students and Fellows
+          Prospective Students
         </h1>
         <p className="text-xl text-muted-foreground text-center max-w-3xl mx-auto mb-16">
-          I welcome students, research fellows, visitors, and collaborators interested in statistical foundations
-          for AI, biomedical data science, and sequential decision making.
+          I welcome students, visitors, and collaborators interested in statistics, machine learning, and AI.
         </p>
 
         {/* Research Fit */}
@@ -62,42 +60,77 @@ export default function Join() {
           <h2 className="text-3xl font-bold mb-8">Research Opportunities</h2>
           
           <div className="max-w-4xl mx-auto space-y-6">
-            {/* Postdoctoral Fellows */}
-            <Card className="p-8 hover-lift">
-              <div className="flex items-start gap-6">
+            {/* GRTII PhD Scholarship */}
+            <Card id="grtii-phd" className="p-8 hover-lift">
+              <div className="flex flex-col sm:flex-row items-start gap-6">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center flex-shrink-0">
                   <GraduationCap className="h-8 w-8 text-white" />
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-3">Postdoctoral Research Fellows</h3>
-                  <Badge className="mb-4">Inquiries Welcome</Badge>
-                  
-                  <p className="text-muted-foreground mb-4 leading-relaxed">
-                    I am interested in working with postdoctoral fellows whose research connects statistical
-                    methodology with AI systems, large language models, multimodal learning, or biomedical data science.
-                  </p>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-2xl font-bold mb-3">NUS GRTII-Affiliated PhD Scholarship</h3>
+                  <Badge className="mb-4">One Funded Position · August 2027</Badge>
 
-                  <div className="mb-4">
-                    <h4 className="font-semibold mb-2">Research Areas:</h4>
-                    <ResearchInterestGrid variant="compact" showDescriptions={false} />
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    I am recruiting one funded PhD student through the NUS Guangzhou Research Translation
+                    and Innovation Institute (GRTII)-affiliated scholarship for August 2027 entry, with
+                    January 2028 as the latest possible start. The student will pursue a PhD in Statistics
+                    and Data Science at NUS and be based in Singapore during the programme.
+                  </p>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    Research interests are broadly in Statistics, Machine Learning, and AI. Our group works
+                    on LLM evaluation and alignment, transfer and representation learning, multimodal learning,
+                    and high-dimensional, structured, and non-Euclidean data. Applicants with a serious interest
+                    in joining NUS and our group are welcome to contact me.
+                  </p>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    The scholarship covers tuition fees and provides a stipend, subject to the official award
+                    terms. <strong>Recipients must fulfil a two-year post-graduation service obligation in
+                    Huangpu District, Guangzhou, under the scheme.</strong> Please review the{" "}
+                    <a
+                      href="https://nusgs.nus.edu.sg/scholarships/nus-guangzhou-research-translation-and-innovation-institute-grtii-affiliated-phd-scholarship"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary underline underline-offset-4"
+                    >
+                      official scholarship terms
+                    </a>{" "}
+                    before applying.
+                  </p>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    Please email your CV, academic transcript, and a brief description of your research
+                    interests to{" "}
+                    <a href={`mailto:${CONTACT_EMAIL}`} className="text-primary underline underline-offset-4">
+                      {CONTACT_EMAIL}
+                    </a>{" "}
+                    with the subject <strong>GRTII PhD Application 2027 – Name</strong>.
+                  </p>
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    Apply through the NUS Department of Statistics and Data Science via GradApp.
+                    The application deadline for August 2027 entry is <strong>15 November 2026</strong>.
+                    Admission and scholarship awards are subject to NUS selection and approval.
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <Button asChild>
+                      <a href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("GRTII PhD Application 2027 – Name")}`}>
+                        <Mail className="mr-2 h-4 w-4" />
+                        Contact Prof. Zhou
+                      </a>
+                    </Button>
+                    <Button variant="outline" asChild>
+                      <a
+                        href="https://www.stat.nus.edu.sg/education/graduate/phd-in-statistics-and-data-science/prospective-students/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        NUS PhD Admissions
+                      </a>
+                    </Button>
+                    <Button variant="outline" asChild>
+                      <a href="https://gradapp.nus.edu.sg/portal/app_manage" target="_blank" rel="noopener noreferrer">
+                        Apply via GradApp
+                      </a>
+                    </Button>
                   </div>
-                  
-                  <div className="mb-4">
-                    <h4 className="font-semibold mb-2">Qualifications:</h4>
-                    <ul className="text-sm text-muted-foreground space-y-1">
-                      <li>• Ph.D. in Statistics, Computer Science, Biostatistics, or related fields</li>
-                      <li>• Strong publication record in top-tier venues</li>
-                      <li>• Excellent programming skills (R, Python)</li>
-                      <li>• Strong communication and collaboration abilities</li>
-                    </ul>
-                  </div>
-                  
-                  <Button asChild>
-                    <a href={`mailto:${CONTACT_EMAIL}?subject=Postdoc Application`}>
-                      <Mail className="mr-2 h-4 w-4" />
-                      Email Prof. Zhou
-                    </a>
-                  </Button>
                 </div>
               </div>
             </Card>
@@ -182,27 +215,6 @@ export default function Join() {
               </div>
             </Card>
           </div>
-        </section>
-
-        {/* Application Tips */}
-        <section className="max-w-4xl mx-auto">
-          <Card className="p-8 bg-secondary">
-            <h2 className="text-2xl font-bold mb-6">What to Include</h2>
-            <div className="space-y-4 text-muted-foreground">
-              <p>
-                <strong>For Postdocs:</strong> Please email your CV, research statement, and representative 
-                publications to Prof. Zhou. Include "Postdoc Application" in the subject line.
-              </p>
-              <p>
-                <strong>For PhD Applicants:</strong> Apply through the official NUS graduate program. 
-                You may also reach out to Prof. Zhou directly to discuss research fit before applying.
-              </p>
-              <p>
-                <strong>For Students:</strong> Send your CV and a brief description of your interests 
-                and availability. We'll get back to you about potential projects.
-              </p>
-            </div>
-          </Card>
         </section>
       </div>
     </div>
