@@ -28,6 +28,18 @@ export const publications: Publication[] = [
     {
       category: "methodology",
       type: "preprint",
+      authors: "Mingshuo Liu*, Qihua Zhu*, Jingchi Liao, Lu Tian, Doudou Zhou#",
+      title: "Graph-Based Testing of Conditional Mean Independence with Applications to Large Language Model Evaluation",
+      venue: "Preprint, 2026",
+      topics: ["inference-testing", "ai-llm", "graph-ranking"],
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2611.01773" },
+        { label: "PDF", url: "https://arxiv.org/pdf/2611.01773" }
+      ]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Lingfeng Lyu, Doudou Zhou",
       title: "Simultaneous Inference for Centre-Outward Rankings of Random Objects",
       venue: "Preprint, 2026",

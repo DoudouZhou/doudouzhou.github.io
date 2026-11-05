@@ -46,6 +46,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 
 export const newsItems: NewsItem[] = [
   {
+    date: "Nov 2026",
+    content: "New preprint on arXiv: \"Graph-Based Testing of Conditional Mean Independence with Applications to Large Language Model Evaluation.\"",
+  },
+  {
     date: "Oct 2026",
     content: "I am recruiting one funded NUS GRTII-affiliated PhD student in Statistics, Machine Learning, and AI for August 2027 (latest January 2028). The scholarship includes a two-year service obligation in Huangpu, Guangzhou. Application deadline: 15 November 2026.",
     link: { label: "Details and application information", href: "/join" },
