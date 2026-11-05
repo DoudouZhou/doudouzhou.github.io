@@ -217,6 +217,7 @@ export default function People() {
       role: "PhD Student",
       photo: "/assets/qihua-zhu.jpg",
       publications: [
+        memberPublication("Graph-Based Testing of Conditional Mean Independence with Applications to Large Language Model Evaluation"),
         memberPublication("WISE: A Weighted Similarity Aggregation Test for Serial Independence"),
       ]
     },
