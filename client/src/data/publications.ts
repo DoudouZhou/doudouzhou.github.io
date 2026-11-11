@@ -28,6 +28,30 @@ export const publications: Publication[] = [
     {
       category: "methodology",
       type: "preprint",
+      authors: "Zhaohui Xu, Xiaofei Xu, Doudou Zhou#",
+      title: "Prediction with Foundation Models under Deployment Budgets",
+      venue: "Preprint, 2026",
+      topics: ["ai-llm", "rl-sequential"],
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2611.12466" },
+        { label: "PDF", url: "https://arxiv.org/pdf/2611.12466" }
+      ]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
+      authors: "Chenghao Gao*, Zhi Zhang*, Dian Jin, Yihe Pan, Doudou Zhou#",
+      title: "Learning to Act with World Models by Valuing What Comes Next",
+      venue: "Preprint, 2026",
+      topics: ["ai-llm", "rl-sequential"],
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2611.12200" },
+        { label: "PDF", url: "https://arxiv.org/pdf/2611.12200" }
+      ]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Mingshuo Liu*, Qihua Zhu*, Jingchi Liao, Lu Tian, Doudou Zhou#",
       title: "Graph-Based Testing of Conditional Mean Independence with Applications to Large Language Model Evaluation",
       venue: "Preprint, 2026",

@@ -168,6 +168,7 @@ export default function People() {
       role: "Research Fellow",
       photo: "/assets/dian-jin.jpg",
       publications: [
+        memberPublication("Learning to Act with World Models by Valuing What Comes Next"),
         memberPublication("Personalizing Large Language Model Agents with Small Policy Models"),
         memberPublication("Cost-optimal Sequential Testing via Doubly Robust Q-learning"),
       ]
@@ -189,7 +190,10 @@ export default function People() {
       institution: "NUS",
       education: "B.S., University of Science and Technology of China",
       role: "Research Fellow",
-      photo: "/assets/zhaohui-xu.jpg"
+      photo: "/assets/zhaohui-xu.jpg",
+      publications: [
+        memberPublication("Prediction with Foundation Models under Deployment Budgets"),
+      ]
     }
   ];
 
@@ -247,7 +251,10 @@ export default function People() {
       institution: "NUS",
       education: "Dual-degree B.S. in Data Science and B.Mgt. in Marketing Management, Renmin University of China, 2026",
       role: "Master's Student",
-      photo: "/assets/chenghao-gao.jpg"
+      photo: "/assets/chenghao-gao.jpg",
+      publications: [
+        memberPublication("Learning to Act with World Models by Valuing What Comes Next"),
+      ]
     },
     {
       name: "Xunheng Huang",

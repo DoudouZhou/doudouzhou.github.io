@@ -47,6 +47,10 @@ export const selectedPublications: SelectedPublication[] = homepagePublicationTi
 export const newsItems: NewsItem[] = [
   {
     date: "Nov 2026",
+    content: "New preprints on arXiv: \"Prediction with Foundation Models under Deployment Budgets\" and \"Learning to Act with World Models by Valuing What Comes Next.\"",
+  },
+  {
+    date: "Nov 2026",
     content: "New preprint on arXiv: \"Graph-Based Testing of Conditional Mean Independence with Applications to Large Language Model Evaluation.\"",
   },
   {
