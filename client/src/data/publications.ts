@@ -28,6 +28,18 @@ export const publications: Publication[] = [
     {
       category: "methodology",
       type: "preprint",
+      authors: "Doudou Zhou#, Jiahui Xie, Yue Liu",
+      title: "Optimal Labelling Designs for Sequential Decisions on Language Model Updates",
+      venue: "Preprint, 2026",
+      topics: ["inference-testing", "ai-llm", "rl-sequential"],
+      links: [
+        { label: "arXiv", url: "https://arxiv.org/abs/2611.29416" },
+        { label: "PDF", url: "https://arxiv.org/pdf/2611.29416" }
+      ]
+    },
+    {
+      category: "methodology",
+      type: "preprint",
       authors: "Zhaohui Xu, Xiaofei Xu, Doudou Zhou#",
       title: "Prediction with Foundation Models under Deployment Budgets",
       venue: "Preprint, 2026",
