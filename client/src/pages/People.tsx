@@ -181,6 +181,7 @@ export default function People() {
       role: "Research Fellow",
       photo: "/assets/jiahui-xie.jpg",
       publications: [
+        memberPublication("Optimal Labelling Designs for Sequential Decisions on Language Model Updates"),
         memberPublication("Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts"),
       ]
     },
